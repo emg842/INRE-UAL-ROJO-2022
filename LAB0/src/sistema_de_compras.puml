@@ -1,8 +1,57 @@
 @startuml
 
-(First usecase)
-(a) as (UC2)
-usecase UC3
-usecase (Last\nusecase) as UC4
+
+(Venta)
+(Consultar historico\nventas) 
+ (Acordar precio)
+ (Eliminar producto)
+ (Incorporar oferta)
+ (Avisar)
+ (Eliminar oferta)
+ (Consultar precios)
+ (Buscar productos)
+ (Consultar producto)
+ (Verificar dispositivo)
+ (Finalizar compra)
+ (Agregar productos)
+ (Marcar como\nbloqueados)
+
+:Vendedor:
+:Comprador: 
+:Gerente:
+:Proveedor:
+:Administrador:
+
+Vendedor--|> Gerente
+Comprador--|> Gerente
+Administrador--|> Gerente
+Proveedor--|> Gerente
+
+Gerente -->(Consultar ofertas)
+Gerente -->(Consultar precios)
+Vendedor -->(Venta)
+Comprador -->(Venta)
+Comprador -->(Agregar productos)
+Comprador -->(Finalizar compra)
+Comprador -->(Consultar producto)
+Proveedor -->(Avisar nuevos productos)
+Proveedor -->(Avisar de fin de oferta)
+Administrador -->(Eliminar producto)
+
+
+(Buscar productos) --|> (Consultar producto)
+(Avisar nuevos productos) --|> (Avisar)
+(Avisar de fin de oferta) --|> (Avisar)
+(Consultar precios) .> (Buscar productos) : include
+(Consultar producto) .> (Verificar dispositivo) : include
+(Avisar) .> (Enviar notificacion) : include
+(Avisar de fin de oferta) .> (Eliminar oferta) : include
+(Agregar productos) .> (Marcar como\nbloqueados) : include
+(Venta) .> (Acordar precio) : include
+(Incorporar oferta) .> (Avisar nuevos productos) : extend
+(Consultar historico\nventas) .> (Venta) : extend
+
+
+
 
 @enduml
