@@ -1,0 +1,68 @@
+@startuml gestion_de_incidencias
+
+:Administrador: as A1
+:Común1: as A2
+:Común2: as A3
+:Gestor de correo: as A4
+:Invitado: as A5
+:Operador: as A6
+:Técnico: as A7
+
+(Acceder al histórico \n de notificaciones) as UC1
+(Añadir comentario) as UC2
+(Atender llamada \n telefónica) as UC3
+(Atender llamada telefónica \n [vista Operador]) as UC4
+(Atender llamada telefónica \n [vista Técnico]) as UC5
+(Comprobar datos \n incidencia) as UC6
+(Consultar incidencia) as UC7
+(Consultar incidencia \n [vista Invitado]) as UC8
+(Dar de alta incidencia) as UC9
+(Dar de alta localización \n en un mapa) as UC10
+(Editar datos de \n incidencia) as UC11
+(Enviar correo) as UC12
+(Gestionar categoría \n de incidencia) as UC13
+(Incorporar una explicación) as UC14
+(Informar sobre \n posible incidencia) as UC15
+(Introducir datos \n incidencia) as UC16
+(Marcar incidencia \n como duplicada) as UC17
+(Ordenar incidencia) as UC18
+(Ordenar incidencia \n [vista Administrador]) as UC19
+(Realizar informe \n sobre incidencia) as UC20
+(Registrarse) as UC21
+(Subir foto) as UC22
+
+A1 --> UC13
+A1 --> UC19
+A2 --> UC9
+A3 --> UC7
+A4 --> UC12
+A5 --> UC1
+A5 --> UC8
+A5 --> UC15
+A5 --> UC21
+A6 --> UC4
+A6 --> UC17
+A6 --> UC18
+A7 --> UC5
+A7 --> UC20
+
+A2 <|-- A6
+A2 <|-- A7
+A3 <|-- A1
+A3 <|-- A2
+UC3 <|-- UC4
+UC3 <|-- UC5
+UC8 <|-- UC7
+UC18 <|-- UC19
+
+UC11 ..> UC7 : <<Extend>>
+UC12 ..> UC9 : <<Extend>>
+
+UC4 ..> UC16 : <<Include>>
+UC5 ..> UC6 : <<Include>>
+UC15 ..> UC10 : <<Include>>
+UC15 ..> UC14 : <<Include>>
+UC15 ..> UC22 : <<Include>>
+UC19 ..> UC2 : <<Include>>
+
+@enduml
