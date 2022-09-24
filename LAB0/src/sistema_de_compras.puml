@@ -1,57 +1,57 @@
 @startuml sistema_de_compras
 
+:Administrador: as A1
+:Comprador: as A2
+:Proveedor: as A3
+:Usuario: as A4
+:Vendedor: as A5
 
-(Venta)
-(Consultar historico\nventas) 
- (Acordar precio)
- (Eliminar producto)
- (Incorporar oferta)
- (Avisar)
- (Eliminar oferta)
- (Consultar precios)
- (Buscar productos)
- (Consultar producto)
- (Verificar dispositivo)
- (Finalizar compra)
- (Agregar productos)
- (Marcar como\nbloqueados)
+(Acordar precio) as UC1
+(Agregar producto)  as UC2
+(Avisar)  as UC3
+(Avisar de nuevo producto) as UC4
+(Avisar fin de oferta) as UC5
+(Buscar producto) as UC6
+(Consultar histórico \n de precios) as UC7
+(Consultar oferta) as UC8
+(Consultar precio) as UC9
+(Consultar producto) as UC10
+(Eliminar oferta) as UC11
+(Eliminar producto) as UC12
+(Enviar notificación) as UC13
+(Finalizar compra) as UC14
+(Incorporar oferta) as UC15
+(Marcar producto \n como bloqueado) as UC16
+(Realizar venta) as UC17
+(Verificar disponibilidad \n de producto) as UC18
 
-:Vendedor:
-:Comprador: 
-:Gerente:
-:Proveedor:
-:Administrador:
+A1 --> UC12
+A2 --> UC2
+A2 --> UC10
+A2 --> UC14
+A2 --> UC17
+A3 --> UC4
+A3 --> UC5
+A4 --> UC8
+A4 --> UC9
+A5 --> UC17
 
-Vendedor--|> Gerente
-Comprador--|> Gerente
-Administrador--|> Gerente
-Proveedor--|> Gerente
+A4 <|-- A1
+A4 <|-- A2
+A4 <|-- A3
+A4 <|-- A5
+UC3 <|-- UC4
+UC3 <|-- UC5
+UC6 <|-- UC10
 
-Gerente -->(Consultar ofertas)
-Gerente -->(Consultar precios)
-Vendedor -->(Venta)
-Comprador -->(Venta)
-Comprador -->(Agregar productos)
-Comprador -->(Finalizar compra)
-Comprador -->(Consultar producto)
-Proveedor -->(Avisar nuevos productos)
-Proveedor -->(Avisar de fin de oferta)
-Administrador -->(Eliminar producto)
+UC7 ..> UC17 : <<Extend>>
+UC15 ..> UC4 : <<Extend>>
 
-
-(Buscar productos) --|> (Consultar producto)
-(Avisar nuevos productos) --|> (Avisar)
-(Avisar de fin de oferta) --|> (Avisar)
-(Consultar precios) .> (Buscar productos) : include
-(Consultar producto) .> (Verificar dispositivo) : include
-(Avisar) .> (Enviar notificacion) : include
-(Avisar de fin de oferta) .> (Eliminar oferta) : include
-(Agregar productos) .> (Marcar como\nbloqueados) : include
-(Venta) .> (Acordar precio) : include
-(Incorporar oferta) .> (Avisar nuevos productos) : extend
-(Consultar historico\nventas) .> (Venta) : extend
-
-
-
+UC2 ..> UC16 : <<Include>>
+UC3 ..> UC13 : <<Include>>
+UC5 ..> UC11 : <<Include>>
+UC9 ..> UC6 : <<Include>>
+UC10 ..> UC18 : <<Include>>
+UC17 ..> UC1 : <<Include>>
 
 @enduml
