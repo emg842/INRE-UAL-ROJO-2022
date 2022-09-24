@@ -1,0 +1,73 @@
+@startuml aplicacion_gd
+
+:Administrador: as A1
+:Entrenador: as A2
+:Usuario: as A3
+
+(Activar nuevo evento) as UC1
+(Agregar estadísticas) as UC2
+(Anular evento) as UC3
+(Asignar deporte \n practicado) as UC4
+(Cambiar avatar) as UC5
+(Cambiar avatar \n del equipo) as UC6
+(Cambiar descripción) as UC7
+(Cambiar nombre \n del equipo) as UC8
+(Dar de baja equipo) as UC9
+(Dar de baja \n integrante) as UC10
+(Dar de baja usuario)  as UC11
+(Dar de alta equipo) as UC12
+(Dar de alta \n integrante) as UC13
+(Dar de alta usuario) as UC14
+(Dar nombre al equipo) as UC15
+(Gestionar equipo) as UC16
+(Gestionar estadísticas) as UC17
+(Gestionar evento) as UC18
+(Gestionar integrantes \n del equipo) as UC19
+(Gestionar perfil) as UC20
+(Gestionar perfil \n del equipo) as UC21
+(Gestionar usuarios \n de la plataforma) as UC22
+(Iniciar sesión) as UC23
+(Modificar contraseña) as UC24
+(Modificar datos \n del perfil) as UC25
+(Modificar estadísticas) as UC26
+(Ver calendario) as UC27
+(Ver estadísticas) as UC28
+(Ver evento) as UC29
+
+A1 --> UC17
+A1 --> UC22
+A2 --> UC16
+A2 --> UC18
+A3 --> UC20
+A3 --> UC23
+A3 --> UC27
+A3 --> UC28
+
+A3 <|-- A2
+UC5 <|-- UC6
+
+UC5 ..> UC20 : <<Extend>>
+UC24 ..> UC20 : <<Extend>>
+
+UC12 ..> UC4 : <<Include>>
+UC12 ..> UC15 : <<Include>>
+UC16 ..> UC9 : <<Include>>
+UC16 ..> UC12 : <<Include>>
+UC16 ..> UC19 : <<Include>>
+UC16 ..> UC21 : <<Include>>
+UC17 ..> UC2 : <<Include>>
+UC17 ..> UC26 : <<Include>>
+UC17 ..> UC28 : <<Include>>
+UC18 ..> UC1 : <<Include>>
+UC18 ..> UC3 : <<Include>>
+UC18 ..> UC29 : <<Include>>
+UC19 ..> UC10 : <<Include>>
+UC19 ..> UC13 : <<Include>>
+UC20 ..> UC25 : <<Include>>
+UC21 ..> UC6 : <<Include>>
+UC21 ..> UC7 : <<Include>>
+UC21 ..> UC8 : <<Include>>
+UC22 ..> UC11 : <<Include>>
+UC22 ..> UC14 : <<Include>>
+
+@enduml
