@@ -12,11 +12,11 @@
 (Dar de alta estudiante vista PDI) as UC6
 (Buscar en lista \n de clase) as UC7
 
-A1 --> UC1
-A2 --> UC3
-A2 --> UC6
-A3 --> UC4
-A3 --> UC2
+A1 -left-> UC1
+A2 -left-> UC3
+A2 -down-> UC6
+A3 -down-> UC4
+A3 -right-> UC2
 
 A1 <|-- A2
 A1 <|-- A3
@@ -24,6 +24,6 @@ UC4 <|-- UC6
 
 UC4 ..> UC5 : <<Include>>
 
-UC7 ..> UC6 : <<Extend>>
+UC7 .right.> UC6 : <<Extend>>
 
 @enduml
