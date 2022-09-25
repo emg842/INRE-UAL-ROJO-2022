@@ -26,5 +26,4 @@ UC4 ..> UC5 : <<Include>>
 
 UC7 ..> UC6 : <<Extend>>
 
-
 @enduml
