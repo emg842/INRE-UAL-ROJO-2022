@@ -12,18 +12,18 @@
 (Proponer cambio de \n horario) as UC6
 (Verificar datos) as UC7
 
-A1 -left-> UC2
-A2 -left-> UC3
-A2 -down-> UC5
-A3 -down-> UC4
-A3 -right-> UC6
+A1 --> UC2
+A2 --> UC3
+A2 --> UC5
+A3 --> UC4
+A3 --> UC6
 
 A1 <|-- A2
 A1 <|-- A3
 UC3 <|-- UC4
 
-UC4 ..> UC5 : <<Include>>
+UC1 ..> UC4 : <<Extend>>
 
-UC7 .right.> UC6 : <<Extend>>
+UC3 ..> UC7 : <<Include>>
 
 @enduml
