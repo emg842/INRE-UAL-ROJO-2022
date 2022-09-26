@@ -1,26 +1,26 @@
 @startuml horarios 
 
 :Estudiante: as A1
-:PDI: as A2
-:PAS: as A3
+:PAS: as A2
+:PDI: as A3
 
-(Consultar horario) as UC1
-(Modificar horario) as UC2
-(Proponer cambio de \n horario) as UC3
-(Dar de alta estudiante) as UC4
-(Verificar datos) as UC5
-(Dar de alta estudiante vista PDI) as UC6
-(Buscar en lista \n de clase) as UC7
+(Buscar en lista \n de clase) as UC1
+(Consultar horario) as UC2
+(Dar de alta estudiante) as UC3
+(Dar de alta estudiante \n [vista PDI]) as UC4
+(Modificar horario) as UC5
+(Proponer cambio de \n horario) as UC6
+(Verificar datos) as UC7
 
-A1 -left-> UC1
+A1 -left-> UC2
 A2 -left-> UC3
-A2 -down-> UC6
+A2 -down-> UC5
 A3 -down-> UC4
-A3 -right-> UC2
+A3 -right-> UC6
 
 A1 <|-- A2
 A1 <|-- A3
-UC4 <|-- UC6
+UC3 <|-- UC4
 
 UC4 ..> UC5 : <<Include>>
 
