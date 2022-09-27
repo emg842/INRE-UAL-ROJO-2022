@@ -4,3 +4,14 @@ DatosEmp: Nombre + Apellidos
 Situacion: Calle + Ciudad + CP + TLF + FAX + Otros
 DatosCli: Nombre + Apellidos + Direccion + (TLF)
 CaractCont: [Compra|Venta] + Comision + PagaComision
+
+DEFINIR FECHA
+
+Fecha = Dia + Mes + Año
+Dia = Num
+Num = "1" - "31"
+Mes = {Caracter}
+Caracter = ["A"-"Z"|"a"-"z"]
+Año = [-|+] + {ConNum}
+ConNum = {CaracterNum}
+CaracterNum = "0"-"9"
