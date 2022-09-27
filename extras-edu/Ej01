@@ -1,14 +1,17 @@
-#Ejercicios 27-09-2022
+//Ejercicios 27-09-2022
 
+/*
 Contrato: No Contrato + DatosCli + CaracInm + CaractCont + (Observaciones) + DatosSuc
 DatoSuc: Codigo + Situacion + DatosEmp
 DatosEmp: Nombre + Apellidos
 Situacion: Calle + Ciudad + CP + TLF + FAX + Otros
 DatosCli: Nombre + Apellidos + Direccion + (TLF)
 CaractCont: [Compra|Venta] + Comision + PagaComision
+*/
 
+//DEFINIR FECHA
 
-
+/*
 FECHA = DIA + MES + AÑO
 DIA = { NUM }
 NUM = "1" - "31"
@@ -17,3 +20,4 @@ CARACTER = ["A"-"Z" | "a"-"z"]
 AÑO = [- | +] + {ConNum}
 ConNum = {CARACTnum}
 CARACTnum = "0" - "9"
+*/
