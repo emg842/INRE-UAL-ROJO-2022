@@ -1,0 +1,6 @@
+Contrato: No Contrato + DatosCli + CaracInm + CaractCont + (Observaciones) + DatosSuc
+DatoSuc: Codigo + Situacion + DatosEmp
+DatosEmp: Nombre + Apellidos
+Situacion: Calle + Ciudad + CP + TLF + FAX + Otros
+DatosCli: Nombre + Apellidos + Direccion + (TLF)
+CaractCont: [Compra|Venta] + Comision + PagaComision
