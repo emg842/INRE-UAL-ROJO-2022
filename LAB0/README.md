@@ -1,3 +1,5 @@
+<br>
+
 # Lab 0 - Familiarización con MarkDown-PlantUML
 
 <br>
