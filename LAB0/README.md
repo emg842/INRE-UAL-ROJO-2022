@@ -11,7 +11,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-![pp](../out/LAB0/src/horarios/horarios.png)
+![](../out/LAB0/src/horarios/horarios.png)
 
 <br>
 
@@ -20,7 +20,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-![pp](../out/LAB0/src/sistema_de_compras/sistema_de_compras.png)
+![](../out/LAB0/src/sistema_de_compras/sistema_de_compras.png)
 
 <br>
 
@@ -29,7 +29,7 @@ En una compañía hotelera, el administrador y el comercial pueden consultar res
 
 <br>
 
-![pp](../out/LAB0/src/compania_hotelera/compania_hotelera.png)
+![](../out/LAB0/src/compania_hotelera/compania_hotelera.png)
 
 <br>
 
@@ -38,7 +38,7 @@ En una aplicación de fotografía online, los clientes pueden visualizar las fot
 
 <br>
 
-![pp](../out/LAB0/src/fotografia_online/fotografia_online.png)
+![](../out/LAB0/src/fotografia_online/fotografia_online.png)
 
 <br>
 
@@ -47,7 +47,7 @@ En un sistema de gestión de incidencias, los técnicos y los operadores pueden 
 
 <br>
 
-![pp](../out/LAB0/src/gestion_de_incidencias/gestion_de_incidencias.png)
+![](../out/LAB0/src/gestion_de_incidencias/gestion_de_incidencias.png)
 
 <br><br>
 
@@ -60,6 +60,6 @@ Supongamos una aplicación utilizada como herramienta para la obtención y el an
 
 <br>
 
-![pp](../out/LAB0/src/aplicacion_gd/aplicacion_gd.png)
+![](../out/LAB0/src/aplicacion_gd/aplicacion_gd.png)
 
 <br>
