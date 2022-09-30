@@ -11,6 +11,7 @@ CaractCont: [Compra|Venta] + Comision + PagaComision
 
 //DEFINIR FECHA
 
+
 /*
 FECHA = DIA + MES + AÑO
 DIA = { NUM }
