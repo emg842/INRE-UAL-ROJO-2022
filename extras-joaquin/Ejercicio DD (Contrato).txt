@@ -1,0 +1,24 @@
+Contrato = NumContrato + DatosSuc + DatosCli + {CaracInm} + CaracCon + (Observaciones)
+    NumContrato = {Digito}
+    DatosSuc = CodigoSuc + Situacion + DatosEmp
+        CodigoSuc = {Digito}
+        Situacion = Calle + Ciudad + CP + {Telefono} + Fax
+            Calle = Ciudad = {Caracter}
+            CP = Telefono = Fax = {Digito}
+        DatosEmp = Nombre + {Apellido}
+            Nombre = Apellido = {Caracter}
+    DatosCli = Nombre + {Apellido} + Direccion + (Telefono)
+        Direccion = Calle + Ciudad + CP
+    CaracInm = TipoInm + NumHabitaciones + DotacionesDep + M2 + Precio
+        TipoInm = ["Piso" | "Bungalow" | "Chalet" | "Parcela" | "TerrenoRustico"]
+        NumHabitaciones = {Digito}
+        DotacionesDep = {["PistaTenis" | "Squash" | "Polideportiva" | "Paddle" | "Piscina"]}
+        M2 = Precio = {Digito}
+    CaracCon = TipoCon + ComisionSuc + PagadorComision + FormaPago
+        TipoCon = ["Compra" | "Venta"]
+        ComisionSuc = {Digito} + "%"
+        PagadorComision = ["Comprador" | "Vendedor"]
+        FormaPago = ["Contado" | "Tarjeta" | "Talon"]
+    Observaciones = {[Caracter | Digito]}
+    Caracter = ["A" - "Z" | "a" - "z"]
+    Digito = "0" - "9"

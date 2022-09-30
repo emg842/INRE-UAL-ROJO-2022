@@ -1,0 +1,6 @@
+Fecha = Dia + Mes + Anio
+    Dia = "1" - "31"
+    Mes = {Caracter}
+        Caracter = ["A" - "Z" | "a" - "z"]
+    Anio = {Digito} + ["a.C." | "d.C."]
+        Digito = "0" - "9"
