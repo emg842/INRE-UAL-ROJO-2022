@@ -13,3 +13,5 @@
 **- Joaquín Murcia Escánez - jme418@inlumine.ual.es**
 
 **- Manuel Vallecillos Escobosa - mve412@inlumine.ual.es**
+
+![pp](cholo.jpg)
