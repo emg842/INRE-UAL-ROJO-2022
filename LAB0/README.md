@@ -61,3 +61,5 @@ Supongamos una aplicación utilizada como herramienta para la obtención y el an
 <br>
 
 ![pp](../out/LAB0/src/aplicacion_gd/aplicacion_gd.png)
+
+<br>
