@@ -1,77 +1,63 @@
 @startuml sistema_de_compras
+title Fotografía Online
 
-:Vendedor: as A1
-:Controlador: as A2
-:Cliente: as A3
-:Comun: as A4
+:Administrador: as A1
+:Cliente: as A2
+:Común: as A3
+:Controlador: as A4
 :Gestor: as A5
-:Software de facturacion: as A6
-:Gestor de correo: as A7
-:Administrador: as A8
+:Gestor de correo: as A6
+:Software de facturación: as A7
+:Vendedor: as A8
 
-(Hacer oferta a cliente) as UC1
-(Reducir precio de producto)  as UC2
-(Buscar detalles en la foto)  as UC3
-(Verificar datos introducidos) as UC4
-(Consultar foto) as UC5
-(Visualizar foto) as UC6
-(Denunciar foto) as UC7
-(Indicar revision de foto) as UC8
-(Introducir explicacion) as UC9
-(Editar informacion de foto) as UC10
-(Emitir factura) as UC11
-(Bloquear oferta) as UC12
-(Ver oferta) as UC13
-(Editar factura) as UC14
-(Crear email) as UC15
-(Editar usuario) as UC16
-(Operaciones comunes de edición) as UC17
-(Crear usuario) as UC18
+(Bloquear oferta) as UC1
+(Buscar detalles \n en la foto)  as UC2
+(Consultar foto) as UC3
+(Crear email) as UC4
+(Crear usuario) as UC5
+(Denunciar foto) as UC6
+(Editar factura) as UC7
+(Editar información \n de foto) as UC8
+(Editar usuario) as UC9
+(Emitir factura) as UC10
+(Hacer oferta a cliente) as UC11
+(Indicar revisión de foto) as UC12
+(Introducir \n explicación) as UC13
+(Operaciones comunes \n de edición) as UC14
+(Reducir precio \n de producto)  as UC15
+(Ver oferta) as UC16
+(Verificar datos \n introducidos) as UC17
+(Visualizar foto) as UC18
 
+A1 --> UC5
+A1 --> UC9
+A2 --> UC3
+A2 --> UC18
+A3 --> UC16
+A4 --> UC8
+A4 --> UC12
+A5 --> UC1
+A5 --> UC7
+A5 --> UC10
+A6 --> UC4
+A7 --> UC10
+A8 --> UC11
+A8 --> UC2
 
-A1 --> UC1
-A1 --> UC3
+A3 <|-- A2
+A3 <|-- A5
+A5 <|-- A1
+UC12 <|-- UC6
+UC14 <|-- UC7
+UC14 <|-- UC9
+UC18 <|-- UC2
+UC18 <|-- UC3
 
-A2 --> UC10
-A2 --> UC8
+UC6 ..> UC18 : <<Extend>>
+UC15 ..> UC11 : <<Extend>>
 
-A3 --> UC5
-A3 --> UC6
-
-A8 --> UC16
-A8 --> UC18
-
-A7 --> UC15
-
-A6 --> UC11
-
-A4 --> UC13
-
-A5 --> UC12
-A5 --> UC14
-A5 --> UC11
-
-
-A4 <|-- A3
-A4 <|-- A5
-UC17 <|-- UC14
-
-A5 <|-- A8
-
-UC6 <|-- UC3
-UC6 <|-- UC5
-
-UC8 <|-- UC7
-UC17 <|-- UC16
-
-
-
-
-UC2 ..> UC1 : <<Extend>>
-UC7 ..> UC6 : <<Extend>>
-UC7 ..> UC9 : <<Include>>
-UC3 ..> UC4 : <<Include>>
-UC8 ..> UC15 : <<Include>>
-
+UC2 ..> UC17 : <<Include>>
+UC6 ..> UC13 : <<Include>>
+UC12 ..> UC4 : <<Include>>
 
 @enduml

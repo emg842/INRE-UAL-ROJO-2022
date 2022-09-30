@@ -1,4 +1,5 @@
 @startuml aplicacion_gd
+title Aplicación GD
 
 :Administrador: as A1
 :Entrenador: as A2

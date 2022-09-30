@@ -1,0 +1,43 @@
+@startuml compania_hotelera
+title Compañía hotelera
+
+:Administrador: as A1
+:Cliente: as A2
+:Comercial: as A3
+:Común: as A4
+
+(Bloquear \n temporalmente) as UC1
+(Buscar elemento) as UC2
+(Consultar) as UC3
+(Consultar disponibilidad) as UC4
+(Consultar reserva) as UC5
+(Gestionar nueva \n petición) as UC6
+(Gestionar nueva \n reserva) as UC7
+(Mostrar un calendario) as UC8
+(Realizar oferta) as UC9
+(Realizar oferta \n [vista Comercial]) as UC10
+(Recalcular precio) as UC11
+(Visualizar oferta) as UC12
+
+A1 --> UC6
+A1 --> UC9
+A2 --> UC4
+A2 --> UC12
+A3 --> UC7
+A3 --> UC10
+A4 --> UC5
+
+A2 <|-- A4
+A4 <|-- A1
+A4 <|-- A3
+UC3 <|-- UC4
+UC3 <|-- UC5
+UC9 <|-- UC10
+
+UC1 ..> UC10 : <<Extend>>
+
+UC3 ..> UC2 : <<Include>>
+UC4 ..> UC8 : <<Include>>
+UC10 ..> UC11 : <<Include>>
+
+@enduml

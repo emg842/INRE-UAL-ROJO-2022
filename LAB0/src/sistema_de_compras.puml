@@ -1,4 +1,5 @@
 @startuml sistema_de_compras
+title Sistema de Compras
 
 :Administrador: as A1
 :Comprador: as A2
