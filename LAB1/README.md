@@ -9,7 +9,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-<table>
+<table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
     "UC-XX"</td>
