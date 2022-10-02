@@ -30,7 +30,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    breve descripción del caso de uso"</td>
+    "breve descripción del caso de uso"</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
@@ -55,5 +55,54 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 <tr>
     <td><b>Referencias:</b><br>
     "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
+</tr>
+</table>
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>INF-010:</b></td>
+    <td>"actor???"</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Octubre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autores:</b></td>
+    <td>Daniel López García, Eduardo Martín Gómez, Miguel Ángel Moncada Álvarez, Joaquín Murcia Escánez, Manuel Vallecillos Escobosa</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Entrevistas y reglamento</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>- "nombre caso de uso???"</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>"breve descripción del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Datos específicos:</b></td>
+    <td>- "dato 1" <br>
+    - "dato 1" <br>
+    - "dato 2" <br>
+    - "dato 3" <br>
+    - "dato 4" <br></td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>"Muy elevada | Elevada | Moderada"</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
 </tr>
 </table>
