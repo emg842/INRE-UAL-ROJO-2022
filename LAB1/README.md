@@ -11,44 +11,49 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <table>
 <tr>
-    <td><b>Id:</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDaniel</td>
+    <td><b>Identificador:</b><br>
+    "UC-XX"</td>
 </tr>
 <tr>
-    <td><b>Nombre:</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDaniel</td>
+    <td><b>Nombre:</b><br>
+    "nombre del caso de uso"</td>
 </tr>
 <tr>
-    <td><b>Autor:</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDaniel</td>
+    <tr>
+    <td><b>Autor:</b><br>
+    "nombre del autor (o autores) del caso de uso"</td>
+</tr>
 </tr>
 <tr>
-    <td><b>Fecha:</b> 
-    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp02/10/2022</td>
+    <td><b>Fecha:</b><br>
+    "fecha de creación del caso de uso"</td>
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    Hola me presento me llamo federicoooooo</td>
+    breve descripción del caso de uso"</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    Hola me presento me llamo federico</td>
+    "actores participantes en el caso de uso"</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    Hola me presento me llamo federico</td>
+    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    Hola me presento me llamo federico</td>
+    "flujo normal (feliz) de ejecución del caso de uso"</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    Hola me presento me llamo federico</td>
+    "flujos alternativos de ejecución del caso de uso"</td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    Hola me presento me llamo federico</td>
+    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    Hola me presento me llamo federico</td>
+    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
 </tr>
 </table>
