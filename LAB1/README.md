@@ -9,16 +9,46 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-|                       |     |
-| --------------------- | --- |
-| **Identificador**     | Hola|
-| **Nombre**            | x   |
-| **Autor**             | x   |
-| **Fecha**             | x   |
-| **Descripcion**       | x   |
-| **Actores**           | x   |
-| **Precondiciones**    | x   |
-| **Flujo Normal**      | x   |
-| **Flujo Alternativo** | x   |
-| **Poscondiciones**    | x   |
-| **Relaciones**        | x   |
+<table>
+<tr>
+    <td><b>Id:</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDaniel</td>
+</tr>
+<tr>
+    <td><b>Nombre:</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDaniel</td>
+</tr>
+<tr>
+    <td><b>Autor:</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDaniel</td>
+</tr>
+<tr>
+    <td><b>Fecha:</b> 
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp02/10/2022</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b><br>
+    Hola me presento me llamo federicoooooo</td>
+</tr>
+<tr>
+    <td><b>Actores:</b><br>
+    Hola me presento me llamo federico</td>
+</tr>
+<tr>
+    <td><b>Precondiciones:</b><br>
+    Hola me presento me llamo federico</td>
+</tr>
+<tr>
+    <td><b>Flujo Normal:</b><br>
+    Hola me presento me llamo federico</td>
+</tr>
+<tr>
+    <td><b>Flujo Alternativo:</b><br>
+    Hola me presento me llamo federico</td>
+</tr>
+<tr>
+    <td><b>Poscondiciones:</b><br>
+    Hola me presento me llamo federico</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b><br>
+    Hola me presento me llamo federico</td>
+</tr>
+</table>
