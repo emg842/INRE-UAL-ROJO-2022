@@ -424,7 +424,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
-    "UC-05"</td>
+    UC-05</td>
 </tr>
 <tr>
     <td><b>Nombre:</b><br>
@@ -735,7 +735,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
-    "UC-08"</td>
+    UC-08</td>
 </tr>
 <tr>
     <td><b>Nombre:</b><br>
