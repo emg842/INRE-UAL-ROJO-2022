@@ -11,6 +11,8 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 - ### Buscar en lista de clase
 
+<br>
+
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
@@ -112,6 +114,8 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 <br>
 
 - ### Consultar horario
+
+<br>
 
 <table align = "center">
 <tr>
@@ -215,6 +219,8 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 - ### Dar de alta estudiante
 
+<br>
+
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
@@ -316,6 +322,8 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 <br>
 
 - ### Dar de alta estudiante [vista PDI]
+
+<br>
 
 <table align = "center">
 <tr>
@@ -419,6 +427,8 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 - ### Modificar horario
 
+<br>
+
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
@@ -521,6 +531,8 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 - ### Proponer cambio de horario
 
+<br>
+
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
@@ -622,6 +634,8 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 <br>
 
 - ### Verificar datos
+
+<br>
 
 <table align = "center">
 <tr>
@@ -730,6 +744,8 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 - ### Acordar precio
 
+<br>
+
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
@@ -831,6 +847,8 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <br>
 
 - ### Agregar producto
+
+<br>
 
 <table align = "center">
 <tr>
@@ -934,6 +952,8 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 - ### Avisar
 
+<br>
+
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
@@ -1035,6 +1055,8 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <br>
 
 - ### Avisar de nuevo producto
+
+<br>
 
 <table align = "center">
 <tr>
@@ -1138,6 +1160,8 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 - ### Avisar fin de oferta
 
+<br>
+
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
@@ -1239,6 +1263,8 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <br>
 
 - ### Buscar producto
+
+<br>
 
 <table align = "center">
 <tr>
@@ -1342,6 +1368,8 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 - ### Consultar histórico de precios
 
+<br>
+
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
@@ -1443,6 +1471,8 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <br>
 
 - ### Consultar oferta
+
+<br>
 
 <table align = "center">
 <tr>
@@ -1546,6 +1576,8 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 - ### Consultar precio
 
+<br>
+
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
@@ -1647,6 +1679,8 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <br>
 
 - ### Consultar producto
+
+<br>
 
 <table align = "center">
 <tr>
@@ -1750,6 +1784,8 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 - ### Eliminar oferta
 
+<br>
+
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
@@ -1851,6 +1887,8 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <br>
 
 - ### Eliminar producto
+
+<br>
 
 <table align = "center">
 <tr>
@@ -1954,6 +1992,8 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 - ###   Enviar notificación
 
+<br>
+
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
@@ -2055,6 +2095,8 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <br>
 
 - ### Finalizar compra
+
+<br>
 
 <table align = "center">
 <tr>
@@ -2158,6 +2200,8 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 - ### Incorporar oferta
 
+<br>
+
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
@@ -2259,6 +2303,8 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <br>
 
 - ### Marcar producto como bloqueado
+
+<br>
 
 <table align = "center">
 <tr>
@@ -2362,6 +2408,8 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 - ### Realizar venta
 
+<br>
+
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
@@ -2463,6 +2511,8 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <br>
 
 - ### Verificar disponibilidad del producto
+
+<br>
 
 <table align = "center">
 <tr>
