@@ -491,6 +491,8 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 </table>
 
+<br>
+
 - ### **INF-002** Estudiante
 
 <br>
@@ -542,6 +544,8 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 </table>
 
+<br>
+
 - ### **INF-002** Estudiante
 
 <br>
@@ -593,7 +597,9 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 </table>
 
-- ### **INF-002** Estudiante
+<br>
+
+- ### INF-002 *Estudiante*
 
 <br>
 
