@@ -16,21 +16,19 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
-    "UC-XX"</td>
+    UC-01</td>
 </tr>
 <tr>
     <td><b>Nombre:</b><br>
-    "nombre del caso de uso"</td>
+    Buscar en lista de clase</td>
 </tr>
 <tr>
-    <tr>
     <td><b>Autor:</b><br>
-    "nombre del autor (o autores) del caso de uso"</td>
-</tr>
+    Daniel López García</td>
 </tr>
 <tr>
     <td><b>Fecha:</b><br>
-    "fecha de creación del caso de uso"</td>
+    01/10/2022</td>
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
@@ -92,10 +90,10 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- "dato 1" <br>
-    - "dato 1" <br>
     - "dato 2" <br>
     - "dato 3" <br>
-    - "dato 4" <br></td>
+    - "dato 4" <br>
+    - "dato 5" <br></td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -120,21 +118,19 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
-    "UC-XX"</td>
+    UC-02</td>
 </tr>
 <tr>
     <td><b>Nombre:</b><br>
-    "nombre del caso de uso"</td>
+    Consultar horario</td>
 </tr>
 <tr>
-    <tr>
     <td><b>Autor:</b><br>
-    "nombre del autor (o autores) del caso de uso"</td>
-</tr>
+    Daniel López García</td>
 </tr>
 <tr>
     <td><b>Fecha:</b><br>
-    "fecha de creación del caso de uso"</td>
+    01/10/2022</td>
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
@@ -196,10 +192,10 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- "dato 1" <br>
-    - "dato 1" <br>
     - "dato 2" <br>
     - "dato 3" <br>
-    - "dato 4" <br></td>
+    - "dato 4" <br>
+    - "dato 5" <br></td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -224,21 +220,19 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
-    "UC-XX"</td>
+    UC-03</td>
 </tr>
 <tr>
     <td><b>Nombre:</b><br>
-    "nombre del caso de uso"</td>
+    Dar de alta estudiante</td>
 </tr>
 <tr>
-    <tr>
     <td><b>Autor:</b><br>
-    "nombre del autor (o autores) del caso de uso"</td>
-</tr>
+    Daniel López García</td>
 </tr>
 <tr>
     <td><b>Fecha:</b><br>
-    "fecha de creación del caso de uso"</td>
+    01/10/2022</td>
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
@@ -300,10 +294,10 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- "dato 1" <br>
-    - "dato 1" <br>
     - "dato 2" <br>
     - "dato 3" <br>
-    - "dato 4" <br></td>
+    - "dato 4" <br>
+    - "dato 5" <br></td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -328,21 +322,19 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
-    "UC-XX"</td>
+    UC-04</td>
 </tr>
 <tr>
     <td><b>Nombre:</b><br>
-    "nombre del caso de uso"</td>
+    Dar de alta estudiante [vista PDI]</td>
 </tr>
 <tr>
-    <tr>
     <td><b>Autor:</b><br>
-    "nombre del autor (o autores) del caso de uso"</td>
-</tr>
+    Daniel López García</td>
 </tr>
 <tr>
     <td><b>Fecha:</b><br>
-    "fecha de creación del caso de uso"</td>
+    01/10/2022</td>
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
@@ -404,10 +396,10 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- "dato 1" <br>
-    - "dato 1" <br>
     - "dato 2" <br>
     - "dato 3" <br>
-    - "dato 4" <br></td>
+    - "dato 4" <br>
+    - "dato 5" <br></td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -432,21 +424,19 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
-    "UC-XX"</td>
+    "UC-05"</td>
 </tr>
 <tr>
     <td><b>Nombre:</b><br>
-    "nombre del caso de uso"</td>
+    Modificar horario</td>
 </tr>
 <tr>
-    <tr>
     <td><b>Autor:</b><br>
-    "nombre del autor (o autores) del caso de uso"</td>
-</tr>
+    Daniel López García</td>
 </tr>
 <tr>
     <td><b>Fecha:</b><br>
-    "fecha de creación del caso de uso"</td>
+    01/10/2022</td>
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
@@ -508,10 +498,10 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- "dato 1" <br>
-    - "dato 1" <br>
     - "dato 2" <br>
     - "dato 3" <br>
-    - "dato 4" <br></td>
+    - "dato 4" <br>
+    - "dato 5" <br></td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -536,21 +526,19 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
-    "UC-XX"</td>
+    UC-06</td>
 </tr>
 <tr>
     <td><b>Nombre:</b><br>
-    "nombre del caso de uso"</td>
+    Proponer cambio de horario</td>
 </tr>
 <tr>
-    <tr>
     <td><b>Autor:</b><br>
-    "nombre del autor (o autores) del caso de uso"</td>
-</tr>
+    Daniel López García</td>
 </tr>
 <tr>
     <td><b>Fecha:</b><br>
-    "fecha de creación del caso de uso"</td>
+    01/10/2022</td>
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
@@ -612,10 +600,10 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- "dato 1" <br>
-    - "dato 1" <br>
     - "dato 2" <br>
     - "dato 3" <br>
-    - "dato 4" <br></td>
+    - "dato 4" <br>
+    - "dato 5" <br></td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -640,21 +628,19 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
-    "UC-XX"</td>
+    UC-07</td>
 </tr>
 <tr>
     <td><b>Nombre:</b><br>
-    "nombre del caso de uso"</td>
+    Verificar datos</td>
 </tr>
 <tr>
-    <tr>
     <td><b>Autor:</b><br>
-    "nombre del autor (o autores) del caso de uso"</td>
-</tr>
+    Daniel López García</td>
 </tr>
 <tr>
     <td><b>Fecha:</b><br>
-    "fecha de creación del caso de uso"</td>
+    01/10/2022</td>
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
@@ -716,10 +702,10 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- "dato 1" <br>
-    - "dato 1" <br>
     - "dato 2" <br>
     - "dato 3" <br>
-    - "dato 4" <br></td>
+    - "dato 4" <br>
+    - "dato 5" <br></td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -749,21 +735,19 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
-    "UC-XX"</td>
+    "UC-08"</td>
 </tr>
 <tr>
     <td><b>Nombre:</b><br>
-    "nombre del caso de uso"</td>
+    Acordar precio</td>
 </tr>
 <tr>
-    <tr>
     <td><b>Autor:</b><br>
-    "nombre del autor (o autores) del caso de uso"</td>
-</tr>
+    Miguel Ángel Moncada Álvarez</td>
 </tr>
 <tr>
     <td><b>Fecha:</b><br>
-    "fecha de creación del caso de uso"</td>
+    01/10/2022</td>
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
@@ -825,10 +809,10 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- "dato 1" <br>
-    - "dato 1" <br>
     - "dato 2" <br>
     - "dato 3" <br>
-    - "dato 4" <br></td>
+    - "dato 4" <br>
+    - "dato 5" <br></td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -853,21 +837,19 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
-    "UC-XX"</td>
+    UC-09</td>
 </tr>
 <tr>
     <td><b>Nombre:</b><br>
-    "nombre del caso de uso"</td>
+    Agregar producto</td>
 </tr>
 <tr>
-    <tr>
     <td><b>Autor:</b><br>
-    "nombre del autor (o autores) del caso de uso"</td>
-</tr>
+    Miguel Ángel Moncada Álvarez</td>
 </tr>
 <tr>
     <td><b>Fecha:</b><br>
-    "fecha de creación del caso de uso"</td>
+    01/10/2022</td>
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
@@ -929,10 +911,10 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- "dato 1" <br>
-    - "dato 1" <br>
     - "dato 2" <br>
     - "dato 3" <br>
-    - "dato 4" <br></td>
+    - "dato 4" <br>
+    - "dato 5" <br></td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -957,21 +939,19 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
-    "UC-XX"</td>
+    UC-10</td>
 </tr>
 <tr>
     <td><b>Nombre:</b><br>
-    "nombre del caso de uso"</td>
+    Avisar</td>
 </tr>
 <tr>
-    <tr>
     <td><b>Autor:</b><br>
-    "nombre del autor (o autores) del caso de uso"</td>
-</tr>
+    Miguel Ángel Moncada Álvarez</td>
 </tr>
 <tr>
     <td><b>Fecha:</b><br>
-    "fecha de creación del caso de uso"</td>
+    01/10/2022</td>
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
@@ -1033,10 +1013,10 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- "dato 1" <br>
-    - "dato 1" <br>
     - "dato 2" <br>
     - "dato 3" <br>
-    - "dato 4" <br></td>
+    - "dato 4" <br>
+    - "dato 5" <br></td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -1061,21 +1041,19 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
-    "UC-XX"</td>
+    UC-11</td>
 </tr>
 <tr>
     <td><b>Nombre:</b><br>
-    "nombre del caso de uso"</td>
+    Avisar de nuevo producto</td>
 </tr>
 <tr>
-    <tr>
     <td><b>Autor:</b><br>
-    "nombre del autor (o autores) del caso de uso"</td>
-</tr>
+    Miguel Ángel Moncada Álvarez</td>
 </tr>
 <tr>
     <td><b>Fecha:</b><br>
-    "fecha de creación del caso de uso"</td>
+    01/10/2022</td>
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
@@ -1137,10 +1115,10 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- "dato 1" <br>
-    - "dato 1" <br>
     - "dato 2" <br>
     - "dato 3" <br>
-    - "dato 4" <br></td>
+    - "dato 4" <br>
+    - "dato 5" <br></td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -1165,21 +1143,19 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
-    "UC-XX"</td>
+    UC-12</td>
 </tr>
 <tr>
     <td><b>Nombre:</b><br>
-    "nombre del caso de uso"</td>
+    Avisar fin de oferta</td>
 </tr>
 <tr>
-    <tr>
     <td><b>Autor:</b><br>
-    "nombre del autor (o autores) del caso de uso"</td>
-</tr>
+    Miguel Ángel Moncada Álvarez</td>
 </tr>
 <tr>
     <td><b>Fecha:</b><br>
-    "fecha de creación del caso de uso"</td>
+    01/10/2022</td>
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
@@ -1241,10 +1217,10 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- "dato 1" <br>
-    - "dato 1" <br>
     - "dato 2" <br>
     - "dato 3" <br>
-    - "dato 4" <br></td>
+    - "dato 4" <br>
+    - "dato 5" <br></td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -1269,21 +1245,19 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
-    "UC-XX"</td>
+    UC-13</td>
 </tr>
 <tr>
     <td><b>Nombre:</b><br>
-    "nombre del caso de uso"</td>
+    Buscar producto</td>
 </tr>
 <tr>
-    <tr>
     <td><b>Autor:</b><br>
-    "nombre del autor (o autores) del caso de uso"</td>
-</tr>
+    Miguel Ángel Moncada Álvarez</td>
 </tr>
 <tr>
     <td><b>Fecha:</b><br>
-    "fecha de creación del caso de uso"</td>
+    01/10/2022</td>
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
@@ -1345,10 +1319,10 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- "dato 1" <br>
-    - "dato 1" <br>
     - "dato 2" <br>
     - "dato 3" <br>
-    - "dato 4" <br></td>
+    - "dato 4" <br>
+    - "dato 5" <br></td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -1373,21 +1347,19 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
-    "UC-XX"</td>
+    UC-14</td>
 </tr>
 <tr>
     <td><b>Nombre:</b><br>
-    "nombre del caso de uso"</td>
+    Consultar histórico de precios</td>
 </tr>
 <tr>
-    <tr>
     <td><b>Autor:</b><br>
-    "nombre del autor (o autores) del caso de uso"</td>
-</tr>
+    Miguel Ángel Moncada Álvarez</td>
 </tr>
 <tr>
     <td><b>Fecha:</b><br>
-    "fecha de creación del caso de uso"</td>
+    01/10/2022</td>
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
@@ -1449,10 +1421,10 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- "dato 1" <br>
-    - "dato 1" <br>
     - "dato 2" <br>
     - "dato 3" <br>
-    - "dato 4" <br></td>
+    - "dato 4" <br>
+    - "dato 5" <br></td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -1477,21 +1449,19 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
-    "UC-XX"</td>
+    UC-15</td>
 </tr>
 <tr>
     <td><b>Nombre:</b><br>
-    "nombre del caso de uso"</td>
+    Consultar oferta</td>
 </tr>
 <tr>
-    <tr>
     <td><b>Autor:</b><br>
-    "nombre del autor (o autores) del caso de uso"</td>
-</tr>
+    Miguel Ángel Moncada Álvarez</td>
 </tr>
 <tr>
     <td><b>Fecha:</b><br>
-    "fecha de creación del caso de uso"</td>
+    01/10/2022</td>
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
@@ -1553,10 +1523,10 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- "dato 1" <br>
-    - "dato 1" <br>
     - "dato 2" <br>
     - "dato 3" <br>
-    - "dato 4" <br></td>
+    - "dato 4" <br>
+    - "dato 5" <br></td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -1581,21 +1551,19 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
-    "UC-XX"</td>
+    UC-16</td>
 </tr>
 <tr>
     <td><b>Nombre:</b><br>
-    "nombre del caso de uso"</td>
+    Consultar precio</td>
 </tr>
 <tr>
-    <tr>
     <td><b>Autor:</b><br>
-    "nombre del autor (o autores) del caso de uso"</td>
-</tr>
+    Miguel Ángel Moncada Álvarez</td>
 </tr>
 <tr>
     <td><b>Fecha:</b><br>
-    "fecha de creación del caso de uso"</td>
+    01/10/2022</td>
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
@@ -1657,10 +1625,10 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- "dato 1" <br>
-    - "dato 1" <br>
     - "dato 2" <br>
     - "dato 3" <br>
-    - "dato 4" <br></td>
+    - "dato 4" <br>
+    - "dato 5" <br></td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -1685,21 +1653,19 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
-    "UC-XX"</td>
+    UC-17</td>
 </tr>
 <tr>
     <td><b>Nombre:</b><br>
-    "nombre del caso de uso"</td>
+    Consultar producto</td>
 </tr>
 <tr>
-    <tr>
     <td><b>Autor:</b><br>
-    "nombre del autor (o autores) del caso de uso"</td>
-</tr>
+    Miguel Ángel Moncada Álvarez</td>
 </tr>
 <tr>
     <td><b>Fecha:</b><br>
-    "fecha de creación del caso de uso"</td>
+    01/10/2022</td>
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
@@ -1761,10 +1727,10 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- "dato 1" <br>
-    - "dato 1" <br>
     - "dato 2" <br>
     - "dato 3" <br>
-    - "dato 4" <br></td>
+    - "dato 4" <br>
+    - "dato 5" <br></td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -1789,21 +1755,19 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
-    "UC-XX"</td>
+    UC-18</td>
 </tr>
 <tr>
     <td><b>Nombre:</b><br>
-    "nombre del caso de uso"</td>
+    Eliminar oferta</td>
 </tr>
 <tr>
-    <tr>
     <td><b>Autor:</b><br>
-    "nombre del autor (o autores) del caso de uso"</td>
-</tr>
+    Miguel Ángel Moncada Álvarez</td>
 </tr>
 <tr>
     <td><b>Fecha:</b><br>
-    "fecha de creación del caso de uso"</td>
+    01/10/2022</td>
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
@@ -1865,10 +1829,10 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- "dato 1" <br>
-    - "dato 1" <br>
     - "dato 2" <br>
     - "dato 3" <br>
-    - "dato 4" <br></td>
+    - "dato 4" <br>
+    - "dato 5" <br></td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -1893,21 +1857,19 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
-    "UC-XX"</td>
+    UC-19</td>
 </tr>
 <tr>
     <td><b>Nombre:</b><br>
-    "nombre del caso de uso"</td>
+    Eliminar producto</td>
 </tr>
 <tr>
-    <tr>
     <td><b>Autor:</b><br>
-    "nombre del autor (o autores) del caso de uso"</td>
-</tr>
+    Miguel Ángel Moncada Álvarez</td>
 </tr>
 <tr>
     <td><b>Fecha:</b><br>
-    "fecha de creación del caso de uso"</td>
+    01/10/2022</td>
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
@@ -1969,10 +1931,10 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- "dato 1" <br>
-    - "dato 1" <br>
     - "dato 2" <br>
     - "dato 3" <br>
-    - "dato 4" <br></td>
+    - "dato 4" <br>
+    - "dato 5" <br></td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -1997,21 +1959,19 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
-    "UC-XX"</td>
+    UC-20</td>
 </tr>
 <tr>
     <td><b>Nombre:</b><br>
-    "nombre del caso de uso"</td>
+    Enviar notificación</td>
 </tr>
 <tr>
-    <tr>
     <td><b>Autor:</b><br>
-    "nombre del autor (o autores) del caso de uso"</td>
-</tr>
+    Miguel Ángel Moncada Álvarez</td>
 </tr>
 <tr>
     <td><b>Fecha:</b><br>
-    "fecha de creación del caso de uso"</td>
+    01/10/2022</td>
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
@@ -2073,10 +2033,10 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- "dato 1" <br>
-    - "dato 1" <br>
     - "dato 2" <br>
     - "dato 3" <br>
-    - "dato 4" <br></td>
+    - "dato 4" <br>
+    - "dato 5" <br></td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -2101,21 +2061,19 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
-    "UC-XX"</td>
+    UC-21</td>
 </tr>
 <tr>
     <td><b>Nombre:</b><br>
-    "nombre del caso de uso"</td>
+    Finalizar compra</td>
 </tr>
 <tr>
-    <tr>
     <td><b>Autor:</b><br>
-    "nombre del autor (o autores) del caso de uso"</td>
-</tr>
+    Miguel Ángel Moncada Álvarez</td>
 </tr>
 <tr>
     <td><b>Fecha:</b><br>
-    "fecha de creación del caso de uso"</td>
+    01/10/2022</td>
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
@@ -2177,10 +2135,10 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- "dato 1" <br>
-    - "dato 1" <br>
     - "dato 2" <br>
     - "dato 3" <br>
-    - "dato 4" <br></td>
+    - "dato 4" <br>
+    - "dato 5" <br></td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -2205,21 +2163,19 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
-    "UC-XX"</td>
+    UC-22</td>
 </tr>
 <tr>
     <td><b>Nombre:</b><br>
-    "nombre del caso de uso"</td>
+    Incorporar oferta</td>
 </tr>
 <tr>
-    <tr>
     <td><b>Autor:</b><br>
-    "nombre del autor (o autores) del caso de uso"</td>
-</tr>
+    Miguel Ángel Moncada Álvarez</td>
 </tr>
 <tr>
     <td><b>Fecha:</b><br>
-    "fecha de creación del caso de uso"</td>
+    01/10/2022</td>
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
@@ -2281,10 +2237,10 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- "dato 1" <br>
-    - "dato 1" <br>
     - "dato 2" <br>
     - "dato 3" <br>
-    - "dato 4" <br></td>
+    - "dato 4" <br>
+    - "dato 5" <br></td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -2309,21 +2265,19 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
-    "UC-XX"</td>
+    UC-23</td>
 </tr>
 <tr>
     <td><b>Nombre:</b><br>
-    "nombre del caso de uso"</td>
+    Marcar producto como bloqueado</td>
 </tr>
 <tr>
-    <tr>
     <td><b>Autor:</b><br>
-    "nombre del autor (o autores) del caso de uso"</td>
-</tr>
+    Miguel Ángel Moncada Álvarez</td>
 </tr>
 <tr>
     <td><b>Fecha:</b><br>
-    "fecha de creación del caso de uso"</td>
+    01/10/2022</td>
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
@@ -2385,10 +2339,10 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- "dato 1" <br>
-    - "dato 1" <br>
     - "dato 2" <br>
     - "dato 3" <br>
-    - "dato 4" <br></td>
+    - "dato 4" <br>
+    - "dato 5" <br></td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -2413,21 +2367,19 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
-    "UC-XX"</td>
+    UC-24</td>
 </tr>
 <tr>
     <td><b>Nombre:</b><br>
-    "nombre del caso de uso"</td>
+    Realizar venta</td>
 </tr>
 <tr>
-    <tr>
     <td><b>Autor:</b><br>
-    "nombre del autor (o autores) del caso de uso"</td>
-</tr>
+    Miguel Ángel Moncada Álvarez</td>
 </tr>
 <tr>
     <td><b>Fecha:</b><br>
-    "fecha de creación del caso de uso"</td>
+    01/10/2022</td>
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
@@ -2489,10 +2441,10 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- "dato 1" <br>
-    - "dato 1" <br>
     - "dato 2" <br>
     - "dato 3" <br>
-    - "dato 4" <br></td>
+    - "dato 4" <br>
+    - "dato 5" <br></td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -2517,21 +2469,19 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <table align = "center">
 <tr>
     <td><b>Identificador:</b><br>
-    "UC-XX"</td>
+    UC-25</td>
 </tr>
 <tr>
     <td><b>Nombre:</b><br>
-    "nombre del caso de uso"</td>
+    Verificar disponibilidad del producto</td>
 </tr>
 <tr>
-    <tr>
     <td><b>Autor:</b><br>
-    "nombre del autor (o autores) del caso de uso"</td>
-</tr>
+    Miguel Ángel Moncada Álvarez</td>
 </tr>
 <tr>
     <td><b>Fecha:</b><br>
-    "fecha de creación del caso de uso"</td>
+    01/10/2022</td>
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
@@ -2593,10 +2543,10 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- "dato 1" <br>
-    - "dato 1" <br>
     - "dato 2" <br>
     - "dato 3" <br>
-    - "dato 4" <br></td>
+    - "dato 4" <br>
+    - "dato 5" <br></td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
