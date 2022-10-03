@@ -9,7 +9,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### **UC-01** *Buscar en lista de clase*
+- ### UC-01 *Buscar en lista de clase*
 
 <br>
 
@@ -59,13 +59,13 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-04, INF-001</td>
+    UC-04, INF-01, INF-03</td>
 </tr>
 </table>
 
 <br>
 
-- ### **UC-02** *Consultar horario*
+- ### UC-02 *Consultar horario*
 
 <br>
 
@@ -92,11 +92,11 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    Estudiante</td>
+    Estudiante / PAS / PDI</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    El estudiante debe haber sido de alta y estar autenticado en el sistema</td>
+    El usuario (estudiante / personal del PAS / personal del PDI) debe haber sido de alta y estar autenticado en el sistema</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
@@ -112,13 +112,13 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    INF-001</td>
+    INF-01, INF-02, INF-03</td>
 </tr>
 </table>
 
 <br>
 
-- ### **UC-03** *Dar de alta estudiante*
+- ### UC-03 *Dar de alta estudiante*
 
 <br>
 
@@ -141,31 +141,35 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
+    Otorga el poder de dar de alta a un estudiante en el sistema</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
+    PAS / PDI</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+    El personal del PAS / PDI debe estar autenticado en el sistema así como no lo debe estar el nuevo estudiante</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
+    1.- El personal del PAS / PDI pulsa sobre el botón para dar de alta a un nuevo estudiante<br>
+    2.- El sistema muestra diversas cajas de texto para introducir los diferentes datos del estudiante al cual se le quiere dar de alta<br>
+    3.- El personal del PAS / PDI introduce los datos del estudiante<br>
+    4.- El sistema comprueba la validez de los datos y los almacena una vez determina que son correctos, mostrando un mensaje de confirmación del éxito de la operación junto a un botón para cerrar dicha notificación<br>
+    6.- El personal del PAS / PDI pulsa sobre el botón para concluir la operación de búsqueda</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
+    4.A.- El sistema considera los datos introducidos como incorrectos, marcando con color rojo las cajas de texto donde se han producido errores de algún tipo para facilitar así su corrección</td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+    El estudiante ha sido dado de alta en el sistema y sus datos han sido almacenados en el mismo</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
+    UC-04, UC-07, INF-01, INF-02, INF-03 </td>
 </tr>
 </table>
 
@@ -194,31 +198,35 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
+    Otorga el poder de dar de alta a un estudiante en el sistema</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
+    PDI</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+    El personal del PDI debe estar autenticado en el sistema así como no lo debe estar el nuevo estudiante</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
+    1.- El personal del PDI pulsa sobre el botón para dar de alta a un nuevo estudiante<br>
+    2.- El sistema muestra diversas cajas de texto para introducir los diferentes datos del estudiante al cual se le quiere dar de alta<br>
+    3.- El personal del PDI introduce los datos del estudiante<br>
+    4.- El sistema comprueba la validez de los datos y los almacena una vez determina que son correctos, mostrando un mensaje de confirmación del éxito de la operación junto a un botón para cerrar dicha notificación<br>
+    6.- El personal del PDI pulsa sobre el botón para concluir la operación de búsqueda</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
+    4.A.- El sistema considera los datos introducidos como incorrectos, marcando con color rojo las cajas de texto donde se han producido errores de algún tipo para facilitar así su corrección</td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+    El estudiante ha sido dado de alta en el sistema y sus datos han sido almacenados en el mismo</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
+    UC-01, UC-03, UC-07, INF-01, INF-03 </td>
 </tr>
 </table>
 
@@ -383,13 +391,13 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### **INF-001** *Estudiante*
+- ### **INF-01** *Estudiante*
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>INF-001:</b></td>
+    <td><b>INF-01:</b></td>
     <td>Estudiante</td>
 </tr>
 <tr>
@@ -406,7 +414,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-01, UC-02, UC-03, UC-04, UC-07</td>
+    <td>UC-01, UC-02, UC-03, UC-04, UC-07, INF-01, INF-02</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -440,22 +448,22 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### **INF-002** *Estudiante*
+- ### **INF-02** *PAS*
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>INF-010:</b></td>
-    <td>"actor???"</td>
+    <td><b>INF-02:</b></td>
+    <td>PAS</td>
 </tr>
 <tr>
     <td><b>Versión:</b></td>
     <td>1.0 (Octubre-2022)</td>
 </tr>
 <tr>
-    <td><b>Autores:</b></td>
-    <td>Daniel López García, Eduardo Martín Gómez, Miguel Ángel Moncada Álvarez, Joaquín Murcia Escánez, Manuel Vallecillos Escobosa</td>
+    <td><b>Autor:</b></td>
+    <td>Daniel López García</td>
 </tr>
 <tr>
     <td><b>Fuentes:</b></td>
@@ -463,23 +471,27 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>- "nombre caso de uso???"</td>
+    <td>UC-02, UC-03, UC-05, UC-07, INF-01</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>"breve descripción del caso de uso"</td>
+    <td>El sistema deberá almacenar la información correspondiente al personal del PAS de la universidad. En concreto:</td>
 </tr>
 <tr>
     <td><b>Datos específicos:</b></td>
-    <td>- "dato 1" <br>
-    - "dato 2" <br>
-    - "dato 3" <br>
-    - "dato 4" <br>
-    - "dato 5" <br></td>
+    <td>- Identificador de personal del PAS<br>
+    - Número del documento nacional de identidad<br>
+    - Nombre y apellidos<br>
+    - Fecha de nacimiento<br>
+    - Sexo<br>
+    - Fecha de alta como personal del PAS<br>
+    - Dirección<br>
+    - Teléfonos<br>
+    - Correo electrónico</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
-    <td>"Muy elevada | Elevada | Moderada"</td>
+    <td>Muy elevada</td>
 </tr>
 <tr>
     <td><b>Estado:</b></td>
@@ -493,22 +505,22 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### **INF-002** *Estudiante*
+- ### **INF-03** *PDI*
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>INF-010:</b></td>
-    <td>"actor???"</td>
+    <td><b>INF-03:</b></td>
+    <td>PDI</td>
 </tr>
 <tr>
     <td><b>Versión:</b></td>
     <td>1.0 (Octubre-2022)</td>
 </tr>
 <tr>
-    <td><b>Autores:</b></td>
-    <td>Daniel López García, Eduardo Martín Gómez, Miguel Ángel Moncada Álvarez, Joaquín Murcia Escánez, Manuel Vallecillos Escobosa</td>
+    <td><b>Autor:</b></td>
+    <td>Daniel López García</td>
 </tr>
 <tr>
     <td><b>Fuentes:</b></td>
@@ -516,129 +528,27 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>- "nombre caso de uso???"</td>
+    <td>UC-02, UC-03, UC-04, UC-06, UC-07, INF-01</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>"breve descripción del caso de uso"</td>
+    <td>El sistema deberá almacenar la información correspondiente al personal del PDI de la universidad. En concreto:</td>
 </tr>
 <tr>
     <td><b>Datos específicos:</b></td>
-    <td>- "dato 1" <br>
-    - "dato 2" <br>
-    - "dato 3" <br>
-    - "dato 4" <br>
-    - "dato 5" <br></td>
+    <td>- Identificador de personal del PDI<br>
+    - Número del documento nacional de identidad<br>
+    - Nombre y apellidos<br>
+    - Fecha de nacimiento<br>
+    - Sexo<br>
+    - Fecha de alta como personal del PDI<br>
+    - Dirección<br>
+    - Teléfonos<br>
+    - Correo electrónico</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
-    <td>"Muy elevada | Elevada | Moderada"</td>
-</tr>
-<tr>
-    <td><b>Estado:</b></td>
-    <td>Aceptado</td>
-</tr>
-<tr>
-    <td><b>Comentarios:</b></td>
-    <td></td>
-</tr>
-</table>
-
-<br>
-
-- ### **INF-002** *Estudiante*
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>INF-010:</b></td>
-    <td>"actor???"</td>
-</tr>
-<tr>
-    <td><b>Versión:</b></td>
-    <td>1.0 (Octubre-2022)</td>
-</tr>
-<tr>
-    <td><b>Autores:</b></td>
-    <td>Daniel López García, Eduardo Martín Gómez, Miguel Ángel Moncada Álvarez, Joaquín Murcia Escánez, Manuel Vallecillos Escobosa</td>
-</tr>
-<tr>
-    <td><b>Fuentes:</b></td>
-    <td>Entrevistas y reglamento</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b></td>
-    <td>- "nombre caso de uso???"</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b></td>
-    <td>"breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Datos específicos:</b></td>
-    <td>- "dato 1" <br>
-    - "dato 2" <br>
-    - "dato 3" <br>
-    - "dato 4" <br>
-    - "dato 5" <br></td>
-</tr>
-<tr>
-    <td><b>Importancia:</b></td>
-    <td>"Muy elevada | Elevada | Moderada"</td>
-</tr>
-<tr>
-    <td><b>Estado:</b></td>
-    <td>Aceptado</td>
-</tr>
-<tr>
-    <td><b>Comentarios:</b></td>
-    <td></td>
-</tr>
-</table>
-
-<br>
-
-- ### **INF-002** *Estudiante*
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>INF-010:</b></td>
-    <td>"actor???"</td>
-</tr>
-<tr>
-    <td><b>Versión:</b></td>
-    <td>1.0 (Octubre-2022)</td>
-</tr>
-<tr>
-    <td><b>Autores:</b></td>
-    <td>Daniel López García, Eduardo Martín Gómez, Miguel Ángel Moncada Álvarez, Joaquín Murcia Escánez, Manuel Vallecillos Escobosa</td>
-</tr>
-<tr>
-    <td><b>Fuentes:</b></td>
-    <td>Entrevistas y reglamento</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b></td>
-    <td>- "nombre caso de uso???"</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b></td>
-    <td>"breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Datos específicos:</b></td>
-    <td>- "dato 1" <br>
-    - "dato 2" <br>
-    - "dato 3" <br>
-    - "dato 4" <br>
-    - "dato 5" <br></td>
-</tr>
-<tr>
-    <td><b>Importancia:</b></td>
-    <td>"Muy elevada | Elevada | Moderada"</td>
+    <td>Muy elevada</td>
 </tr>
 <tr>
     <td><b>Estado:</b></td>
