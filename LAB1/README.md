@@ -175,7 +175,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### **UC-04** *Dar de alta estudiante [vista PDI]*
+- ### UC-04 *Dar de alta estudiante [vista PDI]*
 
 <br>
 
@@ -232,7 +232,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### **UC-05** *Modificar horario*
+- ### UC-05 *Modificar horario*
 
 <br>
 
@@ -264,7 +264,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 <tr>
     <td><b>Precondiciones:</b><br>
     El personal del PAS debe haber sido de alta y estar autenticado en el sistema.<br>
-    Se plantea la necesidad de la existencia de una propuesta de cambio en el horario en el caso de que la modificación responda a dicha petición</td>
+    También se plantea la necesidad de la existencia de una propuesta de cambio en el horario en el caso de que la modificación responda a dicha petición</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
@@ -290,7 +290,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### **UC-06** *Proponer cambio de horario*
+- ### UC-06 *Proponer cambio de horario*
 
 <br>
 
@@ -346,7 +346,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### **UC-07** *Verificar datos*
+- ### UC-07 *Verificar datos*
 
 <br>
 
@@ -377,7 +377,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    El personal del PAS / PDI debe haber sido de alta y estar autenticado en el sistema, así como el estudiante cuyos datos van a ser verificados debe estar siendo dado de alta aún en el sistema</td>
+    El personal del PAS / PDI debe estar autenticado en el sistema, así como el estudiante cuyos datos van a ser verificados debe estar siendo dado de alta aún en el sistema</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
@@ -400,7 +400,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### **INF-01** *Estudiante*
+- ### INF-01 *Estudiante*
 
 <br>
 
@@ -457,7 +457,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### **INF-02** *PAS*
+- ### INF-02 *PAS*
 
 <br>
 
@@ -514,7 +514,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### **INF-03** *PDI*
+- ### INF-03 *PDI*
 
 <br>
 
@@ -576,6 +576,1221 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### Acordar precio
+- ### UC-08 *Acordar precio*
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>Identificador:</b><br>
+    UC-08</td>
+</tr>
+<tr>
+    <td><b>Nombre:</b><br>
+    Acordar precio</td>
+</tr>
+<tr>
+    <td><b>Autor:</b><br>
+    Miguel Ángel Moncada Álvarez</td>
+</tr>
+<tr>
+    <td><b>Fecha:</b><br>
+    01/10/2022</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b><br>
+    "breve descripción del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Actores:</b><br>
+    "actores participantes en el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Precondiciones:</b><br>
+    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Normal:</b><br>
+    "flujo normal (feliz) de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Alternativo:</b><br>
+    "flujos alternativos de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Poscondiciones:</b><br>
+    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b><br>
+    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+</tr>
+</table>
+
+<br>
+
+- ### UC-09 *Agregar producto*
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>Identificador:</b><br>
+    UC-09</td>
+</tr>
+<tr>
+    <td><b>Nombre:</b><br>
+    Agregar producto</td>
+</tr>
+<tr>
+    <td><b>Autor:</b><br>
+    Miguel Ángel Moncada Álvarez</td>
+</tr>
+<tr>
+    <td><b>Fecha:</b><br>
+    01/10/2022</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b><br>
+    "breve descripción del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Actores:</b><br>
+    "actores participantes en el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Precondiciones:</b><br>
+    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Normal:</b><br>
+    "flujo normal (feliz) de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Alternativo:</b><br>
+    "flujos alternativos de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Poscondiciones:</b><br>
+    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b><br>
+    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+</tr>
+</table>
+
+<br>
+
+- ### UC-10 *Avisar*
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>Identificador:</b><br>
+    UC-10</td>
+</tr>
+<tr>
+    <td><b>Nombre:</b><br>
+    Avisar</td>
+</tr>
+<tr>
+    <td><b>Autor:</b><br>
+    Miguel Ángel Moncada Álvarez</td>
+</tr>
+<tr>
+    <td><b>Fecha:</b><br>
+    01/10/2022</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b><br>
+    "breve descripción del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Actores:</b><br>
+    "actores participantes en el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Precondiciones:</b><br>
+    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Normal:</b><br>
+    "flujo normal (feliz) de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Alternativo:</b><br>
+    "flujos alternativos de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Poscondiciones:</b><br>
+    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b><br>
+    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+</tr>
+</table>
+
+<br>
+
+- ### UC-11 *Avisar de nuevo producto*
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>Identificador:</b><br>
+    UC-11</td>
+</tr>
+<tr>
+    <td><b>Nombre:</b><br>
+    Avisar de nuevo producto</td>
+</tr>
+<tr>
+    <td><b>Autor:</b><br>
+    Miguel Ángel Moncada Álvarez</td>
+</tr>
+<tr>
+    <td><b>Fecha:</b><br>
+    01/10/2022</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b><br>
+    "breve descripción del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Actores:</b><br>
+    "actores participantes en el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Precondiciones:</b><br>
+    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Normal:</b><br>
+    "flujo normal (feliz) de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Alternativo:</b><br>
+    "flujos alternativos de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Poscondiciones:</b><br>
+    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b><br>
+    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+</tr>
+</table>
+
+<br>
+
+- ### UC-12 *Avisar fin de oferta*
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>Identificador:</b><br>
+    UC-12</td>
+</tr>
+<tr>
+    <td><b>Nombre:</b><br>
+    Avisar fin de oferta</td>
+</tr>
+<tr>
+    <td><b>Autor:</b><br>
+    Miguel Ángel Moncada Álvarez</td>
+</tr>
+<tr>
+    <td><b>Fecha:</b><br>
+    01/10/2022</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b><br>
+    "breve descripción del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Actores:</b><br>
+    "actores participantes en el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Precondiciones:</b><br>
+    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Normal:</b><br>
+    "flujo normal (feliz) de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Alternativo:</b><br>
+    "flujos alternativos de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Poscondiciones:</b><br>
+    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b><br>
+    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+</tr>
+</table>
+
+<br>
+
+- ### UC-13 *Buscar producto*
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>Identificador:</b><br>
+    UC-13</td>
+</tr>
+<tr>
+    <td><b>Nombre:</b><br>
+    Buscar producto</td>
+</tr>
+<tr>
+    <td><b>Autor:</b><br>
+    Miguel Ángel Moncada Álvarez</td>
+</tr>
+<tr>
+    <td><b>Fecha:</b><br>
+    01/10/2022</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b><br>
+    "breve descripción del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Actores:</b><br>
+    "actores participantes en el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Precondiciones:</b><br>
+    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Normal:</b><br>
+    "flujo normal (feliz) de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Alternativo:</b><br>
+    "flujos alternativos de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Poscondiciones:</b><br>
+    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b><br>
+    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+</tr>
+</table>
+
+<br>
+
+- ### UC-14 *Consultar histórico de precios*
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>Identificador:</b><br>
+    UC-14</td>
+</tr>
+<tr>
+    <td><b>Nombre:</b><br>
+    Consultar histórico de precios</td>
+</tr>
+<tr>
+    <td><b>Autor:</b><br>
+    Miguel Ángel Moncada Álvarez</td>
+</tr>
+<tr>
+    <td><b>Fecha:</b><br>
+    01/10/2022</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b><br>
+    "breve descripción del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Actores:</b><br>
+    "actores participantes en el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Precondiciones:</b><br>
+    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Normal:</b><br>
+    "flujo normal (feliz) de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Alternativo:</b><br>
+    "flujos alternativos de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Poscondiciones:</b><br>
+    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b><br>
+    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+</tr>
+</table>
+
+<br>
+
+- ### UC-15 *Consultar oferta*
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>Identificador:</b><br>
+    UC-15</td>
+</tr>
+<tr>
+    <td><b>Nombre:</b><br>
+    Consultar oferta</td>
+</tr>
+<tr>
+    <td><b>Autor:</b><br>
+    Miguel Ángel Moncada Álvarez</td>
+</tr>
+<tr>
+    <td><b>Fecha:</b><br>
+    01/10/2022</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b><br>
+    "breve descripción del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Actores:</b><br>
+    "actores participantes en el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Precondiciones:</b><br>
+    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Normal:</b><br>
+    "flujo normal (feliz) de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Alternativo:</b><br>
+    "flujos alternativos de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Poscondiciones:</b><br>
+    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b><br>
+    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+</tr>
+</table>
+
+<br>
+
+- ### UC-16 *Consultar precio*
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>Identificador:</b><br>
+    UC-16</td>
+</tr>
+<tr>
+    <td><b>Nombre:</b><br>
+    Consultar precio</td>
+</tr>
+<tr>
+    <td><b>Autor:</b><br>
+    Miguel Ángel Moncada Álvarez</td>
+</tr>
+<tr>
+    <td><b>Fecha:</b><br>
+    01/10/2022</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b><br>
+    "breve descripción del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Actores:</b><br>
+    "actores participantes en el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Precondiciones:</b><br>
+    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Normal:</b><br>
+    "flujo normal (feliz) de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Alternativo:</b><br>
+    "flujos alternativos de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Poscondiciones:</b><br>
+    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b><br>
+    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+</tr>
+</table>
+
+<br>
+
+- ### UC-17 *Consultar producto*
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>Identificador:</b><br>
+    UC-17</td>
+</tr>
+<tr>
+    <td><b>Nombre:</b><br>
+    Consultar producto</td>
+</tr>
+<tr>
+    <td><b>Autor:</b><br>
+    Miguel Ángel Moncada Álvarez</td>
+</tr>
+<tr>
+    <td><b>Fecha:</b><br>
+    01/10/2022</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b><br>
+    "breve descripción del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Actores:</b><br>
+    "actores participantes en el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Precondiciones:</b><br>
+    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Normal:</b><br>
+    "flujo normal (feliz) de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Alternativo:</b><br>
+    "flujos alternativos de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Poscondiciones:</b><br>
+    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b><br>
+    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+</tr>
+</table>
+
+<br>
+
+- ### UC-18 *Eliminar oferta*
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>Identificador:</b><br>
+    UC-18</td>
+</tr>
+<tr>
+    <td><b>Nombre:</b><br>
+    Eliminar oferta</td>
+</tr>
+<tr>
+    <td><b>Autor:</b><br>
+    Miguel Ángel Moncada Álvarez</td>
+</tr>
+<tr>
+    <td><b>Fecha:</b><br>
+    01/10/2022</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b><br>
+    "breve descripción del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Actores:</b><br>
+    "actores participantes en el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Precondiciones:</b><br>
+    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Normal:</b><br>
+    "flujo normal (feliz) de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Alternativo:</b><br>
+    "flujos alternativos de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Poscondiciones:</b><br>
+    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b><br>
+    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+</tr>
+</table>
+
+<br>
+
+- ### UC-19 *Eliminar producto*
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>Identificador:</b><br>
+    UC-19</td>
+</tr>
+<tr>
+    <td><b>Nombre:</b><br>
+    Eliminar producto</td>
+</tr>
+<tr>
+    <td><b>Autor:</b><br>
+    Miguel Ángel Moncada Álvarez</td>
+</tr>
+<tr>
+    <td><b>Fecha:</b><br>
+    01/10/2022</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b><br>
+    "breve descripción del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Actores:</b><br>
+    "actores participantes en el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Precondiciones:</b><br>
+    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Normal:</b><br>
+    "flujo normal (feliz) de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Alternativo:</b><br>
+    "flujos alternativos de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Poscondiciones:</b><br>
+    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b><br>
+    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+</tr>
+</table>
+
+<br>
+
+- ### UC-20 *Enviar notificación*
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>Identificador:</b><br>
+    UC-20</td>
+</tr>
+<tr>
+    <td><b>Nombre:</b><br>
+    Enviar notificación</td>
+</tr>
+<tr>
+    <td><b>Autor:</b><br>
+    Miguel Ángel Moncada Álvarez</td>
+</tr>
+<tr>
+    <td><b>Fecha:</b><br>
+    01/10/2022</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b><br>
+    "breve descripción del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Actores:</b><br>
+    "actores participantes en el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Precondiciones:</b><br>
+    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Normal:</b><br>
+    "flujo normal (feliz) de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Alternativo:</b><br>
+    "flujos alternativos de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Poscondiciones:</b><br>
+    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b><br>
+    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+</tr>
+</table>
+
+<br>
+
+- ### UC-21 *Finalizar compra*
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>Identificador:</b><br>
+    UC-21</td>
+</tr>
+<tr>
+    <td><b>Nombre:</b><br>
+    Finalizar compra</td>
+</tr>
+<tr>
+    <td><b>Autor:</b><br>
+    Miguel Ángel Moncada Álvarez</td>
+</tr>
+<tr>
+    <td><b>Fecha:</b><br>
+    01/10/2022</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b><br>
+    "breve descripción del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Actores:</b><br>
+    "actores participantes en el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Precondiciones:</b><br>
+    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Normal:</b><br>
+    "flujo normal (feliz) de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Alternativo:</b><br>
+    "flujos alternativos de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Poscondiciones:</b><br>
+    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b><br>
+    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+</tr>
+</table>
+
+<br>
+
+- ### UC-22 *Incorporar oferta*
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>Identificador:</b><br>
+    UC-22</td>
+</tr>
+<tr>
+    <td><b>Nombre:</b><br>
+    Incorporar oferta</td>
+</tr>
+<tr>
+    <td><b>Autor:</b><br>
+    Miguel Ángel Moncada Álvarez</td>
+</tr>
+<tr>
+    <td><b>Fecha:</b><br>
+    01/10/2022</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b><br>
+    "breve descripción del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Actores:</b><br>
+    "actores participantes en el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Precondiciones:</b><br>
+    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Normal:</b><br>
+    "flujo normal (feliz) de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Alternativo:</b><br>
+    "flujos alternativos de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Poscondiciones:</b><br>
+    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b><br>
+    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+</tr>
+</table>
+
+<br>
+
+- ### UC-23 *Marcar producto como bloqueado*
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>Identificador:</b><br>
+    UC-23</td>
+</tr>
+<tr>
+    <td><b>Nombre:</b><br>
+    Marcar producto como bloqueado</td>
+</tr>
+<tr>
+    <td><b>Autor:</b><br>
+    Miguel Ángel Moncada Álvarez</td>
+</tr>
+<tr>
+    <td><b>Fecha:</b><br>
+    01/10/2022</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b><br>
+    "breve descripción del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Actores:</b><br>
+    "actores participantes en el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Precondiciones:</b><br>
+    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Normal:</b><br>
+    "flujo normal (feliz) de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Alternativo:</b><br>
+    "flujos alternativos de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Poscondiciones:</b><br>
+    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b><br>
+    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+</tr>
+</table>
+
+<br>
+
+- ### UC-24 *Realizar venta*
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>Identificador:</b><br>
+    UC-24</td>
+</tr>
+<tr>
+    <td><b>Nombre:</b><br>
+    Realizar venta</td>
+</tr>
+<tr>
+    <td><b>Autor:</b><br>
+    Miguel Ángel Moncada Álvarez</td>
+</tr>
+<tr>
+    <td><b>Fecha:</b><br>
+    01/10/2022</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b><br>
+    "breve descripción del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Actores:</b><br>
+    "actores participantes en el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Precondiciones:</b><br>
+    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Normal:</b><br>
+    "flujo normal (feliz) de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Alternativo:</b><br>
+    "flujos alternativos de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Poscondiciones:</b><br>
+    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b><br>
+    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+</tr>
+</table>
+
+<br>
+
+- ### UC-25 *Verificar disponibilidad de producto*
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>Identificador:</b><br>
+    UC-25</td>
+</tr>
+<tr>
+    <td><b>Nombre:</b><br>
+    Verificar disponibilidad de producto</td>
+</tr>
+<tr>
+    <td><b>Autor:</b><br>
+    Miguel Ángel Moncada Álvarez</td>
+</tr>
+<tr>
+    <td><b>Fecha:</b><br>
+    01/10/2022</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b><br>
+    "breve descripción del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Actores:</b><br>
+    "actores participantes en el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Precondiciones:</b><br>
+    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Normal:</b><br>
+    "flujo normal (feliz) de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Flujo Alternativo:</b><br>
+    "flujos alternativos de ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Poscondiciones:</b><br>
+    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b><br>
+    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+</tr>
+</table>
+
+<br>
+
+- ### INF-04 *Administrador*
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>INF-04:</b></td>
+    <td>Administrador</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Octubre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Miguel Ángel Moncada Álvarez</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Entrevistas y reglamento</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>"referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>"breve descripción del requisito de información"</td>
+</tr>
+<tr>
+    <td><b>Datos específicos:</b></td>
+    <td>- Dato 1<br>
+    - Dato 2<br>
+    - Dato 3<br>
+    - Dato 4<br>
+    - Dato 5</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
+
+- ### INF-05 *Comprador*
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>INF-05:</b></td>
+    <td>Comprador</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Octubre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Miguel Ángel Moncada Álvarez</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Entrevistas y reglamento</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>"referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>"breve descripción del requisito de información"</td>
+</tr>
+<tr>
+    <td><b>Datos específicos:</b></td>
+    <td>- Dato 1<br>
+    - Dato 2<br>
+    - Dato 3<br>
+    - Dato 4<br>
+    - Dato 5</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
+
+- ### INF-06 *Proveedor*
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>INF-06:</b></td>
+    <td>Proveedor</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Octubre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Miguel Ángel Moncada Álvarez</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Entrevistas y reglamento</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>"referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>"breve descripción del requisito de información"</td>
+</tr>
+<tr>
+    <td><b>Datos específicos:</b></td>
+    <td>- Dato 1<br>
+    - Dato 2<br>
+    - Dato 3<br>
+    - Dato 4<br>
+    - Dato 5</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
+
+- ### INF-07 *Usuario*
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>INF-07:</b></td>
+    <td>Usuario</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Octubre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Miguel Ángel Moncada Álvarez</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Entrevistas y reglamento</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>"referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>"breve descripción del requisito de información"</td>
+</tr>
+<tr>
+    <td><b>Datos específicos:</b></td>
+    <td>- Dato 1<br>
+    - Dato 2<br>
+    - Dato 3<br>
+    - Dato 4<br>
+    - Dato 5</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
+
+- ### INF-08 *Vendedor*
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>INF-08:</b></td>
+    <td>Vendedor</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Octubre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Miguel Ángel Moncada Álvarez</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Entrevistas y reglamento</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>"referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>"breve descripción del requisito de información"</td>
+</tr>
+<tr>
+    <td><b>Datos específicos:</b></td>
+    <td>- Dato 1<br>
+    - Dato 2<br>
+    - Dato 3<br>
+    - Dato 4<br>
+    - Dato 5</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
 
 <br>
