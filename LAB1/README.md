@@ -9,7 +9,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### **UC-01** Buscar en lista de clase
+- ### **UC-01** *Buscar en lista de clase*
 
 <br>
 
@@ -65,7 +65,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### **UC-02** Consultar horario
+- ### **UC-02** *Consultar horario*
 
 <br>
 
@@ -118,7 +118,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### **UC-03** Dar de alta estudiante
+- ### **UC-03** *Dar de alta estudiante*
 
 <br>
 
@@ -171,7 +171,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### **UC-04** Dar de alta estudiante [vista PDI]
+- ### **UC-04** *Dar de alta estudiante [vista PDI]*
 
 <br>
 
@@ -224,7 +224,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### **UC-05** Modificar horario
+- ### **UC-05** *Modificar horario*
 
 <br>
 
@@ -277,7 +277,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### **UC-06** Proponer cambio horario
+- ### **UC-06** *Proponer cambio horario*
 
 <br>
 
@@ -330,7 +330,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### **UC-07** Verificar datos
+- ### **UC-07** *Verificar datos*
 
 <br>
 
@@ -383,7 +383,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### **INF-001** Estudiante
+- ### **INF-001** *Estudiante*
 
 <br>
 
@@ -440,7 +440,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### **INF-002** Estudiante
+- ### **INF-002** *Estudiante*
 
 <br>
 
@@ -493,7 +493,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### **INF-002** Estudiante
+- ### **INF-002** *Estudiante*
 
 <br>
 
@@ -546,7 +546,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### **INF-002** Estudiante
+- ### **INF-002** *Estudiante*
 
 <br>
 
@@ -599,7 +599,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### INF-002 *Estudiante*
+- ### **INF-002** *Estudiante*
 
 <br>
 
