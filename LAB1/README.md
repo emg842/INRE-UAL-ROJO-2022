@@ -32,31 +32,35 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
+    Posibilita la acción de buscar a un estudiante en la lista de clase</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
+    PDI</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+    El personal del PDI debe estar autenticado en el sistema como tal y se debe encontrar dando de alta a un estudiante en el mismo</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
+    1.- El actor pulsa sobre el botón para buscar en la lista de clase <br>
+    2.- El sistema muestra una caja de texto para introducir el identificador del estudiante al cual se le quiere dar de alta <br>
+    3.- El actor introduce el identificador del estudiante <br>
+    4.- El sistema muestra los datos del estudiante <br>
+    5.- El sistema muestra un botón para cerrar la ventana de resultados de búsqueda <br>
+    6.- El actor pulsa sobre el botón para concluir la operación de búsqueda</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
+    4.A.- El sistema no muestra nada en caso de que el estudiante aún no haya sido dado de alta</td>
 </tr>
 <tr>
-    <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+    <td><b>Poscondiciones:</b><br><br></td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
+    UC-04, INF-001</td>
 </tr>
 </table>
 
@@ -64,16 +68,16 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <table align = "center">
 <tr>
-    <td><b>INF-010:</b></td>
-    <td>"actor???"</td>
+    <td><b>INF-001:</b></td>
+    <td>Estudiante</td>
 </tr>
 <tr>
     <td><b>Versión:</b></td>
     <td>1.0 (Octubre-2022)</td>
 </tr>
 <tr>
-    <td><b>Autores:</b></td>
-    <td>Daniel López García, Eduardo Martín Gómez, Miguel Ángel Moncada Álvarez, Joaquín Murcia Escánez, Manuel Vallecillos Escobosa</td>
+    <td><b>Autor:</b></td>
+    <td>Daniel López García</td>
 </tr>
 <tr>
     <td><b>Fuentes:</b></td>
@@ -81,23 +85,27 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>- "nombre caso de uso???"</td>
+    <td>UC-01, UC-02, UC-03, UC-04, UC-07</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>"breve descripción del caso de uso"</td>
+    <td>El sistema deberá almacenar la información correspondiente a los estudiantes de la universidad. En concreto:</td>
 </tr>
 <tr>
     <td><b>Datos específicos:</b></td>
-    <td>- "dato 1" <br>
-    - "dato 2" <br>
-    - "dato 3" <br>
-    - "dato 4" <br>
-    - "dato 5" <br></td>
+    <td>- Identificador de estudiante <br>
+    - Número del documento nacional de identidad <br>
+    - Nombre y apellidos <br>
+    - Fecha de nacimiento <br>
+    - Sexo <br>
+    - Fecha de alta como estudiante <br>
+    - Dirección <br>
+    - Teléfonos <br>
+    - Correo electrónico</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
-    <td>"Muy elevada | Elevada | Moderada"</td>
+    <td>Muy elevada</td>
 </tr>
 <tr>
     <td><b>Estado:</b></td>
