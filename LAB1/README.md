@@ -32,7 +32,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    Posibilita la acción de buscar a un estudiante en la lista de clase</td>
+    Posibilita la acción de buscar a un estudiante el cual acaba de ser dado de alta en el sistema en la lista de clase</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
@@ -40,7 +40,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    El personal del PDI debe estar autenticado en el sistema como tal y se debe encontrar dando de alta a un estudiante en el mismo</td>
+    El personal del PDI debe estar autenticado en el sistema como tal y debe haber dado de alta a un estudiante en el mismo</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
@@ -52,7 +52,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    4.A.- El sistema no muestra nada en caso de que el estudiante aún no haya sido dado de alta</td>
+    4.A.- El sistema no muestra nada en caso de que el estudiante aún no haya sido dado de alta correctamente, mostrando cuáles han sido los errores para facilitar su corrección</td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br><br></td>
@@ -255,37 +255,42 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
+    Permite realizar modificaciones en el horario por voluntad propia o atendiendo a peticiones</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
+    PAS</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+    El personal del PAS debe haber sido de alta y estar autenticado en el sistema.<br>
+    Se plantea la necesidad de la existencia de una propuesta de cambio en el horario en el caso de que la modificación responda a dicha petición</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
+    1.- El actor pulsa sobre el botón para modificar el horario<br>
+    2.- El sistema muestra un calendario con el horario actual sobre el cual se pueden realizar cambios<br>
+    3.- El actor realiza los cambios que cree pertinentes<br>
+    4.- El sistema, tras haber comprobado la validez de las modificaciones, muestra un nuevo botón cuya utilidad es la de confirmar los cambios establecidos<br>
+    6.- El actor pulsa sobre el botón para concluir la operación de modificación del horario</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
+    4.A.- El sistema comprueba la validez de las modificaciones y considera que hay uno o más errores por lo que se avisa al actor de ello, permitiéndole así que los corrija</td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+    El cambio realizado en el horario ha sido guardado en el sistema</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
+    UC-02, UC-06, INF-02</td>
 </tr>
 </table>
 
 <br>
 
-- ### **UC-06** *Proponer cambio horario*
+- ### **UC-06** *Proponer cambio de horario*
 
 <br>
 
@@ -308,31 +313,34 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
+    Ofrece el medio necesario para realizar la propuesta de realizar un cambio en el horario</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
+    PDI</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+    El personal del PDI debe haber sido de alta y estar autenticado en el sistema</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
+    1.- El actor pulsa sobre el botón para proponer la acción de modificar el horario<br>
+    2.- El sistema muestra una caja de texto para introducir el motivo por el cual se desea realizar un cambio en el horario<br>
+    3.- El actor introduce el argumento de su petición<br>
+    4.- El sistema comprueba la validez de los datos y los almacena</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
+    4.A.- El sistema comprueba la validez de los datos y determina que no son correctos, procediendo a avisar al actor de ello permitiéndole que los corrija</td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+    La propuesta ha sido almacenada en el sistema y enviada al personal del PAS</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
+    UC-05, INF-02, INF-03</td>
 </tr>
 </table>
 
@@ -361,31 +369,32 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
+    Permite el hecho de confirmar la validez de los datos de un nuevo estudiante el cual acaba de ser dado de alta</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
+    PAS / PDI</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+    El personal del PAS / PDI debe haber sido de alta y estar autenticado en el sistema, así como el estudiante cuyos datos van a ser verificados debe estar siendo dado de alta aún en el sistema</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
+    1.- El actor pulsa sobre el botón para verificar los datos<br>
+    2.- El sistema muestra un mensaje de confirmación de la validez de los datos junto con un botón para el cierre de la ventana de dicho mensaje<br>
+    3.- El actor pulsa sobre el botón para concluir la operación de verificación de datos</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
+    2.A.- El sistema comprueba la validez de los datos y determina que al menos uno de ellos no es correcto, procediendo a notificar al actor de este hecho para que este los corrija</td>
 </tr>
 <tr>
-    <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+    <td><b>Poscondiciones:</b><br><br></td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
+    UC-03, UC-04, INF-01, INF-02, INF-03</td>
 </tr>
 </table>
 
