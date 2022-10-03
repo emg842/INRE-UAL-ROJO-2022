@@ -9,7 +9,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### Buscar en lista de clase
+- ### **UC-01** Buscar en lista de clase
 
 <br>
 
@@ -44,11 +44,10 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    1.- El actor pulsa sobre el botón para buscar en la lista de clase <br>
-    2.- El sistema muestra una caja de texto para introducir el identificador del estudiante al cual se le quiere dar de alta <br>
-    3.- El actor introduce el identificador del estudiante <br>
-    4.- El sistema muestra los datos del estudiante <br>
-    5.- El sistema muestra un botón para cerrar la ventana de resultados de búsqueda <br>
+    1.- El actor pulsa sobre el botón para buscar en la lista de clase<br>
+    2.- El sistema muestra una caja de texto para introducir el identificador del estudiante al cual se le quiere dar de alta<br>
+    3.- El actor introduce el identificador del estudiante<br>
+    4.- El sistema muestra los datos del estudiante además de un botón para cerrar la ventana de resultados de búsqueda<br>
     6.- El actor pulsa sobre el botón para concluir la operación de búsqueda</td>
 </tr>
 <tr>
@@ -66,60 +65,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-<table align = "center">
-<tr>
-    <td><b>INF-001:</b></td>
-    <td>Estudiante</td>
-</tr>
-<tr>
-    <td><b>Versión:</b></td>
-    <td>1.0 (Octubre-2022)</td>
-</tr>
-<tr>
-    <td><b>Autor:</b></td>
-    <td>Daniel López García</td>
-</tr>
-<tr>
-    <td><b>Fuentes:</b></td>
-    <td>Entrevistas y reglamento</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b></td>
-    <td>UC-01, UC-02, UC-03, UC-04, UC-07</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b></td>
-    <td>El sistema deberá almacenar la información correspondiente a los estudiantes de la universidad. En concreto:</td>
-</tr>
-<tr>
-    <td><b>Datos específicos:</b></td>
-    <td>- Identificador de estudiante <br>
-    - Número del documento nacional de identidad <br>
-    - Nombre y apellidos <br>
-    - Fecha de nacimiento <br>
-    - Sexo <br>
-    - Fecha de alta como estudiante <br>
-    - Dirección <br>
-    - Teléfonos <br>
-    - Correo electrónico</td>
-</tr>
-<tr>
-    <td><b>Importancia:</b></td>
-    <td>Muy elevada</td>
-</tr>
-<tr>
-    <td><b>Estado:</b></td>
-    <td>Aceptado</td>
-</tr>
-<tr>
-    <td><b>Comentarios:</b></td>
-    <td></td>
-</tr>
-</table>
-
-<br>
-
-- ### Consultar horario
+- ### **UC-02** Consultar horario
 
 <br>
 
@@ -142,86 +88,37 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
+    Plantea la posibilidad de consultar un horario personalizado propio</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
+    Estudiante</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+    El estudiante debe haber sido de alta y estar autenticado en el sistema</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
+    1.- El actor pulsa sobre el botón para consultar su horario<br>
+    2.- El sistema muestra una ventana donde se refleja el horario además de un botón para cerrar la ventana<br>
+    3.- El actor pulsa sobre el botón para concluir la operación de consulta</td>
 </tr>
 <tr>
-    <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
+    <td><b>Flujo Alternativo:</b><br><br></td>
 </tr>
 <tr>
-    <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+    <td><b>Poscondiciones:</b><br><br></td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
+    INF-001</td>
 </tr>
 </table>
 
 <br>
 
-<table align = "center">
-<tr>
-    <td><b>INF-010:</b></td>
-    <td>"actor???"</td>
-</tr>
-<tr>
-    <td><b>Versión:</b></td>
-    <td>1.0 (Octubre-2022)</td>
-</tr>
-<tr>
-    <td><b>Autores:</b></td>
-    <td>Daniel López García, Eduardo Martín Gómez, Miguel Ángel Moncada Álvarez, Joaquín Murcia Escánez, Manuel Vallecillos Escobosa</td>
-</tr>
-<tr>
-    <td><b>Fuentes:</b></td>
-    <td>Entrevistas y reglamento</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b></td>
-    <td>- "nombre caso de uso???"</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b></td>
-    <td>"breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Datos específicos:</b></td>
-    <td>- "dato 1" <br>
-    - "dato 2" <br>
-    - "dato 3" <br>
-    - "dato 4" <br>
-    - "dato 5" <br></td>
-</tr>
-<tr>
-    <td><b>Importancia:</b></td>
-    <td>"Muy elevada | Elevada | Moderada"</td>
-</tr>
-<tr>
-    <td><b>Estado:</b></td>
-    <td>Aceptado</td>
-</tr>
-<tr>
-    <td><b>Comentarios:</b></td>
-    <td></td>
-</tr>
-</table>
-
-<br>
-
-- ### Dar de alta estudiante
+- ### **UC-03** Dar de alta estudiante
 
 <br>
 
@@ -274,56 +171,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-<table align = "center">
-<tr>
-    <td><b>INF-010:</b></td>
-    <td>"actor???"</td>
-</tr>
-<tr>
-    <td><b>Versión:</b></td>
-    <td>1.0 (Octubre-2022)</td>
-</tr>
-<tr>
-    <td><b>Autores:</b></td>
-    <td>Daniel López García, Eduardo Martín Gómez, Miguel Ángel Moncada Álvarez, Joaquín Murcia Escánez, Manuel Vallecillos Escobosa</td>
-</tr>
-<tr>
-    <td><b>Fuentes:</b></td>
-    <td>Entrevistas y reglamento</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b></td>
-    <td>- "nombre caso de uso???"</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b></td>
-    <td>"breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Datos específicos:</b></td>
-    <td>- "dato 1" <br>
-    - "dato 2" <br>
-    - "dato 3" <br>
-    - "dato 4" <br>
-    - "dato 5" <br></td>
-</tr>
-<tr>
-    <td><b>Importancia:</b></td>
-    <td>"Muy elevada | Elevada | Moderada"</td>
-</tr>
-<tr>
-    <td><b>Estado:</b></td>
-    <td>Aceptado</td>
-</tr>
-<tr>
-    <td><b>Comentarios:</b></td>
-    <td></td>
-</tr>
-</table>
-
-<br>
-
-- ### Dar de alta estudiante [vista PDI]
+- ### **UC-04** Dar de alta estudiante [vista PDI]
 
 <br>
 
@@ -376,56 +224,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-<table align = "center">
-<tr>
-    <td><b>INF-010:</b></td>
-    <td>"actor???"</td>
-</tr>
-<tr>
-    <td><b>Versión:</b></td>
-    <td>1.0 (Octubre-2022)</td>
-</tr>
-<tr>
-    <td><b>Autores:</b></td>
-    <td>Daniel López García, Eduardo Martín Gómez, Miguel Ángel Moncada Álvarez, Joaquín Murcia Escánez, Manuel Vallecillos Escobosa</td>
-</tr>
-<tr>
-    <td><b>Fuentes:</b></td>
-    <td>Entrevistas y reglamento</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b></td>
-    <td>- "nombre caso de uso???"</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b></td>
-    <td>"breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Datos específicos:</b></td>
-    <td>- "dato 1" <br>
-    - "dato 2" <br>
-    - "dato 3" <br>
-    - "dato 4" <br>
-    - "dato 5" <br></td>
-</tr>
-<tr>
-    <td><b>Importancia:</b></td>
-    <td>"Muy elevada | Elevada | Moderada"</td>
-</tr>
-<tr>
-    <td><b>Estado:</b></td>
-    <td>Aceptado</td>
-</tr>
-<tr>
-    <td><b>Comentarios:</b></td>
-    <td></td>
-</tr>
-</table>
-
-<br>
-
-- ### Modificar horario
+- ### **UC-05** Modificar horario
 
 <br>
 
@@ -478,56 +277,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-<table align = "center">
-<tr>
-    <td><b>INF-010:</b></td>
-    <td>"actor???"</td>
-</tr>
-<tr>
-    <td><b>Versión:</b></td>
-    <td>1.0 (Octubre-2022)</td>
-</tr>
-<tr>
-    <td><b>Autores:</b></td>
-    <td>Daniel López García, Eduardo Martín Gómez, Miguel Ángel Moncada Álvarez, Joaquín Murcia Escánez, Manuel Vallecillos Escobosa</td>
-</tr>
-<tr>
-    <td><b>Fuentes:</b></td>
-    <td>Entrevistas y reglamento</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b></td>
-    <td>- "nombre caso de uso???"</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b></td>
-    <td>"breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Datos específicos:</b></td>
-    <td>- "dato 1" <br>
-    - "dato 2" <br>
-    - "dato 3" <br>
-    - "dato 4" <br>
-    - "dato 5" <br></td>
-</tr>
-<tr>
-    <td><b>Importancia:</b></td>
-    <td>"Muy elevada | Elevada | Moderada"</td>
-</tr>
-<tr>
-    <td><b>Estado:</b></td>
-    <td>Aceptado</td>
-</tr>
-<tr>
-    <td><b>Comentarios:</b></td>
-    <td></td>
-</tr>
-</table>
-
-<br>
-
-- ### Proponer cambio de horario
+- ### **UC-06** Proponer cambio horario
 
 <br>
 
@@ -580,56 +330,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-<table align = "center">
-<tr>
-    <td><b>INF-010:</b></td>
-    <td>"actor???"</td>
-</tr>
-<tr>
-    <td><b>Versión:</b></td>
-    <td>1.0 (Octubre-2022)</td>
-</tr>
-<tr>
-    <td><b>Autores:</b></td>
-    <td>Daniel López García, Eduardo Martín Gómez, Miguel Ángel Moncada Álvarez, Joaquín Murcia Escánez, Manuel Vallecillos Escobosa</td>
-</tr>
-<tr>
-    <td><b>Fuentes:</b></td>
-    <td>Entrevistas y reglamento</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b></td>
-    <td>- "nombre caso de uso???"</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b></td>
-    <td>"breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Datos específicos:</b></td>
-    <td>- "dato 1" <br>
-    - "dato 2" <br>
-    - "dato 3" <br>
-    - "dato 4" <br>
-    - "dato 5" <br></td>
-</tr>
-<tr>
-    <td><b>Importancia:</b></td>
-    <td>"Muy elevada | Elevada | Moderada"</td>
-</tr>
-<tr>
-    <td><b>Estado:</b></td>
-    <td>Aceptado</td>
-</tr>
-<tr>
-    <td><b>Comentarios:</b></td>
-    <td></td>
-</tr>
-</table>
-
-<br>
-
-- ### Verificar datos
+- ### **UC-07** Verificar datos
 
 <br>
 
@@ -679,6 +380,220 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
     "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
 </tr>
 </table>
+
+<br>
+
+- ### **INF-001** Estudiante
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>INF-001:</b></td>
+    <td>Estudiante</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Octubre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Daniel López García</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Entrevistas y reglamento</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>UC-01, UC-02, UC-03, UC-04, UC-07</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>El sistema deberá almacenar la información correspondiente a los estudiantes de la universidad. En concreto:</td>
+</tr>
+<tr>
+    <td><b>Datos específicos:</b></td>
+    <td>- Identificador de estudiante<br>
+    - Número del documento nacional de identidad<br>
+    - Nombre y apellidos<br>
+    - Fecha de nacimiento<br>
+    - Sexo<br>
+    - Fecha de alta como estudiante<br>
+    - Dirección<br>
+    - Teléfonos<br>
+    - Correo electrónico</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
+
+- ### **INF-002** Estudiante
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>INF-010:</b></td>
+    <td>"actor???"</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Octubre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autores:</b></td>
+    <td>Daniel López García, Eduardo Martín Gómez, Miguel Ángel Moncada Álvarez, Joaquín Murcia Escánez, Manuel Vallecillos Escobosa</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Entrevistas y reglamento</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>- "nombre caso de uso???"</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>"breve descripción del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Datos específicos:</b></td>
+    <td>- "dato 1" <br>
+    - "dato 2" <br>
+    - "dato 3" <br>
+    - "dato 4" <br>
+    - "dato 5" <br></td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>"Muy elevada | Elevada | Moderada"</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+- ### **INF-002** Estudiante
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>INF-010:</b></td>
+    <td>"actor???"</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Octubre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autores:</b></td>
+    <td>Daniel López García, Eduardo Martín Gómez, Miguel Ángel Moncada Álvarez, Joaquín Murcia Escánez, Manuel Vallecillos Escobosa</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Entrevistas y reglamento</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>- "nombre caso de uso???"</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>"breve descripción del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Datos específicos:</b></td>
+    <td>- "dato 1" <br>
+    - "dato 2" <br>
+    - "dato 3" <br>
+    - "dato 4" <br>
+    - "dato 5" <br></td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>"Muy elevada | Elevada | Moderada"</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+- ### **INF-002** Estudiante
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>INF-010:</b></td>
+    <td>"actor???"</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Octubre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autores:</b></td>
+    <td>Daniel López García, Eduardo Martín Gómez, Miguel Ángel Moncada Álvarez, Joaquín Murcia Escánez, Manuel Vallecillos Escobosa</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Entrevistas y reglamento</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>- "nombre caso de uso???"</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>"breve descripción del caso de uso"</td>
+</tr>
+<tr>
+    <td><b>Datos específicos:</b></td>
+    <td>- "dato 1" <br>
+    - "dato 2" <br>
+    - "dato 3" <br>
+    - "dato 4" <br>
+    - "dato 5" <br></td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>"Muy elevada | Elevada | Moderada"</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+- ### **INF-002** Estudiante
 
 <br>
 
@@ -737,1837 +652,5 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <br>
 
 - ### Acordar precio
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>Identificador:</b><br>
-    UC-08</td>
-</tr>
-<tr>
-    <td><b>Nombre:</b><br>
-    Acordar precio</td>
-</tr>
-<tr>
-    <td><b>Autor:</b><br>
-    Miguel Ángel Moncada Álvarez</td>
-</tr>
-<tr>
-    <td><b>Fecha:</b><br>
-    01/10/2022</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
-</tr>
-</table>
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>INF-010:</b></td>
-    <td>"actor???"</td>
-</tr>
-<tr>
-    <td><b>Versión:</b></td>
-    <td>1.0 (Octubre-2022)</td>
-</tr>
-<tr>
-    <td><b>Autores:</b></td>
-    <td>Daniel López García, Eduardo Martín Gómez, Miguel Ángel Moncada Álvarez, Joaquín Murcia Escánez, Manuel Vallecillos Escobosa</td>
-</tr>
-<tr>
-    <td><b>Fuentes:</b></td>
-    <td>Entrevistas y reglamento</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b></td>
-    <td>- "nombre caso de uso???"</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b></td>
-    <td>"breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Datos específicos:</b></td>
-    <td>- "dato 1" <br>
-    - "dato 2" <br>
-    - "dato 3" <br>
-    - "dato 4" <br>
-    - "dato 5" <br></td>
-</tr>
-<tr>
-    <td><b>Importancia:</b></td>
-    <td>"Muy elevada | Elevada | Moderada"</td>
-</tr>
-<tr>
-    <td><b>Estado:</b></td>
-    <td>Aceptado</td>
-</tr>
-<tr>
-    <td><b>Comentarios:</b></td>
-    <td></td>
-</tr>
-</table>
-
-<br>
-
-- ### Agregar producto
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>Identificador:</b><br>
-    UC-09</td>
-</tr>
-<tr>
-    <td><b>Nombre:</b><br>
-    Agregar producto</td>
-</tr>
-<tr>
-    <td><b>Autor:</b><br>
-    Miguel Ángel Moncada Álvarez</td>
-</tr>
-<tr>
-    <td><b>Fecha:</b><br>
-    01/10/2022</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
-</tr>
-</table>
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>INF-010:</b></td>
-    <td>"actor???"</td>
-</tr>
-<tr>
-    <td><b>Versión:</b></td>
-    <td>1.0 (Octubre-2022)</td>
-</tr>
-<tr>
-    <td><b>Autores:</b></td>
-    <td>Daniel López García, Eduardo Martín Gómez, Miguel Ángel Moncada Álvarez, Joaquín Murcia Escánez, Manuel Vallecillos Escobosa</td>
-</tr>
-<tr>
-    <td><b>Fuentes:</b></td>
-    <td>Entrevistas y reglamento</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b></td>
-    <td>- "nombre caso de uso???"</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b></td>
-    <td>"breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Datos específicos:</b></td>
-    <td>- "dato 1" <br>
-    - "dato 2" <br>
-    - "dato 3" <br>
-    - "dato 4" <br>
-    - "dato 5" <br></td>
-</tr>
-<tr>
-    <td><b>Importancia:</b></td>
-    <td>"Muy elevada | Elevada | Moderada"</td>
-</tr>
-<tr>
-    <td><b>Estado:</b></td>
-    <td>Aceptado</td>
-</tr>
-<tr>
-    <td><b>Comentarios:</b></td>
-    <td></td>
-</tr>
-</table>
-
-<br>
-
-- ### Avisar
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>Identificador:</b><br>
-    UC-10</td>
-</tr>
-<tr>
-    <td><b>Nombre:</b><br>
-    Avisar</td>
-</tr>
-<tr>
-    <td><b>Autor:</b><br>
-    Miguel Ángel Moncada Álvarez</td>
-</tr>
-<tr>
-    <td><b>Fecha:</b><br>
-    01/10/2022</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
-</tr>
-</table>
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>INF-010:</b></td>
-    <td>"actor???"</td>
-</tr>
-<tr>
-    <td><b>Versión:</b></td>
-    <td>1.0 (Octubre-2022)</td>
-</tr>
-<tr>
-    <td><b>Autores:</b></td>
-    <td>Daniel López García, Eduardo Martín Gómez, Miguel Ángel Moncada Álvarez, Joaquín Murcia Escánez, Manuel Vallecillos Escobosa</td>
-</tr>
-<tr>
-    <td><b>Fuentes:</b></td>
-    <td>Entrevistas y reglamento</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b></td>
-    <td>- "nombre caso de uso???"</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b></td>
-    <td>"breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Datos específicos:</b></td>
-    <td>- "dato 1" <br>
-    - "dato 2" <br>
-    - "dato 3" <br>
-    - "dato 4" <br>
-    - "dato 5" <br></td>
-</tr>
-<tr>
-    <td><b>Importancia:</b></td>
-    <td>"Muy elevada | Elevada | Moderada"</td>
-</tr>
-<tr>
-    <td><b>Estado:</b></td>
-    <td>Aceptado</td>
-</tr>
-<tr>
-    <td><b>Comentarios:</b></td>
-    <td></td>
-</tr>
-</table>
-
-<br>
-
-- ### Avisar de nuevo producto
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>Identificador:</b><br>
-    UC-11</td>
-</tr>
-<tr>
-    <td><b>Nombre:</b><br>
-    Avisar de nuevo producto</td>
-</tr>
-<tr>
-    <td><b>Autor:</b><br>
-    Miguel Ángel Moncada Álvarez</td>
-</tr>
-<tr>
-    <td><b>Fecha:</b><br>
-    01/10/2022</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
-</tr>
-</table>
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>INF-010:</b></td>
-    <td>"actor???"</td>
-</tr>
-<tr>
-    <td><b>Versión:</b></td>
-    <td>1.0 (Octubre-2022)</td>
-</tr>
-<tr>
-    <td><b>Autores:</b></td>
-    <td>Daniel López García, Eduardo Martín Gómez, Miguel Ángel Moncada Álvarez, Joaquín Murcia Escánez, Manuel Vallecillos Escobosa</td>
-</tr>
-<tr>
-    <td><b>Fuentes:</b></td>
-    <td>Entrevistas y reglamento</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b></td>
-    <td>- "nombre caso de uso???"</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b></td>
-    <td>"breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Datos específicos:</b></td>
-    <td>- "dato 1" <br>
-    - "dato 2" <br>
-    - "dato 3" <br>
-    - "dato 4" <br>
-    - "dato 5" <br></td>
-</tr>
-<tr>
-    <td><b>Importancia:</b></td>
-    <td>"Muy elevada | Elevada | Moderada"</td>
-</tr>
-<tr>
-    <td><b>Estado:</b></td>
-    <td>Aceptado</td>
-</tr>
-<tr>
-    <td><b>Comentarios:</b></td>
-    <td></td>
-</tr>
-</table>
-
-<br>
-
-- ### Avisar fin de oferta
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>Identificador:</b><br>
-    UC-12</td>
-</tr>
-<tr>
-    <td><b>Nombre:</b><br>
-    Avisar fin de oferta</td>
-</tr>
-<tr>
-    <td><b>Autor:</b><br>
-    Miguel Ángel Moncada Álvarez</td>
-</tr>
-<tr>
-    <td><b>Fecha:</b><br>
-    01/10/2022</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
-</tr>
-</table>
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>INF-010:</b></td>
-    <td>"actor???"</td>
-</tr>
-<tr>
-    <td><b>Versión:</b></td>
-    <td>1.0 (Octubre-2022)</td>
-</tr>
-<tr>
-    <td><b>Autores:</b></td>
-    <td>Daniel López García, Eduardo Martín Gómez, Miguel Ángel Moncada Álvarez, Joaquín Murcia Escánez, Manuel Vallecillos Escobosa</td>
-</tr>
-<tr>
-    <td><b>Fuentes:</b></td>
-    <td>Entrevistas y reglamento</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b></td>
-    <td>- "nombre caso de uso???"</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b></td>
-    <td>"breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Datos específicos:</b></td>
-    <td>- "dato 1" <br>
-    - "dato 2" <br>
-    - "dato 3" <br>
-    - "dato 4" <br>
-    - "dato 5" <br></td>
-</tr>
-<tr>
-    <td><b>Importancia:</b></td>
-    <td>"Muy elevada | Elevada | Moderada"</td>
-</tr>
-<tr>
-    <td><b>Estado:</b></td>
-    <td>Aceptado</td>
-</tr>
-<tr>
-    <td><b>Comentarios:</b></td>
-    <td></td>
-</tr>
-</table>
-
-<br>
-
-- ### Buscar producto
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>Identificador:</b><br>
-    UC-13</td>
-</tr>
-<tr>
-    <td><b>Nombre:</b><br>
-    Buscar producto</td>
-</tr>
-<tr>
-    <td><b>Autor:</b><br>
-    Miguel Ángel Moncada Álvarez</td>
-</tr>
-<tr>
-    <td><b>Fecha:</b><br>
-    01/10/2022</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
-</tr>
-</table>
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>INF-010:</b></td>
-    <td>"actor???"</td>
-</tr>
-<tr>
-    <td><b>Versión:</b></td>
-    <td>1.0 (Octubre-2022)</td>
-</tr>
-<tr>
-    <td><b>Autores:</b></td>
-    <td>Daniel López García, Eduardo Martín Gómez, Miguel Ángel Moncada Álvarez, Joaquín Murcia Escánez, Manuel Vallecillos Escobosa</td>
-</tr>
-<tr>
-    <td><b>Fuentes:</b></td>
-    <td>Entrevistas y reglamento</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b></td>
-    <td>- "nombre caso de uso???"</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b></td>
-    <td>"breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Datos específicos:</b></td>
-    <td>- "dato 1" <br>
-    - "dato 2" <br>
-    - "dato 3" <br>
-    - "dato 4" <br>
-    - "dato 5" <br></td>
-</tr>
-<tr>
-    <td><b>Importancia:</b></td>
-    <td>"Muy elevada | Elevada | Moderada"</td>
-</tr>
-<tr>
-    <td><b>Estado:</b></td>
-    <td>Aceptado</td>
-</tr>
-<tr>
-    <td><b>Comentarios:</b></td>
-    <td></td>
-</tr>
-</table>
-
-<br>
-
-- ### Consultar histórico de precios
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>Identificador:</b><br>
-    UC-14</td>
-</tr>
-<tr>
-    <td><b>Nombre:</b><br>
-    Consultar histórico de precios</td>
-</tr>
-<tr>
-    <td><b>Autor:</b><br>
-    Miguel Ángel Moncada Álvarez</td>
-</tr>
-<tr>
-    <td><b>Fecha:</b><br>
-    01/10/2022</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
-</tr>
-</table>
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>INF-010:</b></td>
-    <td>"actor???"</td>
-</tr>
-<tr>
-    <td><b>Versión:</b></td>
-    <td>1.0 (Octubre-2022)</td>
-</tr>
-<tr>
-    <td><b>Autores:</b></td>
-    <td>Daniel López García, Eduardo Martín Gómez, Miguel Ángel Moncada Álvarez, Joaquín Murcia Escánez, Manuel Vallecillos Escobosa</td>
-</tr>
-<tr>
-    <td><b>Fuentes:</b></td>
-    <td>Entrevistas y reglamento</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b></td>
-    <td>- "nombre caso de uso???"</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b></td>
-    <td>"breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Datos específicos:</b></td>
-    <td>- "dato 1" <br>
-    - "dato 2" <br>
-    - "dato 3" <br>
-    - "dato 4" <br>
-    - "dato 5" <br></td>
-</tr>
-<tr>
-    <td><b>Importancia:</b></td>
-    <td>"Muy elevada | Elevada | Moderada"</td>
-</tr>
-<tr>
-    <td><b>Estado:</b></td>
-    <td>Aceptado</td>
-</tr>
-<tr>
-    <td><b>Comentarios:</b></td>
-    <td></td>
-</tr>
-</table>
-
-<br>
-
-- ### Consultar oferta
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>Identificador:</b><br>
-    UC-15</td>
-</tr>
-<tr>
-    <td><b>Nombre:</b><br>
-    Consultar oferta</td>
-</tr>
-<tr>
-    <td><b>Autor:</b><br>
-    Miguel Ángel Moncada Álvarez</td>
-</tr>
-<tr>
-    <td><b>Fecha:</b><br>
-    01/10/2022</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
-</tr>
-</table>
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>INF-010:</b></td>
-    <td>"actor???"</td>
-</tr>
-<tr>
-    <td><b>Versión:</b></td>
-    <td>1.0 (Octubre-2022)</td>
-</tr>
-<tr>
-    <td><b>Autores:</b></td>
-    <td>Daniel López García, Eduardo Martín Gómez, Miguel Ángel Moncada Álvarez, Joaquín Murcia Escánez, Manuel Vallecillos Escobosa</td>
-</tr>
-<tr>
-    <td><b>Fuentes:</b></td>
-    <td>Entrevistas y reglamento</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b></td>
-    <td>- "nombre caso de uso???"</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b></td>
-    <td>"breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Datos específicos:</b></td>
-    <td>- "dato 1" <br>
-    - "dato 2" <br>
-    - "dato 3" <br>
-    - "dato 4" <br>
-    - "dato 5" <br></td>
-</tr>
-<tr>
-    <td><b>Importancia:</b></td>
-    <td>"Muy elevada | Elevada | Moderada"</td>
-</tr>
-<tr>
-    <td><b>Estado:</b></td>
-    <td>Aceptado</td>
-</tr>
-<tr>
-    <td><b>Comentarios:</b></td>
-    <td></td>
-</tr>
-</table>
-
-<br>
-
-- ### Consultar precio
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>Identificador:</b><br>
-    UC-16</td>
-</tr>
-<tr>
-    <td><b>Nombre:</b><br>
-    Consultar precio</td>
-</tr>
-<tr>
-    <td><b>Autor:</b><br>
-    Miguel Ángel Moncada Álvarez</td>
-</tr>
-<tr>
-    <td><b>Fecha:</b><br>
-    01/10/2022</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
-</tr>
-</table>
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>INF-010:</b></td>
-    <td>"actor???"</td>
-</tr>
-<tr>
-    <td><b>Versión:</b></td>
-    <td>1.0 (Octubre-2022)</td>
-</tr>
-<tr>
-    <td><b>Autores:</b></td>
-    <td>Daniel López García, Eduardo Martín Gómez, Miguel Ángel Moncada Álvarez, Joaquín Murcia Escánez, Manuel Vallecillos Escobosa</td>
-</tr>
-<tr>
-    <td><b>Fuentes:</b></td>
-    <td>Entrevistas y reglamento</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b></td>
-    <td>- "nombre caso de uso???"</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b></td>
-    <td>"breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Datos específicos:</b></td>
-    <td>- "dato 1" <br>
-    - "dato 2" <br>
-    - "dato 3" <br>
-    - "dato 4" <br>
-    - "dato 5" <br></td>
-</tr>
-<tr>
-    <td><b>Importancia:</b></td>
-    <td>"Muy elevada | Elevada | Moderada"</td>
-</tr>
-<tr>
-    <td><b>Estado:</b></td>
-    <td>Aceptado</td>
-</tr>
-<tr>
-    <td><b>Comentarios:</b></td>
-    <td></td>
-</tr>
-</table>
-
-<br>
-
-- ### Consultar producto
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>Identificador:</b><br>
-    UC-17</td>
-</tr>
-<tr>
-    <td><b>Nombre:</b><br>
-    Consultar producto</td>
-</tr>
-<tr>
-    <td><b>Autor:</b><br>
-    Miguel Ángel Moncada Álvarez</td>
-</tr>
-<tr>
-    <td><b>Fecha:</b><br>
-    01/10/2022</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
-</tr>
-</table>
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>INF-010:</b></td>
-    <td>"actor???"</td>
-</tr>
-<tr>
-    <td><b>Versión:</b></td>
-    <td>1.0 (Octubre-2022)</td>
-</tr>
-<tr>
-    <td><b>Autores:</b></td>
-    <td>Daniel López García, Eduardo Martín Gómez, Miguel Ángel Moncada Álvarez, Joaquín Murcia Escánez, Manuel Vallecillos Escobosa</td>
-</tr>
-<tr>
-    <td><b>Fuentes:</b></td>
-    <td>Entrevistas y reglamento</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b></td>
-    <td>- "nombre caso de uso???"</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b></td>
-    <td>"breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Datos específicos:</b></td>
-    <td>- "dato 1" <br>
-    - "dato 2" <br>
-    - "dato 3" <br>
-    - "dato 4" <br>
-    - "dato 5" <br></td>
-</tr>
-<tr>
-    <td><b>Importancia:</b></td>
-    <td>"Muy elevada | Elevada | Moderada"</td>
-</tr>
-<tr>
-    <td><b>Estado:</b></td>
-    <td>Aceptado</td>
-</tr>
-<tr>
-    <td><b>Comentarios:</b></td>
-    <td></td>
-</tr>
-</table>
-
-<br>
-
-- ### Eliminar oferta
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>Identificador:</b><br>
-    UC-18</td>
-</tr>
-<tr>
-    <td><b>Nombre:</b><br>
-    Eliminar oferta</td>
-</tr>
-<tr>
-    <td><b>Autor:</b><br>
-    Miguel Ángel Moncada Álvarez</td>
-</tr>
-<tr>
-    <td><b>Fecha:</b><br>
-    01/10/2022</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
-</tr>
-</table>
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>INF-010:</b></td>
-    <td>"actor???"</td>
-</tr>
-<tr>
-    <td><b>Versión:</b></td>
-    <td>1.0 (Octubre-2022)</td>
-</tr>
-<tr>
-    <td><b>Autores:</b></td>
-    <td>Daniel López García, Eduardo Martín Gómez, Miguel Ángel Moncada Álvarez, Joaquín Murcia Escánez, Manuel Vallecillos Escobosa</td>
-</tr>
-<tr>
-    <td><b>Fuentes:</b></td>
-    <td>Entrevistas y reglamento</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b></td>
-    <td>- "nombre caso de uso???"</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b></td>
-    <td>"breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Datos específicos:</b></td>
-    <td>- "dato 1" <br>
-    - "dato 2" <br>
-    - "dato 3" <br>
-    - "dato 4" <br>
-    - "dato 5" <br></td>
-</tr>
-<tr>
-    <td><b>Importancia:</b></td>
-    <td>"Muy elevada | Elevada | Moderada"</td>
-</tr>
-<tr>
-    <td><b>Estado:</b></td>
-    <td>Aceptado</td>
-</tr>
-<tr>
-    <td><b>Comentarios:</b></td>
-    <td></td>
-</tr>
-</table>
-
-<br>
-
-- ### Eliminar producto
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>Identificador:</b><br>
-    UC-19</td>
-</tr>
-<tr>
-    <td><b>Nombre:</b><br>
-    Eliminar producto</td>
-</tr>
-<tr>
-    <td><b>Autor:</b><br>
-    Miguel Ángel Moncada Álvarez</td>
-</tr>
-<tr>
-    <td><b>Fecha:</b><br>
-    01/10/2022</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
-</tr>
-</table>
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>INF-010:</b></td>
-    <td>"actor???"</td>
-</tr>
-<tr>
-    <td><b>Versión:</b></td>
-    <td>1.0 (Octubre-2022)</td>
-</tr>
-<tr>
-    <td><b>Autores:</b></td>
-    <td>Daniel López García, Eduardo Martín Gómez, Miguel Ángel Moncada Álvarez, Joaquín Murcia Escánez, Manuel Vallecillos Escobosa</td>
-</tr>
-<tr>
-    <td><b>Fuentes:</b></td>
-    <td>Entrevistas y reglamento</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b></td>
-    <td>- "nombre caso de uso???"</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b></td>
-    <td>"breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Datos específicos:</b></td>
-    <td>- "dato 1" <br>
-    - "dato 2" <br>
-    - "dato 3" <br>
-    - "dato 4" <br>
-    - "dato 5" <br></td>
-</tr>
-<tr>
-    <td><b>Importancia:</b></td>
-    <td>"Muy elevada | Elevada | Moderada"</td>
-</tr>
-<tr>
-    <td><b>Estado:</b></td>
-    <td>Aceptado</td>
-</tr>
-<tr>
-    <td><b>Comentarios:</b></td>
-    <td></td>
-</tr>
-</table>
-
-<br>
-
-- ###   Enviar notificación
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>Identificador:</b><br>
-    UC-20</td>
-</tr>
-<tr>
-    <td><b>Nombre:</b><br>
-    Enviar notificación</td>
-</tr>
-<tr>
-    <td><b>Autor:</b><br>
-    Miguel Ángel Moncada Álvarez</td>
-</tr>
-<tr>
-    <td><b>Fecha:</b><br>
-    01/10/2022</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
-</tr>
-</table>
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>INF-010:</b></td>
-    <td>"actor???"</td>
-</tr>
-<tr>
-    <td><b>Versión:</b></td>
-    <td>1.0 (Octubre-2022)</td>
-</tr>
-<tr>
-    <td><b>Autores:</b></td>
-    <td>Daniel López García, Eduardo Martín Gómez, Miguel Ángel Moncada Álvarez, Joaquín Murcia Escánez, Manuel Vallecillos Escobosa</td>
-</tr>
-<tr>
-    <td><b>Fuentes:</b></td>
-    <td>Entrevistas y reglamento</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b></td>
-    <td>- "nombre caso de uso???"</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b></td>
-    <td>"breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Datos específicos:</b></td>
-    <td>- "dato 1" <br>
-    - "dato 2" <br>
-    - "dato 3" <br>
-    - "dato 4" <br>
-    - "dato 5" <br></td>
-</tr>
-<tr>
-    <td><b>Importancia:</b></td>
-    <td>"Muy elevada | Elevada | Moderada"</td>
-</tr>
-<tr>
-    <td><b>Estado:</b></td>
-    <td>Aceptado</td>
-</tr>
-<tr>
-    <td><b>Comentarios:</b></td>
-    <td></td>
-</tr>
-</table>
-
-<br>
-
-- ### Finalizar compra
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>Identificador:</b><br>
-    UC-21</td>
-</tr>
-<tr>
-    <td><b>Nombre:</b><br>
-    Finalizar compra</td>
-</tr>
-<tr>
-    <td><b>Autor:</b><br>
-    Miguel Ángel Moncada Álvarez</td>
-</tr>
-<tr>
-    <td><b>Fecha:</b><br>
-    01/10/2022</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
-</tr>
-</table>
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>INF-010:</b></td>
-    <td>"actor???"</td>
-</tr>
-<tr>
-    <td><b>Versión:</b></td>
-    <td>1.0 (Octubre-2022)</td>
-</tr>
-<tr>
-    <td><b>Autores:</b></td>
-    <td>Daniel López García, Eduardo Martín Gómez, Miguel Ángel Moncada Álvarez, Joaquín Murcia Escánez, Manuel Vallecillos Escobosa</td>
-</tr>
-<tr>
-    <td><b>Fuentes:</b></td>
-    <td>Entrevistas y reglamento</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b></td>
-    <td>- "nombre caso de uso???"</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b></td>
-    <td>"breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Datos específicos:</b></td>
-    <td>- "dato 1" <br>
-    - "dato 2" <br>
-    - "dato 3" <br>
-    - "dato 4" <br>
-    - "dato 5" <br></td>
-</tr>
-<tr>
-    <td><b>Importancia:</b></td>
-    <td>"Muy elevada | Elevada | Moderada"</td>
-</tr>
-<tr>
-    <td><b>Estado:</b></td>
-    <td>Aceptado</td>
-</tr>
-<tr>
-    <td><b>Comentarios:</b></td>
-    <td></td>
-</tr>
-</table>
-
-<br>
-
-- ### Incorporar oferta
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>Identificador:</b><br>
-    UC-22</td>
-</tr>
-<tr>
-    <td><b>Nombre:</b><br>
-    Incorporar oferta</td>
-</tr>
-<tr>
-    <td><b>Autor:</b><br>
-    Miguel Ángel Moncada Álvarez</td>
-</tr>
-<tr>
-    <td><b>Fecha:</b><br>
-    01/10/2022</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
-</tr>
-</table>
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>INF-010:</b></td>
-    <td>"actor???"</td>
-</tr>
-<tr>
-    <td><b>Versión:</b></td>
-    <td>1.0 (Octubre-2022)</td>
-</tr>
-<tr>
-    <td><b>Autores:</b></td>
-    <td>Daniel López García, Eduardo Martín Gómez, Miguel Ángel Moncada Álvarez, Joaquín Murcia Escánez, Manuel Vallecillos Escobosa</td>
-</tr>
-<tr>
-    <td><b>Fuentes:</b></td>
-    <td>Entrevistas y reglamento</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b></td>
-    <td>- "nombre caso de uso???"</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b></td>
-    <td>"breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Datos específicos:</b></td>
-    <td>- "dato 1" <br>
-    - "dato 2" <br>
-    - "dato 3" <br>
-    - "dato 4" <br>
-    - "dato 5" <br></td>
-</tr>
-<tr>
-    <td><b>Importancia:</b></td>
-    <td>"Muy elevada | Elevada | Moderada"</td>
-</tr>
-<tr>
-    <td><b>Estado:</b></td>
-    <td>Aceptado</td>
-</tr>
-<tr>
-    <td><b>Comentarios:</b></td>
-    <td></td>
-</tr>
-</table>
-
-<br>
-
-- ### Marcar producto como bloqueado
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>Identificador:</b><br>
-    UC-23</td>
-</tr>
-<tr>
-    <td><b>Nombre:</b><br>
-    Marcar producto como bloqueado</td>
-</tr>
-<tr>
-    <td><b>Autor:</b><br>
-    Miguel Ángel Moncada Álvarez</td>
-</tr>
-<tr>
-    <td><b>Fecha:</b><br>
-    01/10/2022</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
-</tr>
-</table>
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>INF-010:</b></td>
-    <td>"actor???"</td>
-</tr>
-<tr>
-    <td><b>Versión:</b></td>
-    <td>1.0 (Octubre-2022)</td>
-</tr>
-<tr>
-    <td><b>Autores:</b></td>
-    <td>Daniel López García, Eduardo Martín Gómez, Miguel Ángel Moncada Álvarez, Joaquín Murcia Escánez, Manuel Vallecillos Escobosa</td>
-</tr>
-<tr>
-    <td><b>Fuentes:</b></td>
-    <td>Entrevistas y reglamento</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b></td>
-    <td>- "nombre caso de uso???"</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b></td>
-    <td>"breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Datos específicos:</b></td>
-    <td>- "dato 1" <br>
-    - "dato 2" <br>
-    - "dato 3" <br>
-    - "dato 4" <br>
-    - "dato 5" <br></td>
-</tr>
-<tr>
-    <td><b>Importancia:</b></td>
-    <td>"Muy elevada | Elevada | Moderada"</td>
-</tr>
-<tr>
-    <td><b>Estado:</b></td>
-    <td>Aceptado</td>
-</tr>
-<tr>
-    <td><b>Comentarios:</b></td>
-    <td></td>
-</tr>
-</table>
-
-<br>
-
-- ### Realizar venta
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>Identificador:</b><br>
-    UC-24</td>
-</tr>
-<tr>
-    <td><b>Nombre:</b><br>
-    Realizar venta</td>
-</tr>
-<tr>
-    <td><b>Autor:</b><br>
-    Miguel Ángel Moncada Álvarez</td>
-</tr>
-<tr>
-    <td><b>Fecha:</b><br>
-    01/10/2022</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
-</tr>
-</table>
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>INF-010:</b></td>
-    <td>"actor???"</td>
-</tr>
-<tr>
-    <td><b>Versión:</b></td>
-    <td>1.0 (Octubre-2022)</td>
-</tr>
-<tr>
-    <td><b>Autores:</b></td>
-    <td>Daniel López García, Eduardo Martín Gómez, Miguel Ángel Moncada Álvarez, Joaquín Murcia Escánez, Manuel Vallecillos Escobosa</td>
-</tr>
-<tr>
-    <td><b>Fuentes:</b></td>
-    <td>Entrevistas y reglamento</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b></td>
-    <td>- "nombre caso de uso???"</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b></td>
-    <td>"breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Datos específicos:</b></td>
-    <td>- "dato 1" <br>
-    - "dato 2" <br>
-    - "dato 3" <br>
-    - "dato 4" <br>
-    - "dato 5" <br></td>
-</tr>
-<tr>
-    <td><b>Importancia:</b></td>
-    <td>"Muy elevada | Elevada | Moderada"</td>
-</tr>
-<tr>
-    <td><b>Estado:</b></td>
-    <td>Aceptado</td>
-</tr>
-<tr>
-    <td><b>Comentarios:</b></td>
-    <td></td>
-</tr>
-</table>
-
-<br>
-
-- ### Verificar disponibilidad del producto
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>Identificador:</b><br>
-    UC-25</td>
-</tr>
-<tr>
-    <td><b>Nombre:</b><br>
-    Verificar disponibilidad del producto</td>
-</tr>
-<tr>
-    <td><b>Autor:</b><br>
-    Miguel Ángel Moncada Álvarez</td>
-</tr>
-<tr>
-    <td><b>Fecha:</b><br>
-    01/10/2022</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
-</tr>
-</table>
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>INF-010:</b></td>
-    <td>"actor???"</td>
-</tr>
-<tr>
-    <td><b>Versión:</b></td>
-    <td>1.0 (Octubre-2022)</td>
-</tr>
-<tr>
-    <td><b>Autores:</b></td>
-    <td>Daniel López García, Eduardo Martín Gómez, Miguel Ángel Moncada Álvarez, Joaquín Murcia Escánez, Manuel Vallecillos Escobosa</td>
-</tr>
-<tr>
-    <td><b>Fuentes:</b></td>
-    <td>Entrevistas y reglamento</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b></td>
-    <td>- "nombre caso de uso???"</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b></td>
-    <td>"breve descripción del caso de uso"</td>
-</tr>
-<tr>
-    <td><b>Datos específicos:</b></td>
-    <td>- "dato 1" <br>
-    - "dato 2" <br>
-    - "dato 3" <br>
-    - "dato 4" <br>
-    - "dato 5" <br></td>
-</tr>
-<tr>
-    <td><b>Importancia:</b></td>
-    <td>"Muy elevada | Elevada | Moderada"</td>
-</tr>
-<tr>
-    <td><b>Estado:</b></td>
-    <td>Aceptado</td>
-</tr>
-<tr>
-    <td><b>Comentarios:</b></td>
-    <td></td>
-</tr>
-</table>
 
 <br>
