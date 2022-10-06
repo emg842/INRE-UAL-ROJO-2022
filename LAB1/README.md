@@ -284,7 +284,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-02, UC-06, IR-02, IR-04</td>
+    IR-02, IR-04</td>
 </tr>
 </table>
 
@@ -340,7 +340,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-05, IR-02, IR-03, IR-04</td>
+    IR-03, IR-04</td>
 </tr>
 </table>
 
@@ -423,7 +423,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-01, UC-02, UC-03, UC-04, UC-07, IR-01, IR-02, IR-04</td>
+    <td>UC-01, UC-02, UC-03, UC-04, UC-07, IR-02, IR-03, IR-04, IR-05</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -537,7 +537,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-02, UC-03, UC-04, UC-06, UC-07, IR-01, IR-04</td>
+    <td>UC-01, UC-02, UC-03, UC-04, UC-06, UC-07, IR-01, IR-04, IR-05</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -594,7 +594,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-02, UC-05, UC-06, IR-01, IR-02, IR-03</td>
+    <td>UC-02, UC-05, UC-06, IR-01, IR-02, IR-03, IR-05</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -603,7 +603,8 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- Identificador de usuario al que corresponde el horario<br>
-    - Asignatura cuyas clases tienen lugar en cada tramo horario<br>
+    - Listado de tramos horarios en los que se divide cada día<br>
+    - Identificadores de las clases que tienen lugar en cada tramo horario<br>
     - Nota creada por el usuario para un día en específico</td>
 </tr>
 <tr>
@@ -645,7 +646,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-01, UC-04, IR-01</td>
+    <td>UC-01, UC-03, UC-04, IR-01</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -657,7 +658,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
     - Nombre del aulario asignado<br>
     - Nombre del aula asignada<br>
     - Número de estudiantes<br>
-    - Listado de identificadores de estudiantes<br></td>
+    - Listado de identificadores de estudiantes inscritos<br></td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
