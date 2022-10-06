@@ -1,0 +1,90 @@
+@startuml gestion_biblioteca
+title Gestión Biblioteca
+
+Entity Autor {
+    idAutor : String
+}
+Entity Bibliotecario {
+    idBibliotecario : String
+}
+Entity Devolucion {
+    idBibliotecario : String
+    idEjemplar : String
+    sancion : Double
+}
+Entity Editorial {
+    idEditorial : String
+}
+Entity Ejemplar {
+    idEjemplar : String
+    idLibro : String
+}
+Entity EjemplarSacado {
+    idBibliotecario : String
+    idEjemplar : String
+}
+Entity Libro {
+    idLibro : String
+    idAutor : String
+    idEditorial : String
+    idTema : String
+}
+Entity Peticion {
+    idLibro : String
+    idUsuario : String
+    catalogado : Boolean
+}
+Entity Reserva {
+    idEjemplar : String
+    idUsuario : idUsuario
+}
+Entity Tema {
+    idTema : String
+}
+Entity Usuario {
+    idUsuario : String
+}
+
+/'Para cada libro hay uno o varios ejemplares'/
+Libro "1" --- "1..*" Ejemplar : formadoPor
+
+/'Por un lado están los usuarios que podrán acceder al sistema para buscar un libro, ...'/
+Usuario "1..*" - "1..*" Libro : busca
+
+/'... reservar un ejemplar, ...'/
+Usuario "1" --- "1..*" Ejemplar
+(Usuario, Ejemplar) . Reserva
+
+/'... y pedir un libro que esté catalogado o que no esté catalogado ...'/
+Usuario "1..*" --- "1..*" Libro
+(Usuario, Libro) . Peticion
+
+/'El bibliotecario podrá sacar un ejemplar, ...'/
+Bibliotecario "1" --- "1..*" Ejemplar
+(Bibliotecario, Ejemplar) . EjemplarSacado
+
+/'y devolver un ejemplar'/
+Bibliotecario "1" --- "1..*" Ejemplar
+(Bibliotecario, Ejemplar) . Devolucion
+
+/'El bibliotecario también puede dar de alta y de baja un libro nuevo'/
+Bibliotecario "1" --- "1..*" Libro : daAlta
+Bibliotecario "1" --- "1..*" Libro : daBaja
+
+/'Durante el proceso de alta, el autor, la editorial y el tema deben estar catalogados en el sistema, de no ser así, será necesario darlos de alta'/
+Bibliotecario "1" --- "1..*" Autor : daAlta
+Bibliotecario "1" --- "1..*" Editorial : daAlta
+Bibliotecario "1" --- "1..*" Tema : daAlta
+
+/'... y también de baja, ...'/
+Bibliotecario "1" --- "1..*" Autor : daBaja
+Bibliotecario "1" --- "1..*" Editorial : daBaja
+Bibliotecario "1" --- "1..*" Tema : daBaja
+
+/'... y podrá modificar los datos de un libro'/
+Bibliotecario "1..*" --- "1..*" Libro : modificaDatos
+
+/'La baja y la modificacion de un libro requiere una búsqueda del libro'/
+Bibliotecario "1..*" --- "1..*" Libro : busca
+
+@enduml
