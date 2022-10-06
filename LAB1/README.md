@@ -59,7 +59,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-04, INF-01, INF-03</td>
+    UC-04, IR-01, IR-03</td>
 </tr>
 </table>
 
@@ -112,7 +112,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    INF-01, INF-02, INF-03</td>
+    IR-01, IR-02, IR-03, IR-04</td>
 </tr>
 </table>
 
@@ -169,7 +169,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-04, UC-07, INF-01, INF-02, INF-03 </td>
+    UC-04, UC-07, IR-01, IR-02, IR-03 </td>
 </tr>
 </table>
 
@@ -226,7 +226,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-01, UC-03, UC-07, INF-01, INF-03 </td>
+    UC-01, UC-03, UC-07, IR-01, IR-03, IR-05 </td>
 </tr>
 </table>
 
@@ -284,7 +284,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-02, UC-06, INF-02</td>
+    UC-02, UC-06, IR-02, IR-04</td>
 </tr>
 </table>
 
@@ -340,7 +340,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-05, INF-02, INF-03</td>
+    UC-05, IR-02, IR-03, IR-04</td>
 </tr>
 </table>
 
@@ -394,19 +394,19 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-03, UC-04, INF-01, INF-02, INF-03</td>
+    UC-03, UC-04, IR-01, IR-02, IR-03</td>
 </tr>
 </table>
 
 <br>
 
-- ### INF-01 *Estudiante*
+- ### IR-01 *Estudiante*
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>INF-01:</b></td>
+    <td><b>IR-01:</b></td>
     <td>Estudiante</td>
 </tr>
 <tr>
@@ -423,7 +423,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-01, UC-02, UC-03, UC-04, UC-07, INF-01, INF-02</td>
+    <td>UC-01, UC-02, UC-03, UC-04, UC-07, IR-01, IR-02, IR-04</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -457,13 +457,13 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### INF-02 *PAS*
+- ### IR-02 *PAS*
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>INF-02:</b></td>
+    <td><b>IR-02:</b></td>
     <td>PAS</td>
 </tr>
 <tr>
@@ -480,7 +480,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-02, UC-03, UC-05, UC-07, INF-01</td>
+    <td>UC-02, UC-03, UC-05, UC-07, IR-01, IR-04</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -514,13 +514,13 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### INF-03 *PDI*
+- ### IR-03 *PDI*
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>INF-03:</b></td>
+    <td><b>IR-03:</b></td>
     <td>PDI</td>
 </tr>
 <tr>
@@ -537,7 +537,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-02, UC-03, UC-04, UC-06, UC-07, INF-01</td>
+    <td>UC-02, UC-03, UC-04, UC-06, UC-07, IR-01, IR-04</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -554,6 +554,110 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
     - Dirección<br>
     - Teléfonos<br>
     - Correo electrónico</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
+
+- ### IR-04 *Horario*
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>IR-04:</b></td>
+    <td>Horario</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Octubre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Daniel López García</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Entrevistas y reglamento</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>UC-02, UC-05, UC-06, IR-01, IR-02, IR-03</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>El sistema deberá almacenar la información correspondiente al horario de la universidad. En concreto:</td>
+</tr>
+<tr>
+    <td><b>Datos específicos:</b></td>
+    <td>- Identificador de usuario al que corresponde el horario<br>
+    - Asignatura cuyas clases tienen lugar en cada tramo horario<br>
+    - Nota creada por el usuario para un día en específico</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
+
+- ### IR-05 *Clase*
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>IR-05:</b></td>
+    <td>Clase</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Octubre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Daniel López García</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Entrevistas y reglamento</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>UC-01, UC-04, IR-01</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>El sistema deberá almacenar la información correspondiente a las clases de la universidad. En concreto:</td>
+</tr>
+<tr>
+    <td><b>Datos específicos:</b></td>
+    <td>- Identificador de clase<br>
+    - Nombre del aulario asignado<br>
+    - Nombre del aula asignada<br>
+    - Número de estudiantes<br>
+    - Listado de identificadores de estudiantes<br></td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -623,7 +727,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
 </tr>
 </table>
 
@@ -676,7 +780,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
 </tr>
 </table>
 
@@ -729,7 +833,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
 </tr>
 </table>
 
@@ -782,7 +886,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
 </tr>
 </table>
 
@@ -835,7 +939,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
 </tr>
 </table>
 
@@ -888,7 +992,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
 </tr>
 </table>
 
@@ -941,7 +1045,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
 </tr>
 </table>
 
@@ -994,7 +1098,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
 </tr>
 </table>
 
@@ -1047,7 +1151,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
 </tr>
 </table>
 
@@ -1100,7 +1204,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
 </tr>
 </table>
 
@@ -1153,7 +1257,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
 </tr>
 </table>
 
@@ -1206,7 +1310,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
 </tr>
 </table>
 
@@ -1259,7 +1363,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
 </tr>
 </table>
 
@@ -1312,7 +1416,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
 </tr>
 </table>
 
@@ -1365,7 +1469,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
 </tr>
 </table>
 
@@ -1418,7 +1522,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
 </tr>
 </table>
 
@@ -1471,7 +1575,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
 </tr>
 </table>
 
@@ -1524,19 +1628,19 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
 </tr>
 </table>
 
 <br>
 
-- ### INF-04 *Administrador*
+- ### IR-04 *Administrador*
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>INF-04:</b></td>
+    <td><b>IR-04:</b></td>
     <td>Administrador</td>
 </tr>
 <tr>
@@ -1553,7 +1657,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>"referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+    <td>"referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -1583,13 +1687,13 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### INF-05 *Comprador*
+- ### IR-05 *Comprador*
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>INF-05:</b></td>
+    <td><b>IR-05:</b></td>
     <td>Comprador</td>
 </tr>
 <tr>
@@ -1606,7 +1710,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>"referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+    <td>"referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -1636,13 +1740,13 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### INF-06 *Proveedor*
+- ### IR-06 *Proveedor*
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>INF-06:</b></td>
+    <td><b>IR-06:</b></td>
     <td>Proveedor</td>
 </tr>
 <tr>
@@ -1659,7 +1763,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>"referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+    <td>"referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -1689,13 +1793,13 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### INF-07 *Usuario*
+- ### IR-07 *Usuario*
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>INF-07:</b></td>
+    <td><b>IR-07:</b></td>
     <td>Usuario</td>
 </tr>
 <tr>
@@ -1712,7 +1816,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>"referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+    <td>"referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -1742,13 +1846,13 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### INF-08 *Vendedor*
+- ### IR-08 *Vendedor*
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>INF-08:</b></td>
+    <td><b>IR-08:</b></td>
     <td>Vendedor</td>
 </tr>
 <tr>
@@ -1765,7 +1869,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>"referencias a otros requisitos (UC o INF) cuando sea necesario"</td>
+    <td>"referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
