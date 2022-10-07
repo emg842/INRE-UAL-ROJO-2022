@@ -218,6 +218,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
+    2.A.- El personal del PDI pulsa el botón encargado de la búsqueda del estudiante en la lista de clase y si ya aparece, se detiene el proceso
     4.A.- El sistema considera los datos introducidos como incorrectos, marcando con color rojo las cajas de texto donde se han producido errores de algún tipo para facilitar así su corrección</td>
 </tr>
 <tr>
