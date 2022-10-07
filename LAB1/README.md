@@ -1562,31 +1562,34 @@ Comprador</td>
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
+    El actor tiene la posibilidad de realizar una venta a un cliente </td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
+    Vendedor, Comprador</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+    Debe existe un proceso de compra abierto</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
+    1.- 1.Se pulsa en un botón para realizar una venta <br>
+    2.- Se abre un cuadro para introducir los datos de la venta, productos, etc <br>
+    3.- El actor tiene la posibilidad de confirmar o rechazar la venta <br>
+    4.- El actor acordará un precio</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
+    2.A.- El actor realiza una consulta un histórico de precios para obtener dicha información.</td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+    La venta se realiza</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
+IR-05, IR-08, UC18, UC14</td>
 </tr>
 </table>
 
@@ -1615,31 +1618,33 @@ Comprador</td>
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
+    Permite verificar la disponibilidad de un producto, las existencias reales del producto</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
+   Comprador</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+    Se debe haber consultado un producto</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
+    1.- Hay un producto consultado, existe la opción de verificar su disponibilidad <br>
+    2.- El actor pulsa en un botón para verificar su disponiblidad <br>
+    3.- El sistema le ofrece toda la información relacionada con la disponibilidad de dicho producto</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
+    - </td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+    - </td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
+    IR-05, UC13 </td>
 </tr>
 </table>
 
