@@ -218,6 +218,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
+    2.A.- El personal del PDI pulsa el botón encargado de la búsqueda del estudiante en la lista de clase y si ya aparece, se detiene el proceso
     4.A.- El sistema considera los datos introducidos como incorrectos, marcando con color rojo las cajas de texto donde se han producido errores de algún tipo para facilitar así su corrección</td>
 </tr>
 <tr>
@@ -916,7 +917,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
+    Se encarga de avisar cuando termina la oferta de un producto</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
@@ -924,23 +925,29 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+    Que el proveedor este dado de alta en la base de datos</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
+    1.- El actor elimina la oferta de la base de datos<br>
+    2.- El sistema muestra una pantalla de confirmación<br>
+    3.- El actor confirma la eliminación de la oferta<br>
+    4.- El actor pulsa el boton avisar para notificar el fin de la oferta<br>
+    5.- El sistema muestra una ventana de confirmación para enviar notificación<br>
+    6.- El actor confirma y se envia la notificación del fin de oferta </td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
+    3.A.- El actor cancela la eliminación del producto y el sistema vuelve a la pantalla anterior<br>
+    5.A.- El actor cancela la notificación del fin de oferta, el sistema no muestra la notificación al usuario</td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+    Se notifica del fin de la oferta</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
+    UC-10</td>
 </tr>
 </table>
 
@@ -969,31 +976,32 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
+    Se va a encargar de buscar los productos que hay registrados en la base de datos</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
+    Usuario</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+    Que haya productos registrados en el sistema </td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
+    1.- El usuario busca un producto<br>
+    2.- El sistema muestra los resultados que coinciden con su búsqueda</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
+    2-A.- El sistema no encuentra resultados y muestra un mensaje "No existe la búsqueda"</td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+    </td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
+    IR-07</td>
 </tr>
 </table>
 
@@ -1022,19 +1030,19 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
+    Mostrará una lista con el histórico de precios</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
+    Vendedor</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+    Tiene que haber un registro de los precios de los productos guardado en el sistema</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
+    </td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
@@ -1397,31 +1405,34 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
+    Finalizar la compra por parte del comprador</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
+    "Comprador"</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+    El comprador debe tener un proceso de compra abierto</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
+    1.- El actor pulsa sobre el botón de finalización de compra <br>
+    2.- Aparece un cuadro de confirmación en el que actor debe confirmar <br>
+    3.- El actor confirma
+    4.- El sistema procesa la compra existente asociada al actor </td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
+    3.A.- El actor no confirma</td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+    La compra queda registrada en el sistema</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
+    IR-05</td>
 </tr>
 </table>
 
@@ -1450,31 +1461,34 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
+    Se incorpora una oferta relativa a un nuevo producto</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
+    Proveedor</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+    Se debe haber avisado de un nuevo producto</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
+    1.- El actor pulsa  a un botón para incorporar la oferta <br>
+    2.- El actor introduce los detalles de la oferta <br>
+    3.- El actor confirma la oferta <br>
+    4.- El sistema carga la oferta<br></td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
+    3.A- El actor no confirma </td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+    El sistema registra la nueva oferta</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
+    IR-06, UC-11, UC10</td>
 </tr>
 </table>
 
@@ -1503,31 +1517,35 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
+El actor marca un producto producto como bloqueado despues de agregarlo</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
+Comprador</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+    El actor debe haber agregado el producto previamente</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
+   1.- El actor señala un producto agregado <br>
+   2.- Aparece una opción para bloquear el producto <br> 
+   3.- El actor pulsa en la opción anterior <br>
+   4.- Aparece un cuadro para confirmar o bloquear la acción
+   5.- El actor confirma</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
+    5.A.- El actor cancela la acción</td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+    El producto queda registrado como bloqueado en el sistema</td>
 </tr>
 <tr>
-    <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
+    <td><b>IR-05, UC9</b><br>
+</td>
 </tr>
 </table>
 
@@ -1556,31 +1574,34 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
+    El actor tiene la posibilidad de realizar una venta a un cliente </td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
+    Vendedor, Comprador</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+    Debe existe un proceso de compra abierto</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
+    1.- 1.Se pulsa en un botón para realizar una venta <br>
+    2.- Se abre un cuadro para introducir los datos de la venta, productos, etc <br>
+    3.- El actor tiene la posibilidad de confirmar o rechazar la venta <br>
+    4.- El actor acordará un precio</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
+    2.A.- El actor realiza una consulta un histórico de precios para obtener dicha información.</td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+    La venta se realiza</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
+IR-05, IR-08, UC18, UC14</td>
 </tr>
 </table>
 
@@ -1609,31 +1630,33 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
+    Permite verificar la disponibilidad de un producto, las existencias reales del producto</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
+   Comprador</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+    Se debe haber consultado un producto</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
+    1.- Hay un producto consultado, existe la opción de verificar su disponibilidad <br>
+    2.- El actor pulsa en un botón para verificar su disponiblidad <br>
+    3.- El sistema le ofrece toda la información relacionada con la disponibilidad de dicho producto</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
+    - </td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+    - </td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
+    IR-05, UC13 </td>
 </tr>
 </table>
 
