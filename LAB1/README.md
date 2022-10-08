@@ -1246,31 +1246,32 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
+    Realiza la eliminación de una oferta determinada</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
+    Proveedor</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+    El proveedor ha de haber avisado el fin de dicha oferta</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
+    1.- El proveedor avisa del fin de una oferta <br>
+    2.- El proveedor elimina dicha oferta del sistema</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
+    </td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+     La oferta en cuestión tiene que ser eliminada del sistema.</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
+    UC10/UC12/UC20/IR06</td>
 </tr>
 </table>
 
@@ -1299,31 +1300,33 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
+    Se realiza la eliminación de un producto </td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
+    Administrador</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+    El administrador ha de estar registrado en el sistema</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
+    1.- El administrador selecciona el producto a eliminar.<br>
+    2.- El administrador selecciona la opción de eliminar el producto.
+    </td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
+    </td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+    El producto en cuestión desaparece del sistema</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
+    IR04/Producto(IR)</td>
 </tr>
 </table>
 
@@ -1352,31 +1355,35 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
+    Se realiza en envío de una notificación</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
+    Proveedor</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+    Tiene que haber surgido un nuevo producto o el fin de una oferta</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
+    1.- Finaliza una oferta 
+    2.- El proveedor envía la notificación</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
+    1.- Surge un nuevo producto
+    2.- Se incorpora una nueva oferta(puede pasar)
+    3.- El proveedor envía la notificacción.
+    </td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+    </td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
+    UC10/UC11/UC12/UC22/IR(06)/IR(07)/IR(producto)</td>
 </tr>
 </table>
 
