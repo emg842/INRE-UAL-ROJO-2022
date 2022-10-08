@@ -920,7 +920,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
+    Administrador/Comprador/Usuario/Vendedor/Proveedor</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
@@ -1128,31 +1128,33 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
+    Realiza la acción de consultar el precio de un determinado producto</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
+    Comprador/Usuario/Vendedor/Proveedor/Administrador</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+    El usuario ha de estar dado de alta en la base de datos</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
+    1.- El usuario busca un producto<br>
+    2.- El usuario consulta el precio producto<br>
+    3.- Surge una ventana emergente con la información del producto</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
+    1.- No hay camino alternativo</td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+    El alumno sigue dado de alta en el sistema</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
+    IR-07</td>
 </tr>
 </table>
 
@@ -1181,31 +1183,33 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
+    Realiza la acción de consultar la información de un producto</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
+    Usuario/Comprador</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+    El comprador ha de estar dado de alta en el sistema</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
+    1.- El usuario visualiza el producto<br>
+    2.- El usuario consulta el producto<br>
+    3.- Surge una ventana emergente con la información del producto</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
+    1.- En caso de no encontrar el producto se muestra una ventana con el texto: "No existe"</td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+    </td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
+    UC-13/UC-25/IR-07</td>
 </tr>
 </table>
 
