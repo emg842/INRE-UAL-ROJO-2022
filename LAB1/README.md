@@ -5,11 +5,12 @@
 <br>
 
 ## Supuesto 1: Horarios
+
 En una universidad, el personal del PDI, el personal del PAS y los estudiantes pueden consultar horarios. Por su parte, el personal del PAS puede modificar horarios y dar de alta estudiantes. El personal de PDI puede proponer cambios en los horarios y dar de alta estudiantes. La funcionalidad de dar de alta estudiantes del PAS realiza una verificación de los datos del estudiante. Sin embargo, la funcionalidad de dar de alta estudiantes del PDI, además de verificar los datos también permite de forma excepcional realizar la búsqueda en las listas de clase de sus asignaturas.
 
 <br>
 
-- ### UC-01 *Buscar en lista de clase*
+- ### UC-01 _Buscar en lista de clase_
 
 <br>
 
@@ -65,7 +66,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### UC-02 *Consultar horario*
+- ### UC-02 _Consultar horario_
 
 <br>
 
@@ -118,7 +119,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### UC-03 *Dar de alta estudiante*
+- ### UC-03 _Dar de alta estudiante_
 
 <br>
 
@@ -175,7 +176,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### UC-04 *Dar de alta estudiante [vista PDI]*
+- ### UC-04 _Dar de alta estudiante [vista PDI]_
 
 <br>
 
@@ -232,7 +233,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### UC-05 *Modificar horario*
+- ### UC-05 _Modificar horario_
 
 <br>
 
@@ -290,7 +291,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### UC-06 *Proponer cambio de horario*
+- ### UC-06 _Proponer cambio de horario_
 
 <br>
 
@@ -346,7 +347,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### UC-07 *Verificar datos*
+- ### UC-07 _Verificar datos_
 
 <br>
 
@@ -400,7 +401,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### IR-01 *Estudiante*
+- ### IR-01 _Estudiante_
 
 <br>
 
@@ -457,7 +458,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### IR-02 *PAS*
+- ### IR-02 _PAS_
 
 <br>
 
@@ -514,7 +515,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### IR-03 *PDI*
+- ### IR-03 _PDI_
 
 <br>
 
@@ -571,7 +572,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### IR-04 *Horario*
+- ### IR-04 _Horario_
 
 <br>
 
@@ -623,7 +624,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### IR-05 *Clase*
+- ### IR-05 _Clase_
 
 <br>
 
@@ -677,11 +678,12 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 <br><br>
 
 ## Supuesto 2: Sistema de Compras
+
 En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, proveedor y administrador. Los compradores pueden agregar productos, consultar precios, finalizar la compra y consultar ofertas. Agregar productos implica marcar esos productos como bloqueados. Los vendedores también pueden consultar ofertas y consultar precios. Los proveedores pueden consultar precios, avisar de nuevos productos y consultar ofertas. Avisar de nuevos productos, de forma excepcional, realiza la incorporación de una oferta. Los proveedores también tienen una funcionalidad para avisar del fin de una oferta. Cuando se avisa del fin de una oferta, se ejecuta la funcionalidad de eliminar la oferta. Ambas funcionalidades de avisar del proveedor tienen en común que se encarga de enviar una notificación. Los administradores pueden consultar precios, consultar ofertas y eliminar productos. La funcionalidad de consultar precios incluye una funcionalidad de buscar productos que es similar a la funcionalidad de consultar productos de los compradores. Sin embargo, la funcionalidad de consultar productos añade una funcionalidad para verificar la disponibilidad. Para realizar una venta, un comprador y un vendedor participan de forma conjunta. En dicha operación, se lleva a cabo el acuerdo de un precio; excepcionalmente, durante la realización de la venta, se consultará el histórico de ventas.
 
 <br>
 
-- ### UC-08 *Acordar precio*
+- ### UC-08 _Acordar precio_
 
 <br>
 
@@ -704,37 +706,40 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
+     El vendedor acuerda un precio con el comprador para poder realizar la venta</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
+     Comprador/Vendedor</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+    El comprador y el vendedor deben estar dados de alta</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
+    1.- El vendedor propone un precio para la venta de su producto.
+    2.- El comprador acepta el precio o le hace una contraoferta al vendedor.
+    3.- Se concluye el acuerdo del precio.
+    </td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
+    </td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+    El precio es actualizado oficialmente en el sistema para que la compra pueda ser llevada a cabo.</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
+    "UC24"</td>
 </tr>
 </table>
 
 <br>
 
-- ### UC-09 *Agregar producto*
+- ### UC-09 _Agregar producto_
 
 <br>
 
@@ -757,37 +762,39 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
+    Permite agregar un producto determinado al carrito de compra</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
+    Comprador</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+    El comprador debe de estar dado de alta en el sistema</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
+    1.- El comprador pulsa sobre el botón para agregar un producto
+    2.- El sistema comprueba que el producto está disponible y lo agrega al carrito de compra
+    </td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
+    Si el producto en cuestión no está disponible, el sistema avisa al comprador.</td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+    El producto agregado al carrito es marcado como bloqueado</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
+    UC-23</td>
 </tr>
 </table>
 
 <br>
 
-- ### UC-10 *Avisar*
+- ### UC-10 _Avisar_
 
 <br>
 
@@ -810,37 +817,38 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
+    Avisa a determinados usuarios sobre algún cambio del sistema</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
+    Proveedor</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+    El proveedor debe de estar dado de alta en el sistema</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
+    1.- El proveedor avisa sobre algún cambio del sistema</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
+    </td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+    Se envía una notifiación a determinados usuarios con el cambio habido en el sistema</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
+    UC-11,UC-12,UC-20
+    </td>
 </tr>
 </table>
 
 <br>
 
-- ### UC-11 *Avisar de nuevo producto*
+- ### UC-11 _Avisar de nuevo producto_
 
 <br>
 
@@ -893,7 +901,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### UC-12 *Avisar fin de oferta*
+- ### UC-12 _Avisar fin de oferta_
 
 <br>
 
@@ -946,7 +954,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### UC-13 *Buscar producto*
+- ### UC-13 _Buscar producto_
 
 <br>
 
@@ -999,7 +1007,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### UC-14 *Consultar histórico de precios*
+- ### UC-14 _Consultar histórico de precios_
 
 <br>
 
@@ -1052,7 +1060,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### UC-15 *Consultar oferta*
+- ### UC-15 _Consultar oferta_
 
 <br>
 
@@ -1105,7 +1113,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### UC-16 *Consultar precio*
+- ### UC-16 _Consultar precio_
 
 <br>
 
@@ -1158,7 +1166,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### UC-17 *Consultar producto*
+- ### UC-17 _Consultar producto_
 
 <br>
 
@@ -1211,7 +1219,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### UC-18 *Eliminar oferta*
+- ### UC-18 _Eliminar oferta_
 
 <br>
 
@@ -1264,7 +1272,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### UC-19 *Eliminar producto*
+- ### UC-19 _Eliminar producto_
 
 <br>
 
@@ -1317,7 +1325,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### UC-20 *Enviar notificación*
+- ### UC-20 _Enviar notificación_
 
 <br>
 
@@ -1370,7 +1378,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### UC-21 *Finalizar compra*
+- ### UC-21 _Finalizar compra_
 
 <br>
 
@@ -1423,7 +1431,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### UC-22 *Incorporar oferta*
+- ### UC-22 _Incorporar oferta_
 
 <br>
 
@@ -1476,7 +1484,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### UC-23 *Marcar producto como bloqueado*
+- ### UC-23 _Marcar producto como bloqueado_
 
 <br>
 
@@ -1529,7 +1537,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### UC-24 *Realizar venta*
+- ### UC-24 _Realizar venta_
 
 <br>
 
@@ -1582,7 +1590,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### UC-25 *Verificar disponibilidad de producto*
+- ### UC-25 _Verificar disponibilidad de producto_
 
 <br>
 
@@ -1635,7 +1643,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### IR-04 *Administrador*
+- ### IR-04 _Administrador_
 
 <br>
 
@@ -1688,7 +1696,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### IR-05 *Comprador*
+- ### IR-05 _Comprador_
 
 <br>
 
@@ -1741,7 +1749,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### IR-06 *Proveedor*
+- ### IR-06 _Proveedor_
 
 <br>
 
@@ -1794,7 +1802,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### IR-07 *Usuario*
+- ### IR-07 _Usuario_
 
 <br>
 
@@ -1847,7 +1855,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### IR-08 *Vendedor*
+- ### IR-08 _Vendedor_
 
 <br>
 
