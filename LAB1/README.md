@@ -33,7 +33,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    Posibilita la acción de buscar a un estudiante el cual acaba de ser dado de alta en el sistema en la lista de clase</td>
+    Posibilita la acción de buscar a un estudiante en las listas de clase de sus asignaturas como paso previo a su dada de alta en el sistema</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
@@ -41,26 +41,26 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    El personal del PDI debe estar autenticado en el sistema como tal y debe haber dado de alta a un estudiante en el mismo</td>
+    El personal del PDI debe estar autenticado en el sistema y debe encontrarse en la fase inicial del proceso de dada de alta a un estudiante en el mismo</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    1.- El actor pulsa sobre el botón para buscar en la lista de clase<br>
-    2.- El sistema muestra una caja de texto para introducir el identificador del estudiante al cual se le quiere dar de alta<br>
-    3.- El actor introduce el identificador del estudiante<br>
+    1.- El actor pulsa sobre el botón para buscar a un estudiante en las listas de clase de sus asignaturas<br>
+    2.- El sistema muestra una nueva ventana la cual cuenta con dos cajas de texto para introducir el identificador del estudiante al cual se le quiere dar de alta y el identificador de una asignatura la cual va a ser cursada por el mismo<br>
+    3.- El actor introduce el identificador del estudiante y el de la asignatura<br>
     4.- El sistema muestra los datos del estudiante además de un botón para cerrar la ventana de resultados de búsqueda<br>
-    6.- El actor pulsa sobre el botón para concluir la operación de búsqueda</td>
+    5.- El actor pulsa sobre el botón para concluir la operación de búsqueda</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    4.A.- El sistema no muestra nada en caso de que el estudiante aún no haya sido dado de alta correctamente, mostrando cuáles han sido los errores para facilitar su corrección</td>
+    4.A.- El sistema muestra un mensaje el cual notifica la no presencia del alumno cuyo identificador se corresponde al introducido en la caja de texto en la lista de clase de la asignatura en cuestión, junto con un botón para cerrar la ventana de resultados de búsqueda</td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br><br></td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-04, IR-01, IR-03</td>
+    UC-04, IR-03, IR-05</td>
 </tr>
 </table>
 
@@ -102,7 +102,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 <tr>
     <td><b>Flujo Normal:</b><br>
     1.- El actor pulsa sobre el botón para consultar su horario<br>
-    2.- El sistema muestra una ventana donde se refleja el horario además de un botón para cerrar la ventana<br>
+    2.- El sistema muestra una ventana donde se reflejan los horarios además de un botón para cerrar la misma<br>
     3.- El actor pulsa sobre el botón para concluir la operación de consulta</td>
 </tr>
 <tr>
@@ -142,7 +142,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    Otorga el poder de dar de alta a un estudiante en el sistema</td>
+    Otorga el poder dar de alta a un estudiante en el sistema</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
@@ -154,11 +154,11 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    1.- El personal del PAS / PDI pulsa sobre el botón para dar de alta a un nuevo estudiante<br>
+    1.- El actor pulsa sobre el botón para dar de alta a un nuevo estudiante<br>
     2.- El sistema muestra diversas cajas de texto para introducir los diferentes datos del estudiante al cual se le quiere dar de alta<br>
-    3.- El personal del PAS / PDI introduce los datos del estudiante<br>
-    4.- El sistema comprueba la validez de los datos y los almacena una vez determina que son correctos, mostrando un mensaje de confirmación del éxito de la operación junto a un botón para cerrar dicha notificación<br>
-    6.- El personal del PAS / PDI pulsa sobre el botón para concluir la operación de búsqueda</td>
+    3.- El actor introduce los datos del estudiante<br>
+    4.- El sistema comprueba la validez de los datos [UC-07] y los almacena una vez determina que son correctos, mostrando un mensaje de confirmación del éxito de la operación junto con un botón para cerrar dicha notificación<br>
+    5.- El actor pulsa sobre el botón para concluir la operación de dada de alta del estudiante</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
@@ -211,15 +211,15 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    1.- El personal del PDI pulsa sobre el botón para dar de alta a un nuevo estudiante<br>
-    2.- El sistema muestra diversas cajas de texto para introducir los diferentes datos del estudiante al cual se le quiere dar de alta<br>
-    3.- El personal del PDI introduce los datos del estudiante<br>
-    4.- El sistema comprueba la validez de los datos y los almacena una vez determina que son correctos, mostrando un mensaje de confirmación del éxito de la operación junto a un botón para cerrar dicha notificación<br>
-    6.- El personal del PDI pulsa sobre el botón para concluir la operación de búsqueda</td>
+    1.- El actor pulsa sobre el botón para dar de alta a un nuevo estudiante<br>
+    2.- El sistema muestra diversas cajas de texto para introducir los diferentes datos del estudiante al cual se le quiere dar de alta junto con un botón cuya función es la de realizar una búsqueda del estudiante en las listas de clase de sus asignaturas<br>
+    3.- El actor introduce los datos del estudiante<br>
+    4.- El sistema comprueba la validez de los datos [UC-07] y los almacena una vez determina que son correctos, mostrando un mensaje de confirmación del éxito de la operación junto con un botón para cerrar dicha notificación<br>
+    5.- El actor pulsa sobre el botón para concluir la operación de dada de alta del estudiante</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    2.A.- El personal del PDI pulsa el botón encargado de la búsqueda del estudiante en la lista de clase y si ya aparece, se detiene el proceso
+    3.A.- El actor pulsa el botón encargado de la búsqueda del estudiante en las listas de clase de sus asignaturas e introduce el identificador de este y el de una asignatura en cuestión en una nueva ventana emergente la cual está compuesta por dos cajas de texto [UC-01]. Si el estudiante ya aparece como resultado de la búsqueda, se detiene el proceso de dada de alta en el sistema. En caso contrario, el sistema notifica lo sucedido y vuelve a mostrar la ventana compuesta por diferentes cajas de texto en las que poder introducir los datos para poder seguir así con el proceso inicial<br>
     4.A.- El sistema considera los datos introducidos como incorrectos, marcando con color rojo las cajas de texto donde se han producido errores de algún tipo para facilitar así su corrección</td>
 </tr>
 <tr>
@@ -257,7 +257,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    Permite realizar modificaciones en el horario por voluntad propia o atendiendo a peticiones</td>
+    Permite realizar modificaciones en los horarios por voluntad propia o atendiendo a peticiones</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
@@ -266,23 +266,23 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 <tr>
     <td><b>Precondiciones:</b><br>
     El personal del PAS debe haber sido de alta y estar autenticado en el sistema.<br>
-    También se plantea la necesidad de la existencia de una propuesta de cambio en el horario en el caso de que la modificación responda a dicha petición</td>
+    También se plantea la necesidad de la existencia de una propuesta de cambio en los horarios en el caso de que la modificación responda a dicha petición</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    1.- El actor pulsa sobre el botón para modificar el horario<br>
-    2.- El sistema muestra un calendario con el horario actual sobre el cual se pueden realizar cambios<br>
+    1.- El actor pulsa sobre el botón para modificar los horarios<br>
+    2.- El sistema muestra un calendario con los horarios actuales sobre los cuales se pueden realizar cambios<br>
     3.- El actor realiza los cambios que cree pertinentes<br>
     4.- El sistema, tras haber comprobado la validez de las modificaciones, muestra un nuevo botón cuya utilidad es la de confirmar los cambios establecidos<br>
-    6.- El actor pulsa sobre el botón para concluir la operación de modificación del horario</td>
+    5.- El actor pulsa sobre el botón para concluir la operación de modificación de los horarios</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    4.A.- El sistema comprueba la validez de las modificaciones y considera que hay uno o más errores por lo que se avisa al actor de ello, permitiéndole así que los corrija</td>
+    4.A.- El sistema, al comprobar la validez de las modificaciones, considera que hay uno o más errores, por lo que avisa al actor de ello para facilitarle así su corrección</td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    El cambio realizado en el horario ha sido guardado en el sistema</td>
+    Los horarios, ya modificados, han sido guardados en el sistema</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
@@ -315,7 +315,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    Ofrece el medio necesario para realizar la propuesta de realizar un cambio en el horario</td>
+    Ofrece el medio necesario para realizar la propuesta de efectuar un cambio en los horarios</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
@@ -327,22 +327,23 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    1.- El actor pulsa sobre el botón para proponer la acción de modificar el horario<br>
-    2.- El sistema muestra una caja de texto para introducir el motivo por el cual se desea realizar un cambio en el horario<br>
-    3.- El actor introduce el argumento de su petición<br>
-    4.- El sistema comprueba la validez de los datos y los almacena</td>
+    1.- El actor pulsa sobre el botón para proponer una modificación en los horarios<br>
+    2.- El sistema muestra una caja de texto para introducir el motivo por el cual se desea realizar un cambio en los horarios y comentar en qué consiste dicha modificación<br>
+    3.- El actor introduce una breve explicación del cambio solicitado, así como el motivo que da soporte al mismo a modo de argumento de su petición<br>
+    4.- El sistema, tras haber comprobado la validez de las datos, muestra un nuevo botón cuya utilidad es la de confirmar el envío de la propuesta<br>
+    5.- El actor pulsa sobre el botón para concluir la operación de solicitud de cambio en los horarios</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    4.A.- El sistema comprueba la validez de los datos y determina que no son correctos, procediendo a avisar al actor de ello permitiéndole que los corrija</td>
+    4.A.- El sistema comprueba la validez de los datos y determina que no son correctos, procediendo a avisar al actor de ello para facilitarle así su corrección</td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    La propuesta ha sido almacenada en el sistema y enviada al personal del PAS</td>
+    La propuesta ha sido almacenada en el sistema y enviada al personal del PAS (encargados de la gestión de las modificaciones en los horarios)</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    IR-03, IR-04</td>
+    IR-03, IR-06</td>
 </tr>
 </table>
 
@@ -371,7 +372,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    Permite el hecho de confirmar la validez de los datos de un nuevo estudiante el cual acaba de ser dado de alta</td>
+    Dispone la posibilidad de confirmar la validez de los datos de un nuevo estudiante el cual está siendo dado de alta</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
@@ -379,7 +380,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    El personal del PAS / PDI debe estar autenticado en el sistema, así como el estudiante cuyos datos van a ser verificados debe estar siendo dado de alta aún en el sistema</td>
+    El personal del PAS / PDI debe estar autenticado en el sistema, así como el estudiante cuyos datos van a ser verificados debe estar siendo dado de alta en el sistema</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
@@ -389,7 +390,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    2.A.- El sistema comprueba la validez de los datos y determina que al menos uno de ellos no es correcto, procediendo a notificar al actor de este hecho para que este los corrija</td>
+    2.A.- El sistema comprueba la validez de los datos y determina que al menos uno de ellos no es correcto, procediendo a notificar al actor de este hecho para facilitarle así su corrección</td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br><br></td>
@@ -600,11 +601,11 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>El sistema deberá almacenar la información correspondiente al horario de la universidad. En concreto:</td>
+    <td>El sistema deberá almacenar la información correspondiente a los horarios de la universidad. En concreto:</td>
 </tr>
 <tr>
     <td><b>Datos específicos:</b></td>
-    <td>- Identificador de usuario al que corresponde el horario<br>
+    <td>- Identificador de usuario al que corresponden los horarios<br>
     - Listado de tramos horarios en los que se divide cada día<br>
     - Identificadores de las clases que tienen lugar en cada tramo horario<br>
     - Nota creada por el usuario para un día en específico</td>
