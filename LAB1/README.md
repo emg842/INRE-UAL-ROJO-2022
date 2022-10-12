@@ -808,34 +808,34 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-     El vendedor acuerda un precio con el comprador para poder realizar la venta</td>
+     Otorga la posibilidad de poder acordar un precio para así poder realizar la venta de un producto</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-     Comprador/Vendedor</td>
+     Comprador + Vendedor</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    El comprador y el vendedor deben estar dados de alta</td>
+    Tanto el comprador como el vendedor deben estar autenticados en el sistema y ambos deben estar tomando parte en el proceso de realizar una venta</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    1.- El vendedor propone un precio para la venta de su producto.
-    2.- El comprador acepta el precio o le hace una contraoferta al vendedor.
-    3.- Se concluye el acuerdo del precio.
-    </td>
+    1.- El comprador y el vendedor pulsan sobre el botón para acordar el precio de un producto<br>
+    2.- El sistema muestra una nueva ventana emergente la cual contiene un chat común a comprador y vendedor junto con una caja de texto sobre la cual cualquiera de ellos puede escribir su próximo mensaje. Además de lo mencionado, también tienen lugar en dicha ventana dos botones más, uno para confirmar que se ha acordado un precio y otro para cancelar la operación<br>
+    3.- Comprador y vendedor confirman que han llegado a un acuerdo clicando sobre el botón correspondiente</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
+    3.A.- Comprador o vendedor pulsa sobre el botón cuya función es la de cancelar la acción de acordar un precio. A ambos se les notifica el no acuerdo de tal manera que deben clicar sobre un botón para cerrar dicho mensaje y volver así a la ventana desde la cual pulsaron en un inicio el botón para acordar el precio de un producto
     </td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    El precio es actualizado oficialmente en el sistema para que la compra pueda ser llevada a cabo.</td>
+    El precio acordado ha sido guardado en el sistema para que la compra pueda ser llevada a cabo</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "UC24"</td>
+    UC-24</td>
 </tr>
 </table>
 
@@ -872,21 +872,21 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    El comprador debe de estar dado de alta en el sistema</td>
+    El comprador debe haber sido dado de alta y estar autenticado en el sistema</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    1.- El comprador pulsa sobre el botón para agregar un producto
-    2.- El sistema comprueba que el producto está disponible y lo agrega al carrito de compra
-    </td>
+    1.- El actor pulsa sobre el botón para agregar un producto<br>
+    2.- El sistema valida la acción y procede a mostrar un mensaje el cual confirma la correcta agregación del producto en cuestión al carrito de compra junto con un botón sobre el que pulsar para cerrar dicho mensaje. Además, el producto se marca como bloqueado [UC-23]<br>
+    3.- El  actor pulsa sobre el botón para concluir la operación de agregación del producto</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    Si el producto en cuestión no está disponible, el sistema avisa al comprador.</td>
+    2.A.- El sistema, al tratar de validar la acción, detecta un error en el acto que se intenta llevar a cabo y lo notifica al actor, junto con un mensaje explicativo de la situación que acaba de acontecer. Además, se muestra un nuevo botón para el cierre de dicha notificación sobre el cual el actor debe pulsar para poder regresar así al estado inicial</td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    El producto agregado al carrito es marcado como bloqueado</td>
+    El estado del producto agregado al carrito ha sido actualizado, quedando marcado como bloqueado</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
