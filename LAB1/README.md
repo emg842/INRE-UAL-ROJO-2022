@@ -60,7 +60,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-04, IR-03, IR-05</td>
+    UC-04, IR-01, IR-06</td>
 </tr>
 </table>
 
@@ -113,7 +113,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    IR-01, IR-02, IR-03, IR-04</td>
+    IR-02, IR-04, IR-05, IR-06</td>
 </tr>
 </table>
 
@@ -170,7 +170,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-04, UC-07, IR-01, IR-02, IR-03 </td>
+    UC-04, UC-07, IR-02, IR-05, IR-06 </td>
 </tr>
 </table>
 
@@ -228,7 +228,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-01, UC-03, UC-07, IR-01, IR-03, IR-05 </td>
+    UC-01, UC-03, UC-07, IR-02, IR-06 </td>
 </tr>
 </table>
 
@@ -286,7 +286,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    IR-02, IR-04</td>
+    IR-04, IR-05</td>
 </tr>
 </table>
 
@@ -343,7 +343,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    IR-03, IR-06</td>
+    IR-06, IR-07</td>
 </tr>
 </table>
 
@@ -397,19 +397,69 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-03, UC-04, IR-01, IR-02, IR-03</td>
+    UC-03, UC-04, IR-02, IR-05, IR-06</td>
 </tr>
 </table>
 
 <br>
 
-- ### IR-01 _Estudiante_
+- ### IR-01 _AlumnoClase_
 
 <br>
 
 <table align = "center">
 <tr>
     <td><b>IR-01:</b></td>
+    <td>AlumnoClase</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Octubre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Daniel López García</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Entrevistas y reglamento</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>UC-01, IR-02, IR-03</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>El sistema deberá almacenar la información correspondiente a los alumnos que hay en cada clase de la universidad. En concreto:</td>
+</tr>
+<tr>
+    <td><b>Datos específicos:</b></td>
+    <td>- Identificador de estudiante<br>
+    - Identificador de clase</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
+
+- ### IR-02 _Estudiante_
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>IR-02:</b></td>
     <td>Estudiante</td>
 </tr>
 <tr>
@@ -426,7 +476,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-01, UC-02, UC-03, UC-04, UC-07, IR-02, IR-03, IR-04, IR-05</td>
+    <td>UC-02, UC-03, UC-04, UC-07, IR-01, IR-04, IR-05, IR-06</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -460,71 +510,14 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### IR-02 _PAS_
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>IR-02:</b></td>
-    <td>PAS</td>
-</tr>
-<tr>
-    <td><b>Versión:</b></td>
-    <td>1.0 (Octubre-2022)</td>
-</tr>
-<tr>
-    <td><b>Autor:</b></td>
-    <td>Daniel López García</td>
-</tr>
-<tr>
-    <td><b>Fuentes:</b></td>
-    <td>Entrevistas y reglamento</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b></td>
-    <td>UC-02, UC-03, UC-05, UC-07, IR-01, IR-04</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b></td>
-    <td>El sistema deberá almacenar la información correspondiente al personal del PAS de la universidad. En concreto:</td>
-</tr>
-<tr>
-    <td><b>Datos específicos:</b></td>
-    <td>- Identificador de personal del PAS<br>
-    - Número del documento nacional de identidad<br>
-    - Nombre y apellidos<br>
-    - Fecha de nacimiento<br>
-    - Sexo<br>
-    - Fecha de alta como personal del PAS<br>
-    - Dirección<br>
-    - Teléfonos<br>
-    - Correo electrónico</td>
-</tr>
-<tr>
-    <td><b>Importancia:</b></td>
-    <td>Muy elevada</td>
-</tr>
-<tr>
-    <td><b>Estado:</b></td>
-    <td>Aceptado</td>
-</tr>
-<tr>
-    <td><b>Comentarios:</b></td>
-    <td></td>
-</tr>
-</table>
-
-<br>
-
-- ### IR-03 _PDI_
+- ### IR-03 _EventoClase_
 
 <br>
 
 <table align = "center">
 <tr>
     <td><b>IR-03:</b></td>
-    <td>PDI</td>
+    <td>EventoClase</td>
 </tr>
 <tr>
     <td><b>Versión:</b></td>
@@ -540,23 +533,16 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-01, UC-02, UC-03, UC-04, UC-06, UC-07, IR-01, IR-04, IR-05</td>
+    <td>IR-01, IR-04</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>El sistema deberá almacenar la información correspondiente al personal del PDI de la universidad. En concreto:</td>
+    <td>El sistema deberá almacenar la información correspondiente a los eventos y las clases de la universidad. En concreto:</td>
 </tr>
 <tr>
     <td><b>Datos específicos:</b></td>
-    <td>- Identificador de personal del PDI<br>
-    - Número del documento nacional de identidad<br>
-    - Nombre y apellidos<br>
-    - Fecha de nacimiento<br>
-    - Sexo<br>
-    - Fecha de alta como personal del PDI<br>
-    - Dirección<br>
-    - Teléfonos<br>
-    - Correo electrónico</td>
+    <td>- Identificador del evento / de la clase<br>
+    - Nombre del lugar asignado<br></td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -597,7 +583,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-02, UC-05, UC-06, IR-01, IR-02, IR-03, IR-05</td>
+    <td>UC-02, UC-05, IR-02, IR-03, IR-05, IR-06, IR-07</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -605,10 +591,11 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Datos específicos:</b></td>
-    <td>- Identificador de usuario al que corresponden los horarios<br>
-    - Listado de tramos horarios en los que se divide cada día<br>
-    - Identificadores de las clases que tienen lugar en cada tramo horario<br>
-    - Nota creada por el usuario para un día en específico</td>
+    <td>- Identificador de horario<br>
+    - Identificador de usuario al que corresponde el horario<br>
+    - Identificador del evento / de la clase
+    - Hora de inicio del evento / de la clase
+    - Hora de fin del evento / de la clase</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -626,14 +613,14 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### IR-05 _Clase_
+- ### IR-05 _PAS_
 
 <br>
 
 <table align = "center">
 <tr>
     <td><b>IR-05:</b></td>
-    <td>Clase</td>
+    <td>PAS</td>
 </tr>
 <tr>
     <td><b>Versión:</b></td>
@@ -649,19 +636,132 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-01, UC-03, UC-04, IR-01</td>
+    <td>UC-02, UC-03, UC-05, UC-07, IR-02, IR-04</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>El sistema deberá almacenar la información correspondiente a las clases de la universidad. En concreto:</td>
+    <td>El sistema deberá almacenar la información correspondiente al personal del PAS de la universidad. En concreto:</td>
 </tr>
 <tr>
     <td><b>Datos específicos:</b></td>
-    <td>- Identificador de clase<br>
-    - Nombre del aulario asignado<br>
-    - Nombre del aula asignada<br>
-    - Número de estudiantes<br>
-    - Listado de identificadores de estudiantes inscritos<br></td>
+    <td>- Identificador de personal del PAS<br>
+    - Número del documento nacional de identidad<br>
+    - Nombre y apellidos<br>
+    - Fecha de nacimiento<br>
+    - Sexo<br>
+    - Fecha de alta como personal del PAS<br>
+    - Dirección<br>
+    - Teléfonos<br>
+    - Correo electrónico</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
+
+- ### IR-06 _PDI_
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>IR-06:</b></td>
+    <td>PDI</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Octubre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Daniel López García</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Entrevistas y reglamento</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>UC-01, UC-02, UC-03, UC-04, UC-06, UC-07, IR-02, IR-04, IR-07</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>El sistema deberá almacenar la información correspondiente al personal del PDI de la universidad. En concreto:</td>
+</tr>
+<tr>
+    <td><b>Datos específicos:</b></td>
+    <td>- Identificador de personal del PDI<br>
+    - Número del documento nacional de identidad<br>
+    - Nombre y apellidos<br>
+    - Fecha de nacimiento<br>
+    - Sexo<br>
+    - Fecha de alta como personal del PDI<br>
+    - Dirección<br>
+    - Teléfonos<br>
+    - Correo electrónico</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
+
+- ### IR-07 _PropuestaCambioHorario_
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>IR-07:</b></td>
+    <td>PropuestaCambioHorario</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Octubre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Daniel López García</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Entrevistas y reglamento</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>UC-06, IR-04, IR-06</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>El sistema deberá almacenar la información correspondiente a las peticiones de cambio en los horarios de la universidad. En concreto:</td>
+</tr>
+<tr>
+    <td><b>Datos específicos:</b></td>
+    <td>- Identificador de la propuesta de cambio en el horario<br>
+    - Identificador del personal del PDI<br>
+    - Identificador del horario<br>
+    - Cambio propuesto y argumentación que da soporte a dicha petición</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -1010,7 +1110,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    IR-07</td>
+    IR-03</td>
 </tr>
 </table>
 
@@ -1171,7 +1271,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    IR-07</td>
+    IR-03</td>
 </tr>
 </table>
 
@@ -1226,7 +1326,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-13/UC-25/IR-07</td>
+    UC-13/UC-25/IR-03</td>
 </tr>
 </table>
 
@@ -1448,7 +1548,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    IR-05</td>
+    IR-06</td>
 </tr>
 </table>
 
@@ -1504,7 +1604,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    IR-06, UC-11, UC10</td>
+    IR-07, UC-11, UC10</td>
 </tr>
 </table>
 
@@ -1560,7 +1660,7 @@ Comprador</td>
     El producto queda registrado como bloqueado en el sistema</td>
 </tr>
 <tr>
-    <td><b>IR-05, UC9</b><br>
+    <td><b>IR-06, UC9</b><br>
 </td>
 </tr>
 </table>
@@ -1617,7 +1717,7 @@ Comprador</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-IR-05, IR-08, UC18, UC14</td>
+IR-06, IR-08, UC18, UC14</td>
 </tr>
 </table>
 
@@ -1672,19 +1772,19 @@ IR-05, IR-08, UC18, UC14</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    IR-05, UC13 </td>
+    IR-06, UC13 </td>
 </tr>
 </table>
 
 <br>
 
-- ### IR-04 _Administrador_
+- ### IR-05 _Administrador_
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>IR-04:</b></td>
+    <td><b>IR-05:</b></td>
     <td>Administrador</td>
 </tr>
 <tr>
@@ -1731,13 +1831,13 @@ IR-05, IR-08, UC18, UC14</td>
 
 <br>
 
-- ### IR-05 _Comprador_
+- ### IR-06 _Comprador_
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>IR-05:</b></td>
+    <td><b>IR-06:</b></td>
     <td>Comprador</td>
 </tr>
 <tr>
@@ -1784,13 +1884,13 @@ IR-05, IR-08, UC18, UC14</td>
 
 <br>
 
-- ### IR-06 _Proveedor_
+- ### IR-07 _Proveedor_
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>IR-06:</b></td>
+    <td><b>IR-07:</b></td>
     <td>Proveedor</td>
 </tr>
 <tr>
@@ -1837,13 +1937,13 @@ IR-05, IR-08, UC18, UC14</td>
 
 <br>
 
-- ### IR-07 _Usuario_
+- ### IR-03 _Usuario_
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>IR-07:</b></td>
+    <td><b>IR-03:</b></td>
     <td>Usuario</td>
 </tr>
 <tr>
