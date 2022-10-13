@@ -323,7 +323,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    El personal del PDI debe haber sido de alta y estar autenticado en el sistema</td>
+    El personal del PDI debe haber sido dado de alta y estar autenticado en el sistema</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
@@ -886,7 +886,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    El estado del producto agregado al carrito ha sido actualizado, quedando marcado como bloqueado</td>
+    El estado del carrito ha sido actualizado y guardado en el sistema, pues ahora se le ha sumado un nuevo producto, el cual a su vez ha sido marcado como bloqueado</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
@@ -919,7 +919,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    Avisa a determinados usuarios sobre algún cambio del sistema</td>
+    Ofrece el medio necesario para avisar a determinados usuarios</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
@@ -927,24 +927,28 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    El proveedor debe de estar dado de alta en el sistema</td>
+    El proveedor debe haber sido dado de alta y estar autenticado el sistema, así como debe haberse producido una determinada acción la cual será notificada</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    1.- El proveedor avisa sobre algún cambio del sistema</td>
+    1.- El proveedor pulsa sobre el botón para avisar de un suceso determinado<br>
+    2.- El sistema muestra dos cajas de texto para introducir el motivo por el cual se desea avisar y el propio aviso en sí. Es decir, este anuncio será realizado mediante el envío de una notificación [UC-20]<br>
+    3.- El actor introduce el texto exigido en cada una de las cajas de texto a rellenar<br>
+    4.- El sistema, tras haber comprobado la validez de los datos introducidos, muestra un mensaje de confirmación del éxito de la operación junto con un botón para cerrar dicha notificación<br>
+    5.- El actor pulsa sobre el botón para poner así fin a la operación de aviso</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
+    4.A.- El sistema comprueba la validez de los datos introducidos y ha determinado que no cumple las condiciones exigidas, procediendo a avisar al actor de ello para facilitarle así su corrección
     </td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    Se envía una notifiación a determinados usuarios con el cambio habido en el sistema</td>
+    El aviso ha quedado guardado en el sistema a modo de notificación</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-11,UC-12,UC-20
-    </td>
+    UC-11, UC-12, UC-20</td>
 </tr>
 </table>
 
@@ -973,31 +977,37 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
+    Ofrece el medio necesario para avisar a determinados usuarios de la llegada de un nuevo producto</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
+    Proveedor</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+    El proveedor debe haber sido dado de alta y estar autenticado el sistema, así como debe haberse producido la llegada de un nuevo producto, acción la cual será notificada</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
+    1.- El proveedor pulsa sobre el botón para avisar de la llegada de un nuevo producto<br>
+    2.- El sistema muestra dos cajas de texto para introducir el motivo por el cual se desea avisar y el propio aviso en sí. Es decir, este anuncio será realizado mediante el envío de una notificación [UC-20]. Además de lo mencionado, existe también un botón para la incorporación de una oferta sobre el producto en cuestión<br>
+    3.- El actor introduce el texto exigido en cada una de las cajas de texto a rellenar<br>
+    4.- El sistema, tras haber comprobado la validez de los datos introducidos, muestra un mensaje de confirmación del éxito de la operación junto con un botón para cerrar dicha notificación<br>
+    5.- El actor pulsa sobre el botón para poner así fin a la operación de aviso</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
+    3.A.- El actor pulsa el botón encargado de la incorporación de una oferta sobre el producto tratado e introduce el precio rebajado de este en una nueva ventana emergente la cual está compuesta por una única caja de texto [UC-22]. A continuación aparecerá un mensaje de confirmación de la operación que, al ser aceptado por el actor, provocará el establecimiento definitivo de la oferta<br>
+    4.A.- El sistema comprueba la validez de los datos introducidos y ha determinado que no cumple las condiciones exigidas, procediendo a avisar al actor de ello para facilitarle así su corrección
+    </td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+    El aviso ha quedado guardado en el sistema a modo de notificación y, en caso de haberse incorporado una nueva oferta sobre el producto, el mismo también ha sido almacenado en el sistema como producto ofertado</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
+    UC-10, UC-20, UC-22</td>
 </tr>
 </table>
 
