@@ -33,7 +33,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    Posibilita la acción de buscar a un estudiante el cual acaba de ser dado de alta en el sistema en la lista de clase</td>
+    Posibilita la acción de buscar a un estudiante en las listas de clase de sus asignaturas como paso previo a su dada de alta en el sistema</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
@@ -41,26 +41,26 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    El personal del PDI debe estar autenticado en el sistema como tal y debe haber dado de alta a un estudiante en el mismo</td>
+    El personal del PDI debe estar autenticado en el sistema y debe encontrarse en la fase inicial del proceso de dada de alta a un estudiante en el mismo</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    1.- El actor pulsa sobre el botón para buscar en la lista de clase<br>
-    2.- El sistema muestra una caja de texto para introducir el identificador del estudiante al cual se le quiere dar de alta<br>
-    3.- El actor introduce el identificador del estudiante<br>
+    1.- El actor pulsa sobre el botón para buscar a un estudiante en las listas de clase de sus asignaturas<br>
+    2.- El sistema muestra una nueva ventana la cual cuenta con dos cajas de texto para introducir el identificador del estudiante al cual se le quiere dar de alta y el identificador de una asignatura la cual va a ser cursada por el mismo<br>
+    3.- El actor introduce el identificador del estudiante y el de la asignatura<br>
     4.- El sistema muestra los datos del estudiante además de un botón para cerrar la ventana de resultados de búsqueda<br>
-    6.- El actor pulsa sobre el botón para concluir la operación de búsqueda</td>
+    5.- El actor pulsa sobre el botón para concluir la operación de búsqueda</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    4.A.- El sistema no muestra nada en caso de que el estudiante aún no haya sido dado de alta correctamente, mostrando cuáles han sido los errores para facilitar su corrección</td>
+    4.A.- El sistema muestra un mensaje el cual notifica la no presencia del alumno cuyo identificador se corresponde al introducido en la caja de texto en la lista de clase de la asignatura en cuestión, junto con un botón para cerrar la ventana de resultados de búsqueda</td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br><br></td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-04, IR-01, IR-03</td>
+    UC-04, IR-01, IR-06</td>
 </tr>
 </table>
 
@@ -102,7 +102,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 <tr>
     <td><b>Flujo Normal:</b><br>
     1.- El actor pulsa sobre el botón para consultar su horario<br>
-    2.- El sistema muestra una ventana donde se refleja el horario además de un botón para cerrar la ventana<br>
+    2.- El sistema muestra una ventana donde se reflejan los horarios además de un botón para cerrar la misma<br>
     3.- El actor pulsa sobre el botón para concluir la operación de consulta</td>
 </tr>
 <tr>
@@ -113,7 +113,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    IR-01, IR-02, IR-03, IR-04</td>
+    IR-02, IR-04, IR-05, IR-06</td>
 </tr>
 </table>
 
@@ -142,7 +142,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    Otorga el poder de dar de alta a un estudiante en el sistema</td>
+    Otorga el poder dar de alta a un estudiante en el sistema</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
@@ -154,11 +154,11 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    1.- El personal del PAS / PDI pulsa sobre el botón para dar de alta a un nuevo estudiante<br>
+    1.- El actor pulsa sobre el botón para dar de alta a un nuevo estudiante<br>
     2.- El sistema muestra diversas cajas de texto para introducir los diferentes datos del estudiante al cual se le quiere dar de alta<br>
-    3.- El personal del PAS / PDI introduce los datos del estudiante<br>
-    4.- El sistema comprueba la validez de los datos y los almacena una vez determina que son correctos, mostrando un mensaje de confirmación del éxito de la operación junto a un botón para cerrar dicha notificación<br>
-    6.- El personal del PAS / PDI pulsa sobre el botón para concluir la operación de búsqueda</td>
+    3.- El actor introduce los datos del estudiante<br>
+    4.- El sistema comprueba la validez de los datos [UC-07] y los almacena una vez determina que son correctos, mostrando un mensaje de confirmación del éxito de la operación junto con un botón para cerrar dicha notificación<br>
+    5.- El actor pulsa sobre el botón para concluir la operación de dada de alta del estudiante</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
@@ -170,7 +170,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-04, UC-07, IR-01, IR-02, IR-03 </td>
+    UC-04, UC-07, IR-02, IR-05, IR-06 </td>
 </tr>
 </table>
 
@@ -211,15 +211,15 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    1.- El personal del PDI pulsa sobre el botón para dar de alta a un nuevo estudiante<br>
-    2.- El sistema muestra diversas cajas de texto para introducir los diferentes datos del estudiante al cual se le quiere dar de alta<br>
-    3.- El personal del PDI introduce los datos del estudiante<br>
-    4.- El sistema comprueba la validez de los datos y los almacena una vez determina que son correctos, mostrando un mensaje de confirmación del éxito de la operación junto a un botón para cerrar dicha notificación<br>
-    6.- El personal del PDI pulsa sobre el botón para concluir la operación de búsqueda</td>
+    1.- El actor pulsa sobre el botón para dar de alta a un nuevo estudiante<br>
+    2.- El sistema muestra diversas cajas de texto para introducir los diferentes datos del estudiante al cual se le quiere dar de alta junto con un botón cuya función es la de realizar una búsqueda del estudiante en las listas de clase de sus asignaturas<br>
+    3.- El actor introduce los datos del estudiante<br>
+    4.- El sistema comprueba la validez de los datos [UC-07] y los almacena una vez determina que son correctos, mostrando un mensaje de confirmación del éxito de la operación junto con un botón para cerrar dicha notificación<br>
+    5.- El actor pulsa sobre el botón para concluir la operación de dada de alta del estudiante</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    2.A.- El personal del PDI pulsa el botón encargado de la búsqueda del estudiante en la lista de clase y si ya aparece, se detiene el proceso
+    3.A.- El actor pulsa el botón encargado de la búsqueda del estudiante en las listas de clase de sus asignaturas e introduce el identificador de este y el de una asignatura en cuestión en una nueva ventana emergente la cual está compuesta por dos cajas de texto [UC-01]. Si el estudiante ya aparece como resultado de la búsqueda, se detiene el proceso de dada de alta en el sistema. En caso contrario, el sistema notifica lo sucedido y vuelve a mostrar la ventana compuesta por diferentes cajas de texto en las que poder introducir los datos para poder seguir así con el proceso inicial<br>
     4.A.- El sistema considera los datos introducidos como incorrectos, marcando con color rojo las cajas de texto donde se han producido errores de algún tipo para facilitar así su corrección</td>
 </tr>
 <tr>
@@ -228,7 +228,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-01, UC-03, UC-07, IR-01, IR-03, IR-05 </td>
+    UC-01, UC-03, UC-07, IR-02, IR-06 </td>
 </tr>
 </table>
 
@@ -257,7 +257,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    Permite realizar modificaciones en el horario por voluntad propia o atendiendo a peticiones</td>
+    Permite realizar modificaciones en los horarios por voluntad propia o atendiendo a peticiones</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
@@ -266,27 +266,27 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 <tr>
     <td><b>Precondiciones:</b><br>
     El personal del PAS debe haber sido de alta y estar autenticado en el sistema.<br>
-    También se plantea la necesidad de la existencia de una propuesta de cambio en el horario en el caso de que la modificación responda a dicha petición</td>
+    También se plantea la necesidad de la existencia de una propuesta de cambio en los horarios en el caso de que la modificación responda a dicha petición</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    1.- El actor pulsa sobre el botón para modificar el horario<br>
-    2.- El sistema muestra un calendario con el horario actual sobre el cual se pueden realizar cambios<br>
+    1.- El actor pulsa sobre el botón para modificar los horarios<br>
+    2.- El sistema muestra un calendario con los horarios actuales sobre los cuales se pueden realizar cambios<br>
     3.- El actor realiza los cambios que cree pertinentes<br>
     4.- El sistema, tras haber comprobado la validez de las modificaciones, muestra un nuevo botón cuya utilidad es la de confirmar los cambios establecidos<br>
-    6.- El actor pulsa sobre el botón para concluir la operación de modificación del horario</td>
+    5.- El actor pulsa sobre el botón para concluir la operación de modificación de los horarios</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    4.A.- El sistema comprueba la validez de las modificaciones y considera que hay uno o más errores por lo que se avisa al actor de ello, permitiéndole así que los corrija</td>
+    4.A.- El sistema, al comprobar la validez de las modificaciones, considera que hay uno o más errores, por lo que avisa al actor de ello para facilitarle así su corrección</td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    El cambio realizado en el horario ha sido guardado en el sistema</td>
+    Los horarios, ya modificados, han sido guardados en el sistema</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    IR-02, IR-04</td>
+    IR-04, IR-05</td>
 </tr>
 </table>
 
@@ -315,7 +315,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    Ofrece el medio necesario para realizar la propuesta de realizar un cambio en el horario</td>
+    Ofrece el medio necesario para realizar la propuesta de efectuar un cambio en los horarios</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
@@ -323,26 +323,27 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    El personal del PDI debe haber sido de alta y estar autenticado en el sistema</td>
+    El personal del PDI debe haber sido dado de alta y estar autenticado en el sistema</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    1.- El actor pulsa sobre el botón para proponer la acción de modificar el horario<br>
-    2.- El sistema muestra una caja de texto para introducir el motivo por el cual se desea realizar un cambio en el horario<br>
-    3.- El actor introduce el argumento de su petición<br>
-    4.- El sistema comprueba la validez de los datos y los almacena</td>
+    1.- El actor pulsa sobre el botón para proponer una modificación en los horarios<br>
+    2.- El sistema muestra una caja de texto para introducir el motivo por el cual se desea realizar un cambio en los horarios y comentar en qué consiste dicha modificación<br>
+    3.- El actor introduce una breve explicación del cambio solicitado, así como el motivo que da soporte al mismo a modo de argumento de su petición<br>
+    4.- El sistema, tras haber comprobado la validez de las datos, muestra un nuevo botón cuya utilidad es la de confirmar el envío de la propuesta<br>
+    5.- El actor pulsa sobre el botón para concluir la operación de solicitud de cambio en los horarios</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    4.A.- El sistema comprueba la validez de los datos y determina que no son correctos, procediendo a avisar al actor de ello permitiéndole que los corrija</td>
+    4.A.- El sistema comprueba la validez de los datos y determina que no son correctos, procediendo a avisar al actor de ello para facilitarle así su corrección</td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    La propuesta ha sido almacenada en el sistema y enviada al personal del PAS</td>
+    La propuesta ha sido almacenada en el sistema y enviada al personal del PAS (encargados de la gestión de las modificaciones en los horarios)</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    IR-03, IR-04</td>
+    IR-06, IR-07</td>
 </tr>
 </table>
 
@@ -371,7 +372,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    Permite el hecho de confirmar la validez de los datos de un nuevo estudiante el cual acaba de ser dado de alta</td>
+    Dispone la posibilidad de confirmar la validez de los datos de un nuevo estudiante el cual está siendo dado de alta</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
@@ -379,7 +380,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    El personal del PAS / PDI debe estar autenticado en el sistema, así como el estudiante cuyos datos van a ser verificados debe estar siendo dado de alta aún en el sistema</td>
+    El personal del PAS / PDI debe estar autenticado en el sistema, así como el estudiante cuyos datos van a ser verificados debe estar siendo dado de alta en el sistema</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
@@ -389,26 +390,76 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    2.A.- El sistema comprueba la validez de los datos y determina que al menos uno de ellos no es correcto, procediendo a notificar al actor de este hecho para que este los corrija</td>
+    2.A.- El sistema comprueba la validez de los datos y determina que al menos uno de ellos no es correcto, procediendo a notificar al actor de este hecho para facilitarle así su corrección</td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br><br></td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-03, UC-04, IR-01, IR-02, IR-03</td>
+    UC-03, UC-04, IR-02, IR-05, IR-06</td>
 </tr>
 </table>
 
 <br>
 
-- ### IR-01 _Estudiante_
+- ### IR-01 _AlumnoClase_
 
 <br>
 
 <table align = "center">
 <tr>
     <td><b>IR-01:</b></td>
+    <td>AlumnoClase</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Octubre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Daniel López García</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Entrevistas y reglamento</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>UC-01, IR-02, IR-03</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>El sistema deberá almacenar la información correspondiente a los alumnos que hay en cada clase de la universidad. En concreto:</td>
+</tr>
+<tr>
+    <td><b>Datos específicos:</b></td>
+    <td>- Identificador de estudiante<br>
+    - Identificador de clase</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
+
+- ### IR-02 _Estudiante_
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>IR-02:</b></td>
     <td>Estudiante</td>
 </tr>
 <tr>
@@ -425,7 +476,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-01, UC-02, UC-03, UC-04, UC-07, IR-02, IR-03, IR-04, IR-05</td>
+    <td>UC-02, UC-03, UC-04, UC-07, IR-01, IR-04, IR-05, IR-06</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -459,71 +510,14 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### IR-02 _PAS_
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>IR-02:</b></td>
-    <td>PAS</td>
-</tr>
-<tr>
-    <td><b>Versión:</b></td>
-    <td>1.0 (Octubre-2022)</td>
-</tr>
-<tr>
-    <td><b>Autor:</b></td>
-    <td>Daniel López García</td>
-</tr>
-<tr>
-    <td><b>Fuentes:</b></td>
-    <td>Entrevistas y reglamento</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b></td>
-    <td>UC-02, UC-03, UC-05, UC-07, IR-01, IR-04</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b></td>
-    <td>El sistema deberá almacenar la información correspondiente al personal del PAS de la universidad. En concreto:</td>
-</tr>
-<tr>
-    <td><b>Datos específicos:</b></td>
-    <td>- Identificador de personal del PAS<br>
-    - Número del documento nacional de identidad<br>
-    - Nombre y apellidos<br>
-    - Fecha de nacimiento<br>
-    - Sexo<br>
-    - Fecha de alta como personal del PAS<br>
-    - Dirección<br>
-    - Teléfonos<br>
-    - Correo electrónico</td>
-</tr>
-<tr>
-    <td><b>Importancia:</b></td>
-    <td>Muy elevada</td>
-</tr>
-<tr>
-    <td><b>Estado:</b></td>
-    <td>Aceptado</td>
-</tr>
-<tr>
-    <td><b>Comentarios:</b></td>
-    <td></td>
-</tr>
-</table>
-
-<br>
-
-- ### IR-03 _PDI_
+- ### IR-03 _EventoClase_
 
 <br>
 
 <table align = "center">
 <tr>
     <td><b>IR-03:</b></td>
-    <td>PDI</td>
+    <td>EventoClase</td>
 </tr>
 <tr>
     <td><b>Versión:</b></td>
@@ -539,23 +533,16 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-01, UC-02, UC-03, UC-04, UC-06, UC-07, IR-01, IR-04, IR-05</td>
+    <td>IR-01, IR-04</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>El sistema deberá almacenar la información correspondiente al personal del PDI de la universidad. En concreto:</td>
+    <td>El sistema deberá almacenar la información correspondiente a los eventos y las clases de la universidad. En concreto:</td>
 </tr>
 <tr>
     <td><b>Datos específicos:</b></td>
-    <td>- Identificador de personal del PDI<br>
-    - Número del documento nacional de identidad<br>
-    - Nombre y apellidos<br>
-    - Fecha de nacimiento<br>
-    - Sexo<br>
-    - Fecha de alta como personal del PDI<br>
-    - Dirección<br>
-    - Teléfonos<br>
-    - Correo electrónico</td>
+    <td>- Identificador del evento / de la clase<br>
+    - Nombre del lugar asignado<br></td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -596,18 +583,19 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-02, UC-05, UC-06, IR-01, IR-02, IR-03, IR-05</td>
+    <td>UC-02, UC-05, IR-02, IR-03, IR-05, IR-06, IR-07</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>El sistema deberá almacenar la información correspondiente al horario de la universidad. En concreto:</td>
+    <td>El sistema deberá almacenar la información correspondiente a los horarios de la universidad. En concreto:</td>
 </tr>
 <tr>
     <td><b>Datos específicos:</b></td>
-    <td>- Identificador de usuario al que corresponde el horario<br>
-    - Listado de tramos horarios en los que se divide cada día<br>
-    - Identificadores de las clases que tienen lugar en cada tramo horario<br>
-    - Nota creada por el usuario para un día en específico</td>
+    <td>- Identificador de horario<br>
+    - Identificador de usuario al que corresponde el horario<br>
+    - Identificador del evento / de la clase
+    - Hora de inicio del evento / de la clase
+    - Hora de fin del evento / de la clase</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -625,14 +613,14 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### IR-05 _Clase_
+- ### IR-05 _PAS_
 
 <br>
 
 <table align = "center">
 <tr>
     <td><b>IR-05:</b></td>
-    <td>Clase</td>
+    <td>PAS</td>
 </tr>
 <tr>
     <td><b>Versión:</b></td>
@@ -648,19 +636,132 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-01, UC-03, UC-04, IR-01</td>
+    <td>UC-02, UC-03, UC-05, UC-07, IR-02, IR-04</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>El sistema deberá almacenar la información correspondiente a las clases de la universidad. En concreto:</td>
+    <td>El sistema deberá almacenar la información correspondiente al personal del PAS de la universidad. En concreto:</td>
 </tr>
 <tr>
     <td><b>Datos específicos:</b></td>
-    <td>- Identificador de clase<br>
-    - Nombre del aulario asignado<br>
-    - Nombre del aula asignada<br>
-    - Número de estudiantes<br>
-    - Listado de identificadores de estudiantes inscritos<br></td>
+    <td>- Identificador de personal del PAS<br>
+    - Número del documento nacional de identidad<br>
+    - Nombre y apellidos<br>
+    - Fecha de nacimiento<br>
+    - Sexo<br>
+    - Fecha de alta como personal del PAS<br>
+    - Dirección<br>
+    - Teléfonos<br>
+    - Correo electrónico</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
+
+- ### IR-06 _PDI_
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>IR-06:</b></td>
+    <td>PDI</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Octubre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Daniel López García</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Entrevistas y reglamento</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>UC-01, UC-02, UC-03, UC-04, UC-06, UC-07, IR-02, IR-04, IR-07</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>El sistema deberá almacenar la información correspondiente al personal del PDI de la universidad. En concreto:</td>
+</tr>
+<tr>
+    <td><b>Datos específicos:</b></td>
+    <td>- Identificador de personal del PDI<br>
+    - Número del documento nacional de identidad<br>
+    - Nombre y apellidos<br>
+    - Fecha de nacimiento<br>
+    - Sexo<br>
+    - Fecha de alta como personal del PDI<br>
+    - Dirección<br>
+    - Teléfonos<br>
+    - Correo electrónico</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
+
+- ### IR-07 _PropuestaCambioHorario_
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>IR-07:</b></td>
+    <td>PropuestaCambioHorario</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Octubre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Daniel López García</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Entrevistas y reglamento</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>UC-06, IR-04, IR-06</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>El sistema deberá almacenar la información correspondiente a las peticiones de cambio en los horarios de la universidad. En concreto:</td>
+</tr>
+<tr>
+    <td><b>Datos específicos:</b></td>
+    <td>- Identificador de la propuesta de cambio en el horario<br>
+    - Identificador del personal del PDI<br>
+    - Identificador del horario<br>
+    - Cambio propuesto y argumentación que da soporte a dicha petición</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -707,34 +808,34 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-     El vendedor acuerda un precio con el comprador para poder realizar la venta</td>
+     Otorga la posibilidad de poder acordar un precio para así poder realizar la venta de un producto</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-     Comprador/Vendedor</td>
+     Comprador + Vendedor</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    El comprador y el vendedor deben estar dados de alta</td>
+    Tanto el comprador como el vendedor deben estar autenticados en el sistema y ambos deben estar tomando parte en el proceso de realizar una venta</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    1.- El vendedor propone un precio para la venta de su producto.
-    2.- El comprador acepta el precio o le hace una contraoferta al vendedor.
-    3.- Se concluye el acuerdo del precio.
-    </td>
+    1.- El comprador y el vendedor pulsan sobre el botón para acordar el precio de un producto<br>
+    2.- El sistema muestra una nueva ventana emergente la cual contiene un chat común a comprador y vendedor junto con una caja de texto sobre la cual cualquiera de ellos puede escribir su próximo mensaje. Además de lo mencionado, también tienen lugar en dicha ventana dos botones más, uno para confirmar que se ha acordado un precio y otro para cancelar la operación<br>
+    3.- Comprador y vendedor confirman que han llegado a un acuerdo clicando sobre el botón correspondiente</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
+    3.A.- Comprador o vendedor pulsa sobre el botón cuya función es la de cancelar la acción de acordar un precio. A ambos se les notifica el no acuerdo de tal manera que deben clicar sobre un botón para cerrar dicho mensaje y volver así a la ventana desde la cual pulsaron en un inicio el botón para acordar el precio de un producto
     </td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    El precio es actualizado oficialmente en el sistema para que la compra pueda ser llevada a cabo.</td>
+    El precio acordado ha sido guardado en el sistema para que la compra pueda ser llevada a cabo</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "UC24"</td>
+    UC-24</td>
 </tr>
 </table>
 
@@ -771,21 +872,21 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    El comprador debe de estar dado de alta en el sistema</td>
+    El comprador debe haber sido dado de alta y estar autenticado en el sistema</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    1.- El comprador pulsa sobre el botón para agregar un producto
-    2.- El sistema comprueba que el producto está disponible y lo agrega al carrito de compra
-    </td>
+    1.- El actor pulsa sobre el botón para agregar un producto<br>
+    2.- El sistema valida la acción y procede a mostrar un mensaje el cual confirma la correcta agregación del producto en cuestión al carrito de compra junto con un botón sobre el que pulsar para cerrar dicho mensaje. Además, el producto se marca como bloqueado [UC-23]<br>
+    3.- El  actor pulsa sobre el botón para concluir la operación de agregación del producto</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    Si el producto en cuestión no está disponible, el sistema avisa al comprador.</td>
+    2.A.- El sistema, al tratar de validar la acción, detecta un error en el acto que se intenta llevar a cabo y lo notifica al actor, junto con un mensaje explicativo de la situación que acaba de acontecer. Además, se muestra un nuevo botón para el cierre de dicha notificación sobre el cual el actor debe pulsar para poder regresar así al estado inicial</td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    El producto agregado al carrito es marcado como bloqueado</td>
+    El estado del carrito ha sido actualizado y guardado en el sistema, pues ahora se le ha sumado un nuevo producto, el cual a su vez ha sido marcado como bloqueado</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
@@ -818,7 +919,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    Avisa a determinados usuarios sobre algún cambio del sistema</td>
+    Ofrece el medio necesario para avisar a determinados usuarios</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
@@ -826,24 +927,28 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    El proveedor debe de estar dado de alta en el sistema</td>
+    El proveedor debe haber sido dado de alta y estar autenticado el sistema, así como debe haberse producido una determinada acción la cual será notificada</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    1.- El proveedor avisa sobre algún cambio del sistema</td>
+    1.- El proveedor pulsa sobre el botón para avisar de un suceso determinado<br>
+    2.- El sistema muestra dos cajas de texto para introducir el motivo por el cual se desea avisar y el propio aviso en sí. Es decir, este anuncio será realizado mediante el envío de una notificación [UC-20]<br>
+    3.- El actor introduce el texto exigido en cada una de las cajas de texto a rellenar<br>
+    4.- El sistema, tras haber comprobado la validez de los datos introducidos, muestra un mensaje de confirmación del éxito de la operación junto con un botón para cerrar dicha notificación<br>
+    5.- El actor pulsa sobre el botón para poner así fin a la operación de aviso</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
+    4.A.- El sistema comprueba la validez de los datos introducidos y ha determinado que no cumple las condiciones exigidas, procediendo a avisar al actor de ello para facilitarle así su corrección
     </td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    Se envía una notifiación a determinados usuarios con el cambio habido en el sistema</td>
+    El aviso ha quedado guardado en el sistema a modo de notificación</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-11,UC-12,UC-20
-    </td>
+    UC-11, UC-12, UC-20</td>
 </tr>
 </table>
 
@@ -872,31 +977,37 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    "breve descripción del caso de uso"</td>
+    Ofrece el medio necesario para avisar a determinados usuarios de la llegada de un nuevo producto</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    "actores participantes en el caso de uso"</td>
+    Proveedor</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    "condiciones que deben cumplirse para poder ejecutar el caso de uso"</td>
+    El proveedor debe haber sido dado de alta y estar autenticado el sistema, así como debe haberse producido la llegada de un nuevo producto, acción la cual será notificada</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    "flujo normal (feliz) de ejecución del caso de uso"</td>
+    1.- El proveedor pulsa sobre el botón para avisar de la llegada de un nuevo producto<br>
+    2.- El sistema muestra dos cajas de texto para introducir el motivo por el cual se desea avisar y el propio aviso en sí. Es decir, este anuncio será realizado mediante el envío de una notificación [UC-20]. Además de lo mencionado, existe también un botón para la incorporación de una oferta sobre el producto en cuestión<br>
+    3.- El actor introduce el texto exigido en cada una de las cajas de texto a rellenar<br>
+    4.- El sistema, tras haber comprobado la validez de los datos introducidos, muestra un mensaje de confirmación del éxito de la operación junto con un botón para cerrar dicha notificación<br>
+    5.- El actor pulsa sobre el botón para poner así fin a la operación de aviso</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    "flujos alternativos de ejecución del caso de uso"</td>
+    3.A.- El actor pulsa el botón encargado de la incorporación de una oferta sobre el producto tratado e introduce el precio rebajado de este en una nueva ventana emergente la cual está compuesta por una única caja de texto [UC-22]. A continuación aparecerá un mensaje de confirmación de la operación que, al ser aceptado por el actor, provocará el establecimiento definitivo de la oferta<br>
+    4.A.- El sistema comprueba la validez de los datos introducidos y ha determinado que no cumple las condiciones exigidas, procediendo a avisar al actor de ello para facilitarle así su corrección
+    </td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    "condiciones que deben cumplirse al finalizar la ejecución del caso de uso"</td>
+    El aviso ha quedado guardado en el sistema a modo de notificación y, en caso de haberse incorporado una nueva oferta sobre el producto, el mismo también ha sido almacenado en el sistema como producto ofertado</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    "referencias a otros requisitos (UC o IR) cuando sea necesario"</td>
+    UC-10, UC-20, UC-22</td>
 </tr>
 </table>
 
@@ -1009,7 +1120,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    IR-07</td>
+    IR-03</td>
 </tr>
 </table>
 
@@ -1170,7 +1281,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    IR-07</td>
+    IR-03</td>
 </tr>
 </table>
 
@@ -1225,7 +1336,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-13/UC-25/IR-07</td>
+    UC-13/UC-25/IR-03</td>
 </tr>
 </table>
 
@@ -1447,7 +1558,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    IR-05</td>
+    IR-06</td>
 </tr>
 </table>
 
@@ -1503,7 +1614,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    IR-06, UC-11, UC10</td>
+    IR-07, UC-11, UC10</td>
 </tr>
 </table>
 
@@ -1559,7 +1670,7 @@ Comprador</td>
     El producto queda registrado como bloqueado en el sistema</td>
 </tr>
 <tr>
-    <td><b>IR-05, UC9</b><br>
+    <td><b>IR-06, UC9</b><br>
 </td>
 </tr>
 </table>
@@ -1616,7 +1727,7 @@ Comprador</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-IR-05, IR-08, UC18, UC14</td>
+IR-06, IR-08, UC18, UC14</td>
 </tr>
 </table>
 
@@ -1671,19 +1782,19 @@ IR-05, IR-08, UC18, UC14</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    IR-05, UC13 </td>
+    IR-06, UC13 </td>
 </tr>
 </table>
 
 <br>
 
-- ### IR-04 _Administrador_
+- ### IR-05 _Administrador_
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>IR-04:</b></td>
+    <td><b>IR-05:</b></td>
     <td>Administrador</td>
 </tr>
 <tr>
@@ -1730,13 +1841,13 @@ IR-05, IR-08, UC18, UC14</td>
 
 <br>
 
-- ### IR-05 _Comprador_
+- ### IR-06 _Comprador_
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>IR-05:</b></td>
+    <td><b>IR-06:</b></td>
     <td>Comprador</td>
 </tr>
 <tr>
@@ -1783,13 +1894,13 @@ IR-05, IR-08, UC18, UC14</td>
 
 <br>
 
-- ### IR-06 _Proveedor_
+- ### IR-07 _Proveedor_
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>IR-06:</b></td>
+    <td><b>IR-07:</b></td>
     <td>Proveedor</td>
 </tr>
 <tr>
@@ -1836,13 +1947,13 @@ IR-05, IR-08, UC18, UC14</td>
 
 <br>
 
-- ### IR-07 _Usuario_
+- ### IR-03 _Usuario_
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>IR-07:</b></td>
+    <td><b>IR-03:</b></td>
     <td>Usuario</td>
 </tr>
 <tr>
