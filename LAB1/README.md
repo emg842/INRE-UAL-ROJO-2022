@@ -90,7 +90,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    Plantea la posibilidad de consultar un horario personalizado propio</td>
+    Plantea la posibilidad de consultar los horarios personalizados propios</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
@@ -102,7 +102,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    1.- El actor pulsa sobre el botón para consultar su horario<br>
+    1.- El actor pulsa sobre el botón para consultar sus horarios<br>
     2.- El sistema muestra una ventana donde se reflejan los horarios además de un botón para cerrar la misma<br>
     3.- El actor pulsa sobre el botón para concluir la operación de consulta</td>
 </tr>
@@ -1117,7 +1117,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    4.A.- El sistema muestra un mensaje el cual notifica la no presencia, en la base de datos, de algún producto cuyo identificador se corresponda al introducido en la caja de texto</td>
+    4.A.- El sistema muestra un mensaje el cual notifica la no presencia, en la base de datos, de algún producto cuyo identificador se corresponda con el introducido en la caja de texto</td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
@@ -1174,7 +1174,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    4.A.- El sistema muestra un mensaje el cual notifica la no presencia, en la base de datos, de algún producto cuyo identificador se corresponda al introducido en la caja de texto</td>
+    4.A.- El sistema muestra un mensaje el cual notifica la no presencia, en la base de datos, de algún producto cuyo identificador se corresponda cpn el introducido en la caja de texto</td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
@@ -1211,7 +1211,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    Posibilita la acción de consultar la disponibilidad de una oferta para alguno de los productos</td>
+    Posibilita la acción de consultar la disponibilidad de una oferta para algún producto determinado</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
@@ -1267,33 +1267,35 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    Realiza la acción de consultar el precio de un determinado producto</td>
+    Permite realizar la acción de consulta del precio de un determinado producto</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    Comprador/Usuario/Vendedor/Proveedor/Administrador</td>
+    Administrador / Comprador / Proveedor / Usuario / Vendedor</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    El usuario ha de estar dado de alta en la base de datos</td>
+    El actor ha de estar dado de alta y autenticado en el sistema</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    1.- El usuario busca un producto<br>
-    2.- El usuario consulta el precio producto<br>
-    3.- Surge una ventana emergente con la información del producto</td>
+    1.- El actor pulsa sobre el botón para consultar el precio de un producto determinado<br>
+    2.- El sistema muestra una nueva ventana la cual cuenta con una única caja de texto para introducir el identificador del producto en cuestión<br>
+    3.- El actor introduce el identificador del producto, es decir, realiza una operación de búsqueda sobre el mismo [UC-13]<br>
+    4.- El sistema muestra el precio junto con un botón para cerrar la ventana de resultados de la consulta<br>
+    5.- El actor pulsa sobre el botón para concluir la operación de consulta</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    1.- No hay camino alternativo</td>
+    4.A.- El sistema muestra un mensaje el cual notifica la no presencia, en la base de datos, de algún producto cuyo identificador se corresponda con el introducido en la caja de texto</td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    El alumno sigue dado de alta en el sistema</td>
+    El precio del producto ha sido mostrado en pantalla</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    IR-03</td>
+    UC-13</td>
 </tr>
 </table>
 
@@ -1322,33 +1324,35 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    Realiza la acción de consultar la información de un producto</td>
+    Plantea la posibilidad de consultar la información de un producto</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    Usuario/Comprador</td>
+    Comprador</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    El comprador ha de estar dado de alta en el sistema</td>
+    El comprador ha de estar dado de alta y autenticado en el sistema</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    1.- El usuario visualiza el producto<br>
-    2.- El usuario consulta el producto<br>
-    3.- Surge una ventana emergente con la información del producto</td>
+    1.- El actor pulsa sobre el botón para consultar un producto en las base de datos del sistema<br>
+    2.- El sistema muestra una nueva ventana la cual cuenta con una única caja de texto para introducir el identificador del producto<br>
+    3.- El actor introduce el identificador del producto<br>
+    4.- El sistema verifica la disponibilidad del producto [UC-25] para luego, en caso de verificación exitosa, mostrar los datos del producto además de un botón para cerrar la ventana de resultados de búsqueda<br>
+    5.- El actor pulsa sobre el botón para concluir la operación de búsqueda</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    1.- En caso de no encontrar el producto se muestra una ventana con el texto: "No existe"</td>
+    4.A.- El sistema determina la no disponibilidad del producto, por lo que procede a mostrar un mensaje el cual notifica este suceso. Además, hace aparición un nuevo botón para el cierre de dicha notificación sobre el cual el actor debe pulsar para poder regresar así al estado inicial</td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    </td>
+    La información del producto sobre el cual se ha llevado a cabo la operación de consulta ha sido mostrada en pantalla</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-13/UC-25/IR-03</td>
+    UC-13, UC-25</td>
 </tr>
 </table>
 
