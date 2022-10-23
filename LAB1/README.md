@@ -1007,7 +1007,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    El aviso ha quedado guardado en el sistema, ha sido correctamente notificado y, en caso de haberse incorporado una oferta sobre el producto, la misma también ha sido almacenada en el sistema como producto ofertado</td>
+    El aviso ha quedado guardado en el sistema, ha sido correctamente notificado y, en caso de haberse incorporado una oferta sobre el producto, la misma también ha sido almacenada</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
@@ -1626,7 +1626,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    La oferta ha sido almacenada en el sistema como producto ofertado</td>
+    La oferta ha sido almacenada en el sistema</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
