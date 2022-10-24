@@ -169,7 +169,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    El estudiante ha sido dado de alta en el sistema y sus datos, los cuales han pasado por un proceso de verificación, han sido almacenados en el mismo</td>
+    El estudiante ha sido dado de alta en el sistema y sus datos, los cuales han pasado por un proceso de verificación de manera satisfactoria, han sido almacenados en el mismo</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
@@ -227,11 +227,11 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    El estudiante ha sido dado de alta en el sistema y sus datos, los cuales han pasado por un proceso de verificación, han sido almacenados en el mismo. Además, en caso de haber buscado al estudiante en las listas de clase de sus asignaturas, sus datos han sido mostrados en pantalla</td>
+    El estudiante ha sido dado de alta en el sistema y sus datos, los cuales han pasado por un proceso de verificación de manera satisfactoria, han sido almacenados en el mismo. Además, en caso de haber buscado al estudiante en las listas de clase de sus asignaturas, sus datos han sido mostrados en pantalla</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-01, UC-03, UC-07, IR-02, IR-06 </td>
+    UC-01, UC-03, UC-07, IR-01, IR-02, IR-06 </td>
 </tr>
 </table>
 
@@ -331,7 +331,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 <tr>
     <td><b>Flujo Normal:</b><br>
     1.- El actor pulsa sobre el botón para proponer una modificación en los horarios<br>
-    2.- El sistema muestra una caja de texto para introducir el motivo por el cual se desea realizar un cambio en los horarios y comentar en qué consiste dicha modificación<br>
+    2.- El sistema muestra dos cajas de texto para introducir el motivo por el cual se desea realizar un cambio en los horarios y comentar en qué consiste dicha modificación<br>
     3.- El actor introduce una breve explicación del cambio solicitado, así como el motivo que da soporte al mismo a modo de argumento de su petición<br>
     4.- El sistema, tras haber comprobado la validez de las datos, muestra un nuevo botón cuya utilidad es la de confirmar el envío de la propuesta<br>
     5.- El actor pulsa sobre el botón para concluir la operación de solicitud de cambio en los horarios</td>
@@ -430,7 +430,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-01, IR-02, IR-03</td>
+    <td>UC-01, UC-04, IR-02, IR-03</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -596,9 +596,9 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- Identificador de horario<br>
-    - Identificador de usuario al que corresponde el horario<br>
-    - Identificador del evento / de la clase
-    - Hora de inicio del evento / de la clase
+    - Identificador de usuario (Estudiante / PAS / PDI) al que corresponde el horario<br>
+    - Identificador del evento / de la clase<br>
+    - Hora de inicio del evento / de la clase<br>
     - Hora de fin del evento / de la clase</td>
 </tr>
 <tr>
@@ -765,7 +765,8 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
     <td>- Identificador de la propuesta de cambio en el horario<br>
     - Identificador del personal del PDI<br>
     - Identificador del horario<br>
-    - Cambio propuesto y argumentación que da soporte a dicha petición</td>
+    - Cambio propuesto<br>
+    - Motivo de la proposición de cambio</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
