@@ -342,7 +342,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    La propuesta ha sido almacenada en el sistema y enviada al personal del PAS (encargados de la gestión de las modificaciones en los horarios)</td>
+    La propuesta ha sido almacenada en el sistema</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
