@@ -895,7 +895,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-23, IR-10, IR-12</td>
+    UC-23, IR-10, IR-12, IR-17</td>
 </tr>
 </table>
 
@@ -953,7 +953,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-11, UC-12, UC-20, IR-09, IR-18</td>
+    UC-11, UC-12, UC-20, IR-09, IR-14, IR-18</td>
 </tr>
 </table>
 
@@ -1012,7 +1012,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-10, UC-20, UC-22, IR-09, IR-15, IR-18</td>
+    UC-10, UC-20, UC-22, IR-09, IR-14, IR-15, IR-18</td>
 </tr>
 </table>
 
@@ -1070,7 +1070,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-10, UC-18, UC-20, IR-09, IR-15, IR-18</td>
+    UC-10, UC-18, UC-20, IR-09, IR-14, IR-15, IR-18</td>
 </tr>
 </table>
 
@@ -1746,7 +1746,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-08, UC-14, IR-12, IR-20, IR-21</td>
+    UC-08, UC-14, IR-12, IR-13, IR-16, IR-20, IR-21</td>
 </tr>
 </table>
 
@@ -2095,7 +2095,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-14, IR-12, IR-17, IR-20</td>
+    <td>UC-14, UC-24, IR-12, IR-17, IR-20</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -2148,7 +2148,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-20, IR-09, IR-18</td>
+    <td>UC-10, UC-11, UC-12, UC-20, IR-09, IR-18</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -2254,7 +2254,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-08, IR-12, IR-20, IR-21</td>
+    <td>UC-08, UC-24, IR-12, IR-20, IR-21</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -2307,7 +2307,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-13, UC-16, UC-17, UC-19, UC-23, UC-25, IR-08, IR-10, IR-11, IR-12, IR-13, IR-15, IR-18, IR-19, IR-20, IR-21</td>
+    <td>UC-09, UC-13, UC-16, UC-17, UC-19, UC-23, UC-25, IR-08, IR-10, IR-11, IR-12, IR-13, IR-15, IR-18, IR-19, IR-20, IR-21</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
