@@ -495,7 +495,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
     - Sexo<br>
     - Fecha de alta como estudiante<br>
     - Dirección<br>
-    - Teléfonos<br>
+    - Teléfono<br>
     - Correo electrónico</td>
 </tr>
 <tr>
@@ -655,7 +655,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
     - Sexo<br>
     - Fecha de alta como personal del PAS<br>
     - Dirección<br>
-    - Teléfonos<br>
+    - Teléfono<br>
     - Correo electrónico</td>
 </tr>
 <tr>
@@ -712,7 +712,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
     - Sexo<br>
     - Fecha de alta como personal del PDI<br>
     - Dirección<br>
-    - Teléfonos<br>
+    - Teléfono<br>
     - Correo electrónico</td>
 </tr>
 <tr>

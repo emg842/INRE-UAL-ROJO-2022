@@ -1,7 +1,9 @@
 # INRE-UAL-ROJO-2022
 
 # Soluciones de prácticas
-**1. Lab 0 - Familiarización con MarkDown-Mermaid-PlantUML - [link](https://github.com/emg842/INRE-UAL-ROJO-2022/tree/main/LAB0)**
+**1. Lab 0 - Familiarización con MarkDown-PlantUML - [link](https://github.com/emg842/INRE-UAL-ROJO-2022/tree/main/LAB0)**
+
+**2. Lab 1 - Definición de casos de uso y requisitos de información - [link](https://github.com/emg842/INRE-UAL-ROJO-2022/tree/main/LAB1)**
 
 # Colaboradores
 - **Daniel López García - dlg383@inlumine.ual.es**
