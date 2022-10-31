@@ -1,0 +1,14 @@
+@startuml IRs_sistema_de_compras
+title Gestión Biblioteca
+
+Entity Autor {
+    idAutor : String
+}
+
+Entity Libro {
+    idLibro : String
+}
+
+Autor "1..*" --- "1..*" Libro
+
+@enduml

@@ -1,0 +1,97 @@
+@startuml IRs_horarios
+title Requisitos Información Horarios
+
+Class BuscadoEn {
+    FK idEstudiante : Integer
+    FK idPDI : Integer
+    FK idEventoClase : Integer
+}
+
+Class Estudiante {
+    PK idEstudiante : Integer
+    DNI : String
+    nombreCompleto : String
+    fechaNacimiento : String
+    sexo : String
+    fechaAlta : Date
+    direccion: String
+    telefono : String
+    correoElectronico : String
+    datosVerificados : Boolean
+}
+
+Class EstudianteAltaPAS {
+    FK idEstudiante : Integer
+    FK idPAS : Integer
+}
+
+Class EstudianteAltaPDI {
+    FK idEstudiante : Integer
+    FK idPDI : Integer
+}
+
+Class EventoClase {
+    PK idEventoClase : Integer
+    lugarAsignado : String
+}
+
+Class Horario {
+    PK idHorario : Integer
+    FK idUsuario : Integer
+    FK idEventoClase : Integer
+    horaInicio : Datetime
+    horaFin : Datetime
+}
+
+Class ModificacionHorario {
+    PK idModificacionHorario : Integer
+    FK idHorario: Integer
+    FK idPAS : Integer
+}
+
+Class PAS {
+    PK idPAS : Integer
+    DNI : String
+    nombreCompleto : String
+    fechaNacimiento : String
+    sexo : String
+    fechaAlta : Date
+    direccion: String
+    telefono : String
+    correoElectronico : String
+}
+
+Class PDI {
+    PK idPDI : Integer
+    DNI : String
+    nombreCompleto : String
+    fechaNacimiento : String
+    sexo : String
+    fechaAlta : Date
+    direccion: String
+    telefono : String
+    correoElectronico : String
+}
+
+Class PropuestaCambioHorario {
+    PK idPropuestaCambio : Integer
+    motivoProposicionCambio : String
+    cambioPropuesto : String
+}
+
+BuscadoEn "0..m" -- "1" EstudianteAltaPDI
+BuscadoEn "0..m" -- "1" EventoClase
+Estudiante "1" -- "0..1" EstudianteAltaPAS
+Estudiante "1" -- "0..1" EstudianteAltaPDI
+Estudiante "0..1" .. "0..m" Horario
+EstudianteAltaPAS "0..m" -- "1" PAS
+EstudianteAltaPDI "0..m" -- "1" PDI
+EventoClase "1" .. "0..m" Horario
+Horario "1" .. "0..m" ModificacionHorario
+Horario "0..m" .. "0..1" PAS
+Horario "0..m" .. "0..1" PDI
+Horario "1" .. "0..m" PropuestaCambioHorario
+ModificacionHorario "0..m" .. "1" PAS
+PDI "1" .. "0..m" PropuestaCambioHorario
+
+@enduml
