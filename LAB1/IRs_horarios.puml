@@ -1,10 +1,10 @@
 @startuml IRs_horarios
-title Requisitos Información Horarios
+title Requisitos Información: Horarios
 
 Class BuscadoEn {
-    FK idEstudiante : Integer
-    FK idPDI : Integer
-    FK idEventoClase : Integer
+    PK FK idEstudiante : Integer
+    PK FK idPDI : Integer
+    PK FK idEventoClase : Integer
 }
 
 Class Estudiante {
@@ -21,13 +21,13 @@ Class Estudiante {
 }
 
 Class EstudianteAltaPAS {
-    FK idEstudiante : Integer
-    FK idPAS : Integer
+    PK FK idEstudiante : Integer
+    PK FK idPAS : Integer
 }
 
 Class EstudianteAltaPDI {
-    FK idEstudiante : Integer
-    FK idPDI : Integer
+    PK FK idEstudiante : Integer
+    PK FK idPDI : Integer
 }
 
 Class EventoClase {
@@ -39,12 +39,12 @@ Class Horario {
     PK idHorario : Integer
     FK idUsuario : Integer
     FK idEventoClase : Integer
-    horaInicio : Datetime
-    horaFin : Datetime
+    horaInicio : DateTime
+    horaFin : DateTime
 }
 
 Class ModificacionHorario {
-    PK idModificacionHorario : Integer
+    PK idModificacion : Integer
     FK idHorario: Integer
     FK idPAS : Integer
 }
@@ -75,6 +75,8 @@ Class PDI {
 
 Class PropuestaCambioHorario {
     PK idPropuestaCambio : Integer
+    FK idHorario : Integer
+    FK idPDI : Integer
     motivoProposicionCambio : String
     cambioPropuesto : String
 }

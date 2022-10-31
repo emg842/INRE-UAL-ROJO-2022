@@ -57,11 +57,11 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    Los datos del estudiante sobre el cual se va a realizar el proceso de dada de alta en el sistema han sido mostrados en pantalla</td>
+    Los datos del estudiante sobre el cual se va a realizar el proceso de dada de alta en el sistema han sido mostrados en pantalla y la información de la búsqueda ha sido almacenada en el sistema</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-04, IR-01, IR-06</td>
+    UC-04, IR-01, IR-02, IR-04, IR-05, IR-09</td>
 </tr>
 </table>
 
@@ -116,7 +116,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    IR-02, IR-04, IR-05, IR-06</td>
+    IR-02, IR-06, IR-08, IR-09</td>
 </tr>
 </table>
 
@@ -173,7 +173,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-04, UC-07, IR-02, IR-05, IR-06</td>
+    UC-04, UC-07, IR-02, IR-08, IR-09</td>
 </tr>
 </table>
 
@@ -227,11 +227,11 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    El estudiante ha sido dado de alta en el sistema y sus datos, los cuales han pasado por un proceso de verificación de manera satisfactoria, han sido almacenados en el mismo. Además, en caso de haber buscado al estudiante en las listas de clase de sus asignaturas, sus datos han sido mostrados en pantalla</td>
+    El estudiante ha sido dado de alta en el sistema y sus datos, los cuales han pasado por un proceso de verificación de manera satisfactoria, han sido almacenados en el mismo. Además, en caso de haber buscado al estudiante en las listas de clase de sus asignaturas, sus datos han sido mostrados en pantalla así como la información de dicha búsqueda ha sido almacenada en el sistema</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-01, UC-03, UC-07, IR-01, IR-02, IR-06 </td>
+    UC-01, UC-03, UC-07, IR-01, IR-02, IR-04, IR-05, IR-09</td>
 </tr>
 </table>
 
@@ -285,11 +285,11 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    Los horarios, ya modificados, han sido guardados en el sistema</td>
+    Los horarios, ya modificados, han sido guardados en el sistema. Además, la información de la modificación ha sido almacenada en el sistema</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    IR-04, IR-05</td>
+    IR-06, IR-07, IR-08</td>
 </tr>
 </table>
 
@@ -346,7 +346,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    IR-06, IR-07</td>
+    IR-06, IR-09, IR-10</td>
 </tr>
 </table>
 
@@ -401,20 +401,20 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-03, UC-04, IR-02, IR-05, IR-06</td>
+    UC-03, UC-04, IR-02, IR-08, IR-09</td>
 </tr>
 </table>
 
 <br>
 
-- ### IR-01 _AlumnoClase_
+- ### IR-01 _BuscadoEn_
 
 <br>
 
 <table align = "center">
 <tr>
     <td><b>IR-01:</b></td>
-    <td>AlumnoClase</td>
+    <td>BuscadoEn</td>
 </tr>
 <tr>
     <td><b>Versión:</b></td>
@@ -430,16 +430,17 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-01, UC-04, IR-02, IR-03</td>
+    <td>UC-01, UC-04, IR-04, IR-05</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>El sistema deberá almacenar la información correspondiente a los alumnos que hay en cada clase de la universidad. En concreto:</td>
+    <td>El sistema deberá almacenar la información correspondiente a las búsquedas, llevadas a cabo por parte del personal del PDI, de los estudiantes en las listas de clase de sus asignaturas. En concreto:</td>
 </tr>
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- Identificador de estudiante<br>
-    - Identificador de clase</td>
+    - Identificador de personal del PDI<br>
+    - Identificador de evento / clase</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -480,7 +481,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-02, UC-03, UC-04, UC-07, IR-01, IR-04, IR-05, IR-06</td>
+    <td>UC-01, UC-02, UC-03, UC-04, UC-07, IR-03, IR-04, IR-06</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -496,7 +497,8 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
     - Fecha de alta como estudiante<br>
     - Dirección<br>
     - Teléfono<br>
-    - Correo electrónico</td>
+    - Correo electrónico<br>
+    - Controlador de la correcta verificación de los datos</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -514,13 +516,113 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### IR-03 _EventoClase_
+- ### IR-03 _EstudianteAltaPAS_
 
 <br>
 
 <table align = "center">
 <tr>
     <td><b>IR-03:</b></td>
+    <td>EstudianteAltaPAS</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Octubre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Daniel López García</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Entrevistas y reglamento</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>IR-02, IR-08</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>El sistema deberá almacenar la información específica correspondiente a los estudiantes de la universidad que han sido dados de alta por un integrante del personal del PAS. En concreto:</td>
+</tr>
+<tr>
+    <td><b>Datos específicos:</b></td>
+    <td>- Identificador de estudiante<br>
+    - Identificador de personal del PAS</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
+
+- ### IR-04 _EstudianteAltaPDI_
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>IR-04:</b></td>
+    <td>EstudianteAltaPDI</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Octubre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Daniel López García</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Entrevistas y reglamento</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>UC-01, UC-04, IR-01, IR-02, IR-09</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>El sistema deberá almacenar la información específica correspondiente a los estudiantes de la universidad que han sido dados de alta por un integrante del personal del PDI. En concreto:</td>
+</tr>
+<tr>
+    <td><b>Datos específicos:</b></td>
+    <td>- Identificador de estudiante<br>
+    - Identificador de personal del PDI</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
+
+- ### IR-05 _EventoClase_
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>IR-05:</b></td>
     <td>EventoClase</td>
 </tr>
 <tr>
@@ -537,15 +639,15 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>IR-01, IR-04</td>
+    <td>UC-01, UC-04, IR-01, IR-06</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>El sistema deberá almacenar la información correspondiente a los eventos y las clases de la universidad. En concreto:</td>
+    <td>El sistema deberá almacenar la información correspondiente a los eventos y las clases organizados por la universidad. En concreto:</td>
 </tr>
 <tr>
     <td><b>Datos específicos:</b></td>
-    <td>- Identificador del evento / de la clase<br>
+    <td>- Identificador de evento / clase<br>
     - Nombre del lugar asignado<br></td>
 </tr>
 <tr>
@@ -564,13 +666,13 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### IR-04 _Horario_
+- ### IR-06 _Horario_
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>IR-04:</b></td>
+    <td><b>IR-06:</b></td>
     <td>Horario</td>
 </tr>
 <tr>
@@ -587,7 +689,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-02, UC-05, IR-02, IR-03, IR-05, IR-06, IR-07</td>
+    <td>UC-02, UC-05, UC-06, IR-02, IR-05, IR-07, IR-08, IR-09, IR-10</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -597,9 +699,9 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
     <td><b>Datos específicos:</b></td>
     <td>- Identificador de horario<br>
     - Identificador de usuario (Estudiante / PAS / PDI) al que corresponde el horario<br>
-    - Identificador del evento / de la clase<br>
-    - Hora de inicio del evento / de la clase<br>
-    - Hora de fin del evento / de la clase</td>
+    - Identificador de evento / clase<br>
+    - Hora de inicio de evento / clase<br>
+    - Hora de fin de evento / clase</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -617,13 +719,64 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### IR-05 _PAS_
+- ### IR-07 _ModificacionHorario_
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>IR-05:</b></td>
+    <td><b>IR-07:</b></td>
+    <td>ModificacionHorario</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Octubre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Daniel López García</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Entrevistas y reglamento</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>UC-05, IR-06, IR-08</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>El sistema deberá almacenar la información correspondiente a las modificaciones, llevadas a cabo por parte del personal del PAS, en los horarios de la universidad. En concreto:</td>
+</tr>
+<tr>
+    <td><b>Datos específicos:</b></td>
+    <td>- Identificador de modificacion en el horario<br>
+    - Identificador de horario<br>
+    - Identificador de personal del PAS</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
+
+- ### IR-08 _PAS_
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>IR-08:</b></td>
     <td>PAS</td>
 </tr>
 <tr>
@@ -640,7 +793,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-02, UC-03, UC-05, UC-07, IR-02, IR-04</td>
+    <td>UC-02, UC-03, UC-05, UC-07, IR-03, IR-06, IR-07</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -674,13 +827,13 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### IR-06 _PDI_
+- ### IR-09 _PDI_
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>IR-06:</b></td>
+    <td><b>IR-09:</b></td>
     <td>PDI</td>
 </tr>
 <tr>
@@ -697,7 +850,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-01, UC-02, UC-03, UC-04, UC-06, UC-07, IR-02, IR-04, IR-07</td>
+    <td>UC-01, UC-02, UC-03, UC-04, UC-06, UC-07, IR-04, IR-06, IR-10</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -731,13 +884,13 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### IR-07 _PropuestaCambioHorario_
+- ### IR-10 _PropuestaCambioHorario_
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>IR-07:</b></td>
+    <td><b>IR-10:</b></td>
     <td>PropuestaCambioHorario</td>
 </tr>
 <tr>
@@ -754,19 +907,19 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-06, IR-04, IR-06</td>
+    <td>UC-06, IR-06, IR-09</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>El sistema deberá almacenar la información correspondiente a las peticiones de cambio en los horarios de la universidad. En concreto:</td>
+    <td>El sistema deberá almacenar la información correspondiente a las peticiones de cambio, llevadas a cabo por parte del personal del PDI, en los horarios de la universidad. En concreto:</td>
 </tr>
 <tr>
     <td><b>Datos específicos:</b></td>
-    <td>- Identificador de la propuesta de cambio en el horario<br>
-    - Identificador del personal del PDI<br>
-    - Identificador del horario<br>
-    - Cambio propuesto<br>
-    - Motivo de la proposición de cambio</td>
+    <td>- Identificador de propuesta de cambio en el horario<br>
+    - Identificador de horario<br>
+    - Identificador de personal del PDI<br>
+    - Motivo de la proposición de cambio<br>
+    - Cambio propuesto</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
