@@ -1,13 +1,12 @@
 @startuml IRs_horarios
 title Requisitos Información: Horarios
 
-Class BuscadoEn {
+Entity AlumnoClase {
     PK FK idEstudiante : Integer
-    PK FK idPDI : Integer
     PK FK idEventoClase : Integer
 }
 
-Class Estudiante {
+Entity Estudiante {
     PK idEstudiante : Integer
     DNI : String
     nombreCompleto : String
@@ -17,25 +16,15 @@ Class Estudiante {
     direccion: String
     telefono : String
     correoElectronico : String
-    datosVerificados : Boolean
 }
 
-Class EstudianteAltaPAS {
-    PK FK idEstudiante : Integer
-    PK FK idPAS : Integer
-}
-
-Class EstudianteAltaPDI {
-    PK FK idEstudiante : Integer
-    PK FK idPDI : Integer
-}
-
-Class EventoClase {
+Entity EventoClase {
     PK idEventoClase : Integer
+    nombreActividadAsignatura : String
     lugarAsignado : String
 }
 
-Class Horario {
+Entity Horario {
     PK idHorario : Integer
     FK idUsuario : Integer
     FK idEventoClase : Integer
@@ -43,13 +32,7 @@ Class Horario {
     horaFin : DateTime
 }
 
-Class ModificacionHorario {
-    PK idModificacion : Integer
-    FK idHorario: Integer
-    FK idPAS : Integer
-}
-
-Class PAS {
+Entity PAS {
     PK idPAS : Integer
     DNI : String
     nombreCompleto : String
@@ -61,7 +44,7 @@ Class PAS {
     correoElectronico : String
 }
 
-Class PDI {
+Entity PDI {
     PK idPDI : Integer
     DNI : String
     nombreCompleto : String
@@ -73,27 +56,21 @@ Class PDI {
     correoElectronico : String
 }
 
-Class PropuestaCambioHorario {
+Entity PropuestaCambioHorario {
     PK idPropuestaCambio : Integer
-    FK idHorario : Integer
     FK idPDI : Integer
+    FK idHorario : Integer
     motivoProposicionCambio : String
     cambioPropuesto : String
 }
 
-BuscadoEn "0..m" -- "1" EstudianteAltaPDI
-BuscadoEn "0..m" -- "1" EventoClase
-Estudiante "1" -- "0..1" EstudianteAltaPAS
-Estudiante "1" -- "0..1" EstudianteAltaPDI
+AlumnoClase "0..m" -- "1" Estudiante
+AlumnoClase "0..m" -- "1" EventoClase
 Estudiante "0..1" .. "0..m" Horario
-EstudianteAltaPAS "0..m" -- "1" PAS
-EstudianteAltaPDI "0..m" -- "1" PDI
 EventoClase "1" .. "0..m" Horario
-Horario "1" .. "0..m" ModificacionHorario
 Horario "0..m" .. "0..1" PAS
 Horario "0..m" .. "0..1" PDI
 Horario "1" .. "0..m" PropuestaCambioHorario
-ModificacionHorario "0..m" .. "1" PAS
 PDI "1" .. "0..m" PropuestaCambioHorario
 
 @enduml
