@@ -1,4 +1,5 @@
 @startuml aplicacion_gd
+
 title Aplicación GD
 
 :Administrador: as A1
@@ -57,23 +58,23 @@ UC24 ..> UC20 : <<Extend>>
 
 UC12 ..> UC4 : <<Include>>
 UC12 ..> UC15 : <<Include>>
-UC16 ..> UC9 : <<Include>>
-UC16 ..> UC12 : <<Include>>
-UC16 ..> UC19 : <<Include>>
-UC16 ..> UC21 : <<Include>>
-UC17 ..> UC2 : <<Include>>
-UC17 ..> UC26 : <<Include>>
-UC17 ..> UC28 : <<Include>>
-UC18 ..> UC1 : <<Include>>
-UC18 ..> UC3 : <<Include>>
-UC18 ..> UC29 : <<Include>>
-UC19 ..> UC10 : <<Include>>
-UC19 ..> UC13 : <<Include>>
+UC16 ..> UC9 : or \n <<Include>>
+UC16 ..> UC12 : or \n <<Include>>
+UC16 ..> UC19 : or \n <<Include>>
+UC16 ..> UC21 : or \n <<Include>>
+UC17 ..> UC2 : or \n <<Include>>
+UC17 ..> UC26 : or \n <<Include>>
+UC17 ..> UC28 : or \n <<Include>>
+UC18 ..> UC1 : or \n <<Include>>
+UC18 ..> UC3 : or \n <<Include>>
+UC18 ..> UC29 : or \n <<Include>>
+UC19 ..> UC10 : or \n <<Include>>
+UC19 ..> UC13 : or \n <<Include>>
 UC20 ..> UC25 : <<Include>>
-UC21 ..> UC6 : <<Include>>
-UC21 ..> UC7 : <<Include>>
-UC21 ..> UC8 : <<Include>>
-UC22 ..> UC11 : <<Include>>
-UC22 ..> UC14 : <<Include>>
+UC21 ..> UC6 : or \n <<Include>>
+UC21 ..> UC7 : or \n <<Include>>
+UC21 ..> UC8 : or \n <<Include>>
+UC22 ..> UC11 : or \n <<Include>>
+UC22 ..> UC14 : or \n <<Include>>
 
 @enduml

@@ -1,4 +1,5 @@
 @startuml compania_hotelera
+
 title Compañía hotelera
 
 :Administrador: as A1

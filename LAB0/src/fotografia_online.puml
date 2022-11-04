@@ -1,4 +1,5 @@
 @startuml fotografia_online
+
 title Fotografía Online
 
 :Administrador: as A1

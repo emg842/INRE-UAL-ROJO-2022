@@ -1,4 +1,5 @@
 @startuml gestion_de_incidencias
+
 title Gestión de Incidencias
 
 :Administrador: as A1
