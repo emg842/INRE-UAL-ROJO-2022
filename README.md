@@ -5,6 +5,8 @@
 
 **2. Lab 1 - Definición de casos de uso y requisitos de información - [link](https://github.com/emg842/INRE-UAL-ROJO-2022/tree/main/LAB1)**
 
+**3. Lab 2 - BPMN - [link](https://github.com/emg842/INRE-UAL-ROJO-2022/tree/main/LAB2)**
+
 # Colaboradores
 - **Daniel López García - dlg383@inlumine.ual.es**
 
