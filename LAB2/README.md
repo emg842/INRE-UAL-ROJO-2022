@@ -1,10 +1,6 @@
 <br>
 
-# Lab 0 - Familiarización con MarkDown-PlantUML
-
-<br>
-
-## Soluciones Actividad 2
+# Lab 2 - BPMN
 
 <br>
 
@@ -13,7 +9,9 @@ Después de un incendio, por un lado se necesita obtener información de nuestra
 
 <br>
 
-![](./out/incendio.svg)
+<center>
+<img src="./out/incendio.svg" alt="Descripción de la imagen">
+</center>
 
 <br>
 
@@ -33,7 +31,9 @@ Después de un incendio, por un lado se necesita obtener información de nuestra
 
 <br>
 
-![](./out/aprobacion_de_fondos.svg)
+<center>
+<img src="./out/aprobacion_de_fondos.svg" alt="Descripción de la imagen">
+</center>
 
 <br>
 
@@ -42,6 +42,8 @@ Un empleado envía una información para ser revisada. A un gerente se le envía
 
 <br>
 
-![](./out/informacion_revisada.svg)
+<center>
+<img src="./out/informacion_revisada.svg" alt="Descripción de la imagen">
+</center>
 
 <br>
