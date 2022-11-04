@@ -841,7 +841,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-24, IR-12, IR-16, IR-20</td>
+    UC-24, IR-12, IR-18, IR-19</td>
 </tr>
 </table>
 
@@ -896,7 +896,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-23, IR-10, IR-12, IR-17</td>
+    UC-23, IR-12, IR-15, IR-16</td>
 </tr>
 </table>
 
@@ -954,7 +954,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-11, UC-12, UC-20, IR-09, IR-14, IR-18</td>
+    UC-11, UC-12, UC-20, IR-09, IR-13, IR-17</td>
 </tr>
 </table>
 
@@ -1013,7 +1013,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-10, UC-20, UC-22, IR-09, IR-14, IR-15, IR-18</td>
+    UC-10, UC-20, UC-22, IR-09, IR-13, IR-14, IR-17</td>
 </tr>
 </table>
 
@@ -1071,7 +1071,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-10, UC-18, UC-20, IR-09, IR-14, IR-15, IR-18</td>
+    UC-10, UC-18, UC-20, IR-09, IR-13, IR-14, IR-17</td>
 </tr>
 </table>
 
@@ -1104,7 +1104,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    Administrador / Comprador / Proveedor / Usuario / Vendedor</td>
+    Administrador / Comprador / Proveedor / Vendedor</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
@@ -1128,7 +1128,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-16, UC-17, IR-08, IR-12, IR-17, IR-18, IR-19, IR-20</td>
+    UC-16, UC-17, IR-08, IR-12, IR-15, IR-17, IR-18</td>
 </tr>
 </table>
 
@@ -1157,7 +1157,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    Plantea la posibilidad de consultar el histórico de precios de aquellos productos que están registrados en el sistema</td>
+    Plantea la posibilidad de consultar el histórico de ventas de aquellos productos que están registrados en el sistema</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
@@ -1169,10 +1169,10 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    1.- El comprador y el vendedor pulsan sobre el botón para consultar el histórico de precios de un producto, con el propósito de que esta acción les ayude con el proceso de realizar una venta<br>
+    1.- El comprador y el vendedor pulsan sobre el botón para consultar el histórico de ventas de un producto, con el propósito de que esta acción les ayude con el proceso de realizar una venta<br>
     2.- El sistema muestra una nueva ventana la cual cuenta con una única caja de texto para introducir el identificador del producto cuyo histórico se desea consultar<br>
     3.- El actor introduce el identificador del producto<br>
-    4.- El sistema muestra el histórico de precios del producto además de un botón para cerrar la ventana de resultados de búsqueda<br>
+    4.- El sistema muestra el histórico de ventas del producto además de un botón para cerrar la ventana de resultados de búsqueda<br>
     5.- El actor pulsa sobre el botón para concluir la operación de búsqueda</td>
 </tr>
 <tr>
@@ -1181,11 +1181,11 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    El histórico de precios del producto sobre el cual se desea realizar la operación de venta ha sido mostrado en pantalla</td>
+    El histórico de ventas del producto sobre el cual se desea realizar la operación de venta ha sido mostrado en pantalla</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-24, IR-12, IR-13, IR-20</td>
+    UC-24, IR-12, IR-18, IR-19</td>
 </tr>
 </table>
 
@@ -1218,7 +1218,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    Administrador / Comprador / Proveedor / Usuario / Vendedor</td>
+    Administrador / Comprador / Proveedor / Vendedor</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
@@ -1242,7 +1242,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    IR-08, IR-12, IR-18, IR-19, IR-20</td>
+    IR-08, IR-12, IR-14, IR-17, IR-18</td>
 </tr>
 </table>
 
@@ -1275,7 +1275,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    Administrador / Comprador / Proveedor / Usuario / Vendedor</td>
+    Administrador / Comprador / Proveedor / Vendedor</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
@@ -1299,7 +1299,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-13, IR-08, IR-12, IR-17, IR-18, IR-19, IR-20</td>
+    UC-13, IR-08, IR-12, IR-15, IR-17, IR-18</td>
 </tr>
 </table>
 
@@ -1356,7 +1356,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-13, UC-25, IR-12, IR-17</td>
+    UC-13, UC-25, IR-12, IR-15</td>
 </tr>
 </table>
 
@@ -1411,7 +1411,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-12, IR-15, IR-18</td>
+    UC-12, IR-14, IR-17</td>
 </tr>
 </table>
 
@@ -1469,7 +1469,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
     Un determinado producto ha sido eliminado del sistema</td>
 </tr>
     <td><b>Referencias:</b><br>
-    IR-08, IR-17</td>
+    IR-08, IR-15</td>
 </tr>
 </table>
 
@@ -1524,7 +1524,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-10, UC-11, UC-12, IR-14, IR-18</td>
+    UC-10, UC-11, UC-12, IR-13, IR-17</td>
 </tr>
 </table>
 
@@ -1635,7 +1635,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-11, IR-15, IR-18</td>
+    UC-11, IR-14, IR-17</td>
 </tr>
 </table>
 
@@ -1690,7 +1690,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-09, IR-12, IR-17</td>
+    UC-09, IR-12, IR-15</td>
 </tr>
 </table>
 
@@ -1732,22 +1732,22 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <tr>
     <td><b>Flujo Normal:</b><br>
     1.- El comprador y el vendedor pulsan sobre el botón para realizar la venta de un producto<br>
-    2.- El sistema muestra un mensaje el cual confirma la posibilidad de realizar la venta junto con un botón que deberá ser pulsado por los actores para proseguir así en la acción mediante el acuerdo de un precio [UC-08]. Además de lo mencionado, existe también un botón para la consulta del histórico de precios del producto<br>
+    2.- El sistema muestra un mensaje el cual confirma la posibilidad de realizar la venta junto con un botón que deberá ser pulsado por los actores para proseguir así en la acción mediante el acuerdo de un precio [UC-08]. Además de lo mencionado, existe también un botón para la consulta del histórico de ventas del producto<br>
     3.- Una vez acordado el precio, el sistema valida la acción y procede a mostrar un mensaje corroborador de la correcta realización de la venta del producto en cuestión junto con un botón sobre el que pulsar para cerrar dicho mensaje<br>
     4.- Los actores pulsan sobre el botón para concluir la operación de realización de la venta de un producto</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
     2.A.- El sistema, al tratar de validar la acción, detecta un error en el acto que se intenta llevar a cabo y lo notifica a los actores, junto con un mensaje explicativo de la situación que acaba de acontecer. Además, se muestra a ambos un nuevo botón para el cierre de dicha notificación sobre el cual deberán pulsar para poder regresar así al estado inicial previo a esta situación<br>
-    3.A.- Algún actor (o ambos) pulsa el botón encargado de la consulta del histórico de precios del producto en base al cual desean realizar la venta [UC-14]. Si dicho producto ha sido vendido anteriormente se mostrará en una nueva ventana el histórico de sus precios acordados en cada ocasión. En caso contrario, el sistema notifica lo sucedido. Sea cual sea el resultado de la búsqueda, además de este se mostrará un botón para su cierre con el objetivo de poder continuar así el proceso inicial de realización de una venta</td>
+    3.A.- Algún actor (o ambos) pulsa el botón encargado de la consulta del histórico de ventas del producto en base al cual desean realizar la venta [UC-14]. Si dicho producto ha sido vendido anteriormente se mostrará en una nueva ventana el histórico de sus precios acordados en cada ocasión. En caso contrario, el sistema notifica lo sucedido. Sea cual sea el resultado de la búsqueda, además de este se mostrará un botón para su cierre con el objetivo de poder continuar así el proceso inicial de realización de una venta</td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    Los datos de la venta han sido almacenados en el sistema, incluyéndose en estos el precio final acordado entre comprador y vendedor, y, en caso de haber sido consultado el histórico de precios del producto en cuestión, dicho histórico se ha mostrado en pantalla</td>
+    Los datos de la venta han sido almacenados en el sistema, incluyéndose en estos el precio final acordado entre comprador y vendedor, y, en caso de haber sido consultado el histórico de ventas del producto en cuestión, dicho histórico se ha mostrado en pantalla</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-08, UC-14, IR-12, IR-13, IR-16, IR-20, IR-21</td>
+    UC-08, UC-14, IR-12, IR-18, IR-19</td>
 </tr>
 </table>
 
@@ -1802,7 +1802,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-17, IR-12, IR-17</td>
+    UC-17, IR-12, IR-15</td>
 </tr>
 </table>
 
@@ -1831,7 +1831,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-13, UC-15, UC-16, UC-19, IR-15, IR-17, IR-19</td>
+    <td>UC-13, UC-15, UC-16, UC-19, IR-14, IR-15</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -1884,7 +1884,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-10, UC-11, UC-12, IR-14, IR-18</td>
+    <td>UC-10, UC-11, UC-12, IR-13, IR-17</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -1937,7 +1937,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-09, IR-12, IR-17</td>
+    <td>IR-12, IR-16</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -1990,7 +1990,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-21, IR-12, IR-17</td>
+    <td>UC-21, IR-12, IR-15</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -2043,7 +2043,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-08, UC-09, UC-13, UC-14, UC-15, UC-16, UC-17, UC-21, UC-23, UC-24, UC-25, IR-10, IR-11, IR-13, IR-15, IR-16, IR-17, IR-19, IR-21</td>
+    <td>UC-08, UC-09, UC-13, UC-14, UC-15, UC-16, UC-17, UC-21, UC-23, UC-24, UC-25, IR-10, IR-11, IR-14, IR-15, IR-19</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -2073,66 +2073,13 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### IR-13 _HistóricoPreciosProducto_
+- ### IR-13 _Notificación_
 
 <br>
 
 <table align = "center">
 <tr>
     <td><b>IR-13:</b></td>
-    <td>HistóricoPreciosProducto</td>
-</tr>
-<tr>
-    <td><b>Versión:</b></td>
-    <td>1.0 (Octubre-2022)</td>
-</tr>
-<tr>
-    <td><b>Autor:</b></td>
-    <td>Miguel Ángel Moncada Álvarez</td>
-</tr>
-<tr>
-    <td><b>Fuentes:</b></td>
-    <td>Entrevistas y reglamento</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b></td>
-    <td>UC-14, UC-24, IR-12, IR-17, IR-20</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b></td>
-    <td>"breve descripción del requisito de información"</td>
-</tr>
-<tr>
-    <td><b>Datos específicos:</b></td>
-    <td>- Dato 1<br>
-    - Dato 2<br>
-    - Dato 3<br>
-    - Dato 4<br>
-    - Dato 5</td>
-</tr>
-<tr>
-    <td><b>Importancia:</b></td>
-    <td>Muy elevada</td>
-</tr>
-<tr>
-    <td><b>Estado:</b></td>
-    <td>Aceptado</td>
-</tr>
-<tr>
-    <td><b>Comentarios:</b></td>
-    <td></td>
-</tr>
-</table>
-
-<br>
-
-- ### IR-14 _Notificación_
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>IR-14:</b></td>
     <td>Notificación</td>
 </tr>
 <tr>
@@ -2149,7 +2096,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-10, UC-11, UC-12, UC-20, IR-09, IR-18</td>
+    <td>UC-10, UC-11, UC-12, UC-20, IR-09, IR-17</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -2179,119 +2126,66 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### IR-15 _OfertaProducto_
+- ### IR-14 _Oferta_
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>IR-14:</b></td>
+    <td>Oferta</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Octubre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Miguel Ángel Moncada Álvarez</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Entrevistas y reglamento</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>UC-11, UC-12, UC-15, UC-18, UC-22, IR-08, IR-12, IR-15, IR-17, IR-18</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>"breve descripción del requisito de información"</td>
+</tr>
+<tr>
+    <td><b>Datos específicos:</b></td>
+    <td>- Dato 1<br>
+    - Dato 2<br>
+    - Dato 3<br>
+    - Dato 4<br>
+    - Dato 5</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
+
+- ### IR-15 _Producto_
 
 <br>
 
 <table align = "center">
 <tr>
     <td><b>IR-15:</b></td>
-    <td>OfertaProducto</td>
-</tr>
-<tr>
-    <td><b>Versión:</b></td>
-    <td>1.0 (Octubre-2022)</td>
-</tr>
-<tr>
-    <td><b>Autor:</b></td>
-    <td>Miguel Ángel Moncada Álvarez</td>
-</tr>
-<tr>
-    <td><b>Fuentes:</b></td>
-    <td>Entrevistas y reglamento</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b></td>
-    <td>UC-11, UC-12, UC-18, UC-22, IR-08, IR-12, IR-17, IR-18, IR-19, IR-20</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b></td>
-    <td>"breve descripción del requisito de información"</td>
-</tr>
-<tr>
-    <td><b>Datos específicos:</b></td>
-    <td>- Dato 1<br>
-    - Dato 2<br>
-    - Dato 3<br>
-    - Dato 4<br>
-    - Dato 5</td>
-</tr>
-<tr>
-    <td><b>Importancia:</b></td>
-    <td>Muy elevada</td>
-</tr>
-<tr>
-    <td><b>Estado:</b></td>
-    <td>Aceptado</td>
-</tr>
-<tr>
-    <td><b>Comentarios:</b></td>
-    <td></td>
-</tr>
-</table>
-
-<br>
-
-- ### IR-16 _PrecioAcordado_
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>IR-16:</b></td>
-    <td>PrecioAcordado</td>
-</tr>
-<tr>
-    <td><b>Versión:</b></td>
-    <td>1.0 (Octubre-2022)</td>
-</tr>
-<tr>
-    <td><b>Autor:</b></td>
-    <td>Miguel Ángel Moncada Álvarez</td>
-</tr>
-<tr>
-    <td><b>Fuentes:</b></td>
-    <td>Entrevistas y reglamento</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b></td>
-    <td>UC-08, UC-24, IR-12, IR-20, IR-21</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b></td>
-    <td>"breve descripción del requisito de información"</td>
-</tr>
-<tr>
-    <td><b>Datos específicos:</b></td>
-    <td>- Dato 1<br>
-    - Dato 2<br>
-    - Dato 3<br>
-    - Dato 4<br>
-    - Dato 5</td>
-</tr>
-<tr>
-    <td><b>Importancia:</b></td>
-    <td>Muy elevada</td>
-</tr>
-<tr>
-    <td><b>Estado:</b></td>
-    <td>Aceptado</td>
-</tr>
-<tr>
-    <td><b>Comentarios:</b></td>
-    <td></td>
-</tr>
-</table>
-
-<br>
-
-- ### IR-17 _Producto_
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>IR-17:</b></td>
     <td>Producto</td>
 </tr>
 <tr>
@@ -2308,7 +2202,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-09, UC-13, UC-16, UC-17, UC-19, UC-23, UC-25, IR-08, IR-10, IR-11, IR-12, IR-13, IR-15, IR-18, IR-19, IR-20, IR-21</td>
+    <td>UC-09, UC-13, UC-16, UC-17, UC-19, UC-23, UC-25, IR-08, IR-11, IR-12, IR-14, IR-16, IR-17, IR-18, IR-19</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -2338,13 +2232,66 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### IR-18 _Proveedor_
+- ### IR-16 _ProductoEnCarrito_
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>IR-18:</b></td>
+    <td><b>IR-16:</b></td>
+    <td>ProductoEnCarrito</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Octubre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Miguel Ángel Moncada Álvarez</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Entrevistas y reglamento</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>UC-09, IR-10, IR-15</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>"breve descripción del requisito de información"</td>
+</tr>
+<tr>
+    <td><b>Datos específicos:</b></td>
+    <td>- Dato 1<br>
+    - Dato 2<br>
+    - Dato 3<br>
+    - Dato 4<br>
+    - Dato 5</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
+
+- ### IR-17 _Proveedor_
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>IR-17:</b></td>
     <td>Proveedor</td>
 </tr>
 <tr>
@@ -2361,7 +2308,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-10, UC-11, UC-12, UC-13, UC-15, UC-16, UC-18, UC-20, UC-22, IR-09, IR-14, IR-15, IR-17, IR-19</td>
+    <td>UC-10, UC-11, UC-12, UC-13, UC-15, UC-16, UC-18, UC-20, UC-22, IR-09, IR-13, IR-14, IR-15</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -2391,66 +2338,13 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### IR-19 _Usuario_
+- ### IR-18 _Vendedor_
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>IR-19:</b></td>
-    <td>Usuario</td>
-</tr>
-<tr>
-    <td><b>Versión:</b></td>
-    <td>1.0 (Octubre-2022)</td>
-</tr>
-<tr>
-    <td><b>Autor:</b></td>
-    <td>Miguel Ángel Moncada Álvarez</td>
-</tr>
-<tr>
-    <td><b>Fuentes:</b></td>
-    <td>Entrevistas y reglamento</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b></td>
-    <td>UC-13, UC-15, UC-16, IR-08, IR-12, IR-15, IR-17, IR-18, IR-20</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b></td>
-    <td>"breve descripción del requisito de información"</td>
-</tr>
-<tr>
-    <td><b>Datos específicos:</b></td>
-    <td>- Dato 1<br>
-    - Dato 2<br>
-    - Dato 3<br>
-    - Dato 4<br>
-    - Dato 5</td>
-</tr>
-<tr>
-    <td><b>Importancia:</b></td>
-    <td>Muy elevada</td>
-</tr>
-<tr>
-    <td><b>Estado:</b></td>
-    <td>Aceptado</td>
-</tr>
-<tr>
-    <td><b>Comentarios:</b></td>
-    <td></td>
-</tr>
-</table>
-
-<br>
-
-- ### IR-20 _Vendedor_
-
-<br>
-
-<table align = "center">
-<tr>
-    <td><b>IR-20:</b></td>
+    <td><b>IR-18:</b></td>
     <td>Vendedor</td>
 </tr>
 <tr>
@@ -2467,7 +2361,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-08, UC-13, UC-14, UC-15, UC-16, UC-24, IR-13, IR-15, IR-16, IR-17, IR-19, IR-21</td>
+    <td>UC-08, UC-13, UC-14, UC-15, UC-16, UC-24, IR-14, IR-15, IR-19</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -2497,13 +2391,13 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### IR-21 _Venta_
+- ### IR-19 _Venta_
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>IR-21:</b></td>
+    <td><b>IR-19:</b></td>
     <td>Venta</td>
 </tr>
 <tr>
@@ -2520,7 +2414,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-24, IR-12, IR-16, IR-17, IR-20</td>
+    <td>UC-08, UC-14, UC-24, IR-12, IR-15, IR-18</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
