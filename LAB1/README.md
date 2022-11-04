@@ -10,6 +10,26 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
+### Modelo Entidad-Relación
+
+<br>
+
+![](./out/ER_horarios.svg)
+
+<br>
+
+### Diagrama de clases
+
+<br>
+
+![](./out/IRs_horarios.svg)
+
+<br>
+
+### Casos de uso
+
+<br>
+
 - ### UC-01 _Buscar en lista de clase_
 
 <br>
@@ -56,8 +76,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
     4.A.- El sistema muestra un mensaje el cual notifica la no presencia del alumno cuyo identificador se corresponde al introducido en la caja de texto en la lista de clase de la asignatura en cuestión, junto con un botón para cerrar la ventana de resultados de búsqueda</td>
 </tr>
 <tr>
-    <td><b>Poscondiciones:</b><br>
-    Los datos del estudiante sobre el cual se va a realizar el proceso de dada de alta en el sistema han sido mostrados en pantalla</td>
+    <td><b>Poscondiciones:</b><br><br></td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
@@ -107,12 +126,10 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
     3.- El actor pulsa sobre el botón para concluir la operación de consulta</td>
 </tr>
 <tr>
-    <td><b>Flujo Alternativo:</b><br>
-    2.A.- El sistema muestra un mensaje el cual manifiesta la imposibilidad de consultar los horarios correspondientes junto con un botón que deberá ser pulsado por el actor para el cierre de dicha notificación</td>
+    <td><b>Flujo Alternativo:</b><br><br></td>
 </tr>
 <tr>
-    <td><b>Poscondiciones:</b><br>
-    Los horarios del usuario en cuestión han sido mostrados en pantalla</td>
+    <td><b>Poscondiciones:</b><br><br></td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
@@ -149,11 +166,11 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-    PAS / PDI</td>
+    PAS</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    El personal del PAS / PDI debe estar autenticado en el sistema, así como no lo debe estar el nuevo estudiante</td>
+    El personal del PAS debe estar autenticado en el sistema, así como no lo debe estar el nuevo estudiante</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
@@ -169,7 +186,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    El estudiante ha sido dado de alta en el sistema y sus datos, los cuales han pasado por un proceso de verificación de manera satisfactoria, han sido almacenados en el mismo</td>
+    El estudiante ha sido dado de alta en el sistema de tal manera que sus datos, los cuales han pasado por un proceso de verificación satisfactorio, han sido almacenados en el mismo</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
@@ -227,7 +244,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    El estudiante ha sido dado de alta en el sistema y sus datos, los cuales han pasado por un proceso de verificación de manera satisfactoria, han sido almacenados en el mismo. Además, en caso de haber buscado al estudiante en las listas de clase de sus asignaturas, sus datos han sido mostrados en pantalla</td>
+    El estudiante ha sido dado de alta en el sistema de tal manera que sus datos, los cuales han pasado por un proceso de verificación satisfactorio, han sido almacenados en el mismo</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
@@ -397,13 +414,17 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    Los datos del estudiante sobre el cual se va a realizar el proceso de dada de alta en el sistema han sido verificados de manera satisfactoria</td>
+    En la base de datos del sistema se actualiza el controlador de la correcta verificación de los datos del estudiante</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
     UC-03, UC-04, IR-02, IR-05, IR-06</td>
 </tr>
 </table>
+
+<br>
+
+### Requisitos de información
 
 <br>
 
