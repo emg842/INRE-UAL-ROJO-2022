@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="882px" preserveAspectRatio="none" style="width:1172px;height:882px;background:#FFFFFF;" version="1.1" viewBox="0 0 1172 882" width="1172px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="27.6094" id="_title" style="stroke:none;stroke-width:1.0;" width="142" x="508.0599" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="132" x="513.0599" y="24.5332">Compañía hotelera</text><!--MD5=[23bc7945312e1f0a2e37cebfe503a03b]
+entity A1--><g id="elem_A1"><ellipse cx="596.5" cy="364.6094" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M596.5,372.6094 L596.5,399.6094 M583.5,380.6094 L609.5,380.6094 M596.5,399.6094 L583.5,414.6094 M596.5,399.6094 L609.5,414.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="553" y="430.6426">Administrador</text></g><!--MD5=[406a5e0ae180932da9bcb21c819a1904]
+entity A2--><g id="elem_A2"><ellipse cx="577.5" cy="52.6094" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M577.5,60.6094 L577.5,87.6094 M564.5,68.6094 L590.5,68.6094 M577.5,87.6094 L564.5,102.6094 M577.5,87.6094 L590.5,102.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="555.5" y="118.6426">Cliente</text></g><!--MD5=[305b0bf20d1e87c4314d270a9e4e4ae4]
+entity A3--><g id="elem_A3"><ellipse cx="935.5" cy="364.6094" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M935.5,372.6094 L935.5,399.6094 M922.5,380.6094 L948.5,380.6094 M935.5,399.6094 L922.5,414.6094 M935.5,399.6094 L948.5,414.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="904" y="430.6426">Comercial</text></g><!--MD5=[b4296d86aafbbd2074f03a740cb37cff]
+entity A4--><g id="elem_A4"><ellipse cx="577.5" cy="208.6094" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M577.5,216.6094 L577.5,243.6094 M564.5,224.6094 L590.5,224.6094 M577.5,243.6094 L564.5,258.6094 M577.5,243.6094 L590.5,258.6094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="555" y="274.6426">Común</text></g><g id="elem_UC1"><ellipse cx="801.2817" cy="523.0128" fill="#F1F1F1" rx="80.7817" ry="27.9034" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="770.7817" y="517.9366">Bloquear</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="756.2817" y="535.546">temporalmente</text></g><g id="elem_UC2"><ellipse cx="82.7363" cy="239.3566" fill="#F1F1F1" rx="76.7363" ry="17.7473" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="27.2006" y="243.7648">Buscar elemento</text></g><g id="elem_UC3"><ellipse cx="289.4968" cy="83.1523" fill="#F1F1F1" rx="54.9968" ry="15.5429" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="255.9968" y="87.6689">Consultar</text></g><g id="elem_UC4"><ellipse cx="289.63" cy="239.1354" fill="#F1F1F1" rx="95.63" ry="21.526" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="214.13" y="242.8639">Consultar disponibilidad</text></g><g id="elem_UC5"><ellipse cx="438.4775" cy="394.9049" fill="#F1F1F1" rx="79.4775" ry="18.2955" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="380.756" y="398.9802">Consultar reserva</text></g><g id="elem_UC6"><ellipse cx="596.5599" cy="523.0128" fill="#F1F1F1" rx="88.5599" ry="27.9034" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="542.0599" y="517.9366">Gestionar nueva</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="574.0599" y="535.546">petición</text></g><g id="elem_UC7"><ellipse cx="1077.5599" cy="523.0128" fill="#F1F1F1" rx="88.5599" ry="27.9034" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="1023.0599" y="517.9366">Gestionar nueva</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="1055.5599" y="535.546">reserva</text></g><g id="elem_UC8"><ellipse cx="233.4659" cy="395.0025" fill="#F1F1F1" rx="89.9659" ry="20.3932" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="164.4659" y="398.7311">Mostrar un calendario</text></g><g id="elem_UC9"><ellipse cx="401.5677" cy="523.3229" fill="#F1F1F1" rx="71.5677" ry="16.7135" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="352.5677" y="527.8395">Realizar oferta</text></g><g id="elem_UC10"><ellipse cx="801.7336" cy="695.5082" fill="#F1F1F1" rx="113.2336" ry="66.3988" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="746.2162" y="657.9262">Realizar oferta</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="744.2162" y="675.5356">[vista Comercial]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="792.2162" y="693.1449"> </text><line style="stroke:#181818;stroke-width:1.0;" x1="689.5065" x2="913.9607" y1="696.2211" y2="696.2211"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="118" x="735.2162" y="714.7543">extension points</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="155" x="716.7162" y="732.3637">Bloquear temporalmente</text></g><g id="elem_UC11"><ellipse cx="801.2877" cy="858.1669" fill="#F1F1F1" rx="78.2877" ry="18.0575" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="744.5149" y="862.3867">Recalcular precio</text></g><g id="elem_UC12"><ellipse cx="710.3525" cy="238.9799" fill="#F1F1F1" rx="74.8525" ry="17.3705" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="656.8525" y="243.4965">Visualizar oferta</text></g><!--MD5=[a16b99b54956d0f1370abcafdf884f7d]
+link A1 to UC6--><g id="link_A1_UC6"><path d="M596.5,434.2594 C596.5,451.9794 596.5,472.8294 596.5,489.7694 " fill="none" id="A1-to-UC6" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="596.5,494.8894,600.5,485.8894,596.5,489.8894,592.5,485.8894,596.5,494.8894" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d08fd0d3280cc062529fcc2ef70bcd8f]
+link A1 to UC9--><g id="link_A1_UC9"><path d="M552.74,424.3894 C514.74,448.9394 460.92,483.7194 428.78,504.4894 " fill="none" id="A1-to-UC9" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="424.2,507.4394,433.93,505.9139,428.3994,504.7255,429.5878,499.1949,424.2,507.4394" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d2c23cb5a67416b84730653cfaac9b0a]
+link A2 to UC4--><g id="link_A2_UC4"><path d="M555.38,95.9394 C507.11,121.7494 391.74,183.4394 330.04,216.4294 " fill="none" id="A2-to-UC4" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="325.33,218.9494,335.1532,218.2385,329.7406,216.5942,331.3849,211.1816,325.33,218.9494" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[94684732f05249a9c2c7e3ae13818ad4]
+link A2 to UC12--><g id="link_A2_UC12"><path d="M599.76,109.8894 C625.98,140.2494 668.99,190.0494 692.96,217.8094 " fill="none" id="A2-to-UC12" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="696.36,221.7394,693.5019,212.3143,693.0908,217.9562,687.4489,217.5451,696.36,221.7394" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[03062a677d5c394ee55ff9908a2e46c9]
+link A3 to UC7--><g id="link_A3_UC7"><path d="M967.01,424.0694 C990.03,444.4994 1021.17,472.1194 1044.52,492.8494 " fill="none" id="A3-to-UC7" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1048.49,496.3694,1044.4038,487.4082,1044.7467,493.0547,1039.1002,493.3976,1048.49,496.3694" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[cd3b4a2fcd40602244af4e2bd6d7932c]
+link A3 to UC10--><g id="link_A3_UC10"><path d="M931.01,434.3294 C926.27,466.5094 917.11,513.2094 900.5,551.1094 C888.21,579.1494 870.18,607.4294 852.86,631.3894 " fill="none" id="A3-to-UC10" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="849.86,635.5094,858.3906,630.587,852.8026,631.4669,851.9226,625.8789,849.86,635.5094" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b9a1273bca0d6e6cfca99266468155ae]
+link A4 to UC5--><g id="link_A4_UC5"><path d="M554.86,265.1994 C527.88,295.0894 483.25,344.5294 457.83,372.6994 " fill="none" id="A4-to-UC5" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="454.22,376.6994,463.2224,372.7047,457.5727,372.99,457.2874,367.3404,454.22,376.6994" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7b25c3581809b3bc8a4ab4828bd68ce6]
+reverse link A2 to A4--><g id="link_A2_A4"><path d="M577.5,142.2194 C577.5,161.5294 577.5,182.5294 577.5,199.9494 " fill="none" id="A2-backto-A4" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="570.5,142.1794,577.5,122.1794,584.5,142.1794,570.5,142.1794" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e3dcc9021ddc83ccbc4778239705f4f0]
+reverse link A4 to A1--><g id="link_A4_A1"><path d="M584.67,298.2194 C587.05,317.5294 589.64,338.5294 591.79,355.9494 " fill="none" id="A4-backto-A1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="577.7,298.8794,582.2,278.1794,591.59,297.1694,577.7,298.8794" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[70b0344d7a976e995a51ae62e2d2893f]
+reverse link A4 to A3--><g id="link_A4_A3"><path d="M616.09,277.2194 C616.56,277.5194 617.03,277.8194 617.5,278.1094 C713.41,337.5394 844.33,373.0794 903.8,387.1294 " fill="none" id="A4-backto-A3" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="611.65,282.6294,600.27,264.7594,620.31,271.6294,611.65,282.6294" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d4a5aae1b0e654ff863e0f2caddd3bea]
+reverse link UC3 to UC4--><g id="link_UC3_UC4"><path d="M289.5,119.1594 C289.5,149.5394 289.5,192.4694 289.5,217.5794 " fill="none" id="UC3-backto-UC4" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="282.5,118.8794,289.5,98.8794,296.5,118.8794,282.5,118.8794" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a1313c52b5c2d6db7ccca18a4247035e]
+reverse link UC3 to UC5--><g id="link_UC3_UC5"><path d="M324.5,110.4294 C350.22,131.7294 383.82,164.0294 402.5,200.1094 C433.22,259.4194 438.03,340.9394 438.57,376.4194 " fill="none" id="UC3-backto-UC5" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="319.92,115.7194,308.6,97.8094,328.62,104.7594,319.92,115.7194" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5a67df64117f5d7d30b3705e97ae03a1]
+reverse link UC9 to UC10--><g id="link_UC9_UC10"><path d="M452.4,545.8094 C517.34,573.4894 630.8,621.8494 710.71,655.9094 " fill="none" id="UC9-backto-UC10" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="449.55,552.1994,433.89,537.9194,455.04,539.3194,449.55,552.1994" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8e5138a6d8232622b484de293c5b836d]
+link UC1 to UC10--><g id="link_UC1_UC10"><path d="M801.5,551.1294 C801.5,570.7594 801.5,598.2794 801.5,623.9794 " fill="none" id="UC1-to-UC10" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="801.5,629.0894,805.5,620.0894,801.5,624.0894,797.5,620.0894,801.5,629.0894" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="802.5" y="595.6045">«Extend»</text></g><!--MD5=[a56f9de41608a5fdd8f0f70b45a15dc1]
+link UC3 to UC2--><g id="link_UC3_UC2"><path d="M271.13,97.7794 C234.11,125.3194 150.46,187.5494 108.11,219.0594 " fill="none" id="UC3-to-UC2" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="103.89,222.1894,113.495,220.0114,107.8969,219.1985,108.7097,213.6004,103.89,222.1894" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="193.5" y="166.6045">«Include»</text></g><!--MD5=[f38441ca68416b7bdc3359b78f331430]
+link UC4 to UC8--><g id="link_UC4_UC8"><path d="M282.06,260.5594 C271.83,288.7094 253.41,339.3394 242.44,369.5294 " fill="none" id="UC4-to-UC8" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="240.61,374.5494,247.4518,367.4649,242.3233,369.8521,239.9361,364.7236,240.61,374.5494" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="264.5" y="322.6045">«Include»</text></g><!--MD5=[2f043608e992351a742343fb5dbd2cbd]
+link UC10 to UC11--><g id="link_UC10_UC11"><path d="M801.5,762.3494 C801.5,788.1494 801.5,816.0194 801.5,834.7994 " fill="none" id="UC10-to-UC11" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="801.5,839.8494,805.5,830.8494,801.5,834.8494,797.5,830.8494,801.5,839.8494" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="802.5" y="806.6045">«Include»</text></g><!--MD5=[3cedfa0b411d34f481385210569f1905]
+@startuml compania_hotelera
+title Compañía hotelera
+
+:Administrador: as A1
+:Cliente: as A2
+:Comercial: as A3
+:Común: as A4
+
+(Bloquear \n temporalmente) as UC1
+(Buscar elemento) as UC2
+(Consultar) as UC3
+(Consultar disponibilidad) as UC4
+(Consultar reserva) as UC5
+(Gestionar nueva \n petición) as UC6
+(Gestionar nueva \n reserva) as UC7
+(Mostrar un calendario) as UC8
+(Realizar oferta) as UC9
+usecase UC10 as "Realizar oferta \n [vista Comercial]
+
+- -
+**extension points**
+Bloquear temporalmente"
+(Recalcular precio) as UC11
+(Visualizar oferta) as UC12
+
+A1 - -> UC6
+A1 - -> UC9
+A2 - -> UC4
+A2 - -> UC12
+A3 - -> UC7
+A3 - -> UC10
+A4 - -> UC5
+
+A2 <|- - A4
+A4 <|- - A1
+A4 <|- - A3
+UC3 <|- - UC4
+UC3 <|- - UC5
+UC9 <|- - UC10
+
+UC1 ..> UC10 : <<Extend>>
+
+UC3 ..> UC2 : <<Include>>
+UC4 ..> UC8 : <<Include>>
+UC10 ..> UC11 : <<Include>>
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: es
+Country: ES
+--></g></svg>

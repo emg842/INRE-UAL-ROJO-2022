@@ -17,7 +17,7 @@ usecase UC4 as "Avisar de nuevo producto
 Incorporar oferta"
 (Avisar fin de oferta) as UC5
 (Buscar producto) as UC6
-(Consultar histórico \n de precios) as UC7
+(Consultar histórico \n de ventas) as UC7
 (Consultar oferta) as UC8
 (Consultar precio) as UC9
 (Consultar producto) as UC10

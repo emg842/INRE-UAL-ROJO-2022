@@ -1,4 +1,4 @@
-@startuml sistema_de_compras
+@startuml fotografia_online
 title Fotografía Online
 
 :Administrador: as A1
