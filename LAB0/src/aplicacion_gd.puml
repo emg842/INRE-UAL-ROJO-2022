@@ -24,7 +24,12 @@ title Aplicación GD
 (Gestionar estadísticas) as UC17
 (Gestionar evento) as UC18
 (Gestionar integrantes \n del equipo) as UC19
-(Gestionar perfil) as UC20
+usecase UC20 as "Gestionar perfil
+
+--
+**extension points**
+Cambiar avatar
+Modificar contraseña"
 (Gestionar perfil \n del equipo) as UC21
 (Gestionar usuarios \n de la plataforma) as UC22
 (Iniciar sesión) as UC23

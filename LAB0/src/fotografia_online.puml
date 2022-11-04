@@ -20,14 +20,22 @@ title Fotografía Online
 (Editar información \n de foto) as UC8
 (Editar usuario) as UC9
 (Emitir factura) as UC10
-(Hacer oferta a cliente) as UC11
+usecase UC11 as "Hacer oferta a cliente
+
+--
+**extension points**
+Reducir precio de producto"
 (Indicar revisión de foto) as UC12
 (Introducir \n explicación) as UC13
 (Operaciones comunes \n de edición) as UC14
 (Reducir precio \n de producto)  as UC15
 (Ver oferta) as UC16
 (Verificar datos \n introducidos) as UC17
-(Visualizar foto) as UC18
+usecase UC18 as "Visualizar foto
+
+--
+**extension points**
+Denunciar foto"
 
 A1 --> UC5
 A1 --> UC9

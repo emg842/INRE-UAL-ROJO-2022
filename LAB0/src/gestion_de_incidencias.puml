@@ -15,12 +15,20 @@ title Gestión de Incidencias
 (Atender llamada telefónica \n [vista Operador]) as UC4
 (Atender llamada telefónica \n [vista Técnico]) as UC5
 (Comprobar datos \n incidencia) as UC6
-(Consultar incidencia) as UC7
+usecase UC7 as "Consultar incidencia
+
+--
+**extension points**
+Editar datos de incidencia"
 (Consultar incidencia \n [vista Invitado]) as UC8
 (Dar de alta incidencia) as UC9
 (Dar de alta localización \n en un mapa) as UC10
 (Editar datos de \n incidencia) as UC11
-(Enviar correo) as UC12
+usecase UC12 as "Enviar correo
+
+--
+**extension points**
+Dar de alta incidencia"
 (Gestionar categoría \n de incidencia) as UC13
 (Incorporar una explicación) as UC14
 (Informar sobre \n posible incidencia) as UC15

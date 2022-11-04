@@ -10,7 +10,11 @@ title Sistema de Compras
 (Acordar precio) as UC1
 (Agregar producto)  as UC2
 (Avisar)  as UC3
-(Avisar de nuevo producto) as UC4
+usecase UC4 as "Avisar de nuevo producto
+
+--
+**extension points**
+Incorporar oferta"
 (Avisar fin de oferta) as UC5
 (Buscar producto) as UC6
 (Consultar histórico \n de precios) as UC7
@@ -23,7 +27,11 @@ title Sistema de Compras
 (Finalizar compra) as UC14
 (Incorporar oferta) as UC15
 (Marcar producto \n como bloqueado) as UC16
-(Realizar venta) as UC17
+usecase UC17 as "Realizar venta
+
+--
+**extension points**
+Consultar histórico de precios"
 (Verificar disponibilidad \n de producto) as UC18
 
 A1 --> UC12

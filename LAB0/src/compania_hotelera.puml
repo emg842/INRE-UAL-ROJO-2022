@@ -15,7 +15,11 @@ title Compañía hotelera
 (Gestionar nueva \n reserva) as UC7
 (Mostrar un calendario) as UC8
 (Realizar oferta) as UC9
-(Realizar oferta \n [vista Comercial]) as UC10
+usecase UC10 as "Realizar oferta \n [vista Comercial]
+
+--
+**extension points**
+Bloquear temporalmente"
 (Recalcular precio) as UC11
 (Visualizar oferta) as UC12
 
