@@ -480,7 +480,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-02, UC-03, UC-04, UC-07, IR-01, IR-04, IR-05, IR-06</td>
+    <td>UC-02, UC-03, UC-04, UC-07, IR-01, IR-04</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -641,7 +641,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-02, UC-03, UC-05, UC-07, IR-02, IR-04</td>
+    <td>UC-02, UC-03, UC-05, UC-07, IR-04</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -698,7 +698,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-01, UC-02, UC-03, UC-04, UC-06, UC-07, IR-02, IR-04, IR-07</td>
+    <td>UC-01, UC-02, UC-03, UC-04, UC-06, UC-07, IR-04, IR-07</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
