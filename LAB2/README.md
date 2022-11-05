@@ -9,9 +9,7 @@ Después de un incendio, por un lado se necesita obtener información de nuestra
 
 <br>
 
-<center>
-<img src="./out/incendio.svg" alt="Descripción de la imagen">
-</center>
+<div align="center"><img src="./out/incendio.svg"></div>
 
 <br>
 
@@ -31,9 +29,7 @@ Después de un incendio, por un lado se necesita obtener información de nuestra
 
 <br>
 
-<center>
-<img src="./out/aprobacion_de_fondos.svg" alt="Descripción de la imagen">
-</center>
+<div align="center"><img src="./out/aprobacion_de_fondos.svg"></div>
 
 <br>
 
@@ -42,8 +38,6 @@ Un empleado envía una información para ser revisada. A un gerente se le envía
 
 <br>
 
-<center>
-<img src="./out/informacion_revisada.svg" alt="Descripción de la imagen">
-</center>
+<div align="center"><img src="./out/informacion_revisada.svg"></div>
 
 <br>
