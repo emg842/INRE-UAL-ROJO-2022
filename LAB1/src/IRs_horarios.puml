@@ -1,13 +1,13 @@
 @startuml IRs_horarios
 
-title Requisitos Información: Horarios
+title Diagrama de clases: Horarios
 
-Entity AlumnoClase {
+Class AlumnoClase {
     PK FK idEstudiante : Integer
     PK FK idEventoClase : Integer
 }
 
-Entity Estudiante {
+Class Estudiante {
     PK idEstudiante : Integer
     FK idHorario : Integer
     DNI : String
@@ -21,26 +21,26 @@ Entity Estudiante {
     datosVerificados : Boolean
 }
 
-Entity EventoClase {
+Class EventoClase {
     PK idEventoClase : Integer
     nombreActividadAsignatura : String
     lugarAsignado : String
 }
 
-Entity Horario {
+Class Horario {
     PK idHorario : Integer
     curso : String
     grado : String
 }
 
-Entity HorarioEventoClase {
+Class HorarioEventoClase {
     PK FK idHorario : Integer
     PK FK EventoClase : Integer
     horaInicio : Datetime
     horaFin : Datetime
 }
 
-Entity PAS {
+Class PAS {
     PK idPAS : Integer
     DNI : String
     nombreCompleto : String
@@ -52,7 +52,7 @@ Entity PAS {
     correoElectronico : String
 }
 
-Entity PDI {
+Class PDI {
     PK idPDI : Integer
     DNI : String
     nombreCompleto : String
@@ -64,7 +64,7 @@ Entity PDI {
     correoElectronico : String
 }
 
-Entity PropuestaCambioHorario {
+Class PropuestaCambioHorario {
     PK idPropuestaCambio : Integer
     FK idPDI : Integer
     FK idHorario : Integer
