@@ -80,7 +80,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-04, IR-01, IR-06</td>
+    UC-04, IR-01, IR-07</td>
 </tr>
 </table>
 
@@ -133,7 +133,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    IR-02, IR-04, IR-05, IR-06</td>
+    IR-02, IR-04, IR-06, IR-07</td>
 </tr>
 </table>
 
@@ -190,7 +190,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-04, UC-07, IR-02, IR-05, IR-06</td>
+    UC-04, UC-07, IR-02, IR-06, IR-07</td>
 </tr>
 </table>
 
@@ -248,7 +248,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-01, UC-03, UC-07, IR-01, IR-02, IR-06 </td>
+    UC-01, UC-03, UC-07, IR-01, IR-02, IR-07 </td>
 </tr>
 </table>
 
@@ -306,7 +306,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    IR-04, IR-05</td>
+    IR-04, IR-06</td>
 </tr>
 </table>
 
@@ -363,7 +363,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    IR-06, IR-07</td>
+    IR-07, IR-08</td>
 </tr>
 </table>
 
@@ -414,11 +414,11 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    En la base de datos del sistema se actualiza el controlador de la correcta verificación de los datos del estudiante</td>
+    En la base de datos del sistema ha sido actualizado el controlador de la correcta verificación de los datos del estudiante</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-03, UC-04, IR-02, IR-05, IR-06</td>
+    UC-03, UC-04, IR-02, IR-06, IR-07</td>
 </tr>
 </table>
 
@@ -510,6 +510,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- Identificador de estudiante<br>
+    - Identificador de horario <br>
     - Número del documento nacional de identidad<br>
     - Nombre y apellidos<br>
     - Fecha de nacimiento<br>
@@ -517,7 +518,8 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
     - Fecha de alta como estudiante<br>
     - Dirección<br>
     - Teléfono<br>
-    - Correo electrónico</td>
+    - Correo electrónico<br>
+    - Controlador de la correcta verificación de los datos</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -558,7 +560,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>IR-01, IR-04</td>
+    <td>IR-01, IR-05</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -609,7 +611,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-02, UC-05, IR-02, IR-03, IR-05, IR-06, IR-07</td>
+    <td>UC-02, UC-05, IR-02, IR-05, IR-08</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -618,7 +620,57 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- Identificador de horario<br>
-    - Identificador de usuario (Estudiante / PAS / PDI) al que corresponde el horario<br>
+    - Curso<br>
+    - Grado</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
+
+- ### IR-05 _HorarioEventoClase_
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>IR-05:</b></td>
+    <td>HorarioEventoClase</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Octubre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Daniel López García</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Entrevistas y reglamento</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>IR-03, IR-04</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>El sistema deberá almacenar la información correspondiente a los todos los horarios de cada una de las clases de la universidad. En concreto:</td>
+</tr>
+<tr>
+    <td><b>Datos específicos:</b></td>
+    <td>- Identificador de horario<br>
     - Identificador de evento / clase<br>
     - Hora de inicio de evento / clase<br>
     - Hora de fin de evento / clase</td>
@@ -639,13 +691,13 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### IR-05 _PAS_
+- ### IR-06 _PAS_
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>IR-05:</b></td>
+    <td><b>IR-06:</b></td>
     <td>PAS</td>
 </tr>
 <tr>
@@ -662,7 +714,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-02, UC-03, UC-05, UC-07, IR-04</td>
+    <td>UC-02, UC-03, UC-05, UC-07</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -696,13 +748,13 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### IR-06 _PDI_
+- ### IR-07 _PDI_
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>IR-06:</b></td>
+    <td><b>IR-07:</b></td>
     <td>PDI</td>
 </tr>
 <tr>
@@ -719,7 +771,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-01, UC-02, UC-03, UC-04, UC-06, UC-07, IR-04, IR-07</td>
+    <td>UC-01, UC-02, UC-03, UC-04, UC-06, UC-07, IR-08</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -753,13 +805,13 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-- ### IR-07 _PropuestaCambioHorario_
+- ### IR-08 _PropuestaCambioHorario_
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>IR-07:</b></td>
+    <td><b>IR-08:</b></td>
     <td>PropuestaCambioHorario</td>
 </tr>
 <tr>
@@ -776,7 +828,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-06, IR-04, IR-06</td>
+    <td>UC-06, IR-04, IR-07</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -862,7 +914,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-24, IR-12, IR-18, IR-19</td>
+    UC-24, IR-13, IR-19, IR-20</td>
 </tr>
 </table>
 
@@ -917,7 +969,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-23, IR-12, IR-16</td>
+    UC-23, IR-13, IR-17</td>
 </tr>
 </table>
 
@@ -975,7 +1027,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-11, UC-12, UC-20, IR-09, IR-13, IR-17</td>
+    UC-11, UC-12, UC-20, IR-10, IR-14, IR-18</td>
 </tr>
 </table>
 
@@ -1034,7 +1086,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-10, UC-20, UC-22, IR-09, IR-13, IR-14, IR-17</td>
+    UC-10, UC-20, UC-22, IR-10, IR-14, IR-15, IR-18</td>
 </tr>
 </table>
 
@@ -1092,7 +1144,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-10, UC-18, UC-20, IR-09, IR-13, IR-14, IR-17</td>
+    UC-10, UC-18, UC-20, IR-10, IR-14, IR-15, IR-18</td>
 </tr>
 </table>
 
@@ -1149,7 +1201,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-16, UC-17, IR-08, IR-12, IR-15, IR-17, IR-18</td>
+    UC-16, UC-17, IR-09, IR-13, IR-16, IR-18, IR-19</td>
 </tr>
 </table>
 
@@ -1206,7 +1258,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-24, IR-12, IR-18, IR-19</td>
+    UC-24, IR-13, IR-19, IR-20</td>
 </tr>
 </table>
 
@@ -1263,7 +1315,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    IR-08, IR-12, IR-14, IR-17, IR-18</td>
+    IR-09, IR-13, IR-15, IR-18, IR-19</td>
 </tr>
 </table>
 
@@ -1320,7 +1372,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-13, IR-08, IR-12, IR-15, IR-17, IR-18</td>
+    UC-13, IR-09, IR-13, IR-16, IR-18, IR-19</td>
 </tr>
 </table>
 
@@ -1377,7 +1429,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-13, UC-25, IR-12, IR-15</td>
+    UC-13, UC-25, IR-13, IR-16</td>
 </tr>
 </table>
 
@@ -1432,7 +1484,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-12, IR-14, IR-17</td>
+    UC-12, IR-15, IR-18</td>
 </tr>
 </table>
 
@@ -1490,7 +1542,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
     Un determinado producto ha sido eliminado del sistema</td>
 </tr>
     <td><b>Referencias:</b><br>
-    IR-08, IR-15</td>
+    IR-09, IR-16</td>
 </tr>
 </table>
 
@@ -1545,7 +1597,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-10, UC-11, UC-12, IR-13, IR-17</td>
+    UC-10, UC-11, UC-12, IR-14, IR-18</td>
 </tr>
 </table>
 
@@ -1600,7 +1652,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    IR-11, IR-12</td>
+    IR-12, IR-13</td>
 </tr>
 </table>
 
@@ -1656,7 +1708,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-11, IR-14, IR-17</td>
+    UC-11, IR-15, IR-18</td>
 </tr>
 </table>
 
@@ -1711,7 +1763,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-09, IR-12, IR-15</td>
+    UC-09, IR-13, IR-16</td>
 </tr>
 </table>
 
@@ -1768,7 +1820,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-08, UC-14, IR-12, IR-18, IR-19</td>
+    UC-08, UC-14, IR-13, IR-19, IR-20</td>
 </tr>
 </table>
 
@@ -1823,19 +1875,19 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
-    UC-17, IR-12, IR-15</td>
+    UC-17, IR-13, IR-16</td>
 </tr>
 </table>
 
 <br>
 
-- ### IR-08 _Administrador_
+- ### IR-09 _Administrador_
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>IR-08:</b></td>
+    <td><b>IR-09:</b></td>
     <td>Administrador</td>
 </tr>
 <tr>
@@ -1882,13 +1934,13 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### IR-09 _Aviso_
+- ### IR-10 _Aviso_
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>IR-09:</b></td>
+    <td><b>IR-10:</b></td>
     <td>Aviso</td>
 </tr>
 <tr>
@@ -1905,7 +1957,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-10, UC-11, UC-12, IR-13, IR-14, IR-15, IR-17</td>
+    <td>UC-10, UC-11, UC-12, IR-14, IR-15, IR-16, IR-18</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -1935,13 +1987,13 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### IR-10 _Carrito_
+- ### IR-11 _Carrito_
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>IR-10:</b></td>
+    <td><b>IR-11:</b></td>
     <td>Carrito</td>
 </tr>
 <tr>
@@ -1958,7 +2010,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>IR-11, IR-12, IR-16</td>
+    <td>IR-12, IR-13, IR-17</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -1988,13 +2040,13 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### IR-11 _Compra_
+- ### IR-12 _Compra_
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>IR-11:</b></td>
+    <td><b>IR-12:</b></td>
     <td>Compra</td>
 </tr>
 <tr>
@@ -2011,7 +2063,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-21, IR-10, IR-12</td>
+    <td>UC-21, IR-11, IR-13</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -2041,13 +2093,13 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### IR-12 _Comprador_
+- ### IR-13 _Comprador_
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>IR-12:</b></td>
+    <td><b>IR-13:</b></td>
     <td>Comprador</td>
 </tr>
 <tr>
@@ -2064,7 +2116,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-08, UC-09, UC-13, UC-14, UC-15, UC-16, UC-17, UC-21, UC-23, UC-24, UC-25, IR-10, IR-11, IR-19</td>
+    <td>UC-08, UC-09, UC-13, UC-14, UC-15, UC-16, UC-17, UC-21, UC-23, UC-24, UC-25, IR-11, IR-12, IR-20</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -2094,13 +2146,13 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### IR-13 _Notificación_
+- ### IR-14 _Notificación_
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>IR-13:</b></td>
+    <td><b>IR-14:</b></td>
     <td>Notificación</td>
 </tr>
 <tr>
@@ -2117,7 +2169,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-10, UC-11, UC-12, UC-20, IR-09</td>
+    <td>UC-10, UC-11, UC-12, UC-20, IR-10</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -2147,13 +2199,13 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### IR-14 _Oferta_
+- ### IR-15 _Oferta_
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>IR-14:</b></td>
+    <td><b>IR-15:</b></td>
     <td>Oferta</td>
 </tr>
 <tr>
@@ -2170,7 +2222,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-11, UC-12, UC-15, UC-18, UC-22, IR-09, IR-15</td>
+    <td>UC-11, UC-12, UC-15, UC-18, UC-22, IR-10, IR-16</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -2200,13 +2252,13 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### IR-15 _Producto_
+- ### IR-16 _Producto_
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>IR-15:</b></td>
+    <td><b>IR-16:</b></td>
     <td>Producto</td>
 </tr>
 <tr>
@@ -2223,7 +2275,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-13, UC-16, UC-17, UC-19, UC-23, UC-25, IR-09, IR-14, IR-16 </td>
+    <td>UC-13, UC-16, UC-17, UC-19, UC-23, UC-25, IR-10, IR-15, IR-17 </td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -2253,13 +2305,13 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### IR-16 _ProductoEnCarrito_
+- ### IR-17 _ProductoEnCarrito_
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>IR-16:</b></td>
+    <td><b>IR-17:</b></td>
     <td>ProductoEnCarrito</td>
 </tr>
 <tr>
@@ -2276,7 +2328,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-09, IR-10, IR-15</td>
+    <td>UC-09, IR-11, IR-16</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -2306,13 +2358,13 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### IR-17 _Proveedor_
+- ### IR-18 _Proveedor_
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>IR-17:</b></td>
+    <td><b>IR-18:</b></td>
     <td>Proveedor</td>
 </tr>
 <tr>
@@ -2329,7 +2381,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-10, UC-11, UC-12, UC-13, UC-15, UC-16, UC-18, UC-20, UC-22, IR-09</td>
+    <td>UC-10, UC-11, UC-12, UC-13, UC-15, UC-16, UC-18, UC-20, UC-22, IR-10</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -2359,13 +2411,13 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### IR-18 _Vendedor_
+- ### IR-19 _Vendedor_
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>IR-18:</b></td>
+    <td><b>IR-19:</b></td>
     <td>Vendedor</td>
 </tr>
 <tr>
@@ -2382,7 +2434,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-08, UC-13, UC-14, UC-15, UC-16, UC-24, IR-19</td>
+    <td>UC-08, UC-13, UC-14, UC-15, UC-16, UC-24, IR-20</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -2412,13 +2464,13 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### IR-19 _Venta_
+- ### IR-20 _Venta_
 
 <br>
 
 <table align = "center">
 <tr>
-    <td><b>IR-19:</b></td>
+    <td><b>IR-20:</b></td>
     <td>Venta</td>
 </tr>
 <tr>
@@ -2435,7 +2487,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Referencias:</b></td>
-    <td>UC-08, UC-14, UC-24, IR-12, IR-18</td>
+    <td>UC-08, UC-14, UC-24, IR-13, IR-19</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
