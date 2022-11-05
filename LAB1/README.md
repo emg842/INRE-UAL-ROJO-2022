@@ -22,7 +22,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-![](./out/horarios/CD_horarios.svg)
+<div align="center"><img src="./out/horarios/CD_horarios.svg"></div>
 
 <br>
 
