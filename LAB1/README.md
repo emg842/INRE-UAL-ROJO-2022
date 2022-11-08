@@ -895,22 +895,20 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    Tanto el comprador como el vendedor deben estar autenticados en el sistema y ambos deben estar tomando parte en el proceso de realizar una venta</td>
+    Tanto el comprador como el vendedor deben estar autenticados en el sistema y ambos deben estar tomando parte en el proceso de realización de una venta</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
     1.- El comprador y el vendedor pulsan sobre el botón para acordar el precio de un producto<br>
-    2.- El sistema muestra a ambos actores una nueva ventana emergente la cual contiene un chat común a comprador y vendedor junto con una caja de texto sobre la cual cualquiera de ellos puede escribir su próximo mensaje. Además de lo mencionado, también tienen lugar en dicha ventana dos botones más, uno para confirmar que se ha acordado un precio y otro para cancelar la operación<br>
+    2.- El sistema muestra a ambos actores una nueva ventana emergente la cual contiene un chat común a comprador y vendedor junto con una caja de texto sobre la cual cualquiera de ellos puede escribir su próximo mensaje. Además de lo mencionado, también hace aparición en dicha ventana un cuadro de texto donde cualquiera de ellos ha de introducir el precio acordado (el que no lo introduzca será capaz de verlo de igual manera al tratarse de un campo de texto editable por ambos, al igual que el chat) y un botón más para confirmar que se ha acordado un precio<br>
     3.- Comprador y vendedor confirman que han llegado a un acuerdo clicando sobre el botón correspondiente</td>
 </tr>
 <tr>
-    <td><b>Flujo Alternativo:</b><br>
-    3.A.- Comprador o vendedor pulsa sobre el botón cuya función es la de cancelar la acción de acordar un precio. A ambos se les notifica el no acuerdo de tal manera que deben clicar sobre un botón para cerrar dicho mensaje y volver así a la ventana desde la cual pulsaron en un inicio el botón para acordar el precio de un producto
-    </td>
+    <td><b>Flujo Alternativo:</b><br><br></td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    El precio acordado ha sido guardado en el sistema para que la compra pueda ser llevada a cabo</td>
+    El precio acordado ha sido almacenado en el sistema</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
@@ -956,12 +954,11 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <tr>
     <td><b>Flujo Normal:</b><br>
     1.- El actor pulsa sobre el botón para agregar un producto<br>
-    2.- El sistema valida la acción y procede a mostrar un mensaje el cual confirma la correcta agregación del producto en cuestión al carrito de compra junto con un botón sobre el que pulsar para cerrar dicho mensaje. Además, el producto se marca como bloqueado [UC-23]<br>
+    2.- El sistema procede a mostrar un mensaje el cual confirma la correcta agregación del producto en cuestión al carrito de compra junto con un botón sobre el que pulsar para cerrar dicho mensaje. Además, el producto se marca como bloqueado [UC-23]<br>
     3.- El  actor pulsa sobre el botón para concluir la operación de agregación del producto</td>
 </tr>
 <tr>
-    <td><b>Flujo Alternativo:</b><br>
-    2.A.- El sistema, al tratar de validar la acción, detecta un error en el acto que se intenta llevar a cabo y lo notifica al actor, junto con un mensaje explicativo de la situación que acaba de acontecer. Además, se muestra un nuevo botón para el cierre de dicha notificación sobre el cual el actor debe pulsar para poder regresar así al estado inicial previo a esta situación</td>
+    <td><b>Flujo Alternativo:</b><br><br></td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
@@ -1013,7 +1010,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
     1.- El proveedor pulsa sobre el botón para avisar de un suceso determinado<br>
     2.- El sistema muestra dos cajas de texto para introducir el motivo por el cual se desea avisar y el propio aviso en sí<br>
     3.- El actor introduce el texto exigido en cada una de las cajas de texto a rellenar<br>
-    4.- El sistema, tras haber comprobado la validez de los datos introducidos, muestra un mensaje de confirmación del éxito de la operación junto con un botón para cerrar dicha notificación<br>
+    4.- El sistema, tras haber comprobado la validez de los datos introducidos, muestra un mensaje de confirmación del éxito de la operación junto con un botón para cerrar dicho mensaje<br>
     5.- El actor pulsa sobre el botón para poner así fin a la operación de aviso. Desembocando esta acción en el envío de una notificación [UC-20] a ciertos usuarios del sistema</td>
 </tr>
 <tr>
@@ -1023,7 +1020,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    El aviso ha quedado guardado en el sistema y ha sido correctamente notificado</td>
+    El aviso y la notificación generada correspondiente a dicho aviso han sido guardados en el sistema</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
@@ -1082,7 +1079,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    El aviso ha quedado guardado en el sistema, ha sido correctamente notificado y, en caso de haberse incorporado una oferta sobre el producto, la misma también ha sido almacenada</td>
+    El aviso y la notificación generada correspondiente a dicho aviso han sido guardados en el sistema y, en caso de haberse incorporado una oferta sobre el producto, la misma también ha sido almacenada</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
@@ -1123,7 +1120,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
-    El proveedor debe haber sido dado de alta y estar autenticado el sistema, así como debe haberse producido el fin de una oferta, acción la cual será notificada</td>
+    El proveedor debe haber sido dado de alta y estar autenticado el sistema, así como debe haberse producido el fin de una oferta (ya no está vigente), acción la cual será notificada</td>
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
@@ -1140,7 +1137,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    El aviso ha quedado guardado en el sistema, ha sido correctamente notificado y la oferta ha sido eliminada del mismo</td>
+    El aviso y la notificación generada correspondiente a dicho aviso han sido guardados en el sistema y la oferta ha sido eliminada del mismo</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
@@ -1186,18 +1183,17 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <tr>
     <td><b>Flujo Normal:</b><br>
     1.- El actor pulsa sobre el botón para buscar un producto en las base de datos del sistema<br>
-    2.- El sistema muestra una nueva ventana la cual cuenta con una única caja de texto para introducir el identificador del producto buscado<br>
-    3.- El actor introduce el identificador del producto<br>
+    2.- El sistema muestra una nueva ventana la cual cuenta con una única caja de texto para introducir el identificador o el nombre del producto buscado<br>
+    3.- El actor introduce el identificador o el nombre del producto<br>
     4.- El sistema muestra los datos del producto además de un botón para cerrar la ventana de resultados de búsqueda<br>
     5.- El actor pulsa sobre el botón para concluir la operación de búsqueda</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    4.A.- El sistema muestra un mensaje el cual notifica la no presencia, en la base de datos, de algún producto cuyo identificador se corresponda con el introducido en la caja de texto. Además de un nuevo botón para el cierre de dicha notificación sobre el cual el actor debe pulsar para poder regresar así al estado inicial previo a esta situación</td>
+    4.A.- El sistema muestra un mensaje el cual notifica la no presencia, en la base de datos, de algún producto cuyo identificador o nombre se corresponda con el introducido en la caja de texto. Además de un nuevo botón para el cierre de dicha notificación sobre el cual el actor debe pulsar para poder regresar así al estado inicial previo a esta situación</td>
 </tr>
 <tr>
-    <td><b>Poscondiciones:</b><br>
-    La información del producto buscado ha sido mostrada en pantalla</td>
+    <td><b>Poscondiciones:</b><br><br></td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
@@ -1207,7 +1203,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-- ### UC-14 _Consultar histórico de precios_
+- ### UC-14 _Consultar histórico de ventas_
 
 <br>
 
@@ -1218,7 +1214,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Nombre:</b><br>
-    Consultar histórico de precios</td>
+    Consultar histórico de ventas</td>
 </tr>
 <tr>
     <td><b>Autor:</b><br>
@@ -1230,7 +1226,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    Plantea la posibilidad de consultar el histórico de ventas de aquellos productos que están registrados en el sistema</td>
+    Plantea la posibilidad de consultar el histórico de ventas de un producto el cual se encuentra en proceso de venta en ese momento</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
@@ -1242,19 +1238,16 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    1.- El comprador y el vendedor pulsan sobre el botón para consultar el histórico de ventas de un producto, con el propósito de que esta acción les ayude con el proceso de realizar una venta<br>
-    2.- El sistema muestra una nueva ventana la cual cuenta con una única caja de texto para introducir el identificador del producto cuyo histórico se desea consultar<br>
-    3.- El actor introduce el identificador del producto<br>
-    4.- El sistema muestra el histórico de ventas del producto además de un botón para cerrar la ventana de resultados de búsqueda<br>
-    5.- El actor pulsa sobre el botón para concluir la operación de búsqueda</td>
+    1.- El comprador y el vendedor pulsan sobre el botón para consultar el histórico de ventas del producto sobre el cual se está realizando la venta, con el propósito de que esta acción les ayude con el proceso<br>
+    2.- El sistema muestra el histórico de ventas del producto además de un botón para cerrar la ventana de resultados de búsqueda<br>
+    3.- El actor pulsa sobre el botón para concluir la operación de búsqueda</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    4.A.- El sistema muestra un mensaje el cual notifica la no presencia, en la base de datos, de algún producto cuyo identificador se corresponda con el introducido en la caja de texto. Además de un nuevo botón para el cierre de dicha notificación sobre el cual el actor debe pulsar para poder regresar así al estado inicial previo a esta situación</td>
+    2.A.- El sistema muestra un mensaje el cual notifica la no presencia, en la base de datos, de alguna venta anterior del producto en cuestión. Además de un nuevo botón para el cierre de dicha notificación sobre el cual el actor debe pulsar para poder regresar así al estado inicial previo a esta situación</td>
 </tr>
 <tr>
-    <td><b>Poscondiciones:</b><br>
-    El histórico de ventas del producto sobre el cual se desea realizar la operación de venta ha sido mostrado en pantalla</td>
+    <td><b>Poscondiciones:</b><br><br></td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
@@ -1287,7 +1280,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    Posibilita la acción de consultar la disponibilidad de una oferta para algún producto determinado</td>
+    Posibilita la acción de consultar la existencia de una oferta para algún producto determinado</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
@@ -1300,18 +1293,17 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <tr>
     <td><b>Flujo Normal:</b><br>
     1.- El actor pulsa sobre el botón para consultar la existencia de una oferta en un producto determinado<br>
-    2.- El sistema muestra una nueva ventana la cual cuenta con una única caja de texto para introducir el identificador del producto en cuestión<br>
-    3.- El actor introduce el identificador del producto<br>
+    2.- El sistema muestra una nueva ventana la cual cuenta con una única caja de texto para introducir el identificador o el nombre del producto en cuestión<br>
+    3.- El actor introduce el identificador o el nombre del producto<br>
     4.- El sistema muestra las ofertas disponibles junto con un botón para cerrar la ventana de resultados de la consulta<br>
     5.- El actor pulsa sobre el botón para concluir la operación de consulta</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    4.A.- El sistema muestra un mensaje el cual notifica la no presencia, en la base de datos, de alguna oferta para el producto cuyo identificador se corresponde al introducido en la caja de texto. Además, hace aparición en esta ventana un botón para el cierre de la misma</td>
+    4.A.- El sistema muestra un mensaje el cual notifica la no presencia, en la base de datos, de alguna oferta para el producto cuyo identificador o nombre se corresponde al introducido en la caja de texto. Además, hace aparición en esta ventana un botón para el cierre de la misma</td>
 </tr>
 <tr>
-    <td><b>Poscondiciones:</b><br>
-    Las ofertas del producto buscado han sido mostradas en pantalla</td>
+    <td><b>Poscondiciones:</b><br><br></td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
@@ -1357,18 +1349,17 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <tr>
     <td><b>Flujo Normal:</b><br>
     1.- El actor pulsa sobre el botón para consultar el precio de un producto determinado<br>
-    2.- El sistema muestra una nueva ventana la cual cuenta con una única caja de texto para introducir el identificador del producto en cuestión<br>
-    3.- El actor introduce el identificador del producto, es decir, realiza una operación de búsqueda sobre el mismo [UC-13]<br>
+    2.- El sistema muestra una nueva ventana la cual cuenta con una única caja de texto para introducir el identificador o el nombre del producto en cuestión<br>
+    3.- El actor introduce el identificador o el nombre del producto, es decir, realiza una operación de búsqueda sobre el mismo [UC-13]<br>
     4.- El sistema muestra el precio junto con un botón para cerrar la ventana de resultados de la consulta<br>
     5.- El actor pulsa sobre el botón para concluir la operación de consulta</td>
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    4.A.- El sistema muestra un mensaje el cual notifica la no presencia, en la base de datos, de algún producto cuyo identificador se corresponda con el introducido en la caja de texto. Además, hace aparición en esta ventana un botón para el cierre de la misma</td>
+    4.A.- El sistema muestra un mensaje el cual notifica la no presencia, en la base de datos, de algún producto cuyo identificador o nombre se corresponda con el introducido en la caja de texto. Además, hace aparición en esta ventana un botón para el cierre de la misma</td>
 </tr>
 <tr>
-    <td><b>Poscondiciones:</b><br>
-    Tanto el precio del producto como la información del mismo han sido mostrados en pantalla</td>
+    <td><b>Poscondiciones:</b><br><br></td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
@@ -1424,8 +1415,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
     4.A.- El sistema determina la no disponibilidad del producto, por lo que procede a mostrar un mensaje el cual notifica este suceso. Además, hace aparición un nuevo botón para el cierre de dicha notificación sobre el cual el actor debe pulsar para poder regresar así al estado inicial previo a esta situación</td>
 </tr>
 <tr>
-    <td><b>Poscondiciones:</b><br>
-    La información del producto sobre el cual se ha llevado a cabo la operación de consulta y cuya disponibilidad se ha verificado ha sido mostrada en pantalla</td>
+    <td><b>Poscondiciones:</b><br></td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
@@ -1458,7 +1448,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    Otorga el poder de eliminar una oferta determinada del sistema</td>
+    Otorga el poder de marcar una oferta determinada como no vigente en la base de datos del sistema</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
@@ -1475,12 +1465,11 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
     3.- El actor pulsa sobre el botón para concluir la operación de eliminación de una oferta</td>
 </tr>
 <tr>
-    <td><b>Flujo Alternativo:</b><br>
-    2.A.- El sistema muestra un mensaje el cual manifiesta la imposibilidad de eliminar la oferta en cuestión junto con un botón que deberá ser pulsado por el actor para el cierre de dicha notificación</td>
+    <td><b>Flujo Alternativo:</b><br><br></td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    La oferta cuyo fin está siendo avisado ha sido eliminada del sistema</td>
+    La oferta cuyo fin está siendo avisado ha sido marcada como no vigente</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
@@ -1513,7 +1502,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    Dispone la posibilidad de eliminar un producto de la base de datos del sistema</td>
+    Dispone la posibilidad de marcar un producto como no disponible en la base de datos del sistema</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
@@ -1539,7 +1528,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    Un determinado producto ha sido eliminado del sistema</td>
+    Un determinado producto ha sido marcado como no disponible en el sistema</td>
 </tr>
     <td><b>Referencias:</b><br>
     IR-09, IR-16</td>
@@ -1588,12 +1577,10 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
     3.- El actor pulsa sobre el botón para poner así fin a la operación de envío de una notificación</td>
 </tr>
 <tr>
-    <td><b>Flujo Alternativo:</b><br>
-    2.A.- El sistema muestra un mensaje el cual manifiesta la imposibilidad de enviar la notificación correspondiente junto con un botón que deberá ser pulsado por el actor para el cierre de dicha notificación</td>
+    <td><b>Flujo Alternativo:</b><br><br></td>
 </tr>
 <tr>
-    <td><b>Poscondiciones:</b><br>
-    El aviso ha sido correctamente notificado</td>
+    <td><b>Poscondiciones:</b><br>La notificación generada ha sido almacenada en el sistema</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
@@ -1639,12 +1626,11 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <tr>
     <td><b>Flujo Normal:</b><br>
     1.- El actor pulsa sobre el botón para finalizar la compra<br>
-    2.- El sistema valida la acción y procede a mostrar un mensaje el cual confirma la correcta finalización de la compra junto con un botón sobre el que pulsar para cerrar dicho mensaje<br>
+    2.- El sistema procede a mostrar un mensaje el cual confirma la correcta finalización de la compra junto con un botón sobre el que pulsar para cerrar dicho mensaje<br>
     3.- El actor pulsa sobre el botón para concluir la operación de finalización de la compra</td>
 </tr>
 <tr>
-    <td><b>Flujo Alternativo:</b><br>
-    2.A.- El sistema, al tratar de validar la acción, detecta un error en el acto que se intenta llevar a cabo y lo notifica al actor, junto con un mensaje explicativo de la situación que acaba de acontecer. Además, se muestra un nuevo botón para el cierre de dicha notificación sobre el cual el actor debe pulsar para poder regresar así al estado inicial previo a esta situación</td>
+    <td><b>Flujo Alternativo:</b><br><br></td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
@@ -1681,7 +1667,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-    Plantea la posibilidad de incorporar una oferta a un producto nuevo de cuya llegada se está avisando</td>
+    Plantea la posibilidad de incorporar una oferta a un producto nuevo cuya llegada está siendo avisada</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
@@ -1749,13 +1735,12 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Flujo Normal:</b><br>
-    1.- Una vez el actor agrega un producto al carrito y confirma dicha operación de manera exitosa, pulsa sobre el botón para marcar dicho producto como bloqueado<br>
+    1.- Una vez el actor agrega un producto al carrito y confirma dicha operación de manera exitosa, dicho producto es marcado como bloqueado<br>
     2.- El sistema muestra una nueva ventana la cual cuenta con un mensaje de confirmación del éxito de la operación y un botón para cerrar dicha ventana<br>
     3.- El actor pulsa sobre el botón para poner así fin a la operación de marcado del bloqueo de un producto</td>
 </tr>
 <tr>
-    <td><b>Flujo Alternativo:</b><br>
-    2.A.- El sistema muestra un mensaje el cual manifiesta la imposibilidad de marcar el producto en cuestión como bloqueado junto con un botón que deberá ser pulsado por el actor para el cierre de dicha notificación</td>
+    <td><b>Flujo Alternativo:</b><br><br></td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
@@ -1811,12 +1796,11 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Flujo Alternativo:</b><br>
-    2.A.- El sistema, al tratar de validar la acción, detecta un error en el acto que se intenta llevar a cabo y lo notifica a los actores, junto con un mensaje explicativo de la situación que acaba de acontecer. Además, se muestra a ambos un nuevo botón para el cierre de dicha notificación sobre el cual deberán pulsar para poder regresar así al estado inicial previo a esta situación<br>
-    3.A.- Algún actor (o ambos) pulsa el botón encargado de la consulta del histórico de ventas del producto en base al cual desean realizar la venta [UC-14]. Si dicho producto ha sido vendido anteriormente se mostrará en una nueva ventana el histórico de sus precios acordados en cada ocasión. En caso contrario, el sistema notifica lo sucedido. Sea cual sea el resultado de la búsqueda, además de este se mostrará un botón para su cierre con el objetivo de poder continuar así el proceso inicial de realización de una venta</td>
+    3.A.- Algún actor (o ambos) pulsa el botón encargado de la consulta del histórico de ventas del producto en base al cual desean realizar la venta [UC-14]. Si dicho producto ha sido vendido anteriormente se mostrará en una nueva ventana el histórico de sus ventas. En caso contrario, el sistema notifica lo sucedido. Sea cual sea el resultado de la búsqueda, además de este se mostrará un botón para su cierre con el objetivo de poder continuar así el proceso inicial de realización de una venta</td>
 </tr>
 <tr>
     <td><b>Poscondiciones:</b><br>
-    Los datos de la venta han sido almacenados en el sistema, incluyéndose en estos el precio final acordado entre comprador y vendedor, y, en caso de haber sido consultado el histórico de ventas del producto en cuestión, dicho histórico se ha mostrado en pantalla</td>
+    Los datos de la venta han sido almacenados en el sistema, incluyéndose en estos el precio final acordado entre comprador y vendedor</td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
@@ -1870,8 +1854,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
     2.A.- El sistema muestra un mensaje el cual manifiesta la no disponibilidad del producto junto con un botón que deberá ser pulsado por el actor para el cierre de dicha notificación</td>
 </tr>
 <tr>
-    <td><b>Poscondiciones:</b><br>
-    La disponibilidad del producto sobre el cual se está realizando una operación de consulta ha sido verificada de manera satisfactoria</td>
+    <td><b>Poscondiciones:</b><br><br></td>
 </tr>
 <tr>
     <td><b>Referencias:</b><br>
