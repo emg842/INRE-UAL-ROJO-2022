@@ -2,14 +2,126 @@
 
 title Requisitos Información: Sistema de Compras
 
-Entity Autor {
-    idAutor : String
+Class Administrador {
+    PK FK idAdministrador : Integer
+    DNI : String
+    nombreCompleto : String
+    nombreCompleto : String
+    fechaNacimiento : String
+    sexo : String
+    fechaAlta : Date
+    direccion: String
+    telefono : String
+    correoElectronico : String
 }
 
-Entity Libro {
-    idLibro : String
+Class Aviso {
+    PK FK idAviso : Integer
+    tipo : ENUM('nuevoProducto','finOferta')
+    motivo : String
+    cuerpo : String
+    FK idProducto : Integer
+    FK idOferta : Integer  
+    FK idProveedor : Integer
 }
 
-Autor "1..*" --- "1..*" Libro
+Class Carrito {
+    PK FK idCarrito : Integer
+    FK idComprador : Integer
+}
+
+Class compra {
+    PK FK idCompra : Integer
+    fecha : Date
+    FK idComprador : Integer
+    FK  idCarrito : Integer
+}
+
+Class Comprador {
+    PK FK idComprador : Integer
+    DNI : String
+    nombreCompleto : String
+    nombreCompleto : String
+    fechaNacimiento : String
+    sexo : String
+    fechaAlta : Date
+    direccion: String
+    telefono : String
+    correoElectronico : String
+}
+
+Class Notificación {
+    PK FK idAviso : Integer
+    mensajeGenerado : String  
+}
+
+Class Oferta {
+    PK idOgerta : Integer
+    precioOriginal : Double
+    precioNuevo : Double
+    fechaInicio : String
+    fechaFin : String
+    vigente : Boolean
+    FK idProducto Integer 
+}
+
+Class Producto {
+    PK FK idProducto : Integer
+    precio : Double
+    bloqueado : Boolean
+    disponible : Boolean   
+}
+
+Class ProductoEnCarrito {
+    PK FK idProducto : Integer
+    PK FK idCarrito : Integer
+}
+
+Class Proveedor {
+    PK FK idProveedor : Integer
+    DNI : String
+    nombreCompleto : String
+    nombreCompleto : String
+    fechaNacimiento : String
+    sexo : String
+    fechaAlta : Date
+    direccion: String
+    telefono : String
+    correoElectronico : String 
+}
+
+Class Vendedor {
+    PK FK idVendedor : Integer
+    DNI : String
+    nombreCompleto : String
+    nombreCompleto : String
+    fechaNacimiento : String
+    sexo : String
+    fechaAlta : Date
+    direccion: String
+    telefono : String
+    correoElectronico : String   
+}
+
+Class Venta {
+    PK FK idVendedor : Integer
+    precioAcordado : Double
+    FK idComprador : Integer
+    FK idVendedor : Integer
+    FK idProducto : Integer
+}
+
+Aviso "0..1" --- "1" Oferta
+Aviso "0..1" --- "1" Producto
+Aviso "1" --- "1" Notificacion
+Aviso "1" --- "1" Proveedor
+Carrito "1" --- "1" Comprador
+Carrito "1" --- "0..1" Compra
+Carrito "1" --- "1..m" ProductoEnCarrito
+Comprador "1" --- "0..m" Venta
+Comprador "1" --- "1..m" Compra
+Oferta "0..1" --- "1" Producto
+Producto "1" --- "0..m" ProductoEnCarrito
+Vendedor "1" --- "0..m" Venta
 
 @enduml

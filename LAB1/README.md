@@ -876,7 +876,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-<div align="center"><img src="./out/horarios/CD_horarios.svg"></div>
+<div align="center"><img src="./out/sistema_de_compras/IRs_sistema_de_compras.svg"></div>
 
 <br>
 
