@@ -1,6 +1,6 @@
-@startuml IRs_sistema_de_compras
+@startuml DC_sistema_de_compras
 
-title Requisitos Información: Sistema de Compras
+title Diagrama de clases: Sistema de Compras
 
 Class Administrador {
     PK idAdministrador : Integer
@@ -19,7 +19,7 @@ Class Aviso {
     FK idProveedor : Integer
     FK idProducto : Integer
     FK idOferta : Integer
-    tipo : Enum('nuevoProducto','finOferta')
+    tipo : Enum {'nuevoProducto','finOferta'}
     motivo : String
     cuerpo : String
 }

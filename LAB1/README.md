@@ -22,7 +22,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 <br>
 
-<div align="center"><img src="./out/horarios/CD_horarios.svg"></div>
+<div align="center"><img src="./out/horarios/DC_horarios.svg"></div>
 
 <br>
 
@@ -876,7 +876,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 <br>
 
-<div align="center"><img src="./out/sistema_de_compras/IRs_sistema_de_compras.svg"></div>
+<div align="center"><img src="./out/sistema_de_compras/DC_sistema_de_compras.svg"></div>
 
 <br>
 
@@ -1882,6 +1882,10 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
     UC-17, IR-13, IR-16</td>
 </tr>
 </table>
+
+<br>
+
+### Requisitos de información
 
 <br>
 
