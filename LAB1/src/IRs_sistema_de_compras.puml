@@ -3,11 +3,10 @@
 title Requisitos Información: Sistema de Compras
 
 Class Administrador {
-    PK FK idAdministrador : Integer
+    PK idAdministrador : Integer
     DNI : String
     nombreCompleto : String
-    nombreCompleto : String
-    fechaNacimiento : String
+    fechaNacimiento : Date
     sexo : String
     fechaAlta : Date
     direccion: String
@@ -16,33 +15,32 @@ Class Administrador {
 }
 
 Class Aviso {
-    PK FK idAviso : Integer
-    tipo : ENUM('nuevoProducto','finOferta')
+    PK idAviso : Integer
+    FK idProveedor : Integer
+    FK idProducto : Integer
+    FK idOferta : Integer
+    tipo : Enum('nuevoProducto','finOferta')
     motivo : String
     cuerpo : String
-    FK idProducto : Integer
-    FK idOferta : Integer  
-    FK idProveedor : Integer
 }
 
 Class Carrito {
-    PK FK idCarrito : Integer
+    PK idCarrito : Integer
     FK idComprador : Integer
 }
 
-Class compra {
-    PK FK idCompra : Integer
-    fecha : Date
+Class Compra {
+    PK idCompra : Integer
     FK idComprador : Integer
-    FK  idCarrito : Integer
+    FK idCarrito : Integer
+    fecha : Date
 }
 
 Class Comprador {
-    PK FK idComprador : Integer
+    PK idComprador : Integer
     DNI : String
     nombreCompleto : String
-    nombreCompleto : String
-    fechaNacimiento : String
+    fechaNacimiento : Date
     sexo : String
     fechaAlta : Date
     direccion: String
@@ -50,23 +48,23 @@ Class Comprador {
     correoElectronico : String
 }
 
-Class Notificación {
+Class Notificacion {
     PK FK idAviso : Integer
-    mensajeGenerado : String  
+    mensajeGenerado : String
 }
 
 Class Oferta {
-    PK idOgerta : Integer
+    PK idOferta : Integer
+    FK idProducto : Integer
     precioOriginal : Double
     precioNuevo : Double
-    fechaInicio : String
-    fechaFin : String
+    fechaInicio : Date
+    fechaFin : Date
     vigente : Boolean
-    FK idProducto Integer 
 }
 
 Class Producto {
-    PK FK idProducto : Integer
+    PK idProducto : Integer
     precio : Double
     bloqueado : Boolean
     disponible : Boolean   
@@ -78,50 +76,48 @@ Class ProductoEnCarrito {
 }
 
 Class Proveedor {
-    PK FK idProveedor : Integer
+    PK idProveedor : Integer
     DNI : String
     nombreCompleto : String
-    nombreCompleto : String
-    fechaNacimiento : String
+    fechaNacimiento : Date
     sexo : String
     fechaAlta : Date
     direccion: String
     telefono : String
-    correoElectronico : String 
+    correoElectronico : String
 }
 
 Class Vendedor {
-    PK FK idVendedor : Integer
+    PK idVendedor : Integer
     DNI : String
     nombreCompleto : String
-    nombreCompleto : String
-    fechaNacimiento : String
+    fechaNacimiento : Date
     sexo : String
     fechaAlta : Date
     direccion: String
     telefono : String
-    correoElectronico : String   
+    correoElectronico : String  
 }
 
 Class Venta {
-    PK FK idVendedor : Integer
-    precioAcordado : Double
+    PK idVenta : Integer
     FK idComprador : Integer
     FK idVendedor : Integer
     FK idProducto : Integer
+    precioAcordado : Double
 }
 
-Aviso "0..1" --- "1" Oferta
-Aviso "0..1" --- "1" Producto
 Aviso "1" --- "1" Notificacion
-Aviso "1" --- "1" Proveedor
-Carrito "1" --- "1" Comprador
-Carrito "1" --- "0..1" Compra
-Carrito "1" --- "1..m" ProductoEnCarrito
-Comprador "1" --- "0..m" Venta
-Comprador "1" --- "1..m" Compra
-Oferta "0..1" --- "1" Producto
+Aviso "0..1" ... "1" Oferta
+Aviso "0..1" ... "1" Producto
+Aviso "0..m" ... "1" Proveedor
+Carrito "1" ... "0..1" Compra
+Carrito "1" ... "1" Comprador
+Carrito "1" --- "0..m" ProductoEnCarrito
+Compra "0..m" ... "1" Comprador
+Comprador "1" ... "0..m" Venta
+Oferta "0..1" ... "1" Producto
 Producto "1" --- "0..m" ProductoEnCarrito
-Vendedor "1" --- "0..m" Venta
+Vendedor "1" ... "0..m" Venta
 
 @enduml
