@@ -907,11 +907,11 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b><br>
-     Otorga la posibilidad de poder acordar un precio para así poder realizar la venta de un producto</td>
+    Otorga la posibilidad de poder acordar un precio para así poder realizar la venta de un producto</td>
 </tr>
 <tr>
     <td><b>Actores:</b><br>
-     Comprador + Vendedor</td>
+    Comprador + Vendedor</td>
 </tr>
 <tr>
     <td><b>Precondiciones:</b><br>
@@ -1916,7 +1916,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>El sistema deberá almacenar la información correspondiente a los administradores del sistema de compras. En concreto:</td>
+    <td>El sistema de compras deberá almacenar la información correspondiente a los administradores del mismo. En concreto:</td>
 </tr>
 <tr>
     <td><b>Datos específicos:</b></td>
@@ -1925,7 +1925,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
     - Nombre y apellidos<br>
     - Fecha de nacimiento<br>
     - Sexo<br>
-    - Fecha de alta como estudiante<br>
+    - Fecha de alta como administrador<br>
     - Dirección<br>
     - Teléfono<br>
     - Correo electrónico</td>
@@ -1973,14 +1973,14 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>El sistema deberá almacenar la información correspondiente a los avisos llevados a cabo por los proveedores del sistema de compras. En concreto:</td>
+    <td>El sistema de compras deberá almacenar la información correspondiente a los avisos gestados por los proveedores que están registrados en el mismo. En concreto:</td>
 </tr>
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- Identificador de aviso<br>
+    - Identificador de proveedor<br>
     - Identificador de producto<br>
     - Identificador de oferta<br>
-    - Identificador de proveedor<br>
     - Tipo de aviso (llegada de nuevo producto o fin de oferta)<br>
     - Motivo del aviso<br>
     - Cuerpo del aviso</td>
@@ -2028,7 +2028,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>El sistema deberá almacenar la información del carrito asignado a cada uno de los compradores del sistema de compras. En concreto:</td>
+    <td>El sistema de compras deberá almacenar la información del carrito asignado a cada uno de los compradores que están registrados en el mismo. En concreto:</td>
 </tr>
 <tr>
     <td><b>Datos específicos:</b></td>
@@ -2078,14 +2078,14 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>El sistema deberá almacenar la información de las compras realizadas por cada uno de los compradores del sistema de compras. En concreto:</td>
+    <td>El sistema de compras deberá almacenar la información de las compras realizadas por cada uno de los compradores que están registrados en el mismo. En concreto:</td>
 </tr>
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- Identificador de compra<br>
     - Identificador de comprador<br>
     - Identificador de carrito<br>
-    - Fecha de realización de la compra</td>
+    - Fecha de compra</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -2130,7 +2130,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>El sistema deberá almacenar la información correspondiente a los compradores del sistema de compras. En concreto:</td>
+    <td>El sistema de compras deberá almacenar la información correspondiente a los compradores que están registrados en el mismo. En concreto:</td>
 </tr>
 <tr>
     <td><b>Datos específicos:</b></td>
@@ -2139,7 +2139,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
     - Nombre y apellidos<br>
     - Fecha de nacimiento<br>
     - Sexo<br>
-    - Fecha de alta como estudiante<br>
+    - Fecha de alta como comprador<br>
     - Dirección<br>
     - Teléfono<br>
     - Correo electrónico</td>
@@ -2187,12 +2187,12 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>El sistema deberá almacenar la información correspondiente a las notificaciones generadas a partir de los avisos confeccionados por los proveedores. En concreto:</td>
+    <td>El sistema de compras deberá almacenar la información correspondiente a las notificaciones generadas a partir de los avisos confeccionados por los proveedores que están registrados en el mismo. En concreto:</td>
 </tr>
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- Identificador de aviso<br>
-    - Mensaje generado a partir del cuerpo del aviso</td>
+    - Mensaje generado a partir del aviso</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -2237,7 +2237,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>El sistema deberá almacenar la información correspondiente a las ofertas establecidas en algunos de los productos registrados en el sistema de compras. En concreto:</td>
+    <td>El sistema de compras deberá almacenar la información correspondiente a las ofertas establecidas en algunos de los productos que están registrados en el mismo. En concreto:</td>
 </tr>
 <tr>
     <td><b>Datos específicos:</b></td>
@@ -2292,14 +2292,14 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>El sistema deberá almacenar la información correspondiente a los productos registrados en el sistema de compras. En concreto:</td>
+    <td>El sistema de compras deberá almacenar la información correspondiente a los productos que están registrados en el mismo. En concreto:</td>
 </tr>
 <tr>
     <td><b>Datos específicos:</b></td>
     <td>- Identificador de producto<br>
     - Precio del producto<br>
-    - Controlador del bloqueo temporal de un producto<br>
-    - Controlador de la disponibilidad de un producto</td>
+    - Controlador del bloqueo temporal del producto<br>
+    - Controlador de la disponibilidad del producto</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -2344,7 +2344,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>El sistema deberá almacenar la información correspondiente a los productos agregados a los carritos de cada uno de los compradores del sistema de compras. En concreto:</td>
+    <td>El sistema de compras deberá almacenar la información correspondiente a los productos agregados a los carritos de cada uno de los compradores que están registrados en el mismo. En concreto:</td>
 </tr>
 <tr>
     <td><b>Datos específicos:</b></td>
@@ -2394,7 +2394,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>El sistema deberá almacenar la información correspondiente a los proveedores del sistema de compras. En concreto:</td>
+    <td>El sistema de compras deberá almacenar la información correspondiente a los proveedores que están registrados en el mismo. En concreto:</td>
 </tr>
 <tr>
     <td><b>Datos específicos:</b></td>
@@ -2403,7 +2403,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
     - Nombre y apellidos<br>
     - Fecha de nacimiento<br>
     - Sexo<br>
-    - Fecha de alta como estudiante<br>
+    - Fecha de alta como proveedor<br>
     - Dirección<br>
     - Teléfono<br>
     - Correo electrónico</td>
@@ -2451,7 +2451,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>El sistema deberá almacenar la información correspondiente a los vendedores del sistema de compras. En concreto:</td>
+    <td>El sistema de compras deberá almacenar la información correspondiente a los vendedores que están registrados en el mismo. En concreto:</td>
 </tr>
 <tr>
     <td><b>Datos específicos:</b></td>
@@ -2460,7 +2460,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
     - Nombre y apellidos<br>
     - Fecha de nacimiento<br>
     - Sexo<br>
-    - Fecha de alta como estudiante<br>
+    - Fecha de alta como vendedor<br>
     - Dirección<br>
     - Teléfono<br>
     - Correo electrónico</td>
@@ -2508,7 +2508,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información de las ventas realizadas por los vendedores del sistema de compras a los compradores del mismo. En concreto:</td>
+    <td>El sistema de compras deberá almacenar la información de las ventas realizadas por los vendedores que están registrados en el mismo a los compradores, que de igual manera también lo están. En concreto:</td>
 </tr>
 <tr>
     <td><b>Datos específicos:</b></td>
