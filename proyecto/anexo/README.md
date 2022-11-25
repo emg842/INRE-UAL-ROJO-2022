@@ -6,8 +6,6 @@
 
 <p>El día 18 de Noviembre de 2022 hicimos una entrevista con un usuario habitual del transporte público, Marcos Sena. A continuación, vamos a ver las preguntas que surgieron durante la entrevista.<p>
 
-<br>
-
 <b> 1.  ¿Preferiría una aplicación móvil, una página web o una aplicación de escritorio? </b> <br>
 
 Al ser dos aplicaciones distintas, una en la que se pudiera ver noticias sobre las islas, monumentos para visitar, eventos que se desarrollaran en las islas, rutas más transitadas… y otra aplicación para hacer reservas de itinerarios, comprar billetes, ver mapa, etc. Pienso que lo más cómodo sería una aplicación móvil o una página web, aunque lo más adecuado sería una página web.<br>
