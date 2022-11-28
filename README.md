@@ -1,7 +1,5 @@
 # INRE-UAL-ROJO-2022
 
-<br>
-
 ## Soluciones de prácticas
 **1. Lab 0 - Familiarización con MarkDown-PlantUML - [link](https://github.com/emg842/INRE-UAL-ROJO-2022/tree/main/LAB0)**
 
