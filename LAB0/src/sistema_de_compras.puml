@@ -32,7 +32,7 @@ usecase UC17 as "Realizar venta
 
 --
 **extension points**
-Consultar histórico de precios"
+Consultar histórico de ventas"
 (Verificar disponibilidad \n de producto) as UC18
 
 A1 --> UC12
