@@ -6,8 +6,10 @@
 
 ## Hoja de revisión
 
+<br><br>
+
 <table align = "center">
-    <tr bgcolor="fff">
+    <tr>
         <td><b>Date</b></td>
         <td><b>Version</b></td>
         <td><b>Description</b></td>
