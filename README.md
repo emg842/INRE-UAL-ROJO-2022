@@ -7,9 +7,9 @@
 
 **3. Lab 2 - BPMN - [link](https://github.com/emg842/INRE-UAL-ROJO-2022/tree/main/LAB2)**
 
-**Proyecto - [link](https://github.com/emg842/INRE-UAL-ROJO-2022/tree/main/proyecto)**
+**4. Proyecto - [link](https://github.com/emg842/INRE-UAL-ROJO-2022/tree/main/proyecto)**
 
-**Extras - [link](https://github.com/emg842/INRE-UAL-ROJO-2022/tree/main/extras)**
+**5. Extras - [link](https://github.com/emg842/INRE-UAL-ROJO-2022/tree/main/extras)**
 
 ## Colaboradores
 - **Daniel López García - dlg383@inlumine.ual.es**
