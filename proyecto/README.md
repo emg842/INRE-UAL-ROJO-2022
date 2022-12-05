@@ -6,7 +6,7 @@
 
 ## Hoja de revisión
 
-<br><br>
+<br>
 
 <table align = "center">
     <tr>
@@ -35,7 +35,7 @@
     </tr>
 </table>
 
-<br>
+<br><br>
 
 ## Contenidos
 
