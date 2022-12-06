@@ -41,7 +41,8 @@
 
 <br>
 
-[Defines](#defines)
+<a href="another-section">I'm linking from here</a>
+
 
 <p>
     Hoja de revisión<br>
@@ -758,4 +759,4 @@
 
 <br>
 
-### <a name="defines"></a> Defines
+<h2 id="another-section">I'm linking to here</h2>
