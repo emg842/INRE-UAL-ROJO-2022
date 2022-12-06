@@ -4,7 +4,7 @@
 
 <br>
 
-## Hoja de revisión
+## <a name="hojaderevision"></a> Hoja de revisión
 
 <br>
 
@@ -37,41 +37,38 @@
 
 <br><br>
 
-## Contenidos
+## <a name="contenidos"></a> Contenidos
 
 <br>
 
-<a style="text-decoration:none; color:black;" href="another-section">I'm linking from here</a>
-
-<p>
-    Hoja de revisión<br>
-    Contenidos<br>
-    1. &nbsp&nbsp&nbsp Introducción<br>
-    2. &nbsp&nbsp&nbsp Información del dominio del problema [opcional]<br>
-        &nbsp&nbsp&nbsp 2.1. &nbsp&nbsp&nbsp Organigrama<br>
-        &nbsp&nbsp&nbsp 2.2. &nbsp&nbsp&nbsp Glosario de términos<br>
-    3. &nbsp&nbsp&nbsp Necesidades del negocio<br>
-        &nbsp&nbsp&nbsp 3.1. &nbsp&nbsp&nbsp Objetivos del negocio<br>
-        &nbsp&nbsp&nbsp 3.2. &nbsp&nbsp&nbsp Modelos de Procesos de Negocio [opcional]<br>
-            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Subprocesos<br>
-            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Tareas<br>
-    4. &nbsp&nbsp&nbsp Requisitos del sistema a desarrollar<br>
-        &nbsp&nbsp&nbsp 4.1. &nbsp&nbsp&nbsp Requisitos<br>
-            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Requisitos funcionales<br>
-            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Requisitos no funcionales<br>
-            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Requisitos de información<br>
-        &nbsp&nbsp&nbsp 4.2. &nbsp&nbsp&nbsp Casos de uso<br>
-            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Lista de diagramas de casos de uso del modelo<br>
-            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Diagramas de casos de uso<br>
-            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Lista general de casos de uso y actores del proyecto<br>
-            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Detalle de los casos de uso<br>
-        &nbsp&nbsp&nbsp 4.3. &nbsp&nbsp&nbsp Diagramas de clases asociados a los requisitos de información<br>
-    Apéndices
-</p>
+[Hoja de revisión](#hojaderevision)<br>
+[Contenidos](#contenidos)<br>
+[1. Introducción](#introduccion)<br>
+[2. Información del dominio del problema [opcional]](#informaciondeldominiodelproblema)<br>
+    [2.1. Organigrama](#organigrama)<br>
+    [2.2. Glosario de términos](#glosariodeterminos)<br>
+[3. Necesidades del negocio](#necesidadesdelnegocio)<br>
+    [3.1. Objetivos del negocio](#objetivosdelnegocio)<br>
+    [3.2. Modelos de Procesos de Negocio [opcional]](#modelosdeprocesosdenegocio)<br>
+        [Subprocesos](#subprocesos)<br>
+        [Tareas](#tareas)<br>
+[4. Requisitos del sistema a desarrollar](#requisitosdelsistemaadesarrollar)<br>
+    [4.1. Requisitos](#requisitos)<br>
+        [Requisitos funcionales](#requisitosfuncionales)<br>
+        [Requisitos no funcionales](#requisitosnofuncionales)<br>
+        [Requisitos de información](#requisitosdeinformacion)<br>
+    [4.2. Casos de uso](#casosdeuso)<br>
+        [Lista de diagramas de casos de uso del modelo](#listadediagramasdecasosdeusodelmodelo)<br>
+        [Diagramas de casos de uso](#diagramasdecasosdeuso)<br>
+        [Lista general de casos de uso del proyecto](#listageneraldecasosdeusodelproyecto)<br>
+        [Lista general de actores del proyecto](#listageneraldeactoresdelproyecto)<br>
+        [Detalle de los casos de uso](#detalledeloscasosdeuso)<br>
+        [Diagramas de clases asociados a los requisitos de información](#diagramasdeclasesasociadosalosrequisitosdeinformacion)<br>
+[Apéndices](#casosdeuso)
 
 <br><br>
 
-## 1. Introducción
+## <a name="introduccion"></a> 1. Introducción
 
 <br>
 
@@ -79,11 +76,11 @@
 
 <br><br>
 
-## 2. Información del Dominio del problema [opcional]
+## <a name="informaciondeldominiodelproblema"></a> 2. Información del Dominio del problema [opcional]
 
 <br>
 
-### 2.1. Organigrama
+### <a name="organigrama"></a> 2.1. Organigrama
 
 <br>
 
@@ -91,7 +88,7 @@
 
 <br>
 
-### 2.2. Glosario de términos
+### <a name="glosariodeterminos"></a> 2.2. Glosario de términos
 
 <br>
 
@@ -116,11 +113,11 @@
 
 <br><br>
 
-## 3. Necesidades del negocio
+## <a name="necesidadesdelnegocio"></a> 3. Necesidades del negocio
 
 <br>
 
-### 3.1. Objetivos del negocio
+### <a name="objetivosdelnegocio"></a> 3.1. Objetivos del negocio
 
 <br>
 
@@ -128,11 +125,11 @@
 
 <br>
 
-### 3.2. Modelos de Procesos de Negocio [opcional]
+## <a name="modelosdeprocesosdenegocio"></a> 3.2. Modelos de Procesos de Negocio [opcional]
 
 <br>
 
-#### Subprocesos
+#### <a name="subprocesos"></a> Subprocesos
 
 <br>
 
@@ -157,7 +154,7 @@
 
 <br>
 
-#### Tareas
+#### <a name="tareas"></a> Tareas
 
 <br>
 
@@ -182,15 +179,15 @@
 
 <br><br>
 
-## 4. Requisitos del sistema a desarrollar
+## <a name="requisitosdelsistemaadesarrollar"></a> 4. Requisitos del sistema a desarrollar
 
 <br>
 
-### 4.1. Requisitos
+### <a name="requisitos"></a> 4.1. Requisitos
 
 <br>
 
-#### Requisitos funcionales
+#### <a name="requisitosfuncionales"></a> Requisitos funcionales
 
 <br>
 
@@ -317,7 +314,7 @@
 
 <br>
 
-#### Requisitos no funcionales
+#### <a name="requisitosnofuncionales"></a> Requisitos no funcionales
 
 <br>
 
@@ -444,7 +441,7 @@
 
 <br>
 
-#### Requisitos de información
+#### <a name="requisitosdeinformacion"></a> Requisitos de información
 
 <br>
 
@@ -496,11 +493,11 @@
 
 <br>
 
-### 4.2. Casos de uso
+### <a name="casosdeuso"></a> 4.2. Casos de uso
 
 <br>
 
-#### Lista de diagramas de casos de uso del modelo
+#### <a name="listadediagramasdecasosdeusodelmodelo"></a> Lista de diagramas de casos de uso del modelo
 
 <p>
     Nombre identificativo del diagrama nº 1<br>
@@ -509,7 +506,7 @@
 
 <br>
 
-#### Diagramas de casos de uso
+#### <a name="diagramasdecasosdeuso"></a> Diagramas de casos de uso
 
 <br>
 
@@ -523,7 +520,7 @@
 
 <br>
 
-#### Lista general de casos de uso del proyecto
+#### <a name="listageneraldecasosdeusodelproyecto"></a> Lista general de casos de uso del proyecto
 
 <br>
 
@@ -548,7 +545,7 @@
 
 <br>
 
-#### Lista general de actores del proyecto
+#### <a name="listageneraldeactoresdelproyecto"></a> Lista general de actores del proyecto
 
 <br>
 
@@ -573,7 +570,7 @@
 
 <br>
 
-#### Detalle de los casos de uso
+#### <a name="detalledeloscasosdeuso"></a> Detalle de los casos de uso
 
 <br>
 
@@ -736,7 +733,7 @@
 
 <br>
 
-### 4.3. Diagramas de clases asociados a los requisitos de información
+### <a name="diagramasdeclasesasociadosalosrequisitosdeinformacion"></a> 4.3. Diagramas de clases asociados a los requisitos de información
 
 <br>
 
@@ -750,12 +747,10 @@
 
 <br><br>
 
-## Apéndices
+## <a name="apendices"></a> Apéndices
 
 <br>
 
 [Preguntas entrevista](https://github.com/emg842/INRE-UAL-ROJO-2022/tree/main/proyecto/anexo)
 
 <br>
-
-<h2 id="another-section">I'm linking to here</h2>
