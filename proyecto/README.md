@@ -41,6 +41,8 @@
 
 <br>
 
+[Defines](#defines)
+
 <p>
     Hoja de revisión<br>
     Contenidos<br>
@@ -755,3 +757,5 @@
 [Preguntas entrevista](https://github.com/emg842/INRE-UAL-ROJO-2022/tree/main/proyecto/anexo)
 
 <br>
+
+### <a name="defines"></a> Defines
