@@ -41,8 +41,7 @@
 
 <br>
 
-<a href="another-section">I'm linking from here</a>
-
+<a style="text-decoration:none; color:black;" href="another-section">I'm linking from here</a>
 
 <p>
     Hoja de revisión<br>
