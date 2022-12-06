@@ -129,7 +129,7 @@
 
 <br>
 
-#### <a name="subprocesos"></a> Subprocesos
+### <a name="subprocesos"></a> Subprocesos
 
 <br>
 
@@ -154,7 +154,7 @@
 
 <br>
 
-#### <a name="tareas"></a> Tareas
+### <a name="tareas"></a> Tareas
 
 <br>
 
@@ -187,7 +187,7 @@
 
 <br>
 
-#### <a name="requisitosfuncionales"></a> Requisitos funcionales
+### <a name="requisitosfuncionales"></a> Requisitos funcionales
 
 <br>
 
@@ -314,7 +314,7 @@
 
 <br>
 
-#### <a name="requisitosnofuncionales"></a> Requisitos no funcionales
+### <a name="requisitosnofuncionales"></a> Requisitos no funcionales
 
 <br>
 
@@ -441,7 +441,7 @@
 
 <br>
 
-#### <a name="requisitosdeinformacion"></a> Requisitos de información
+### <a name="requisitosdeinformacion"></a> Requisitos de información
 
 <br>
 
@@ -497,55 +497,40 @@
 
 <br>
 
-#### <a name="listadediagramasdecasosdeusodelmodelo"></a> Lista de diagramas de casos de uso del modelo
-
-<p>
-    Nombre identificativo del diagrama nº 1<br>
-    Nombre identificativo del diagrama nº 2<br>
-</p>
+### <a name="listadediagramasdecasosdeusodelmodelo"></a> Lista de diagramas de casos de uso del modelo
 
 <br>
 
-#### <a name="diagramasdecasosdeuso"></a> Diagramas de casos de uso
+[- Diagrama general](#diagramageneral)<br>
+[- Diagrama nº 2](#diagrama2)
 
 <br>
 
-<p>Nombre del diagrama nº 1</p>
-<p>Diagrama (nº 1)<br></p>
+### <a name="diagramasdecasosdeuso"></a> Diagramas de casos de uso
 
 <br>
 
-<p>Nombre del diagrama nº 2</p>
-<p>Diagrama (nº 2)<br></p>
+<a name="diagramageneral"></a> Diagrama general
 
 <br>
 
-#### <a name="listageneraldecasosdeusodelproyecto"></a> Lista general de casos de uso del proyecto
+<div align="center"><img src="./out/DCU_general.svg"></div>
 
 <br>
 
-<table align = "center">
-    <tr>
-        <td><b>Identificador</b></td>
-        <td><b>Nombre</b></td>
-    </tr>
-    <tr>
-        <td>identificador</td>
-        <td>nombre</td>
-    </tr>
-    <tr>
-        <td>identificador</td>
-        <td>nombre</td>
-    </tr>
-    <tr>
-        <td>identificador</td>
-        <td>nombre</td>
-    </tr>
-</table>
+<a name="diagrama2"></a> Diagrama nº 2
 
 <br>
 
-#### <a name="listageneraldeactoresdelproyecto"></a> Lista general de actores del proyecto
+Imagen diagrama nº 2
+
+<br>
+
+Diagrama nº 2<br>
+
+<br>
+
+### <a name="listageneraldecasosdeusodelproyecto"></a> Lista general de casos de uso del proyecto
 
 <br>
 
@@ -570,7 +555,32 @@
 
 <br>
 
-#### <a name="detalledeloscasosdeuso"></a> Detalle de los casos de uso
+### <a name="listageneraldeactoresdelproyecto"></a> Lista general de actores del proyecto
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador</b></td>
+        <td><b>Nombre</b></td>
+    </tr>
+    <tr>
+        <td>identificador</td>
+        <td>nombre</td>
+    </tr>
+    <tr>
+        <td>identificador</td>
+        <td>nombre</td>
+    </tr>
+    <tr>
+        <td>identificador</td>
+        <td>nombre</td>
+    </tr>
+</table>
+
+<br>
+
+### <a name="detalledeloscasosdeuso"></a> Detalle de los casos de uso
 
 <br>
 
