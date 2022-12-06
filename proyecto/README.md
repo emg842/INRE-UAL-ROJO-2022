@@ -125,7 +125,7 @@
 
 <br>
 
-## <a name="modelosdeprocesosdenegocio"></a> 3.2. Modelos de Procesos de Negocio [opcional]
+### <a name="modelosdeprocesosdenegocio"></a> 3.2. Modelos de Procesos de Negocio [opcional]
 
 <br>
 
@@ -522,11 +522,7 @@
 
 <br>
 
-Imagen diagrama nº 2
-
-<br>
-
-Diagrama nº 2<br>
+Diagrama nº 2
 
 <br>
 
