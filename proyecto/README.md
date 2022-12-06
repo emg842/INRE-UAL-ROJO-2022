@@ -752,6 +752,6 @@
 
 <br>
 
-[Preguntas entrevista](https://github.com/emg842/INRE-UAL-ROJO-2022/tree/main/extras)
+[Preguntas entrevista](https://github.com/emg842/INRE-UAL-ROJO-2022/tree/main/proyecto/anexo)
 
 <br>
