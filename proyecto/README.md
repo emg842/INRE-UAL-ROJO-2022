@@ -214,7 +214,7 @@
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>El sistema ofrece acceso al blog con información a cerca del transporte en Gran Canaria.</td>
+    <td>El sistema ofrece acceso al blog con información a cerca del transporte en Gran Canaria</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -255,7 +255,7 @@
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>El sistema ofrece acceso al foro de la página donde se podrá comentar a cerca de la situación del transporte, rutas, servicios ofrecidos, etc. </td>
+    <td>El sistema ofrece acceso al foro de la página donde se podrá comentar a cerca de la situación del transporte, rutas, servicios ofrecidos, etc </td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -296,7 +296,7 @@
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>Ofrece de forma gráfica acceso a las funcionalidades de la página a través de etiquetas visuales en la nube.</td>
+    <td>Ofrece de forma gráfica acceso a las funcionalidades de la página a través de etiquetas visuales en la nube</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -338,7 +338,7 @@
 <tr>
     <td><b>Descripción:</b></td>
     <td>Permitirá la localización de cualquier contenido mediante la 
-introducción de términos clave.</td>
+introducción de términos clave</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -350,9 +350,8 @@ introducción de términos clave.</td>
 </tr>
 <tr>
     <td><b>Comentarios:</b></td>
-    <td>- En las búsquedas no se diferenciarán las palabras 
-con o sin acento, mayúsculas o minúsculas.<br>
-- Dispondrá de opciones que permitan la parametrización de las búsquedas considerando características como el idioma, secciones del sitio, etc. </td>
+    <td>- En las búsquedas no se diferenciarán las palabras con o sin acento, mayúsculas o minúsculas.<br>
+- Dispondrá de opciones que permitan la parametrización de las búsquedas considerando características como el idioma, secciones del sitio, etc </td>
 </tr>
 </table>
 
@@ -381,7 +380,7 @@ con o sin acento, mayúsculas o minúsculas.<br>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>Ofrece la posibilidad de ver las noticias acerca de eventos en Gran Canaria y la disponibilidad del transporte. </td>
+    <td>Ofrece la posibilidad de ver las noticias acerca de eventos en Gran Canaria y la disponibilidad del transporte </td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -422,7 +421,7 @@ con o sin acento, mayúsculas o minúsculas.<br>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>Da la posibilidad de contactar ya sea a través del correo o de un número de teléfono.</td>
+    <td>Da la posibilidad de contactar ya sea a través del correo o de un número de teléfono</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -463,7 +462,7 @@ con o sin acento, mayúsculas o minúsculas.<br>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>Permite buscar a cerca de eventos y lugares de ocio en la isla.</td>
+    <td>Permite buscar a cerca de eventos y lugares de ocio en la isla</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -504,7 +503,7 @@ con o sin acento, mayúsculas o minúsculas.<br>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>Permite buscar monumentos en la isla.</td>
+    <td>Permite buscar monumentos en la isla</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -545,7 +544,7 @@ con o sin acento, mayúsculas o minúsculas.<br>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>Muestra la hora a la que pasa un determinado transporte por una determinada parada de la línea que se esté consultando.</td>
+    <td>Muestra la hora a la que pasa un determinado transporte por una determinada parada de la línea que se esté consultando</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -586,7 +585,7 @@ con o sin acento, mayúsculas o minúsculas.<br>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>Ofrece una lista de las incidencias del transporte actuales.</td>
+    <td>Ofrece una lista de las incidencias del transporte actuales</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -627,7 +626,7 @@ con o sin acento, mayúsculas o minúsculas.<br>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>Ofrece una lista de los itinerarios más concurridos.</td>
+    <td>Ofrece una lista de los itinerarios más concurridos</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -668,7 +667,7 @@ con o sin acento, mayúsculas o minúsculas.<br>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>Redirige a la vista inicial del portal.</td>
+    <td>Redirige a la vista inicial del portal</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -709,7 +708,7 @@ con o sin acento, mayúsculas o minúsculas.<br>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>Ofrece una vista de las distintas tarifas y bonos disponibles para transportarnos por la isla.</td>
+    <td>Ofrece una vista de las distintas tarifas y bonos disponibles para transportarnos por la isla</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -791,7 +790,7 @@ con o sin acento, mayúsculas o minúsculas.<br>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>Ofrece la información corporativa del ayuntamiento de Gran Canaria.</td>
+    <td>Ofrece la información corporativa del ayuntamiento de Gran Canaria</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -832,7 +831,7 @@ con o sin acento, mayúsculas o minúsculas.<br>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>Realiza la búsqueda y nos indica en el mapa interactivo el itinerario seleccionado.</td>
+    <td>Realiza la búsqueda y nos indica en el mapa interactivo el itinerario seleccionado</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -873,7 +872,7 @@ con o sin acento, mayúsculas o minúsculas.<br>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>Ordena los itinerarios coincidentes en base al criterio escogido.</td>
+    <td>Ordena los itinerarios coincidentes en base al criterio escogido</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -919,7 +918,7 @@ con o sin acento, mayúsculas o minúsculas.<br>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>Selección del origen y el destino del itinerario.</td>
+    <td>Selección del origen y el destino del itinerario</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -960,7 +959,7 @@ con o sin acento, mayúsculas o minúsculas.<br>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>Muestra la tarifa del itinerario en cuestión.</td>
+    <td>Muestra la tarifa del itinerario en cuestión</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -1001,7 +1000,7 @@ con o sin acento, mayúsculas o minúsculas.<br>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>Muestra un esquema del recorrido correspondiente al itinerario en cuestión.</td>
+    <td>Muestra un esquema del recorrido correspondiente al itinerario en cuestión</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -1042,7 +1041,7 @@ con o sin acento, mayúsculas o minúsculas.<br>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>Imprime el esquema del recorrido.</td>
+    <td>Imprime el esquema del recorrido</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -1083,7 +1082,7 @@ con o sin acento, mayúsculas o minúsculas.<br>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>Realiza una búsqueda de la parada o la estación y se indica en el mapa interactivo.</td>
+    <td>Realiza una búsqueda de la parada o la estación y se indica en el mapa interactivo</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -1124,7 +1123,7 @@ con o sin acento, mayúsculas o minúsculas.<br>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>Ordena las paradas/estaciones que se muestran en base a la opción escogida..</td>
+    <td>Ordena las paradas/estaciones que se muestran en base a la opción escogida</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -1168,7 +1167,7 @@ con o sin acento, mayúsculas o minúsculas.<br>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>Permite modificar la vista que se tiene del mapa realizando acciones indicadas en comentarios.</td>
+    <td>Permite modificar la vista que se tiene del mapa realizando acciones indicadas en comentarios</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -1214,7 +1213,7 @@ con o sin acento, mayúsculas o minúsculas.<br>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>Representa el recorrido de la línea en el mapa.</td>
+    <td>Representa el recorrido de la línea en el mapa</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -1255,7 +1254,7 @@ con o sin acento, mayúsculas o minúsculas.<br>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>Inicia sesión introduciendo tanto el nombre de usuario como su contraseña.</td>
+    <td>Inicia sesión introduciendo tanto el nombre de usuario como su contraseña</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -1296,7 +1295,7 @@ con o sin acento, mayúsculas o minúsculas.<br>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>Renueva la tarjeta de transporte actual.</td>
+    <td>Renueva la tarjeta de transporte actual</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -1337,7 +1336,7 @@ con o sin acento, mayúsculas o minúsculas.<br>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>Ofrece la posibilidad de comprar una tarjeta de transporte.</td>
+    <td>Ofrece la posibilidad de comprar una tarjeta de transporte</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -1378,7 +1377,7 @@ con o sin acento, mayúsculas o minúsculas.<br>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>Recarga el saldo de la tarjeta de transporte adjuntada a la cuenta iniciada.</td>
+    <td>Recarga el saldo de la tarjeta de transporte adjuntada a la cuenta iniciada</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -1419,7 +1418,7 @@ con o sin acento, mayúsculas o minúsculas.<br>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>Representa el recorrido de la línea en el mapa.</td>
+    <td>Representa el recorrido de la línea en el mapa</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
