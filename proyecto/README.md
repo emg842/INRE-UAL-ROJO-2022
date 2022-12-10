@@ -1136,7 +1136,7 @@ con o sin acento, mayúsculas o minúsculas.<br>
 </tr>
 <tr>
     <td><b>Comentarios:</b></td>
-    <td>- Cercanas a un sitio indicado
+    <td>- Cercanas a un sitio indicado<br>
     - Cerca de una línea <br>
     - Dentro de un municipio<br>
     - Dentro de una zona/barrio</td>
@@ -1180,7 +1180,7 @@ con o sin acento, mayúsculas o minúsculas.<br>
 </tr>
 <tr>
     <td><b>Comentarios:</b></td>
-    <td>Interacciones posibles:
+    <td>Interacciones posibles:<br>
     - Acercar<br>
     - Alejar<br>
     - Desplazar<br>
