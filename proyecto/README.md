@@ -351,10 +351,8 @@ introducción de términos clave.</td>
 <tr>
     <td><b>Comentarios:</b></td>
     <td>- En las búsquedas no se diferenciarán las palabras 
-con o sin acento, mayúsculas o minúsculas.
-- Dispondrá de opciones que permitan 
-la parametrización de las búsquedas considerado entre otras características: 
-idioma secciones del sitio, etc. </td>
+con o sin acento, mayúsculas o minúsculas.<br>
+- Dispondrá de opciones que permitan la parametrización de las búsquedas considerando características como el idioma, secciones del sitio, etc. </td>
 </tr>
 </table>
 
@@ -887,7 +885,7 @@ idioma secciones del sitio, etc. </td>
 </tr>
 <tr>
     <td><b>Comentarios:</b></td>
-    <td>Podremos ordenar los itinerarios en base a:
+    <td>Podremos ordenar los itinerarios en base a:<br>
     - Fecha<br>
     - Horas de salida y llegada<br>
     - Tiempo de transporte<br>
