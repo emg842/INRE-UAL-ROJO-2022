@@ -11,33 +11,33 @@
 <table align = "center">
     <tr>
         <td><b>Fecha</b></td>
-        <td><b>1.0</b></td>
-        <td><b>Realización tablas requisitos funcionales</b></td>
-        <td><b>Miguel Ángel Moncada Álvarez</b></td>
+        <td><b>Versión</b></td>
+        <td><b>Descripción</b></td>
+        <td><b>Autor</b></td>
     </tr>
     <tr>
         <td>10/12/2022</td>
         <td>1.0</td>
-        <td>descripción</td>
         <td>Realización tablas requisitos funcionales</td>
+        <td>Miguel Ángel Moncada Álvarez</td>
     </tr>
     <tr>
         <td>10/12/2022</td>
         <td>1.0</td>
-        <td>descripción</td>
         <td>Corrección tablas requisitos funcionales</td>
+        <td>Miguel Ángel Moncada Álvarez</td>
     </tr>
     <tr>
         <td>10/12/2022</td>
         <td>1.0</td>
-        <td>descripción</td>
         <td>Corrección tablas requisitos funcionales</td>
+        <td>Miguel Ángel Moncada Álvarez</td>
     </tr>
     <tr>
         <td>10/12/2022</td>
         <td>1.0</td>
-        <td>descripción</td>
         <td>Actualizar progreso en la Hoja de revisión</td>
+        <td>Miguel Ángel Moncada Álvarez</td>
     </tr>
 </table>
 
