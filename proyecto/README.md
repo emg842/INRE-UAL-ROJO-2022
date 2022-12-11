@@ -51,6 +51,12 @@
         <td>Actualización del DCU general</td>
         <td>Manuel Vallecillos Escobosa</td>
     </tr>
+        <tr>
+        <td>11/12/2022</td>
+        <td>1.0</td>
+        <td>Adición de requisitos funcionales1</td>
+        <td>Miguel Ángel Moncada Álvarez</td>
+    </tr>
 </table>
 
 <br><br>
@@ -231,6 +237,10 @@
     <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
 </tr>
 <tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-01, ACT-02 </td>
+</tr>
+<tr>
     <td><b>Descripción:</b></td>
     <td>El sistema ofrece acceso al blog con información a cerca del transporte en Gran Canaria</td>
 </tr>
@@ -270,6 +280,10 @@
 <tr>
     <td><b>Referencias:</b></td>
     <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+<tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-01, ACT-02 </td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -313,6 +327,10 @@
     <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
 </tr>
 <tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-01, ACT-02 </td>
+</tr>
+<tr>
     <td><b>Descripción:</b></td>
     <td>Ofrece de forma gráfica acceso a las funcionalidades de la página a través de etiquetas visuales en la nube</td>
 </tr>
@@ -352,6 +370,10 @@
 <tr>
     <td><b>Referencias:</b></td>
     <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+<tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-01, ACT-02 </td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -397,6 +419,10 @@ introducción de términos clave</td>
     <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
 </tr>
 <tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-01, ACT-02 </td>
+</tr>
+<tr>
     <td><b>Descripción:</b></td>
     <td>Ofrece la posibilidad de ver las noticias acerca de eventos en Gran Canaria y la disponibilidad del transporte </td>
 </tr>
@@ -419,7 +445,7 @@ introducción de términos clave</td>
 <table align = "center">
 <tr>
     <td><b>FR-06:</b></td>
-    <td>Manuel Vallecillos Escobosa</td>
+    <td>Contactar con el equipo de la aplicación</td>
 </tr>
 <tr>
     <td><b>Versión:</b></td>
@@ -427,7 +453,7 @@ introducción de términos clave</td>
 </tr>
 <tr>
     <td><b>Autor:</b></td>
-    <td>Contactar con el equipo de la aplicación</td>
+    <td>Manuel Vallecillos Escobosa</td>
 </tr>
 <tr>
     <td><b>Fuentes:</b></td>
@@ -436,6 +462,10 @@ introducción de términos clave</td>
 <tr>
     <td><b>Referencias:</b></td>
     <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+<tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-01, ACT-02 </td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -479,6 +509,10 @@ introducción de términos clave</td>
     <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
 </tr>
 <tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-01, ACT-02 </td>
+</tr>
+<tr>
     <td><b>Descripción:</b></td>
     <td>Permite buscar a cerca de eventos y lugares de ocio en la isla</td>
 </tr>
@@ -518,6 +552,10 @@ introducción de términos clave</td>
 <tr>
     <td><b>Referencias:</b></td>
     <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+<tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-01, ACT-02 </td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -561,6 +599,10 @@ introducción de términos clave</td>
     <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
 </tr>
 <tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-01, ACT-02 </td>
+</tr>
+<tr>
     <td><b>Descripción:</b></td>
     <td>Muestra la hora a la que pasa un determinado transporte por una determinada parada de la línea que se esté consultando</td>
 </tr>
@@ -600,6 +642,10 @@ introducción de términos clave</td>
 <tr>
     <td><b>Referencias:</b></td>
     <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+<tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-01, ACT-02 </td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -643,6 +689,10 @@ introducción de términos clave</td>
     <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
 </tr>
 <tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-01, ACT-02 </td>
+</tr>
+<tr>
     <td><b>Descripción:</b></td>
     <td>Ofrece una lista de los itinerarios más concurridos</td>
 </tr>
@@ -682,6 +732,10 @@ introducción de términos clave</td>
 <tr>
     <td><b>Referencias:</b></td>
     <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+<tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-01, ACT-02 </td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -725,6 +779,10 @@ introducción de términos clave</td>
     <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
 </tr>
 <tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-01, ACT-02 </td>
+</tr>
+<tr>
     <td><b>Descripción:</b></td>
     <td>Ofrece una vista de las distintas tarifas y bonos disponibles para transportarnos por la isla</td>
 </tr>
@@ -764,6 +822,10 @@ introducción de términos clave</td>
 <tr>
     <td><b>Referencias:</b></td>
     <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+<tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-01, ACT-02 </td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -807,6 +869,10 @@ introducción de términos clave</td>
     <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
 </tr>
 <tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-01, ACT-02 </td>
+</tr>
+<tr>
     <td><b>Descripción:</b></td>
     <td>Ofrece la información corporativa del ayuntamiento de Gran Canaria</td>
 </tr>
@@ -846,6 +912,10 @@ introducción de términos clave</td>
 <tr>
     <td><b>Referencias:</b></td>
     <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+<tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-01, ACT-02 </td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -889,6 +959,10 @@ introducción de términos clave</td>
     <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
 </tr>
 <tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-01, ACT-02 </td>
+</tr>
+<tr>
     <td><b>Descripción:</b></td>
     <td>Ordena los itinerarios coincidentes en base al criterio escogido</td>
 </tr>
@@ -919,6 +993,10 @@ introducción de términos clave</td>
     <td>Seleccionar origen-destino</td>
 </tr>
 <tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-01, ACT-02 </td>
+</tr>
+<tr>
     <td><b>Versión:</b></td>
     <td>1.0 (Diciembre-2022)</td>
 </tr>
@@ -933,6 +1011,10 @@ introducción de términos clave</td>
 <tr>
     <td><b>Referencias:</b></td>
     <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+<tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-01, ACT-02 </td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -976,6 +1058,10 @@ introducción de términos clave</td>
     <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
 </tr>
 <tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-01, ACT-02 </td>
+</tr>
+<tr>
     <td><b>Descripción:</b></td>
     <td>Muestra la tarifa del itinerario en cuestión</td>
 </tr>
@@ -1015,6 +1101,10 @@ introducción de términos clave</td>
 <tr>
     <td><b>Referencias:</b></td>
     <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+<tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-01, ACT-02 </td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -1058,6 +1148,10 @@ introducción de términos clave</td>
     <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
 </tr>
 <tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-01, ACT-02 </td>
+</tr>
+<tr>
     <td><b>Descripción:</b></td>
     <td>Imprime el esquema del recorrido</td>
 </tr>
@@ -1099,6 +1193,10 @@ introducción de términos clave</td>
     <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
 </tr>
 <tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-01, ACT-02 </td>
+</tr>
+<tr>
     <td><b>Descripción:</b></td>
     <td>Realiza una búsqueda de la parada o la estación y se indica en el mapa interactivo</td>
 </tr>
@@ -1138,6 +1236,10 @@ introducción de términos clave</td>
 <tr>
     <td><b>Referencias:</b></td>
     <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+<tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-01, ACT-02 </td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -1182,6 +1284,10 @@ introducción de términos clave</td>
 <tr>
     <td><b>Referencias:</b></td>
     <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+<tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-01, ACT-02 </td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -1230,6 +1336,10 @@ introducción de términos clave</td>
     <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
 </tr>
 <tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-01, ACT-02 </td>
+</tr>
+<tr>
     <td><b>Descripción:</b></td>
     <td>Representa el recorrido de la línea en el mapa</td>
 </tr>
@@ -1271,6 +1381,10 @@ introducción de términos clave</td>
     <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
 </tr>
 <tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-01, ACT-02 </td>
+</tr>
+<tr>
     <td><b>Descripción:</b></td>
     <td>Inicia sesión introduciendo tanto el nombre de usuario como su contraseña</td>
 </tr>
@@ -1310,6 +1424,10 @@ introducción de términos clave</td>
 <tr>
     <td><b>Referencias:</b></td>
     <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+<tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-01, ACT-02 </td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -1357,6 +1475,10 @@ introducción de términos clave</td>
     <td>Ofrece la posibilidad de comprar una tarjeta de transporte</td>
 </tr>
 <tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-01, ACT-02 </td>
+</tr>
+<tr>
     <td><b>Importancia:</b></td>
     <td>Muy elevada</td>
 </tr>
@@ -1392,6 +1514,10 @@ introducción de términos clave</td>
 <tr>
     <td><b>Referencias:</b></td>
     <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+<tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-01, ACT-02 </td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
@@ -1435,6 +1561,10 @@ introducción de términos clave</td>
     <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
 </tr>
 <tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-01, ACT-02 </td>
+</tr>
+<tr>
     <td><b>Descripción:</b></td>
     <td>Representa el recorrido de la línea en el mapa</td>
 </tr>
@@ -1456,8 +1586,8 @@ introducción de términos clave</td>
 
 <table align = "center">
 <tr>
-    <td><b>FR-25:</b></td>
-    <td>Representar recorrido de una línea</td>
+    <td><b>FR-31:</b></td>
+    <td>Modificar datos</td>
 </tr>
 <tr>
     <td><b>Versión:</b></td>
@@ -1476,8 +1606,12 @@ introducción de términos clave</td>
     <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
 </tr>
 <tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-03 </td>
+</tr>
+<tr>
     <td><b>Descripción:</b></td>
-    <td>Representa el recorrido de la línea en el mapa.</td>
+    <td>Modifica los datos que aparecen en cualquier apartado de la página</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -1497,8 +1631,8 @@ introducción de términos clave</td>
 
 <table align = "center">
 <tr>
-    <td><b>FR-25:</b></td>
-    <td>Representar recorrido de una línea</td>
+    <td><b>FR-32:</b></td>
+    <td>Introducir datos</td>
 </tr>
 <tr>
     <td><b>Versión:</b></td>
@@ -1517,8 +1651,12 @@ introducción de términos clave</td>
     <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
 </tr>
 <tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-03 </td>
+</tr>
+<tr>
     <td><b>Descripción:</b></td>
-    <td>Representa el recorrido de la línea en el mapa.</td>
+    <td>Introduce datos en cualquier apartado de la página</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -1538,8 +1676,8 @@ introducción de términos clave</td>
 
 <table align = "center">
 <tr>
-    <td><b>FR-25:</b></td>
-    <td>Representar recorrido de una línea</td>
+    <td><b>FR-33:</b></td>
+    <td>Añadir listado de horarios y servicios</td>
 </tr>
 <tr>
     <td><b>Versión:</b></td>
@@ -1558,8 +1696,462 @@ introducción de términos clave</td>
     <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
 </tr>
 <tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-03 </td>
+</tr>
+<tr>
     <td><b>Descripción:</b></td>
-    <td>Representa el recorrido de la línea en el mapa.</td>
+    <td>Añade un listado de los horarios del transporte y los servicios a ofrecer</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>FR-34:</b></td>
+    <td>Gestionar idiomas</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Diciembre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Manuel Vallecillos Escobosa</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Pliego de condiciones y entrevista</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+<tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-03 </td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>Gestiona los idiomas en los que se puede visualizar la página</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>FR-35:</b></td>
+    <td>Modificar diseño de las páginas</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Diciembre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Manuel Vallecillos Escobosa</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Pliego de condiciones y entrevista</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+<tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-03 </td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>Modifica el estilo y la apariencia de cualquiera de las páginas</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>FR-36:</b></td>
+    <td>Publicar contenido</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Diciembre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Manuel Vallecillos Escobosa</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Pliego de condiciones y entrevista</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+<tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-03 </td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>Pulica contenido ya sea a cerca de eventos, publicidad, noticias, etc</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>FR-37:</b></td>
+    <td>Retirar contenido</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Diciembre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Manuel Vallecillos Escobosa</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Pliego de condiciones y entrevista</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+<tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-03 </td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>Retira contenido previamente publicado en la página que ya no debe estar</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>FR-38:</b></td>
+    <td>Modificar contenido</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Diciembre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Manuel Vallecillos Escobosa</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Pliego de condiciones y entrevista</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+<tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-03 </td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>Modifica el contenido de cualquiera de las páginas</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>FR-39:</b></td>
+    <td>Visualizar estadísticas de acceso a secciones y servicios</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Diciembre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Manuel Vallecillos Escobosa</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Pliego de condiciones y entrevista</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+<tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-03 </td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>Visualiza estadísticas de acceso por parte de los usuarios a las distintas secciones y servicios</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>FR-40:</b></td>
+    <td>Gestionar publicidad</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Diciembre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Manuel Vallecillos Escobosa</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Pliego de condiciones y entrevista</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+<tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-03 </td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>Gestiona la aparición de publicidad mientras se navega por la página</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>FR-33:</b></td>
+    <td>Añadir listado de horarios y servicios</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Diciembre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Manuel Vallecillos Escobosa</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Pliego de condiciones y entrevista</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+<tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-03 </td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>Añade un listado de los horarios del transporte y los servicios a ofrecer</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>FR-33:</b></td>
+    <td>Añadir listado de horarios y servicios</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Diciembre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Manuel Vallecillos Escobosa</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Pliego de condiciones y entrevista</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+<tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-03 </td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>Añade un listado de los horarios del transporte y los servicios a ofrecer</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>FR-33:</b></td>
+    <td>Añadir listado de horarios y servicios</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Diciembre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Manuel Vallecillos Escobosa</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Pliego de condiciones y entrevista</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+<tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-03 </td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>Añade un listado de los horarios del transporte y los servicios a ofrecer</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
