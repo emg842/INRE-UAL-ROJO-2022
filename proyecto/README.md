@@ -1564,6 +1564,7 @@ introducción de términos clave</td>
 </table>
 
 <br>
+
 ### <a name="requisitosnofuncionales"></a> Requisitos no funcionales
 
 <br>
@@ -1811,16 +1812,16 @@ Diagrama nº 2
         <td><b>Nombre</b></td>
     </tr>
     <tr>
-        <td>identificador</td>
-        <td>nombre</td>
+        <td>ACT-01</td>
+        <td>Usuario no registrado</td>
     </tr>
     <tr>
-        <td>identificador</td>
-        <td>nombre</td>
+        <td>ACT-02</td>
+        <td>Usuario registrado</td>
     </tr>
     <tr>
-        <td>identificador</td>
-        <td>nombre</td>
+        <td>ACT-03</td>
+        <td>Gestor de contenidos</td>
     </tr>
 </table>
 
