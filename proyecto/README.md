@@ -16,6 +16,12 @@
         <td><b>Autor</b></td>
     </tr>
     <tr>
+        <td>06/12/2022</td>
+        <td>1.0</td>
+        <td>Realización del DCU general</td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
         <td>10/12/2022</td>
         <td>1.0</td>
         <td>Realización tablas requisitos funcionales</td>
@@ -38,6 +44,12 @@
         <td>1.0</td>
         <td>Actualizar progreso en la Hoja de revisión</td>
         <td>Miguel Ángel Moncada Álvarez</td>
+    </tr>
+    <tr>
+        <td>11/12/2022</td>
+        <td>1.0</td>
+        <td>Actualización del DCU general</td>
+        <td>Manuel Vallecillos Escobosa</td>
     </tr>
 </table>
 
@@ -1564,6 +1576,7 @@ introducción de términos clave</td>
 </table>
 
 <br>
+
 ### <a name="requisitosnofuncionales"></a> Requisitos no funcionales
 
 <br>
