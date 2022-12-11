@@ -51,12 +51,19 @@
         <td>Actualización del DCU general</td>
         <td>Manuel Vallecillos Escobosa</td>
     </tr>
-        <tr>
+    <tr>
         <td>11/12/2022</td>
         <td>1.0</td>
         <td>Adición de requisitos funcionales1</td>
         <td>Miguel Ángel Moncada Álvarez</td>
     </tr>
+        <tr>
+        <td>11/12/2022</td>
+        <td>1.0</td>
+        <td>Adición de requisitos No funcionales</td>
+        <td>Miguel Ángel Moncada Álvarez</td>
+    </tr>
+    
 </table>
 
 <br><br>
@@ -2036,8 +2043,8 @@ introducción de términos clave</td>
 
 <table align = "center">
 <tr>
-    <td><b>FR-33:</b></td>
-    <td>Añadir listado de horarios y servicios</td>
+    <td><b>FR-41:</b></td>
+    <td>Registrar situación de los operadores</td>
 </tr>
 <tr>
     <td><b>Versión:</b></td>
@@ -2061,7 +2068,7 @@ introducción de términos clave</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>Añade un listado de los horarios del transporte y los servicios a ofrecer</td>
+    <td>Registra la situación de los operadores en tiempo real ya sea a través de vídeo o fotos</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -2081,8 +2088,8 @@ introducción de términos clave</td>
 
 <table align = "center">
 <tr>
-    <td><b>FR-33:</b></td>
-    <td>Añadir listado de horarios y servicios</td>
+    <td><b>FR-42:</b></td>
+    <td>Registrar adelanto o retraso de cada línea</td>
 </tr>
 <tr>
     <td><b>Versión:</b></td>
@@ -2106,7 +2113,7 @@ introducción de términos clave</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>Añade un listado de los horarios del transporte y los servicios a ofrecer</td>
+    <td>Indica la llegada anticipada o retrasada de un operador a las paradas</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -2126,8 +2133,8 @@ introducción de términos clave</td>
 
 <table align = "center">
 <tr>
-    <td><b>FR-33:</b></td>
-    <td>Añadir listado de horarios y servicios</td>
+    <td><b>FR-43:</b></td>
+    <td>Gestionar sistema de ventas y título de transporte</td>
 </tr>
 <tr>
     <td><b>Versión:</b></td>
@@ -2151,7 +2158,235 @@ introducción de términos clave</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>Añade un listado de los horarios del transporte y los servicios a ofrecer</td>
+    <td>Gestiona las acciones de venta de servicios de transporte y el título de transporte único para cada usuario siempre que esté  registrado</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>FR-44:</b></td>
+    <td>Gestionar sistema de señalización</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Diciembre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Manuel Vallecillos Escobosa</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Pliego de condiciones y entrevista</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+<tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-03 </td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>Definir paradas y estaciones además de sus correspondientes avisos</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td>Los avisos respecto a paradas y estaciones podrán ser:<br>
+    - Acústicos<br>
+    - Visuales<br>
+    - Por correo</td>
+</tr>
+</table>
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>FR-45:</b></td>
+    <td>Gestionar sistema de ventas y título de transporte</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Diciembre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Manuel Vallecillos Escobosa</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Pliego de condiciones y entrevista</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+<tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-03 </td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>Gestiona las acciones de venta de servicios de transporte y el título de transporte único para cada usuario siempre que esté  registrado</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>FR-46:</b></td>
+    <td>Definir evento</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Diciembre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Manuel Vallecillos Escobosa</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Pliego de condiciones y entrevista</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+<tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-03 </td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>Añade un evento en su correspondiente apartado</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>FR-47:</b></td>
+    <td>Examinar estado de la explotación de operadores</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Diciembre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Manuel Vallecillos Escobosa</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Pliego de condiciones y entrevista</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+<tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-03 </td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>Examina la explotación de los operadores en base a los datos delas jornadas laborales de estos</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td>Se estudian tanto grupal como individualmente</td>
+</tr>
+</table>
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>FR-48:</b></td>
+    <td>Gestionar idiomas</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Diciembre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Manuel Vallecillos Escobosa</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Pliego de condiciones y entrevista</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+<tr>
+    <td><b>Actores:</b></td>
+    <td>ACT-03 </td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>Gestiona los idiomas disponibles y la forma de cambiar de uno a otro</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -2176,7 +2411,7 @@ introducción de términos clave</td>
 <table align = "center">
 <tr>
     <td><b>NFR-01:</b></td>
-    <td>Nombre del requisito no funcional</td>
+    <td>Dar un servicio multidispositivo soportado</td>
 </tr>
 <tr>
     <td><b>Versión:</b></td>
@@ -2196,7 +2431,7 @@ introducción de términos clave</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>Breve descripción del requisito no funcional</td>
+    <td>Permite el funcionamiento de la página en cualquier dispositivo</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -2217,7 +2452,7 @@ introducción de términos clave</td>
 <table align = "center">
 <tr>
     <td><b>NFR-02:</b></td>
-    <td>Nombre del requisito no funcional</td>
+    <td>Ofrecer un buscador insensible a acentos o mayúsculas</td>
 </tr>
 <tr>
     <td><b>Versión:</b></td>
@@ -2237,7 +2472,7 @@ introducción de términos clave</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>Breve descripción del requisito no funcional</td>
+    <td>Ofrecer los mismos resultados independientemente de escribir en mayúscula o con acentos</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -2258,7 +2493,7 @@ introducción de términos clave</td>
 <table align = "center">
 <tr>
     <td><b>NFR-03:</b></td>
-    <td>Nombre del requisito no funcional</td>
+    <td>Editor WYSIMYG</td>
 </tr>
 <tr>
     <td><b>Versión:</b></td>
@@ -2278,7 +2513,7 @@ introducción de términos clave</td>
 </tr>
 <tr>
     <td><b>Descripción:</b></td>
-    <td>Breve descripción del requisito no funcional</td>
+    <td>Proporcionar un editor WYSIWYG de manera que el gestor no tenga necesidad de tener conocimientos de codificación para editar la página</td>
 </tr>
 <tr>
     <td><b>Importancia:</b></td>
@@ -2296,6 +2531,87 @@ introducción de términos clave</td>
 
 <br>
 
+<table align = "center">
+<tr>
+    <td><b>NFR-04:</b></td>
+    <td>Establecer sistema de seguridad</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Diciembre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Nombre y apellidos</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Pliego de condiciones y entrevista</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>Proteger los datos y proporcionar una navegación segura al hacer uso de la página</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>NFR-05:</b></td>
+    <td>Emplear lenguaje PL/SQL</td>
+</tr>
+<tr>
+    <td><b>Versión:</b></td>
+    <td>1.0 (Diciembre-2022)</td>
+</tr>
+<tr>
+    <td><b>Autor:</b></td>
+    <td>Nombre y apellidos</td>
+</tr>
+<tr>
+    <td><b>Fuentes:</b></td>
+    <td>Pliego de condiciones y entrevista</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b></td>
+    <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b></td>
+    <td>Realizar las tareas de codificación empleando lenguaje PL/SQL</td>
+</tr>
+<tr>
+    <td><b>Importancia:</b></td>
+    <td>Muy elevada</td>
+</tr>
+<tr>
+    <td><b>Estado:</b></td>
+    <td>Aceptado</td>
+</tr>
+<tr>
+    <td><b>Comentarios:</b></td>
+    <td></td>
+</tr>
+</table>
+
+<br>
 ### <a name="requisitosdeinformacion"></a> Requisitos de información
 
 <br>
