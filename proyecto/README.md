@@ -4,7 +4,7 @@
 
 <br>
 
-# <a name="inicioDocumento"></a> Especificación de los requisitos del software
+# <a name="iniciodocumento"></a> Especificación de los requisitos del software
 
 <br>
 
@@ -2937,6 +2937,6 @@ Diagrama nº 2
 
 <br>
 
-# [Ir al inicio de la página](#inicioDocumento)
+[Ir al inicio del documento](#iniciodocumento)
 
 <br>
