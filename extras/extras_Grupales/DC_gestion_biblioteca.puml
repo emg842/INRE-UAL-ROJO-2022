@@ -1,5 +1,6 @@
 @startuml gestion_biblioteca
-title Gestión Biblioteca
+
+title Diagrama de clases: Gestión Biblioteca
 
 Entity Autor {
     idAutor : String

@@ -24,6 +24,6 @@
 
 <br>
 
-![pp](siHombre.jpg)
+<div align="center"><img src="siHombre.webp"></div>
 
 <br>
