@@ -4,7 +4,7 @@
 
 <br>
 
-# Especificación de los requisitos del software
+# [Especificación de los requisitos del software](#inicioDocumento)
 
 <br>
 
@@ -2934,5 +2934,9 @@ Diagrama nº 2
 <br>
 
 [Preguntas entrevista](https://github.com/emg842/INRE-UAL-ROJO-2022/tree/main/proyecto/anexo)
+
+<br>
+
+<a name="inicioDocumento"></a> Ir al inicio de la página
 
 <br>
