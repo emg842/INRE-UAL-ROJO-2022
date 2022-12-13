@@ -80,6 +80,12 @@
         <td>Diagrama E/R general</td>
         <td>Joaquín Murcia Escánez</td>
     </tr>
+    <tr>
+        <td>13/12/2022</td>
+        <td>1.0</td>
+        <td>Diagrama de casos de uso general actualizado en adición de fragmentos del mismo (DCU del usuario del portal, DCU del usuario del sistema de información y DCU del gestor)</td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
 </table>
 
 <br><br>
@@ -2690,7 +2696,9 @@ introducción de términos clave</td>
 <br>
 
 [- Diagrama general](#diagramageneral)<br>
-[- Diagrama nº 2](#diagrama2)
+[- Diagrama del gestor](#diagramadelgestor)<br>
+[- Diagrama del usuario del portal](#diagramadelusuariodelportal)<br>
+[- Diagrama del usuario del sistema de informacion](#diagramadelusuariodelsistemadeinformacion)
 
 <br>
 
@@ -2702,15 +2710,31 @@ introducción de términos clave</td>
 
 <br>
 
-<div align="center"><img src="./out/DCU_general.svg"></div>
+<div align="center"><img src="./out/DCU/DCU_general.svg"></div>
 
 <br>
 
-<a name="diagrama2"></a> Diagrama nº 2
+<a name="diagramadelgestor"></a> Diagrama del gestor
 
 <br>
 
-Diagrama nº 2
+<div align="center"><img src="./out/DCU/DCU_gestor.svg"></div>
+
+<br>
+
+<a name="diagramadelusuariodelportal"></a> Diagrama del usuario del portal
+
+<br>
+
+<div align="center"><img src="./out/DCU/DCU_usu_P.svg"></div>
+
+<br>
+
+<a name="diagramadelusuariodelsistemadeinformacion"></a> Diagrama del sistema de informacion
+
+<br>
+
+<div align="center"><img src="./out/DCU/DCU_usu_SI.svg"></div>
 
 <br>
 
@@ -2939,7 +2963,7 @@ Diagrama general
 
 <br>
 
-<div align="center"><img src="./out/ER_general.svg"></div>
+<div align="center"><img src="./out/ER/ER_general.svg"></div>
 
 <br>
 
