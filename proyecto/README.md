@@ -67,6 +67,13 @@
         <td>Adición de requisitos No funcionales</td>
         <td>Miguel Ángel Moncada Álvarez</td>
     </tr>
+    </tr>
+        <tr>
+        <td>13/12/2022</td>
+        <td>1.0</td>
+        <td>Introducción y objetivos de negocio</td>
+        <td>Daniel López García</td>
+    </tr>
     
 </table>
 
@@ -107,9 +114,10 @@
 
 <br>
 
-<p>Introducción</p>
+<p>Una vez leido el pliego de las condiciones hemos decicido abarcar este proyecto para crear dos aplicaciones para favorecer y facilitar el uso de transporte público de las Islas Canarias. Para ello nos hemos preparado una entrevista (ver anexo) con un usuario habitual para aclarar algunas dudas que nos han surgido al grupo durante el planteamiento inicial del proyecto. Una vez terminada nos disponemos a crear un archivo con nuestra propuesta documentada de las aplicaciones del pliego inicial  </p>
 
-<br><br>
+<br>
+<br>
 
 ## <a name="informaciondeldominiodelproblema"></a> 2. Información del Dominio del problema [opcional]
 
@@ -156,7 +164,7 @@
 
 <br>
 
-<p>Objetivos del negocio</p>
+<p>Como ya hemos visto la intención de este proyecto es la de crear dos aplicaciones, una aplicación que nos muestre información sobre eventos, rutas de autobúses, noticias e itinerarios de las islas y otra aplicación que llevara una pasarela de pago implementada para poder comprar billetes y reservar itinerarios. Nuestro propósito es el de crear ambas aplicaciones con una experiencia de usuario sencilla pero eficientes para que sea accesible a la mayoría de usuarios.</p>
 
 <br>
 
