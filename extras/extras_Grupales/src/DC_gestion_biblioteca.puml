@@ -34,7 +34,7 @@ Class Editorial {
 Class Ejemplar {
     PK idEjemplar : Integer
     FK ISBN : String
-    estadoConservacion : Enum {'muyMalo','malo','normal','bueno','muyBueno'}
+    estadoConservacion : Enum {'muyMalo', 'malo', 'normal', 'bueno', 'muyBueno'}
     disponibleParaReserva : boolean
     enStock : boolean
 }
@@ -47,7 +47,7 @@ Class Libro {
     idioma : String
     anioEdicion : String
     fechaPublicacion : Date
-    encuadernacion : Enum {'tapaBlanda','tapaDura'} 
+    encuadernacion : Enum {'tapaBlanda', 'tapaDura'}
     numPaginas : Integer
     genero1 : String
     genero2 : String
