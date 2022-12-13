@@ -2698,7 +2698,7 @@ introducción de términos clave</td>
 [- Diagrama general](#diagramageneral)<br>
 [- Diagrama del gestor](#diagramadelgestor)<br>
 [- Diagrama del usuario del portal](#diagramadelusuariodelportal)<br>
-[- Diagrama del usuario del sistema de informacion](#diagramadelusuariodelsistemadeinformacion)
+[- Diagrama del usuario del sistema de información](#diagramadelusuariodelsistemadeinformacion)
 
 <br>
 
@@ -2730,7 +2730,7 @@ introducción de términos clave</td>
 
 <br>
 
-<a name="diagramadelusuariodelsistemadeinformacion"></a> Diagrama del sistema de informacion
+<a name="diagramadelusuariodelsistemadeinformacion"></a> Diagrama del usuario del sistema de información
 
 <br>
 
