@@ -114,9 +114,8 @@
 
 <br>
 
-<p>Una vez leido el pliego de las condiciones hemos decicido abarcar este proyecto para crear dos aplicaciones para favorecer y facilitar el uso de transporte público de las Islas Canarias. Para ello nos hemos preparado una entrevista (ver anexo) con un usuario habitual para aclarar algunas dudas que nos han surgido al grupo durante el planteamiento inicial del proyecto. Una vez terminada nos disponemos a crear un archivo con nuestra propuesta documentada de las aplicaciones del pliego inicial  </p>
+<p>Una vez leído el pliego de las condiciones hemos decicido abarcar este proyecto para crear dos aplicaciones con objeto de favorecer y facilitar el uso de transporte público en las Islas Canarias. Para ello hemos desarrollado una entrevista (ver anexo) con un usuario habitual para, de este modo, aclarar algunas dudas que nos han surgido al grupo durante el planteamiento inicial del proyecto. Una vez terminada, nos disponemos a crear un archivo con nuestra propuesta documentada de las aplicaciones del pliego inicial.</p>
 
-<br>
 <br>
 
 ## <a name="informaciondeldominiodelproblema"></a> 2. Información del Dominio del problema [opcional]
@@ -164,7 +163,7 @@
 
 <br>
 
-<p>Como ya hemos visto la intención de este proyecto es la de crear dos aplicaciones, una aplicación que nos muestre información sobre eventos, rutas de autobúses, noticias e itinerarios de las islas y otra aplicación que llevara una pasarela de pago implementada para poder comprar billetes y reservar itinerarios. Nuestro propósito es el de crear ambas aplicaciones con una experiencia de usuario sencilla pero eficientes para que sea accesible a la mayoría de usuarios.</p>
+<p>Como ya hemos visto la intención de este proyecto es la de crear dos aplicaciones, una aplicación que nos muestre información sobre eventos, rutas de autobuses, noticias e itinerarios de las islas, ... (entre otras muchas cosas) y otra aplicación que implementará una pasarela de pago para poder comprar billetes y reservar itinerarios. Nuestro propósito es el de crear ambas aplicaciones con una experiencia de usuario sencilla pero de manera eficiente. Siempre cuidando que sea accesible a la mayoría de usuarios.</p>
 
 <br>
 
