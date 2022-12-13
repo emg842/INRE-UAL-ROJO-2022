@@ -2,76 +2,56 @@
 
 title Diagrama de clases: Gestión Biblioteca
 
-Class Libro {
- PK ISBN : String
- FK idEditorial : Integer
- titulo : String
- descripcion : String
- idioma : String
- anioEdicion : String
- fechaPublicacion : Date
- encuadernacion : Enum {'tapaBlanda','tapaDura'} 
- numPaginas : Integer
- genero1 : String
- genero2 : String
- enStock : boolean  
-    
+Class Autor {
+    PK idAutor : Integer
+    nombre : String
 }
+
 
 Class AutorLibro {
     PK FK idAutor : Integer
     PK FK ISBN : String
 }
 
-Class Autor {
-    PK idAutor : Integer
-    nombre : String
-    apellido : String
+
+Class Bibliotecario {
+    PK idBibliotecario : Integer
+    DNI : String
+    nombreCompleto : String
     fechaNacimiento : Date
-    nacionalidad : String
+    sexo : String
+    fechaAlta : Date
+    direccion : String
+    telefono : String
+    correoElectronico : String
 }
 
 Class Editorial {
     PK idEditorial : Integer
     nombre : String
-    direccion : String
-    telefono : String
-    email : String
 }
 
-Class TemaLibro {
-    PK FK idTema : Integer
-    PK FK ISBN : String
+Class Ejemplar {
+    PK idEjemplar : Integer
+    FK ISBN : String
+    estadoConservacion : Enum {'muyMalo','malo','normal','bueno','muyBueno'}
+    disponibleParaReserva : boolean
+    enStock : boolean
 }
 
-Class Tema {
-    PK idTema : Integer
-    nombre : String
-}
-
-Class Bibliotecario {
-    PK idBibliotecario : Integer
-    nombre : String
-    apellido : String
-    fechaNacimiento : Date
-    nacionalidad : String
-    DNI : String
-    sexo : String
-    direccion : String
-    telefono : String
-    email : String
-    fechaIngreso : Date
-    fechaSalida : Date
-}
-
-Class Sancion {
-    PK idSancion : Integer
-    FK idBibliotecario : Integer
-    FK idUsuario : Integer
-    fechaInicio : Date
-    fechaFin : Date
-    motivo : String
+Class Libro {
+    PK ISBN : String
+    FK idEditorial : Integer
+    titulo : String
     descripcion : String
+    idioma : String
+    anioEdicion : String
+    fechaPublicacion : Date
+    encuadernacion : Enum {'tapaBlanda','tapaDura'} 
+    numPaginas : Integer
+    genero1 : String
+    genero2 : String
+    enStock : boolean     
 }
 
 Class PeticionLibro {
@@ -79,37 +59,7 @@ Class PeticionLibro {
     FK idUsuario : Integer
     FK ISBN : String
     ISBNLibroPedido : String
-    fechaPeticion : Date
-    fechaEntrega : Date
-    estado : Enum {'pendiente','aceptada','rechazada'}
     
-}
-
-Class Usuario {
-    PK idUsuario : Integer
-    nombre : String
-    apellido : String
-    fechaNacimiento : Date
-    nacionalidad : String
-    DNI : String
-    sexo : String
-    direccion : String
-    telefono : String
-    email : String
-    fechaIngreso : Date
-    fechaSalida : Date
-    numPrestamos : Integer
-    numPeticiones : Integer
-    numSanciones : Integer
-    numReservas : Integer
-}
-
-Class Ejemplar {
-    PK idEjemplar : Integer
-    FK ISBN : String
-    estado : Enum {'muyMalo','malo','normal','bueno','muyBueno'}
-    enStock : boolean
-    disponibleParaReserva : boolean
 }
 
 Class Reserva {
@@ -120,21 +70,50 @@ Class Reserva {
     fechaHoraFin : Datetime
     fechaDevolucion : Datetime
     ejemplarPerdido : boolean
-    ejemplarDeteriorado : boolean
-    
+    ejemplarDeteriorado : boolean  
 }
 
-Libro "1" -- "1..m" AutorLibro
-Libro "1" -- "1..m" TemaLibro
-Libro "1" .. "1..m" Ejemplar
-Libro "1..m" .. "1" Editorial
-AutorLibro "1..m" -- "1" Autor
-TemaLibro "1..m" -- "1" Tema
+Class Sancion {
+    PK idSancion : Integer
+    FK idUsuario : Integer
+    FK idBibliotecario : Integer
+    motivo : String
+    descripcion : String
+}
+
+Class Tema {
+    PK idTema : Integer
+    nombre : String
+}
+
+Class TemaLibro {
+    PK FK idTema : Integer
+    PK FK ISBN : String
+}
+
+Class Usuario {
+    PK idUsuario : Integer
+    DNI : String
+    nombreCompleto : String
+    fechaNacimiento : Date
+    sexo : String
+    fechaAlta : Date
+    direccion : String
+    telefono : String
+    correoElectronico : String
+}
+
+Autor "1" -- "1..m" AutorLibro
+AutorLibro "1..m" -- "1" Libro
 Bibliotecario "1" .. "0..m" Sancion
-PeticionLibro "0..m" .. "0..1" Libro
-Usuario "1" .. "0..m" Sancion
-Usuario "1" .. "0..m" PeticionLibro
-Usuario "1" .. "0..1" Reserva
+Editorial "1" .. "1..m" Libro
+Ejemplar "1..m" .. "1" Libro
 Ejemplar "1" .. "0..m" Reserva
+Libro "0..1" .. "0..m" PeticionLibro
+Libro "1" -- "1..m" TemaLibro
+PeticionLibro "0..m" .. "1" Usuario
+Reserva "0..1" .. "1" Usuario
+Sancion "0..m" .. "1" Usuario
+Tema "1" -- "1..m" TemaLibro
 
 @enduml
