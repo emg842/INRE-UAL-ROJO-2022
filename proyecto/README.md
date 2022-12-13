@@ -74,7 +74,12 @@
         <td>Introducción y objetivos de negocio</td>
         <td>Daniel López García</td>
     </tr>
-    
+    <tr>
+        <td>13/12/2022</td>
+        <td>1.0</td>
+        <td>Diagrama E/R general</td>
+        <td>Joaquín Murcia Escánez</td>
+    </tr>
 </table>
 
 <br><br>
@@ -2922,7 +2927,28 @@ Diagrama nº 2
 
 <br>
 
-### <a name="diagramasdeclasesasociadosalosrequisitosdeinformacion"></a> 4.3. Diagramas de clases asociados a los requisitos de información
+### <a name="diagramasdeclasesasociadosalosrequisitosdeinformacion"></a> 4.3. Diagramas E/R y de clases asociados a los requisitos de información
+
+<br>
+
+### Diagramas E/R
+
+<br>
+
+Diagrama general
+
+<br>
+
+<div align="center"><img src="./out/ER_general.svg"></div>
+
+<br>
+
+<p>Nombre del diagrama nº 2</p>
+<p>Diagrama (nº 2)<br></p>
+
+<br>
+
+### Diagramas de clases
 
 <br>
 
