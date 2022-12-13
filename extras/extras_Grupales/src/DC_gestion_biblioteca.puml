@@ -137,7 +137,4 @@ Usuario "1" .. "0..m" PeticionLibro
 Usuario "1" .. "0..1" Reserva
 Ejemplar "1" .. "0..m" Reserva
 
-
-
-
 @enduml

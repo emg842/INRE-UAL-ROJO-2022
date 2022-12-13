@@ -300,5 +300,6 @@
 
 <br>
 
+<div align="center"><img src="./extras_Grupales/out/DC_gestion_biblioteca.svg"></div>
 
-
+<br>
