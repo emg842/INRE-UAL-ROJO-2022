@@ -1,0 +1,175 @@
+@startuml DC_P
+
+title Diagrama de clases: Portal
+
+class AvisoInformativo {
+    PK idAvisoInformativo : Integer
+    PK idioma : Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+    cabecera : String
+    cuerpo : String
+    textoAdicional1 : String
+    textoAdicional2 : String
+}
+
+class Gestor {
+    PK idGestor : Integer
+    DNI : String
+    nombreCompleto : String
+    fechaNacimiento : Date
+    sexo : String
+    fechaAlta : Date
+    direccion : String
+    telefono : String
+    correoElectronico : String
+}
+
+class Imagen {
+    PK idImagen : Integer
+    titulo : String
+    urlImagen : String
+}
+
+class ImagenAvisoInformativo {
+    PK FK idImagen : Integer
+    PK idAvisoInformativo : Integer
+    PK FK idioma Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+}
+
+class ImagenInfoContacto {
+    PK FK idImagen : Integer
+    PK FK idioma Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+}
+
+class ImagenInfoCorporativa {
+    PK FK idImagen : Integer
+    PK FK idioma Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+}
+
+class ImagenInfoHorariosServicios {
+    PK FK idImagen : Integer
+    PK FK idioma Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+}
+
+class ImagenInfoItinerariosDestacados {
+    PK FK idImagen : Integer
+    PK FK idioma Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+}
+
+class ImagenInfoLugares {
+    PK FK idImagen : Integer
+    PK FK idioma Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+}
+
+class ImagenInfoNoticias {
+    PK FK idImagen : Integer
+    PK FK idioma Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+}
+
+class ImagenInfoTitulosTarifas {
+    PK FK idImagen : Integer
+    PK FK idioma Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+}
+
+class ImagenPublicidad {
+    PK FK idImagen : Integer
+    PK idPublicidad : Integer
+    PK FK idioma Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+}
+
+class InfoContacto {
+    PK idioma : Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+    cuerpo : String
+    textoAdicional1 : String
+    textoAdicional2 : String
+    numAccesos : Integer
+}
+
+class InfoCorporativa {
+    PK idioma : Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+    cuerpo : String
+    textoAdicional1 : String
+    textoAdicional2 : String
+    numAccesos : Integer
+}
+
+class InfoHorariosServicios {
+    PK idioma : Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+    cuerpo : String
+    textoAdicional1 : String
+    textoAdicional2 : String
+    numAccesos : Integer
+}
+
+class InfoItinerariosDestacados {
+    PK idioma : Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+    cuerpo : String
+    textoAdicional1 : String
+    textoAdicional2 : String
+    numAccesos : Integer
+}
+
+class InfoLugares {
+    PK idioma : Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+    cuerpo : String
+    textoAdicional1 : String
+    textoAdicional2 : String
+    numAccesos : Integer
+}
+
+class InfoNoticias {
+    PK idioma : Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+    cuerpo : String
+    textoAdicional1 : String
+    textoAdicional2 : String
+    numAccesos : Integer
+}
+
+class InfoTitulosTarifas {
+    PK idioma : Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+    cuerpo : String
+    textoAdicional1 : String
+    textoAdicional2 : String
+    numAccesos : Integer
+}
+
+class Publicidad {
+    PK idPublicidad : Integer
+    PK idioma : Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+    cuerpo : String
+    textoAdicional1 : String
+    textoAdicional2 : String
+    fechaExpiracion : Date
+}
+
+class Usuario {
+    PK idUsuario : Integer
+    DNI : String
+    nombreCompleto : String
+    fechaNacimiento : Date
+    sexo : String
+    fechaAlta : Date
+    direccion : String
+    telefono : String
+    correoElectronico : String
+}
+
+Imagen "1" -- "0..m" ImagenAvisoInformativo
+Imagen "1" -- "0..m" ImagenInfoContacto
+Imagen "1" -- "0..m" ImagenInfoCorporativa
+Imagen "1" -- "0..m" ImagenInfoHorariosServicios
+Imagen "1" -- "0..m" ImagenInfoItinerariosDestacados
+Imagen "1" -- "0..m" ImagenInfoLugares
+Imagen "1" -- "0..m" ImagenInfoNoticias
+Imagen "1" -- "0..m" ImagenInfoTitulosTarifas
+Imagen "1" -- "0..m" ImagenPublicidad
+ImagenAvisoInformativo "0..m" -- "1" AvisoInformativo
+ImagenInfoContacto "0..m" -- "1" InfoContacto
+ImagenInfoCorporativa "0..m" -- "1" InfoCorporativa
+ImagenInfoHorariosServicios "0..m" -- "1" InfoHorariosServicios 
+ImagenInfoItinerariosDestacados "0..m" -- "1" InfoItinerariosDestacados 
+ImagenInfoLugares "0..m" -- "1" InfoLugares 
+ImagenInfoNoticias "0..m" -- "1" InfoNoticias
+ImagenInfoTitulosTarifas "0..m" -- "1" InfoTitulosTarifas 
+ImagenPublicidad "0..m" -- "1" Publicidad
+
+@enduml

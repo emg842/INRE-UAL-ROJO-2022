@@ -104,6 +104,12 @@
         <td>Subida diagrama CU fragmentado en dos (portal y sistema de información)</td>
         <td>Manuel Vallecillos Escobosa</td>
     </tr>
+        <tr>
+        <td>14/12/2022</td>
+        <td>1.0</td>
+        <td>Subida diagrama de clases fragmentado en dos (portal y sistema de información)</td>
+        <td>Joaquín Murcia Escánez</td>
+    </tr>
 </table>
 
 <br><br>
@@ -2714,10 +2720,10 @@ introducción de términos clave</td>
 <br>
 
 [- Diagrama general](#diagramageneral)<br>
-[- Diagrama del portal](#diagramadelportal)<br>
-[- Diagrama del sistema de información](#diagramadelsistemadeinformacion)<br>
-[- Diagrama del usuario del portal](#diagramadelusuariodelportal)<br>
-[- Diagrama del usuario del sistema de información](#diagramadelusuariodelsistemadeinformacion)
+[- Diagrama del Portal](#diagramadelportal)<br>
+[- Diagrama del Sistema de información](#diagramadelsistemadeinformacion)<br>
+[- Diagrama del usuario del Portal](#diagramadelusuariodelportal)<br>
+[- Diagrama del usuario del Sistema de información](#diagramadelusuariodelsistemadeinformacion)
 
 <br>
 
@@ -2733,7 +2739,7 @@ introducción de términos clave</td>
 
 <br>
 
-<a name="diagramadelportal"></a> Diagrama del portal
+<a name="diagramadelportal"></a> Diagrama del Portal
 
 <br>
 
@@ -2741,7 +2747,7 @@ introducción de términos clave</td>
 
 <br>
 
-<a name="diagramadelsistemadeinformacion"></a> Diagrama del sistema de información
+<a name="diagramadelsistemadeinformacion"></a> Diagrama del Sistema de información
 
 <br>
 
@@ -2749,7 +2755,7 @@ introducción de términos clave</td>
 
 <br>
 
-<a name="diagramadelusuariodelportal"></a> Diagrama del usuario del portal
+<a name="diagramadelusuariodelportal"></a> Diagrama del usuario del Portal
 
 <br>
 
@@ -2757,7 +2763,7 @@ introducción de términos clave</td>
 
 <br>
 
-<a name="diagramadelusuariodelsistemadeinformacion"></a> Diagrama del usuario del sistema de información
+<a name="diagramadelusuariodelsistemadeinformacion"></a> Diagrama del usuario del Sistema de información
 
 <br>
 
@@ -2994,7 +3000,7 @@ Diagrama general
 
 <br>
 
-Diagrama del portal
+Diagrama del Portal
 
 <br>
 
@@ -3002,7 +3008,7 @@ Diagrama del portal
 
 <br>
 
-Diagrama del sistema de información
+Diagrama del Sistema de información
 
 <br>
 
@@ -3022,8 +3028,20 @@ Diagrama general
 
 <br>
 
-<p>Nombre del diagrama nº 2</p>
-<p>Diagrama (nº 2)<br></p>
+Diagrama del Portal
+
+<br>
+
+<div align="center"><img src="./out/DC/DC_P.svg"></div>
+
+<br>
+
+Diagrama del Sistema de Información
+
+<br>
+
+<div align="center"><img src="./out/DC/DC_SI.svg"></div>
+
 
 <br><br>
 
