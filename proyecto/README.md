@@ -173,7 +173,7 @@
 
 <br>
 
-<p>Una vez leído el pliego de las condiciones hemos decicido abarcar este proyecto para crear dos aplicaciones con objeto de favorecer y facilitar el uso de transporte público en las Islas Canarias. Para ello hemos desarrollado una entrevista (ver anexo) con un usuario habitual para, de este modo, aclarar algunas dudas que nos han surgido durante el planteamiento inicial del proyecto. Una vez terminada, nos disponemos a crear el presente archivo con nuestra propuesta documentada de las aplicaciones del pliego inicial.</p>
+<p>Una vez leído el pliego de las condiciones hemos decicido abarcar este proyecto para crear dos aplicaciones con objeto de favorecer y facilitar el uso de transporte público en la isla de Gran Canaria. Para ello hemos desarrollado una entrevista (ver anexo) con un usuario habitual para, de este modo, aclarar algunas dudas que nos han surgido durante el planteamiento inicial del proyecto. Una vez terminada, nos disponemos a crear el presente archivo con nuestra propuesta documentada de las aplicaciones del pliego inicial.</p>
 
 <br>
 
@@ -222,7 +222,7 @@
 
 <br>
 
-<p>Como ya hemos visto la intención de este proyecto es la de crear dos aplicaciones, una aplicación que nos muestre información sobre eventos, rutas de autobuses, noticias e itinerarios de las islas, ... (entre otras muchas opciones) y otra aplicación que implementará una pasarela de pago para poder comprar billetes y reservar itinerarios, un mapa iteractivo sobre el que poder realizar diversas operaciones, etc. Nuestro propósito es el de crear ambas aplicaciones con una grata experiencia de usuario y de manera eficiente. Siempre, claro está, cuidando que sea accesible para la gran mayoría de usuarios.</p>
+<p>Como ya hemos visto la intención de este proyecto es la de crear dos aplicaciones, una aplicación que nos muestre información sobre eventos, rutas de autobuses, noticias e itinerarios de la isla, ... (entre otras muchas opciones) y otra aplicación que implementará una pasarela de pago para poder comprar billetes y reservar itinerarios, un mapa iteractivo sobre el que poder realizar diversas operaciones, etc. Nuestro propósito es el de crear ambas aplicaciones con una grata experiencia de usuario y de manera eficiente. Siempre, claro está, cuidando que sea accesible para la gran mayoría de usuarios.</p>
 
 <br>
 
@@ -3352,160 +3352,1432 @@
 <br>
 
 <table align = "center">
-<tr>
-    <td><b>Identificador:</b><br>
-    UC-01</td>
-</tr>
-<tr>
-    <td><b>Nombre:</b><br>
-    Nombre del caso de uso</td>
-</tr>
-<tr>
-    <td><b>Autor:</b><br>
-    Nombre y apellidos</td>
-</tr>
-<tr>
-    <td><b>Fecha:</b><br>
-    20/12/2022</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b><br>
-    Breve descripción del caso de uso</td>
-</tr>
-<tr>
-    <td><b>Actores:</b><br>
-    Identificadores de los actores</td>
-</tr>
-<tr>
-    <td><b>Precondiciones:</b><br>
-    Listar precondiciones en caso de que las hubiera</td>
-</tr>
-<tr>
-    <td><b>Flujo Normal:</b><br>
-    1.- ...<br>
-    2.- ...<br>
-    3.- ...<br>
-    4.- ...<br>
-    5.- ...</td>
-</tr>
-<tr>
-    <td><b>Flujo Alternativo:</b><br>
-    1.A.- ...</td>
-</tr>
-<tr>
-    <td><b>Poscondiciones:</b><br>
-    Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b><br>
-    Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-</tr>
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-01</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Información corporativa</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
 </table>
 
 <br>
 
 <table align = "center">
-<tr>
-    <td><b>Identificador:</b><br>
-    UC-02</td>
-</tr>
-<tr>
-    <td><b>Nombre:</b><br>
-    Nombre del caso de uso</td>
-</tr>
-<tr>
-    <td><b>Autor:</b><br>
-    Nombre y apellidos</td>
-</tr>
-<tr>
-    <td><b>Fecha:</b><br>
-    20/12/2022</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b><br>
-    Breve descripción del caso de uso</td>
-</tr>
-<tr>
-    <td><b>Actores:</b><br>
-    Identificadores de los actores</td>
-</tr>
-<tr>
-    <td><b>Precondiciones:</b><br>
-    Listar precondiciones en caso de que las hubiera</td>
-</tr>
-<tr>
-    <td><b>Flujo Normal:</b><br>
-    1.- ...<br>
-    2.- ...<br>
-    3.- ...<br>
-    4.- ...<br>
-    5.- ...</td>
-</tr>
-<tr>
-    <td><b>Flujo Alternativo:</b><br>
-    1.A.- ...</td>
-</tr>
-<tr>
-    <td><b>Poscondiciones:</b><br>
-    Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b><br>
-    Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-</tr>
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-02</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Horarios y servicios</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
 </table>
 
 <br>
 
 <table align = "center">
-<tr>
-    <td><b>Identificador:</b><br>
-    UC-03</td>
-</tr>
-<tr>
-    <td><b>Nombre:</b><br>
-    Nombre del caso de uso</td>
-</tr>
-<tr>
-    <td><b>Autor:</b><br>
-    Nombre y apellidos</td>
-</tr>
-<tr>
-    <td><b>Fecha:</b><br>
-    20/12/2022</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b><br>
-    Breve descripción del caso de uso</td>
-</tr>
-<tr>
-    <td><b>Actores:</b><br>
-    Identificadores de los actores</td>
-</tr>
-<tr>
-    <td><b>Precondiciones:</b><br>
-    Listar precondiciones en caso de que las hubiera</td>
-</tr>
-<tr>
-    <td><b>Flujo Normal:</b><br>
-    1.- ...<br>
-    2.- ...<br>
-    3.- ...<br>
-    4.- ...<br>
-    5.- ...</td>
-</tr>
-<tr>
-    <td><b>Flujo Alternativo:</b><br>
-    1.A.- ...</td>
-</tr>
-<tr>
-    <td><b>Poscondiciones:</b><br>
-    Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b><br>
-    Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-</tr>
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-03</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Blog</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-04</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Foro</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-05</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Cloud tag</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-06</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Buscador</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-07</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Cambiar idioma</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-08</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Noticias</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-09</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Contacto</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-10</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Lugares</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-11</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Eventos</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-12</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Monumentos</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-13</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Sitios turísticos</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-14</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Avisos</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-15</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Itinerarios destacados</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-16</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Títulos y tarifas del transporte</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-17</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Publicidad</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-18</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Agregar datos</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-19</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Añadir listado de horarios y servicios</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-20</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Gestionar idiomas</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-21</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Modificar diseño común</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-22</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Eliminar páginas</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-23</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Ver estadísticas de acceso</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-24</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Gestionar publicidad</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-25</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Modificar datos</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-26</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Crear páginas</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-27</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Previsualizar</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
 </table>
 
 <br>
@@ -3515,160 +4787,2598 @@
 <br>
 
 <table align = "center">
-<tr>
-    <td><b>Identificador:</b><br>
-    UC-01</td>
-</tr>
-<tr>
-    <td><b>Nombre:</b><br>
-    Nombre del caso de uso</td>
-</tr>
-<tr>
-    <td><b>Autor:</b><br>
-    Nombre y apellidos</td>
-</tr>
-<tr>
-    <td><b>Fecha:</b><br>
-    20/12/2022</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b><br>
-    Breve descripción del caso de uso</td>
-</tr>
-<tr>
-    <td><b>Actores:</b><br>
-    Identificadores de los actores</td>
-</tr>
-<tr>
-    <td><b>Precondiciones:</b><br>
-    Listar precondiciones en caso de que las hubiera</td>
-</tr>
-<tr>
-    <td><b>Flujo Normal:</b><br>
-    1.- ...<br>
-    2.- ...<br>
-    3.- ...<br>
-    4.- ...<br>
-    5.- ...</td>
-</tr>
-<tr>
-    <td><b>Flujo Alternativo:</b><br>
-    1.A.- ...</td>
-</tr>
-<tr>
-    <td><b>Poscondiciones:</b><br>
-    Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b><br>
-    Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-</tr>
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-01</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Mostrar información de la parada/estación</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
 </table>
 
 <br>
 
 <table align = "center">
-<tr>
-    <td><b>Identificador:</b><br>
-    UC-02</td>
-</tr>
-<tr>
-    <td><b>Nombre:</b><br>
-    Nombre del caso de uso</td>
-</tr>
-<tr>
-    <td><b>Autor:</b><br>
-    Nombre y apellidos</td>
-</tr>
-<tr>
-    <td><b>Fecha:</b><br>
-    20/12/2022</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b><br>
-    Breve descripción del caso de uso</td>
-</tr>
-<tr>
-    <td><b>Actores:</b><br>
-    Identificadores de los actores</td>
-</tr>
-<tr>
-    <td><b>Precondiciones:</b><br>
-    Listar precondiciones en caso de que las hubiera</td>
-</tr>
-<tr>
-    <td><b>Flujo Normal:</b><br>
-    1.- ...<br>
-    2.- ...<br>
-    3.- ...<br>
-    4.- ...<br>
-    5.- ...</td>
-</tr>
-<tr>
-    <td><b>Flujo Alternativo:</b><br>
-    1.A.- ...</td>
-</tr>
-<tr>
-    <td><b>Poscondiciones:</b><br>
-    Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b><br>
-    Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-</tr>
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-02</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Hacer clic en parada/estación</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
 </table>
 
 <br>
 
 <table align = "center">
-<tr>
-    <td><b>Identificador:</b><br>
-    UC-03</td>
-</tr>
-<tr>
-    <td><b>Nombre:</b><br>
-    Nombre del caso de uso</td>
-</tr>
-<tr>
-    <td><b>Autor:</b><br>
-    Nombre y apellidos</td>
-</tr>
-<tr>
-    <td><b>Fecha:</b><br>
-    20/12/2022</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b><br>
-    Breve descripción del caso de uso</td>
-</tr>
-<tr>
-    <td><b>Actores:</b><br>
-    Identificadores de los actores</td>
-</tr>
-<tr>
-    <td><b>Precondiciones:</b><br>
-    Listar precondiciones en caso de que las hubiera</td>
-</tr>
-<tr>
-    <td><b>Flujo Normal:</b><br>
-    1.- ...<br>
-    2.- ...<br>
-    3.- ...<br>
-    4.- ...<br>
-    5.- ...</td>
-</tr>
-<tr>
-    <td><b>Flujo Alternativo:</b><br>
-    1.A.- ...</td>
-</tr>
-<tr>
-    <td><b>Poscondiciones:</b><br>
-    Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b><br>
-    Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-</tr>
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-03</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Mostrar información</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-04</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Hacer clic en lugar/sitio de interés turístico</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-05</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Guardar foto de estado</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-06</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Guardar película de evolución temporal</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-07</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Gestionar elementos del mapa</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-08</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Gestionar línea</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-09</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Mostrar actividad de los operadores</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-10</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Hacer clic en parada/estación (Gestor)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-11</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Ver retraso/adelantos de línea</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-12</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Gestionar sistema de ventas y titulo único del transporte</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-13</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Definir eventos/incidencias</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-14</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Gestionar usuarios</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-15</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Definir variable</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-16</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Definir condiciones</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-17</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Crear aviso acústico</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-18</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Crear aviso visual</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-19</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Crear aviso móvil</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-20</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Crear aviso por correo</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-21</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Adquirir bono</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-22</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Renovar título</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-23</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Ver histórico de itinerarios</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-24</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Iniciar sesión</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-25</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Registrarse</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-26</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Recargar saldo</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-27</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Adquirir título</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-28</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Reservar itinerario</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-29</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Pagar reserva</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-30</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Imprimir ticket</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-31</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Presentar recorridos de una línea</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-32</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Buscar paradas</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-33</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Introducir identificador de parada</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-34</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Parametrizar búsqueda (P/E)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-35</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Perteneciente a un lugar</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-36</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Pertenecientes a una línea</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-37</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Cerca origen/destino</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-38</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Buscar itinerarios</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-39</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Seleccionar origen/destino</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-40</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Mostrar tiempo y distancia del recorrido</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-41</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Mostrar transbordos</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-42</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Mostrar tarifa por etapas</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-43</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+    	Ordenar búsqueda por</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-44</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Menor coste</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-45</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Menor tiempo</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-46</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Menos transbordos</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-47</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Seleccionar fechas y horas de salida y llegada</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-48</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Mostrar esquema del recorrido</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-49</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Imprimir esquema</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Breve descripción del caso de uso</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        Identificadores de los actores</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        Listar precondiciones en caso de que las hubiera</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- ...<br>
+        2.- ...<br>
+        3.- ...<br>
+        4.- ...<br>
+        5.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        1.A.- ...</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
 </table>
 
 <br>
