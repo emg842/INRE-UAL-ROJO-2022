@@ -158,7 +158,8 @@
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lista de casos de uso del Sistema de Información](#listadecasosdeusodelsistemadeinformacion)<br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lista de actores del Portal](#listadeactoresdelportal)<br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lista de actores del Sistema de información](#listadeactoresdelsistemadeinformacion)<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Detalle de los casos de uso](#detalledeloscasosdeuso)<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Detalle de los casos de uso del Portal](#detalledeloscasosdeusodelportal)<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Detalle de los casos de uso del Sistema de información](#detalledeloscasosdeusodelsistemadeinformacion)<br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [4.3. &nbsp;&nbsp;&nbsp;&nbsp; Diagramas E/R y de clases asociados a los requisitos de información](#diagramaserydeclasesasociadosalosrequisitosdeinformacion)<br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lista de diagramas E/R del modelo](#listadediagramaserdelmodelo)<br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Diagramas E/R del modelo](#diagramaserdelmodelo)<br>
@@ -2977,16 +2978,112 @@
         <td><b>Nombre</b></td>
     </tr>
     <tr>
-        <td>identificador</td>
-        <td>nombre</td>
+        <td>UC-01</td>
+        <td>Información Corporativa</td>
     </tr>
     <tr>
-        <td>identificador</td>
-        <td>nombre</td>
+        <td>UC-02</td>
+        <td>Horarios y servicios</td>
     </tr>
     <tr>
-        <td>identificador</td>
-        <td>nombre</td>
+        <td>UC-03</td>
+        <td>Blog</td>
+    </tr>
+    <tr>
+        <td>UC-04</td>
+        <td>Foro</td>
+    </tr>
+    <tr>
+        <td>UC-05</td>
+        <td>Cloud tag</td>
+    </tr>
+    <tr>
+        <td>UC-06</td>
+        <td>Buscador</td>
+    </tr>
+    <tr>
+        <td>UC-07</td>
+        <td>Cambiar idioma</td>
+    </tr>
+    <tr>
+        <td>UC-08</td>
+        <td>Noticias</td>
+    </tr>
+    <tr>
+        <td>UC-09</td>
+        <td>Contacto</td>
+    </tr>
+    <tr>
+        <td>UC-10</td>
+        <td>Lugares</td>
+    </tr>
+    <tr>
+        <td>UC-11</td>
+        <td>Eventos</td>
+    </tr>
+    <tr>
+        <td>UC-12</td>
+        <td>Monumentos</td>
+    </tr>
+    <tr>
+        <td>UC-13</td>
+        <td>Sitios Turísticos</td>
+    </tr>
+    <tr>
+        <td>UC-14</td>
+        <td>Avisos</td>
+    </tr>
+    <tr>
+        <td>UC-15</td>
+        <td>Itinerarios destacados</td>
+    </tr>
+    <tr>
+        <td>UC-16</td>
+        <td>Títulos y tarifas del transporte</td>
+    </tr>
+    <tr>
+        <td>UC-17</td>
+        <td>Publicidad</td>
+    </tr>
+    <tr>
+        <td>UC-18</td>
+        <td>Agregar datos</td>
+    </tr>
+    <tr>
+        <td>UC-19</td>
+        <td>Añadir listado de horarios y servicios</td>
+    </tr>
+    <tr>
+        <td>UC-20</td>
+        <td>Gestionar idiomas</td>
+    </tr>
+    <tr>
+        <td>UC-21</td>
+        <td>Modificar diseño común</td>
+    </tr>
+    <tr>
+        <td>UC-22</td>
+        <td>Eliminar páginas</td>
+    </tr>
+    <tr>
+        <td>UC-23</td>
+        <td>Ver estadísticas de acceso</td>
+    </tr>
+    <tr>
+        <td>UC-24</td>
+        <td>Gestionar publicidad</td>
+    </tr>
+    <tr>
+        <td>UC-25</td>
+        <td>Modificar datos</td>
+    </tr>
+    <tr>
+        <td>UC-26</td>
+        <td>Crear páginas</td>
+    </tr>
+    <tr>
+        <td>UC-27</td>
+        <td>Previsualizar</td>
     </tr>
 </table>
 
@@ -2997,21 +3094,205 @@
 <br>
 
 <table align = "center">
-    <tr>
+     <tr>
         <td><b>Identificador</b></td>
         <td><b>Nombre</b></td>
     </tr>
     <tr>
-        <td>identificador</td>
-        <td>nombre</td>
+        <td>UC-01</td>
+        <td>Mostrar información de la parada/estación</td>
     </tr>
     <tr>
-        <td>identificador</td>
-        <td>nombre</td>
+        <td>UC-02</td>
+        <td>Hacer clic en parada/estación</td>
     </tr>
     <tr>
-        <td>identificador</td>
-        <td>nombre</td>
+        <td>UC-03</td>
+        <td>Mostrar información</td>
+    </tr>
+    <tr>
+        <td>UC-04</td>
+        <td>Hacer clic en lugar/sitio de interés turístico</td>
+    </tr>
+    <tr>
+        <td>UC-05</td>
+        <td>Guardar foto de estado</td>
+    </tr>
+    <tr>
+        <td>UC-06</td>
+        <td>Guardar película de evolución temporal</td>
+    </tr>
+    <tr>
+        <td>UC-07</td>
+        <td>Gestionar elementos del mapa</td>
+    </tr>
+    <tr>
+        <td>UC-08</td>
+        <td>Gestionar línea</td>
+    </tr>
+    <tr>
+        <td>UC-09</td>
+        <td>Mostrar actividad de los operadores</td>
+    </tr>
+    <tr>
+        <td>UC-10</td>
+        <td>Hacer clic en parada/estación (Gestor)</td>
+    </tr>
+    <tr>
+        <td>UC-11</td>
+        <td>Ver retraso/adelantos de línea</td>
+    </tr>
+    <tr>
+        <td>UC-12</td>
+        <td>Gestionar sistema de ventas y titulo único del transporte</td>
+    </tr>
+    <tr>
+        <td>UC-13</td>
+        <td>Definir eventos/incidencias</td>
+    </tr>
+    <tr>
+        <td>UC-14</td>
+        <td>Gestionar usuarios</td>
+    </tr>
+    <tr>
+        <td>UC-15</td>
+        <td>Definir variable</td>
+    </tr>
+    <tr>
+        <td>UC-16</td>
+        <td>Definir condiciones</td>
+    </tr>
+    <tr>
+        <td>UC-17</td>
+        <td>Crear aviso acústico</td>
+    </tr>
+    <tr>
+        <td>UC-18</td>
+        <td>Crear aviso visual</td>
+    </tr>
+    <tr>
+        <td>UC-19</td>
+        <td>Crear aviso móvil</td>
+    </tr>
+    <tr>
+        <td>UC-20</td>
+        <td>Crear aviso por correo</td>
+    </tr>
+    <tr>
+        <td>UC-21</td>
+        <td>Adquirir bono</td>
+    </tr>
+    <tr>
+        <td>UC-22</td>
+        <td>Renovar título</td>
+    </tr>
+    <tr>
+        <td>UC-23</td>
+        <td>Ver histórico de itinerarios</td>
+    </tr>
+    <tr>
+        <td>UC-24</td>
+        <td>Iniciar sesión</td>
+    </tr>
+    <tr>
+        <td>UC-25</td>
+        <td>Registrarse</td>
+    </tr>
+    <tr>
+        <td>UC-26</td>
+        <td>Recargar saldo</td>
+    </tr>
+    <tr>
+        <td>UC-27</td>
+        <td>Adquirir título</td>
+    </tr>
+    <tr>
+        <td>UC-28</td>
+        <td>Reservar itinerario</td>
+    </tr>
+    <tr>
+        <td>UC-29</td>
+        <td>Pagar reserva</td>
+    </tr>
+    <tr>
+        <td>UC-30</td>
+        <td>Imprimir ticket</td>
+    </tr>
+    <tr>
+        <td>UC-31</td>
+        <td>Presentar recorridos de una línea</td>
+    </tr>
+    <tr>
+        <td>UC-32</td>
+        <td>Buscar paradas</td>
+    </tr>
+    <tr>
+        <td>UC-33</td>
+        <td>Introducir identificador de parada</td>
+    </tr>
+    <tr>
+        <td>UC-34</td>
+        <td>Parametrizar búsqueda (P/E)</td>
+    </tr>
+    <tr>
+        <td>UC-35</td>
+        <td>Perteneciente a un lugar</td>
+    </tr>
+    <tr>
+        <td>UC-36</td>
+        <td>Pertenecientes a una línea</td>
+    </tr>
+    <tr>
+        <td>UC-37</td>
+        <td>Cerca origen/destino</td>
+    </tr>
+    <tr>
+        <td>UC-38</td>
+        <td>Buscar itinerarios</td>
+    </tr>
+    <tr>
+        <td>UC-39</td>
+        <td>Seleccionar origen/destino</td>
+    </tr>
+    <tr>
+        <td>UC-40</td>
+        <td>Mostrar tiempo y distancia del recorrido</td>
+    </tr>
+    <tr>
+        <td>UC-41</td>
+        <td>Mostrar transbordos</td>
+    </tr>
+    <tr>
+        <td>UC-42</td>
+        <td>Mostrar tarifa por etapas</td>
+    </tr>
+    <tr>
+        <td>UC-43</td>
+        <td>Ordenar búsqueda por</td>
+    </tr>
+    <tr>
+        <td>UC-44</td>
+        <td>Menor coste</td>
+    </tr>
+    <tr>
+        <td>UC-45</td>
+        <td>Menor tiempo</td>
+    </tr>
+    <tr>
+        <td>UC-46</td>
+        <td>Menos transbordos</td>
+    </tr>
+    <tr>
+        <td>UC-47</td>
+        <td>Seleccionar fechas y horas de salida y llegada</td>
+    </tr>
+    <tr>
+        <td>UC-48</td>
+        <td>Mostrar esquema del recorrido</td>
+    </tr>
+    <tr>
+        <td>UC-49</td>
+        <td>Imprimir esquema</td>
     </tr>
 </table>
 
@@ -3028,15 +3309,11 @@
     </tr>
     <tr>
         <td>ACT-01</td>
-        <td>Usuario no registrado</td>
+        <td>Gestor de contenidos (Portal)</td>
     </tr>
     <tr>
         <td>ACT-02</td>
-        <td>Usuario registrado</td>
-    </tr>
-    <tr>
-        <td>ACT-03</td>
-        <td>Gestor de contenidos</td>
+        <td>Portal</td>
     </tr>
 </table>
 
@@ -3053,21 +3330,192 @@
     </tr>
     <tr>
         <td>ACT-01</td>
-        <td>Usuario no registrado</td>
+        <td>Gestor</td>
     </tr>
     <tr>
         <td>ACT-02</td>
-        <td>Usuario registrado</td>
+        <td>Usuario</td>
     </tr>
     <tr>
         <td>ACT-03</td>
-        <td>Gestor de contenidos</td>
+        <td>Mapa interactivo</td>
+    </tr>
+        <tr>
+        <td>ACT-04</td>
+        <td>Mapa interactivo (Gestor)</td>
+    </tr>
+        <tr>
+        <td>ACT-05</td>
+        <td>Sistema de correo</td>
     </tr>
 </table>
 
 <br>
 
-### <a name="detalledeloscasosdeuso"></a> Detalle de los casos de uso
+### <a name="detalledeloscasosdeusodelportal"></a> Detalle de los casos de uso del Portal
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>Identificador:</b><br>
+    UC-01</td>
+</tr>
+<tr>
+    <td><b>Nombre:</b><br>
+    Nombre del caso de uso</td>
+</tr>
+<tr>
+    <td><b>Autor:</b><br>
+    Nombre y apellidos</td>
+</tr>
+<tr>
+    <td><b>Fecha:</b><br>
+    20/12/2022</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b><br>
+    Breve descripción del caso de uso</td>
+</tr>
+<tr>
+    <td><b>Actores:</b><br>
+    Identificadores de los actores</td>
+</tr>
+<tr>
+    <td><b>Precondiciones:</b><br>
+    Listar precondiciones en caso de que las hubiera</td>
+</tr>
+<tr>
+    <td><b>Flujo Normal:</b><br>
+    1.- ...<br>
+    2.- ...<br>
+    3.- ...<br>
+    4.- ...<br>
+    5.- ...</td>
+</tr>
+<tr>
+    <td><b>Flujo Alternativo:</b><br>
+    1.A.- ...</td>
+</tr>
+<tr>
+    <td><b>Poscondiciones:</b><br>
+    Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b><br>
+    Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+</table>
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>Identificador:</b><br>
+    UC-02</td>
+</tr>
+<tr>
+    <td><b>Nombre:</b><br>
+    Nombre del caso de uso</td>
+</tr>
+<tr>
+    <td><b>Autor:</b><br>
+    Nombre y apellidos</td>
+</tr>
+<tr>
+    <td><b>Fecha:</b><br>
+    20/12/2022</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b><br>
+    Breve descripción del caso de uso</td>
+</tr>
+<tr>
+    <td><b>Actores:</b><br>
+    Identificadores de los actores</td>
+</tr>
+<tr>
+    <td><b>Precondiciones:</b><br>
+    Listar precondiciones en caso de que las hubiera</td>
+</tr>
+<tr>
+    <td><b>Flujo Normal:</b><br>
+    1.- ...<br>
+    2.- ...<br>
+    3.- ...<br>
+    4.- ...<br>
+    5.- ...</td>
+</tr>
+<tr>
+    <td><b>Flujo Alternativo:</b><br>
+    1.A.- ...</td>
+</tr>
+<tr>
+    <td><b>Poscondiciones:</b><br>
+    Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b><br>
+    Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+</table>
+
+<br>
+
+<table align = "center">
+<tr>
+    <td><b>Identificador:</b><br>
+    UC-03</td>
+</tr>
+<tr>
+    <td><b>Nombre:</b><br>
+    Nombre del caso de uso</td>
+</tr>
+<tr>
+    <td><b>Autor:</b><br>
+    Nombre y apellidos</td>
+</tr>
+<tr>
+    <td><b>Fecha:</b><br>
+    20/12/2022</td>
+</tr>
+<tr>
+    <td><b>Descripción:</b><br>
+    Breve descripción del caso de uso</td>
+</tr>
+<tr>
+    <td><b>Actores:</b><br>
+    Identificadores de los actores</td>
+</tr>
+<tr>
+    <td><b>Precondiciones:</b><br>
+    Listar precondiciones en caso de que las hubiera</td>
+</tr>
+<tr>
+    <td><b>Flujo Normal:</b><br>
+    1.- ...<br>
+    2.- ...<br>
+    3.- ...<br>
+    4.- ...<br>
+    5.- ...</td>
+</tr>
+<tr>
+    <td><b>Flujo Alternativo:</b><br>
+    1.A.- ...</td>
+</tr>
+<tr>
+    <td><b>Poscondiciones:</b><br>
+    Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+</tr>
+<tr>
+    <td><b>Referencias:</b><br>
+    Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+</tr>
+</table>
+
+<br>
+
+### <a name="detalledeloscasosdeusodelsistemadeinformacion"></a> Detalle de los casos de uso del Sistema de información
 
 <br>
 
