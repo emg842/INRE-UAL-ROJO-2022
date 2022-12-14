@@ -141,6 +141,7 @@
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lista general de actores del proyecto](#listageneraldeactoresdelproyecto)<br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Detalle de los casos de uso](#detalledeloscasosdeuso)<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [4.3. &nbsp;&nbsp;&nbsp;&nbsp; Diagramas E/R y de clases asociados a los requisitos de información](#diagramaserydeclasesasociadosalosrequisitosdeinformacion)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lista de diagramas E/R del modelo](#listadediagramaserdelmodelo)<br>
 [Apéndices](#apendices)
 
 <br><br>
@@ -2988,11 +2989,21 @@ introducción de términos clave</td>
 
 <br>
 
+### <a name="listadediagramaserdelmodelo"></a> Lista de diagramas E/R del modelo
+
+<br>
+
+[- Diagrama general](#diagramaergeneral)<br>
+[- Diagrama del Portal](#diagramaerdelportal)<br>
+[- Diagrama del Sistema de información](#diagramaerdelsistemadeinformacion)
+
+<br>
+
 ### Diagramas E/R
 
 <br>
 
-Diagrama general
+<a name="diagramaergeneral"></a> Diagrama E/R general
 
 <br>
 
@@ -3000,7 +3011,7 @@ Diagrama general
 
 <br>
 
-Diagrama del Portal
+<a name="diagramaerdelportal"></a> Diagrama E/R del portal
 
 <br>
 
@@ -3008,7 +3019,7 @@ Diagrama del Portal
 
 <br>
 
-Diagrama del Sistema de información
+<a name="diagramaerdelsistemadeinformacion"></a> Diagrama E/R del Sistema de información
 
 <br>
 
