@@ -154,8 +154,8 @@
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [4.2. &nbsp;&nbsp;&nbsp;&nbsp; Casos de uso](#casosdeuso)<br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lista de diagramas de casos de uso del modelo](#listadediagramasdecasosdeusodelmodelo)<br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Diagramas de casos de uso](#diagramasdecasosdeuso)<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lista general de casos de uso del proyecto](#listageneraldecasosdeusodelproyecto)<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lista general de actores del proyecto](#listageneraldeactoresdelproyecto)<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Listas de casos de uso del proyecto](#listasdecasosdeusodelproyecto)<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Listas de actores del proyecto](#listasdeactoresdelproyecto)<br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Detalle de los casos de uso](#detalledeloscasosdeuso)<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [4.3. &nbsp;&nbsp;&nbsp;&nbsp; Diagramas E/R y de clases asociados a los requisitos de información](#diagramaserydeclasesasociadosalosrequisitosdeinformacion)<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lista de diagramas E/R del modelo](#listadediagramaserdelmodelo)<br>
@@ -2963,7 +2963,11 @@
 
 <br>
 
-### <a name="listageneraldecasosdeusodelproyecto"></a> Lista general de casos de uso del proyecto
+### <a name="listasdecasosdeusodelproyecto"></a> Listas de casos de uso del proyecto
+
+<br>
+
+Lista de casos de uso del Portal
 
 <br>
 
@@ -2988,7 +2992,61 @@
 
 <br>
 
-### <a name="listageneraldeactoresdelproyecto"></a> Lista general de actores del proyecto
+Lista de casos de uso del Sistema de información
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador</b></td>
+        <td><b>Nombre</b></td>
+    </tr>
+    <tr>
+        <td>identificador</td>
+        <td>nombre</td>
+    </tr>
+    <tr>
+        <td>identificador</td>
+        <td>nombre</td>
+    </tr>
+    <tr>
+        <td>identificador</td>
+        <td>nombre</td>
+    </tr>
+</table>
+
+<br>
+
+### <a name="listasdeactoresdelproyecto"></a> Listas de actores del proyecto
+
+<br>
+
+Lista de actores del Portal
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador</b></td>
+        <td><b>Nombre</b></td>
+    </tr>
+    <tr>
+        <td>ACT-01</td>
+        <td>Usuario no registrado</td>
+    </tr>
+    <tr>
+        <td>ACT-02</td>
+        <td>Usuario registrado</td>
+    </tr>
+    <tr>
+        <td>ACT-03</td>
+        <td>Gestor de contenidos</td>
+    </tr>
+</table>
+
+<br>
+
+Lista de actores del Sistema de información
 
 <br>
 
