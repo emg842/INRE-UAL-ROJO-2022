@@ -142,6 +142,7 @@
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Detalle de los casos de uso](#detalledeloscasosdeuso)<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [4.3. &nbsp;&nbsp;&nbsp;&nbsp; Diagramas E/R y de clases asociados a los requisitos de información](#diagramaserydeclasesasociadosalosrequisitosdeinformacion)<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lista de diagramas E/R del modelo](#listadediagramaserdelmodelo)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lista de diagramas de clases del modelo](#listadediagramasdeclasesdelmodelo)<br>
 [Apéndices](#apendices)
 
 <br><br>
@@ -2720,11 +2721,11 @@ introducción de términos clave</td>
 
 <br>
 
-[- Diagrama general](#diagramageneral)<br>
-[- Diagrama del Portal](#diagramadelportal)<br>
-[- Diagrama del Sistema de información](#diagramadelsistemadeinformacion)<br>
-[- Diagrama del usuario del Portal](#diagramadelusuariodelportal)<br>
-[- Diagrama del usuario del Sistema de información](#diagramadelusuariodelsistemadeinformacion)
+[- Diagrama de casos de uso general](#diagramacugeneral)<br>
+[- Diagrama de casos de uso del Portal](#diagramacudelportal)<br>
+[- Diagrama de casos de uso del Sistema de información](#diagramacudelsistemadeinformacion)<br>
+[- Diagrama de casos de uso del usuario del Portal](#diagramacudelusuariodelportal)<br>
+[- Diagrama de casos de uso del usuario del Sistema de información](#diagramacudelusuariodelsistemadeinformacion)
 
 <br>
 
@@ -2732,7 +2733,7 @@ introducción de términos clave</td>
 
 <br>
 
-<a name="diagramageneral"></a> Diagrama general
+<a name="diagramacugeneral"></a> Diagrama de casos de uso general
 
 <br>
 
@@ -2740,7 +2741,7 @@ introducción de términos clave</td>
 
 <br>
 
-<a name="diagramadelportal"></a> Diagrama del Portal
+<a name="diagramacudelportal"></a> Diagrama de casos de uso del Portal
 
 <br>
 
@@ -2748,7 +2749,7 @@ introducción de términos clave</td>
 
 <br>
 
-<a name="diagramadelsistemadeinformacion"></a> Diagrama del Sistema de información
+<a name="diagramacudelsistemadeinformacion"></a> Diagrama de casos de uso del Sistema de información
 
 <br>
 
@@ -2756,7 +2757,7 @@ introducción de términos clave</td>
 
 <br>
 
-<a name="diagramadelusuariodelportal"></a> Diagrama del usuario del Portal
+<a name="diagramacudelusuariodelportal"></a> Diagrama de casos de uso del usuario del Portal
 
 <br>
 
@@ -2764,7 +2765,7 @@ introducción de términos clave</td>
 
 <br>
 
-<a name="diagramadelusuariodelsistemadeinformacion"></a> Diagrama del usuario del Sistema de información
+<a name="diagramacudelusuariodelsistemadeinformacion"></a> Diagrama de casos de uso del usuario del Sistema de información
 
 <br>
 
@@ -2993,9 +2994,9 @@ introducción de términos clave</td>
 
 <br>
 
-[- Diagrama general](#diagramaergeneral)<br>
-[- Diagrama del Portal](#diagramaerdelportal)<br>
-[- Diagrama del Sistema de información](#diagramaerdelsistemadeinformacion)
+[- Diagrama E/R general](#diagramaergeneral)<br>
+[- Diagrama E/R del Portal](#diagramaerdelportal)<br>
+[- Diagrama E/R del Sistema de información](#diagramaerdelsistemadeinformacion)
 
 <br>
 
@@ -3031,7 +3032,17 @@ introducción de términos clave</td>
 
 <br>
 
-Diagrama general
+### <a name="listadediagramasdeclasesdelmodelo"></a> Lista de diagramas de clases del modelo
+
+<br>
+
+[- Diagrama de clases general](#diagramadeclasesgeneral)<br>
+[- Diagrama E/R del Portal](#diagramadeclasesdelportal)<br>
+[- Diagrama E/R del Sistema de información](#diagramadeclasesdelsistemadeinformacion)
+
+<br>
+
+<a name="diagramadeclasesgeneral"></a> Diagrama de clases general
 
 <br>
 
@@ -3039,7 +3050,7 @@ Diagrama general
 
 <br>
 
-Diagrama del Portal
+<a name="diagramadeclasesdelportal"></a> Diagrama de clases del Portal
 
 <br>
 
@@ -3047,7 +3058,7 @@ Diagrama del Portal
 
 <br>
 
-Diagrama del Sistema de Información
+<a name="diagramadeclasesdelsistemadeinformacion"></a> Diagrama de clases del Sistema de información
 
 <br>
 
