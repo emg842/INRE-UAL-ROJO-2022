@@ -86,6 +86,12 @@
         <td>Diagrama de casos de uso general actualizado en adición de fragmentos del mismo (DCU del usuario del portal, DCU del usuario del sistema de información y DCU del gestor)</td>
         <td>Manuel Vallecillos Escobosa</td>
     </tr>
+        <tr>
+        <td>14/12/2022</td>
+        <td>1.0</td>
+        <td>Diagrama de clases general</td>
+        <td>Joaquín Murcia Escánez</td>
+    </tr>
 </table>
 
 <br><br>
@@ -2976,8 +2982,11 @@ Diagrama general
 
 <br>
 
-<p>Nombre del diagrama nº 1</p>
-<p>Diagrama (nº 1)<br></p>
+Diagrama general
+
+<br>
+
+<div align="center"><img src="./out/DC/DC_general.svg"></div>
 
 <br>
 

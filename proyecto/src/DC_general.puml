@@ -1,0 +1,441 @@
+@startuml DC_general
+
+title Diagrama de clases: General
+
+class Aviso {
+    PK idAviso : Integer
+    FK idGestor : Integer
+    motivo : String
+    cuerpo : String
+    tipo : Enum {'acustico', 'visual', 'SMS', 'correo'}
+}
+
+class AvisoCondicion {
+    PK FK idAviso : Integer
+    PK FK idCondicion : Integer
+}
+
+class AvisoInformativo {
+    PK idAvisoInformativo : Integer
+    PK idioma : Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+    cabecera : String
+    cuerpo : String
+    textoAdicional1 : String
+    textoAdicional2 : String
+}
+
+class Bono {
+    PK idBono : Integer
+    FK idUsuario : Integer
+    nombre : String
+    descripcion : String
+    coste : String
+    informacionAdicional : String
+}
+
+class Calle {
+    PK idCalle : Integer
+    FK idLugar : Integer
+    nombre : String
+    tipo : Enum {'calle', 'carretera', 'avenida', 'plaza', 'camino', 'paseo'}
+    numVisitas : Integer
+    informacionAdicional : String
+}
+
+class Condicion {
+    PK idCondicion : Integer
+    FK idGestor : Integer
+    descripcion : String
+    activa : String
+}
+
+class CondicionVariable {
+    PK FK idCondicion : Integer
+    PK FK idVariable : Integer
+}
+
+class CoordenadasGeograficas {
+    PK latitud: Integer
+    PK longitud : Integer
+    PK altura : Integer
+    FK idCalle : Integer
+    FK idLugar : Integer
+}
+
+class Etapa {
+    PK idEtapa : Integer
+    origen : String
+    destino: String
+    distanciaKm : Double
+    coste : Double
+    fechaHoraSalida : Datetime
+    fechaHoraLlegada : Datetime
+    medioTransporte : Enum {'guagua urbana', 'guagua interurbana', 'cocheTaxi', 'embarcacionPesada', 'avion'}
+    numVisitas : Integer
+    informacionAdicional : String
+}
+
+class EtapaItinerario {
+    PK FK idEtapa : Integer
+    PK FK idItinerario : Integer
+}
+
+class EventoCultural {
+    PK idEventoCultural : Integer
+    FK idLugar : Integer
+    nombre : String
+    descripcion : String
+    fechaHora : Datetime
+    informacionAdicional : String
+}
+
+class EventoIncidencia {
+    PK idEventoIncidencia : Integer
+    FK latitud: Integer
+    FK longitud : Integer
+    FK altura : Integer
+    FK idGestor : Integer
+    cabecera : String
+    descripcion : String
+    fechaHora : Datetime
+    informacionAdicional : String
+}
+
+class Gestor {
+    PK idGestor : Integer
+    DNI : String
+    nombreCompleto : String
+    fechaNacimiento : Date
+    sexo : String
+    fechaAlta : Date
+    direccion : String
+    telefono : String
+    correoElectronico : String
+}
+
+class Imagen {
+    PK idImagen : Integer
+    FK idParadaEstacion : Integer
+    FK idSitioInteresTuristico : Integer
+    FK idEventoCultural : Integer
+    FK idSituacion : Integer
+    FK idEventoIncidencia : Integer
+    titulo : String
+    urlImagen : String
+}
+
+class ImagenAvisoInformativo {
+    PK FK idImagen : Integer
+    PK idAvisoInformativo : Integer
+    PK FK idioma Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+}
+
+class ImagenInfoContacto {
+    PK FK idImagen : Integer
+    PK FK idioma Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+}
+
+class ImagenInfoCorporativa {
+    PK FK idImagen : Integer
+    PK FK idioma Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+}
+
+class ImagenInfoHorariosServicios {
+    PK FK idImagen : Integer
+    PK FK idioma Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+}
+
+class ImagenInfoItinerariosDestacados {
+    PK FK idImagen : Integer
+    PK FK idioma Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+}
+
+class ImagenInfoLugares {
+    PK FK idImagen : Integer
+    PK FK idioma Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+}
+
+class ImagenInfoNoticias {
+    PK FK idImagen : Integer
+    PK FK idioma Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+}
+
+class ImagenInfoTitulosTarifas {
+    PK FK idImagen : Integer
+    PK FK idioma Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+}
+
+class ImagenPublicidad {
+    PK FK idImagen : Integer
+    PK idPublicidad : Integer
+    PK FK idioma Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+}
+
+class InfoContacto {
+    PK idioma : Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+    cuerpo : String
+    textoAdicional1 : String
+    textoAdicional2 : String
+    numAccesos : Integer
+}
+
+class InfoCorporativa {
+    PK idioma : Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+    cuerpo : String
+    textoAdicional1 : String
+    textoAdicional2 : String
+    numAccesos : Integer
+}
+
+class InfoHorariosServicios {
+    PK idioma : Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+    cuerpo : String
+    textoAdicional1 : String
+    textoAdicional2 : String
+    numAccesos : Integer
+}
+
+class InfoItinerariosDestacados {
+    PK idioma : Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+    cuerpo : String
+    textoAdicional1 : String
+    textoAdicional2 : String
+    numAccesos : Integer
+}
+
+class InfoLugares {
+    PK idioma : Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+    cuerpo : String
+    textoAdicional1 : String
+    textoAdicional2 : String
+    numAccesos : Integer
+}
+
+class InfoNoticias {
+    PK idioma : Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+    cuerpo : String
+    textoAdicional1 : String
+    textoAdicional2 : String
+    numAccesos : Integer
+}
+
+class InfoTitulosTarifas {
+    PK idioma : Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+    cuerpo : String
+    textoAdicional1 : String
+    textoAdicional2 : String
+    numAccesos : Integer
+}
+
+Class Itinerario {
+    PK idItinerario : Integer
+    origen : String
+    destino: String
+    distanciaKm : Double
+    coste : Double
+    fechaHoraSalida : Datetime
+    fechaHoraLlegada: Datetime
+    numTransbordos : Integer
+    numReservas : Integer
+    informacionAdicional : String
+}
+
+class Linea {
+    PK idLinea : Integer
+    nombre : String
+    descripcion : String
+    numVisitas : Integer
+    informacionAdicional : String
+}
+
+class Lugar {
+    PK idLugar : Integer
+    FK idLugar : Integer
+    nombre : String
+    tipo : Enum {'zona', 'barrio', 'municipio'}
+    numVisitas : Integer
+    informacionAdicional : String
+}
+
+class Operador {
+    PK idOperador : Integer
+    medioTransporte : Enum {'guagua urbana', 'guagua interurbana', 'cocheTaxi', 'embarcacionPesada', 'avion'}
+    capacidad : Integer
+    ocupacion : Integer
+    disponible : Boolean
+    informacionAdicional : String
+}
+
+class ParadaEstacion {
+    PK idParadaEstacion : Integer
+    FK idCalle : Integer
+    nombre : String
+    tipo : Enum {'parada', 'estacion'}
+    disponible : Boolean
+    numVisitas : Integer
+    informacionAdicional : String
+}
+
+class ParadaEstacionEtapa {
+    PK FK idParadaEstacion : Integer
+    PK FK idEtapa : Integer
+    funcion : Enum {'origen', 'destino'}
+}
+
+class ParadaEstacionLinea {
+    PK FK idLinea : Integer
+    PK FK idParadaEstacion : Integer
+    funcion : Enum {'origen', 'destino', 'pasoPorParada'}
+    numParada : Integer
+    horaPasoOriginal : Datetime
+    horaPasoReal : Datetime
+}
+
+class Portal {
+    PK numPortal : Integer
+    PK FK idCalle : Integer
+    FK latitud: Integer
+    FK longitud : Integer
+    FK altura : Integer
+    nombre : String
+    numVisitas : Integer
+}
+
+class Publicidad {
+    PK idPublicidad : Integer
+    PK idioma : Enum {'ESP', 'ING', 'ALE', 'FRA', 'ITA'}
+    cuerpo : String
+    textoAdicional1 : String
+    textoAdicional2 : String
+    fechaExpiracion : Date
+}
+
+class Reserva {
+    PK idReserva : Integer
+    FK idUsuario : Integer
+    FK idItinerario : Integer
+    descripcion : String
+}
+
+class Servicio {
+    PK idServicio : Integer
+    cabecera : String
+    descripcion : String
+    fechaHoraInicial : Datetime
+    fechaHoraInicialReal : Datetime
+    fechaHoraFinal : Datetime
+    fechaHoraFinalReal : Datetime
+    cancelado : Boolean
+    informacionAdicional : String
+}
+
+class ServicioOperador {
+    PK FK idServicio : Integer
+    PK FK idOperador : Integer
+}
+
+class SitioInteresTuristico {
+    PK idSitioInteresTuristico : Integer
+    FK idLugar : Integer
+    nombre : String
+    tipo : Enum {'plaza', 'parqueNacional', 'duna', 'parque', 'playa', 'monumento'}
+    descripcion : String
+    informacionAdicional : String
+}
+
+class Situacion {
+    PK idSituacion : Integer
+    FK idServicio : Integer
+    cabecera : String
+    descripcion : String
+    resolucionEsporadica : String
+    fechaHora : Datetime
+    fechaHoraUltimaActualizacion : Datetime
+    informacionAdicional : String
+}
+
+class TituloTransporte {
+    PK codigo : Integer
+    FK idUsuario : Integer
+    categoria : Enum {'Basica', 'Avanzada', 'Premium'}
+    fechaExpedicion : Datetime
+    fechaCaducidad : Datetime
+    saldoDisponible : Double
+    costeRecarga : Double
+}
+
+class Usuario {
+    PK idUsuario : Integer
+    DNI : String
+    nombreCompleto : String
+    fechaNacimiento : Date
+    sexo : String
+    fechaAlta : Date
+    direccion : String
+    telefono : String
+    correoElectronico : String
+}
+
+class Variable {
+    PK idVariable : Integer
+    FK idGestor : Integer
+    descripcion : String
+    activa : String
+}
+
+Aviso "1" -- "0..m" AvisoCondicion
+Aviso "0..m" .. "1" Gestor
+AvisoCondicion "0..m" -- "1" Condicion
+Bono "0..m" .. "1" Usuario
+Calle "0..1" .. "m..n" CoordenadasGeograficas
+Calle "1..m" .. "1" Lugar
+Calle "0..1" .. "0..m" ParadaEstacion
+Calle "1" -- "0..m" Portal
+Condicion "1" -- "1..m" CondicionVariable
+Condicion "0..m" .. "1" Gestor
+CondicionVariable "1..m" -- "1" Variable
+CoordenadasGeograficas "1" .. "0..m" EventoIncidencia
+CoordenadasGeograficas "m..n" .. "1" Lugar
+CoordenadasGeograficas "1" .. "0..1" Portal
+Etapa "1" -- "1..m" EtapaItinerario
+Etapa "1" -- "0..m" ParadaEstacionEtapa
+EtapaItinerario "1..m" -- "1" Itinerario
+EventoCultural "0..1" .. "0..m" Imagen
+EventoCultural "0..m" .. "1" Lugar
+EventoIncidencia "0..1" .. "0..m" Imagen
+EventoIncidencia "0..m" .. "1" Gestor
+Gestor "1" .. "0..m" Variable
+Imagen "1" -- "0..m" ImagenAvisoInformativo
+Imagen "1" -- "0..m" ImagenInfoContacto
+Imagen "1" -- "0..m" ImagenInfoCorporativa
+Imagen "1" -- "0..m" ImagenInfoHorariosServicios
+Imagen "1" -- "0..m" ImagenInfoItinerariosDestacados
+Imagen "1" -- "0..m" ImagenInfoLugares
+Imagen "1" -- "0..m" ImagenInfoNoticias
+Imagen "1" -- "0..m" ImagenInfoTitulosTarifas
+Imagen "1" -- "0..m" ImagenPublicidad
+Imagen "0..m" .. "0..1" ParadaEstacion
+Imagen "0..m" .. "0..1" SitioInteresTuristico
+Imagen "0..m" .. "0..1" Situacion
+ImagenAvisoInformativo "0..m" -- "1" AvisoInformativo
+ImagenInfoContacto "0..m" -- "1" InfoContacto
+ImagenInfoCorporativa "0..m" -- "1" InfoCorporativa
+ImagenInfoHorariosServicios "0..m" -- "1" InfoHorariosServicios 
+ImagenInfoItinerariosDestacados "0..m" -- "1" InfoItinerariosDestacados 
+ImagenInfoLugares "0..m" -- "1" InfoLugares 
+ImagenInfoNoticias "0..m" -- "1" InfoNoticias
+ImagenInfoTitulosTarifas "0..m" -- "1" InfoTitulosTarifas 
+ImagenPublicidad "0..m" -- "1" Publicidad
+Itinerario "1" .. "0..m" Reserva
+Linea "1" -- "0..m" ParadaEstacionLinea
+Lugar "1" .. "0..m" Lugar
+Lugar "1" .. "0..m" SitioInteresTuristico
+Operador "1" -- "1..m" ServicioOperador
+ParadaEstacion "1" -- "2" ParadaEstacionEtapa
+ParadaEstacionLinea "2..m" -- "1" ParadaEstacion
+Reserva "0..m" .. "1" Usuario
+Servicio "1" .. "0..m" Situacion
+Servicio "1" -- "0..m" ServicioOperador
+TituloTransporte "0..1" .. "1" Usuario
+
+@enduml
