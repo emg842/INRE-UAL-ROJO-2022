@@ -98,6 +98,12 @@
         <td>Subida diagrama E/R fragmentado en dos (portal y sistema de información)</td>
         <td>Joaquín Murcia Escánez</td>
     </tr>
+    <tr>
+        <td>14/12/2022</td>
+        <td>1.0</td>
+        <td>Subida diagrama CU fragmentado en dos (portal y sistema de información)</td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
 </table>
 
 <br><br>
@@ -2708,7 +2714,8 @@ introducción de términos clave</td>
 <br>
 
 [- Diagrama general](#diagramageneral)<br>
-[- Diagrama del gestor](#diagramadelgestor)<br>
+[- Diagrama del portal](#diagramadelportal)<br>
+[- Diagrama del sistema de información](#diagramadelsistemadeinformacion)<br>
 [- Diagrama del usuario del portal](#diagramadelusuariodelportal)<br>
 [- Diagrama del usuario del sistema de información](#diagramadelusuariodelsistemadeinformacion)
 
@@ -2726,11 +2733,19 @@ introducción de términos clave</td>
 
 <br>
 
-<a name="diagramadelgestor"></a> Diagrama del gestor
+<a name="diagramadelportal"></a> Diagrama del portal
 
 <br>
 
-<div align="center"><img src="./out/DCU/DCU_gestor.svg"></div>
+<div align="center"><img src="./out/DCU/DCU_P.svg"></div>
+
+<br>
+
+<a name="diagramadelsistemadeinformacion"></a> Diagrama del sistema de información
+
+<br>
+
+<div align="center"><img src="./out/DCU/DCU_SI.svg"></div>
 
 <br>
 
