@@ -86,10 +86,16 @@
         <td>Diagrama de casos de uso general actualizado en adición de fragmentos del mismo (DCU del usuario del portal, DCU del usuario del sistema de información y DCU del gestor)</td>
         <td>Manuel Vallecillos Escobosa</td>
     </tr>
-        <tr>
+    <tr>
         <td>14/12/2022</td>
         <td>1.0</td>
         <td>Diagrama de clases general</td>
+        <td>Joaquín Murcia Escánez</td>
+    </tr>
+    <tr>
+        <td>14/12/2022</td>
+        <td>1.0</td>
+        <td>Subida diagrama E/R fragmentado en dos (portal y sistema de información)</td>
         <td>Joaquín Murcia Escánez</td>
     </tr>
 </table>
@@ -2973,8 +2979,19 @@ Diagrama general
 
 <br>
 
-<p>Nombre del diagrama nº 2</p>
-<p>Diagrama (nº 2)<br></p>
+Diagrama del portal
+
+<br>
+
+<div align="center"><img src="./out/ER/ER_P.svg"></div>
+
+<br>
+
+Diagrama del sistema de información
+
+<br>
+
+<div align="center"><img src="./out/ER/ER_SI.svg"></div>
 
 <br>
 
