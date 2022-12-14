@@ -161,7 +161,9 @@
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Detalle de los casos de uso](#detalledeloscasosdeuso)<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [4.3. &nbsp;&nbsp;&nbsp;&nbsp; Diagramas E/R y de clases asociados a los requisitos de información](#diagramaserydeclasesasociadosalosrequisitosdeinformacion)<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lista de diagramas E/R del modelo](#listadediagramaserdelmodelo)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Diagramas E/R del modelo](#diagramaserdelmodelo)<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lista de diagramas de clases del modelo](#listadediagramasdeclasesdelmodelo)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Diagramas de clases del modelo](#diagramasdeclasesdelmodelo)<br>
 [Apéndices](#apendices)
 
 <br><br>
@@ -3242,7 +3244,7 @@
 
 <br>
 
-### Diagramas E/R
+### <a name="listadediagramaserdelmodelo"></a> Lista de diagramas E/R del modelo
 
 <br>
 
@@ -3270,10 +3272,6 @@
 
 <br>
 
-### Diagramas de clases
-
-<br>
-
 ### <a name="listadediagramasdeclasesdelmodelo"></a> Lista de diagramas de clases del modelo
 
 <br>
@@ -3281,6 +3279,10 @@
 [- Diagrama de clases general](#diagramadeclasesgeneral)<br>
 [- Diagrama E/R del Portal](#diagramadeclasesdelportal)<br>
 [- Diagrama E/R del Sistema de información](#diagramadeclasesdelsistemadeinformacion)
+
+<br>
+
+### <a name="diagramasdeclasesdelmodelo"></a> Diagramas de clases del modelo
 
 <br>
 
