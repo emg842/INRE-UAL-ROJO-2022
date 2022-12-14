@@ -136,35 +136,35 @@
 [Contenidos](#contenidos)<br>
 [1. &nbsp;&nbsp;&nbsp;&nbsp; Introducción](#introduccion)<br>
 [2. &nbsp;&nbsp;&nbsp;&nbsp; Información del dominio del problema [opcional]](#informaciondeldominiodelproblema)<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2.1. &nbsp;&nbsp;&nbsp;&nbsp; Organigrama](#organigrama)<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2.2. &nbsp;&nbsp;&nbsp;&nbsp; Glosario de términos](#glosariodeterminos)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2.1. &nbsp;&nbsp;&nbsp;&nbsp; Organigrama](#organigrama)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2.2. &nbsp;&nbsp;&nbsp;&nbsp; Glosario de términos](#glosariodeterminos)<br>
 [3. &nbsp;&nbsp;&nbsp;&nbsp; Necesidades del negocio](#necesidadesdelnegocio)<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [3.1. &nbsp;&nbsp;&nbsp;&nbsp; Objetivos del negocio](#objetivosdelnegocio)<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [3.2. &nbsp;&nbsp;&nbsp;&nbsp; Modelos de Procesos de Negocio [opcional]](#modelosdeprocesosdenegocio)<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Subprocesos](#subprocesos)<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Tareas](#tareas)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [3.1. &nbsp;&nbsp;&nbsp;&nbsp; Objetivos del negocio](#objetivosdelnegocio)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [3.2. &nbsp;&nbsp;&nbsp;&nbsp; Modelos de Procesos de Negocio [opcional]](#modelosdeprocesosdenegocio)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Subprocesos](#subprocesos)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Tareas](#tareas)<br>
 [4. &nbsp;&nbsp;&nbsp;&nbsp; Requisitos del sistema a desarrollar](#requisitosdelsistemaadesarrollar)<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [4.1. &nbsp;&nbsp;&nbsp;&nbsp; Requisitos](#requisitos)<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Requisitos funcionales del Portal](#requisitosfuncionalesdelportal)<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Requisitos funcionales del Sistema de información](#requisitosfuncionalesdelsistemadeinformacion)<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Requisitos no funcionales del Portal](#requisitosnofuncionalesdelportal)<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Requisitos no funcionales del Sistema de Información](#requisitosnofuncionalesdelsistemadeinformacion)<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Requisitos de información del Portal](#requisitosdeinformaciondelportal)<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Requisitos de información del Sistema de Información](#requisitosdeinformaciondelsistemadeinformacion)<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [4.2. &nbsp;&nbsp;&nbsp;&nbsp; Casos de uso](#casosdeuso)<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lista de diagramas de casos de uso del modelo](#listadediagramasdecasosdeusodelmodelo)<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Diagramas de casos de uso](#diagramasdecasosdeuso)<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lista de casos de uso del Portal](#listadecasosdeusodelportal)<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lista de casos de uso del Sistema de Información](#listadecasosdeusodelsistemadeinformacion)<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lista de actores del Portal](#listadeactoresdelportal)<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lista de actores del Sistema de información](#listadeactoresdelsistemadeinformacion)<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Detalle de los casos de uso del Portal](#detalledeloscasosdeusodelportal)<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Detalle de los casos de uso del Sistema de información](#detalledeloscasosdeusodelsistemadeinformacion)<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [4.3. &nbsp;&nbsp;&nbsp;&nbsp; Diagramas E/R y de clases asociados a los requisitos de información](#diagramaserydeclasesasociadosalosrequisitosdeinformacion)<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lista de diagramas E/R del modelo](#listadediagramaserdelmodelo)<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Diagramas E/R del modelo](#diagramaserdelmodelo)<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lista de diagramas de clases del modelo](#listadediagramasdeclasesdelmodelo)<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Diagramas de clases del modelo](#diagramasdeclasesdelmodelo)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [4.1. &nbsp;&nbsp;&nbsp;&nbsp; Requisitos](#requisitos)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Requisitos funcionales del Portal](#requisitosfuncionalesdelportal)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Requisitos funcionales del Sistema de información](#requisitosfuncionalesdelsistemadeinformacion)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Requisitos no funcionales del Portal](#requisitosnofuncionalesdelportal)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Requisitos no funcionales del Sistema de Información](#requisitosnofuncionalesdelsistemadeinformacion)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Requisitos de información del Portal](#requisitosdeinformaciondelportal)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Requisitos de información del Sistema de Información](#requisitosdeinformaciondelsistemadeinformacion)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [4.2. &nbsp;&nbsp;&nbsp;&nbsp; Casos de uso](#casosdeuso)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lista de diagramas de casos de uso del modelo](#listadediagramasdecasosdeusodelmodelo)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Diagramas de casos de uso](#diagramasdecasosdeuso)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lista de casos de uso del Portal](#listadecasosdeusodelportal)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lista de casos de uso del Sistema de Información](#listadecasosdeusodelsistemadeinformacion)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lista de actores del Portal](#listadeactoresdelportal)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lista de actores del Sistema de información](#listadeactoresdelsistemadeinformacion)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Detalle de los casos de uso del Portal](#detalledeloscasosdeusodelportal)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Detalle de los casos de uso del Sistema de información](#detalledeloscasosdeusodelsistemadeinformacion)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [4.3. &nbsp;&nbsp;&nbsp;&nbsp; Diagramas E/R y de clases asociados a los requisitos de información](#diagramaserydeclasesasociadosalosrequisitosdeinformacion)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lista de diagramas E/R del modelo](#listadediagramaserdelmodelo)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Diagramas E/R del modelo](#diagramaserdelmodelo)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lista de diagramas de clases del modelo](#listadediagramasdeclasesdelmodelo)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Diagramas de clases del modelo](#diagramasdeclasesdelmodelo)<br>
 [Apéndices](#apendices)
 
 <br><br>
@@ -292,7 +292,6 @@
 
 <br>
 
-
 <table align = "center">
     <tr>
         <td><b>FR-01:</b></td>
@@ -315,12 +314,8 @@
         <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
     </tr>
     <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-01, ACT-02 </td>
-    </tr>
-    <tr>
         <td><b>Descripción:</b></td>
-        <td>El sistema ofrece acceso al blog con información a cerca del transporte en Gran Canaria</td>
+        <td>El sistema ofrece acceso al blog con información acerca del transporte en las Islas Canarias</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -360,12 +355,8 @@
         <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
     </tr>
     <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-01, ACT-02 </td>
-    </tr>
-    <tr>
         <td><b>Descripción:</b></td>
-        <td>El sistema ofrece acceso al foro de la página donde se podrá comentar a cerca de la situación del transporte, rutas, servicios ofrecidos, etc </td>
+        <td>El sistema ofrece acceso al foro de la página donde se podrá comentar acerca de la situación del transporte, rutas, servicios ofrecidos... etc </td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -403,10 +394,6 @@
     <tr>
         <td><b>Referencias:</b></td>
         <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-01, ACT-02 </td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -450,13 +437,8 @@
         <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
     </tr>
     <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-01, ACT-02 </td>
-    </tr>
-    <tr>
         <td><b>Descripción:</b></td>
-        <td>Permitirá la localización de cualquier contenido mediante la 
-        introducción de términos clave</td>
+        <td>Permitirá la localización de cualquier contenido de manera inmediata mediante la introducción de términos clave</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -497,12 +479,8 @@
         <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
     </tr>
     <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-01, ACT-02 </td>
-    </tr>
-    <tr>
         <td><b>Descripción:</b></td>
-        <td>Ofrece la posibilidad de ver las noticias acerca de eventos en Gran Canaria y la disponibilidad del transporte </td>
+        <td>Ofrece la posibilidad de ver las noticias acerca de eventos en las Islas Canarias y la disponibilidad del transporte </td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -542,12 +520,8 @@
         <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
     </tr>
     <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-01, ACT-02 </td>
-    </tr>
-    <tr>
         <td><b>Descripción:</b></td>
-        <td>Da la posibilidad de contactar ya sea a través del correo o de un número de teléfono</td>
+        <td>Da la posibilidad de contactar con el equipo de la aplicación ya sea a través del correo electrónico o de un número de teléfono</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -565,7 +539,7 @@
 
 <br>
 
-<table align = "center">
+<!-- <table align = "center">
     <tr>
         <td><b>FR-07:</b></td>
         <td>Buscar eventos</td>
@@ -608,9 +582,9 @@
     </tr>
 </table>
 
-<br>
+<br> -->
 
-<table align = "center">
+<!-- <table align = "center">
     <tr>
         <td><b>FR-08:</b></td>
         <td>Buscar monumentos</td>
@@ -653,11 +627,11 @@
     </tr>
 </table>
 
-<br>
+<br> -->
 
 <table align = "center">
     <tr>
-        <td><b>FR-09:</b></td>
+        <td><b>FR-07:</b></td>
         <td>Ver horarios de las líneas</td>
     </tr>
     <tr>
@@ -675,10 +649,6 @@
     <tr>
         <td><b>Referencias:</b></td>
         <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-01, ACT-02 </td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -700,7 +670,7 @@
 
 <br>
 
-<table align = "center">
+<!-- <table align = "center">
     <tr>
         <td><b>FR-10:</b></td>
         <td>Ver incidencias</td>
@@ -743,12 +713,12 @@
     </tr>
 </table>
 
-<br>
+<br> -->
 
 <table align = "center">
     <tr>
-        <td><b>FR-11:</b></td>
-        <td>Ver itinerarios más concurridos</td>
+        <td><b>FR-08:</b></td>
+        <td>Ver itinerarios destacados</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -767,12 +737,8 @@
         <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
     </tr>
     <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-01, ACT-02 </td>
-    </tr>
-    <tr>
         <td><b>Descripción:</b></td>
-        <td>Ofrece una lista de los itinerarios más concurridos</td>
+        <td>Ofrece una lista con los itinerarios más destacados entre los usuarios</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -790,7 +756,7 @@
 
 <br>
 
-<table align = "center">
+<!-- <table align = "center">
     <tr>
         <td><b>FR-12:</b></td>
         <td>Ir al inicio</td>
@@ -833,12 +799,12 @@
     </tr>
 </table>
 
-<br>
+<br> -->
 
 <table align = "center">
     <tr>
-        <td><b>FR-13:</b></td>
-        <td>Ver tarifas/bonos</td>
+        <td><b>FR-09:</b></td>
+        <td>Ver tarifas y títulos de transporte</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -857,12 +823,8 @@
         <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
     </tr>
     <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-01, ACT-02 </td>
-    </tr>
-    <tr>
         <td><b>Descripción:</b></td>
-        <td>Ofrece una vista de las distintas tarifas y bonos disponibles para transportarnos por la isla</td>
+        <td>Ofrece una vista de las distintas tarifas y titulos disponibles para adquirir</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -882,7 +844,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-14:</b></td>
+        <td><b>FR-10:</b></td>
         <td>Mostrar publicidad</td>
     </tr>
     <tr>
@@ -902,12 +864,8 @@
         <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
     </tr>
     <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-01, ACT-02 </td>
-    </tr>
-    <tr>
         <td><b>Descripción:</b></td>
-        <td>Aparecen anuncios a cerca del transporte o de distintos eventos o noticias en la isla</td>
+        <td>Aparecen anuncios acerca del transporte en la isla o anuncios de otras empresas externas</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -927,7 +885,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-15:</b></td>
+        <td><b>FR-11:</b></td>
         <td>Ver información corporativa</td>
     </tr>
     <tr>
@@ -947,12 +905,49 @@
         <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
     </tr>
     <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-01, ACT-02 </td>
+        <td><b>Descripción:</b></td>
+        <td>Ofrece la información corporativa del ayuntamiento de las Islas Canarias</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-12:</b></td>
+        <td>Cambio de idioma</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Ofrece la información corporativa del ayuntamiento de Gran Canaria</td>
+        <td>Ofrece la posibilidad de cambiar el idioma en el que aparece el contenido de la página</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
