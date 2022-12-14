@@ -14,7 +14,7 @@ El día 18 de Noviembre de 2022 tuvo lugar una entrevista con un usuario habitua
 
 ### 1. ¿Preferiría una aplicación móvil, una página web o una aplicación de escritorio?
 
-Al ser dos aplicaciones distintas, una en la que se pudiera ver noticias sobre las islas, monumentos para visitar, eventos que se desarrollarán en las islas, rutas más transitadas, ... y otra aplicación para hacer reservas de itinerarios, comprar billetes, ver mapa, etc. Pienso que lo más cómodo sería una aplicación móvil o una página web, aunque lo más adecuado sería sin duda una página web.
+Al ser dos aplicaciones distintas, una en la que se pudiera ver noticias sobre la isla, monumentos para visitar, eventos que se desarrollarán, rutas más transitadas, ... y otra aplicación para hacer reservas de itinerarios, comprar billetes, ver mapa, etc. Pienso que lo más cómodo sería una aplicación móvil o una página web, aunque lo más adecuado sería sin duda una página web.
 
 <br>
 
@@ -38,7 +38,7 @@ Pues estaría bien que se pidiera una foto del carné de identidad, para validar
 
 ### 5. ¿Qué funciones espera de la primera aplicación? Aquella que está enfocada más a informar a los usuarios.
 
-Pues me gustaría que se pudieran ver los mapas de las islas con un estilo parecido a Google maps o consultar rutas de los autobuses y saber su recorrido a tiempo real.
+Pues me gustaría que se pudiera ver un mapa con un estilo parecido a Google maps o consultar rutas de los autobuses y saber su recorrido a tiempo real.
 
 <br>
 
