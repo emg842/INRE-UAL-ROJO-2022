@@ -117,6 +117,13 @@
         <td>Separación de requisitos funcionales y no funcionales en función de si pertenecen al portal o al sistema de información</td>
         <td>Joaquín Murcia Escánez</td>
     </tr>
+    </tr>
+    <tr>
+        <td>14/12/2022</td>
+        <td>1.0</td>
+        <td>Subida del organigrama</td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
 </table>
 
 <br><br>
@@ -173,7 +180,7 @@
 
 <br>
 
-<p>Organigrama</p>
+<div align="center"><img src="./out/organigrama/organigrama.svg"></div>
 
 <br>
 
@@ -3246,7 +3253,6 @@
 <br>
 
 <div align="center"><img src="./out/DC/DC_SI.svg"></div>
-
 
 <br><br>
 
