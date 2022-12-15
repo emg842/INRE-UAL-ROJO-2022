@@ -3815,7 +3815,7 @@
         - Número de accesos a la página</td>
     </tr>
     <tr>
-        <td><b>Importancia:</b></td> 
+        <td><b>Importancia:</b></td>
         <td>Muy elevada</td>
     </tr>
     <tr>
@@ -4329,7 +4329,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-02, IR-05</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4378,7 +4378,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-01, IR-03</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4424,7 +4424,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-02, IR-04, IR-05</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4472,7 +4472,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-03, IR-06</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4518,7 +4518,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-01, IR-03, IR-06, IR-11</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4571,7 +4571,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-04, IR-05</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4619,7 +4619,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-08, IR-10, IR-12, IR-19</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4669,7 +4669,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-07, IR-10, IR-11, IR-12</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4718,7 +4718,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-12, IR-15</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4768,7 +4768,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-07, IR-08</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4819,7 +4819,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-05, IR-08, IR-15</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4872,7 +4872,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-07, IR-08, IR-09, IR-12, IR-20</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4922,7 +4922,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-14</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4971,7 +4971,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-13, IR-19</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5020,7 +5020,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-09, IR-11, IR-19, IR-20, IR-21</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5072,7 +5072,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-21, IR-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5125,7 +5125,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5175,7 +5175,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-23, IR-24</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5229,7 +5229,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-07, IR-14, IR-15, IR-24</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5280,7 +5280,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-12, IR-15</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5330,7 +5330,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-15, IR-16</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5382,7 +5382,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-16, IR-17</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5428,7 +5428,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-18, IR-25</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5474,7 +5474,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-18, IR-19</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5521,7 +5521,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-23, IR-26</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5575,7 +5575,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-25, IR-29</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5623,7 +5623,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-29</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5673,7 +5673,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-29</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5724,7 +5724,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-26, IR-27, IR-28</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
