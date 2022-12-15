@@ -124,6 +124,12 @@
         <td>Subida del organigrama</td>
         <td>Manuel Vallecillos Escobosa</td>
     </tr>
+    <tr>
+        <td>14/12/2022</td>
+        <td>1.0</td>
+        <td>Subida de los modelos de procesos de negocio</td>
+        <td>Daniel López García</td>
+    </tr>
 </table>
 
 <br><br>
@@ -230,7 +236,7 @@
 
 <br>
 
-### <a name="subprocesos"></a> Subprocesos
+### <a name="procesos"></a> Procesos
 
 <br>
 
@@ -240,16 +246,23 @@
         <td><b>Descripción</b></td>
     </tr>
     <tr>
-        <td>nombre</td>
-        <td>descripción</td>
+        <td>Validación del DNI al registrarse</td>
+        <td>Un usuario no registrado envía una foto la cual será recibida por el gestor de contenidos, este a su vez lo enviará por un proceso de verificación llevado a cabo por el software externo a la empresa. En caso de que el software verifique la validez del DNI este enviará un informe comentando dicho resultado al gestor de contenidos, en caso de serrechazada la imagen se enviará un informa con los fallos al gestor de contenidos. Cuando el gestor reciba el informe de los fallos se lo mandará al usuario para que vuelva a manadar la imagen del DNI y haga de nuevo el proceso de verificación. Si la foto ha sido validada le mandará al usuario un mensaje de verificación y terminará el proceso</td>
     </tr>
     <tr>
-        <td>nombre</td>
-        <td>descripción</td>
+        <td>Adquisición de un bono o de un título único de transporte</td>
+        <td>Una vez en la página, el usuario tendrá la opción tanto de comprar un bono, como de adquirir el título de transporte. Una vez seleccionada la opción, se deberá enviar el formulario del servicio escogido al sistema. En caso de que cumpla los requisitos, se proporcionará el bono o título solicitado al usuario en cuestión</td>
     </tr>
     <tr>
-        <td>nombre</td>
-        <td>descripción</td>
+        <td>Reserva de itinerario</td>
+        <td>1. El proceso comienza cuando un cliente busca un itinerario y solicita su reserva.
+        2. La solicitud es recibida por el sistema de reservas, que verifica la disponibilidad de los servicios solicitados.<br>
+        3. Si hay disponibilidad, se procede a generar una factura del precio total del itinerario y se envía al cliente.<br>
+        4. Si no hay disponibilidad se mandará un aviso al cliente.<br>
+        5. Cuando el cliente recibe la factura podrá relaizar el pago o cancelar la reserva terminando el proceso.<br>
+        6. Cuando el cliente reciba el aviso de que no hay disponibilidad, podrá buscar otro itinerario iniciando de nuevo el proceso o terminar el proceso.<br>
+        7. Cuando realice el pago le llegará un aviso al sistema de reservas, este se encargará de generar el recibo y de enviarselo al cliente.<br>
+        8. Cuando el cliente recibe el recibo se termina el proceso.</td>
     </tr>
 </table>
 
@@ -259,24 +272,46 @@
 
 <br>
 
-<table align = "center">
-    <tr>
-        <td><b>Nombre</b></td>
-        <td><b>Descripción</b></td>
-    </tr>
-    <tr>
-        <td>nombre</td>
-        <td>descripción</td>
-    </tr>
-    <tr>
-        <td>nombre</td>
-        <td>descripción</td>
-    </tr>
-    <tr>
-        <td>nombre</td>
-        <td>descripción</td>
-    </tr>
-</table>
+- Tareas del proceso 1: Validación del DNI al registrarse
+
+<br>
+
+<p>Un usuario no registrado envía una foto la cual será recibida por el gestor de contenidos, este a su vez lo enviará por un proceso de verificación llevado a cabo por el software externo a la empresa. En caso de que el software verifique la validez del DNI este enviará un informe comentando dicho resultado al gestor de contenidos, en caso de serrechazada la imagen se enviará un informa con los fallos al gestor de contenidos. Cuando el gestor reciba el informe de los fallos se lo mandará al usuario para que vuelva a manadar la imagen del DNI y haga de nuevo el proceso de verificación. Si la foto ha sido validada le mandará al usuario un mensaje de verificación y terminará el proceso</p>
+
+<br>
+
+<div align="center"><img src="./out/BPMN/BPMN_validacion_de_DNI.svg"></div>
+
+<br>
+
+- Tareas del proceso 2: Adquisición de un bono o de un título único de transporte
+
+<br>
+
+<p>El usuario tendrá la opción tanto de comprar un bono como de adquirir el título de transporte. Una vez seleccionada la opción, se deberá enviar el formulario del servicio escogido al sistema. En caso de que cumpla los requisitos, se proporcionará el bono o título solicitado al usuario en cuestión</p>
+
+<br>
+
+<div align="center"><img src="./out/BPMN/BPMN_adquisicion_de_bono_o_titulo.svg"></div>
+
+<br>
+
+- Tareas del proceso 3: Reserva de itinerario
+
+<br>
+
+<p>1. El proceso comienza cuando un cliente busca un itinerario y solicita su reserva.
+2. La solicitud es recibida por el sistema de reservas, que verifica la disponibilidad de los servicios solicitados.<br>
+3. Si hay disponibilidad, se procede a generar una factura del precio total del itinerario y se envía al cliente.<br>
+4. Si no hay disponibilidad se mandará un aviso al cliente.<br>
+5. Cuando el cliente recibe la factura podrá relaizar el pago o cancelar la reserva terminando el proceso.<br>
+6. Cuando el cliente reciba el aviso de que no hay disponibilidad, podrá buscar otro itinerario iniciando de nuevo el proceso o terminar el proceso.<br>
+7. Cuando realice el pago le llegará un aviso al sistema de reservas, este se encargará de generar el recibo y de enviarselo al cliente.<br>
+8. Cuando el cliente recibe el recibo se termina el proceso.</p>
+
+<br>
+
+<div align="center"><img src="./out/BPMN/BPMN_reserva_de_itinerario.svg"></div>
 
 <br><br>
 
@@ -3362,7 +3397,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -3415,7 +3450,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -3468,7 +3503,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -3521,7 +3556,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -3574,7 +3609,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -3627,7 +3662,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -3680,7 +3715,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -3733,7 +3768,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -3786,7 +3821,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -3839,7 +3874,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -3892,7 +3927,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -3945,7 +3980,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -3998,7 +4033,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -4051,7 +4086,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -4104,7 +4139,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -4157,7 +4192,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -4210,7 +4245,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -4263,7 +4298,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -4316,7 +4351,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -4369,7 +4404,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -4422,7 +4457,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -4475,7 +4510,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -4528,7 +4563,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -4581,7 +4616,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -4634,7 +4669,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -4687,7 +4722,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -4740,7 +4775,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -4797,7 +4832,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -4850,7 +4885,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -4903,7 +4938,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -4956,7 +4991,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -5009,7 +5044,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -5062,7 +5097,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -5115,7 +5150,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -5168,7 +5203,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -5221,7 +5256,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -5274,7 +5309,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -5327,7 +5362,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -5380,7 +5415,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -5433,7 +5468,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -5486,7 +5521,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -5539,7 +5574,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -5592,7 +5627,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -5645,7 +5680,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -5698,7 +5733,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -5751,7 +5786,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -5804,7 +5839,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -5857,7 +5892,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -5910,7 +5945,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -5963,7 +5998,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -6016,7 +6051,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -6069,7 +6104,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -6122,7 +6157,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -6175,7 +6210,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -6228,7 +6263,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -6281,7 +6316,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -6334,7 +6369,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -6387,7 +6422,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -6440,7 +6475,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -6493,7 +6528,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -6546,7 +6581,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -6599,7 +6634,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -6652,7 +6687,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -6705,7 +6740,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -6758,7 +6793,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -6811,7 +6846,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -6864,7 +6899,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -6917,7 +6952,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -6970,7 +7005,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -7023,7 +7058,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -7076,7 +7111,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -7129,7 +7164,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -7182,7 +7217,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -7235,7 +7270,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -7288,7 +7323,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
@@ -7341,7 +7376,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b><br>
-        Nombre y apellidos</td>
+        Manuel Vallecillos Escobosa</td>
     </tr>
     <tr>
         <td><b>Fecha:</b><br>
