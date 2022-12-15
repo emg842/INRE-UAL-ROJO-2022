@@ -130,6 +130,12 @@
         <td>Subida de los modelos de procesos de negocio</td>
         <td>Daniel López García</td>
     </tr>
+        <tr>
+        <td>15/12/2022</td>
+        <td>1.0</td>
+        <td>Listado de Casos de uso</td>
+        <td>Miguel Ángel Moncada Álvarez</td>
+    </tr>
 </table>
 
 <br><br>
@@ -4848,322 +4854,309 @@
         <td><b>Nombre</b></td>
     </tr>
     <tr>
-        <td>UC-01</td>
-        <td>Información Corporativa</td>
+        <td><b>UC-01</b></td>
+        <td><b>Contactar</b></td>
     </tr>
     <tr>
         <td>UC-02</td>
-        <td>Horarios y servicios</td>
+        <td>Ver noticias</td>
     </tr>
     <tr>
         <td>UC-03</td>
-        <td>Blog</td>
-    </tr>
-    <tr>
-        <td>UC-04</td>
-        <td>Foro</td>
-    </tr>
-    <tr>
-        <td>UC-05</td>
-        <td>Cloud tag</td>
-    </tr>
-    <tr>
-        <td>UC-06</td>
-        <td>Buscador</td>
-    </tr>
-    <tr>
-        <td>UC-07</td>
         <td>Cambiar idioma</td>
     </tr>
     <tr>
-        <td>UC-08</td>
-        <td>Noticias</td>
-    </tr>
-    <tr>
-        <td>UC-09</td>
-        <td>Contacto</td>
-    </tr>
-    <tr>
-        <td>UC-10</td>
-        <td>Lugares</td>
-    </tr>
-    <tr>
-        <td>UC-11</td>
-        <td>Eventos</td>
-    </tr>
-    <tr>
-        <td>UC-12</td>
-        <td>Monumentos</td>
-    </tr>
-    <tr>
-        <td>UC-13</td>
-        <td>Sitios Turísticos</td>
-    </tr>
-    <tr>
-        <td>UC-14</td>
-        <td>Avisos</td>
-    </tr>
-    <tr>
-        <td>UC-15</td>
-        <td>Itinerarios destacados</td>
-    </tr>
-    <tr>
-        <td>UC-16</td>
-        <td>Títulos y tarifas del transporte</td>
-    </tr>
-    <tr>
-        <td>UC-17</td>
-        <td>Publicidad</td>
-    </tr>
-    <tr>
-        <td>UC-18</td>
-        <td>Agregar datos</td>
-    </tr>
-    <tr>
-        <td>UC-19</td>
-        <td>Añadir listado de horarios y servicios</td>
-    </tr>
-    <tr>
-        <td>UC-20</td>
-        <td>Gestionar idiomas</td>
-    </tr>
-    <tr>
-        <td>UC-21</td>
-        <td>Modificar diseño común</td>
-    </tr>
-    <tr>
-        <td>UC-22</td>
-        <td>Eliminar páginas</td>
-    </tr>
-    <tr>
-        <td>UC-23</td>
-        <td>Ver estadísticas de acceso</td>
-    </tr>
-    <tr>
-        <td>UC-24</td>
-        <td>Gestionar publicidad</td>
-    </tr>
-    <tr>
-        <td>UC-25</td>
-        <td>Modificar datos</td>
-    </tr>
-    <tr>
-        <td>UC-26</td>
-        <td>Crear páginas</td>
-    </tr>
-    <tr>
-        <td>UC-27</td>
-        <td>Previsualizar</td>
-    </tr>
-</table>
-
-<br>
-
-### <a name="listadecasosdeusodelsistemadeinformacion"></a> Lista de casos de uso del Sistema de Información
-
-<br>
-
-<table align = "center">
-     <tr>
-        <td><b>Identificador</b></td>
-        <td><b>Nombre</b></td>
-    </tr>
-    <tr>
-        <td>UC-01</td>
-        <td>Mostrar información de la parada/estación</td>
-    </tr>
-    <tr>
-        <td>UC-02</td>
-        <td>Hacer clic en parada/estación</td>
-    </tr>
-    <tr>
-        <td>UC-03</td>
-        <td>Mostrar información</td>
-    </tr>
-    <tr>
         <td>UC-04</td>
-        <td>Hacer clic en lugar/sitio de interés turístico</td>
+        <td>Realizar búsqueda</td>
     </tr>
-    <tr>
-        <td>UC-05</td>
-        <td>Guardar foto de estado</td>
+        <tr>
+        <td><b>UC-05</b></td>
+        <td><b>Acceder a cloud tag</b></td>
     </tr>
     <tr>
         <td>UC-06</td>
-        <td>Guardar película de evolución temporal</td>
+        <td>Ver foro</td>
     </tr>
     <tr>
         <td>UC-07</td>
-        <td>Gestionar elementos del mapa</td>
+        <td>Ver blog</td>
     </tr>
     <tr>
         <td>UC-08</td>
-        <td>Gestionar línea</td>
+        <td>Ver horarios y servicios </td>
     </tr>
-    <tr>
-        <td>UC-09</td>
-        <td>Mostrar actividad de los operadores</td>
+        <tr>
+        <td><b>UC-09</b></td>
+        <td><b>Ver información corporativa</b></td>
     </tr>
     <tr>
         <td>UC-10</td>
-        <td>Hacer clic en parada/estación (Gestor)</td>
+        <td>Ver publicidad</td>
     </tr>
     <tr>
         <td>UC-11</td>
-        <td>Ver retraso/adelantos de línea</td>
+        <td>Ver títulos y tarifas del transporte</td>
     </tr>
     <tr>
         <td>UC-12</td>
-        <td>Gestionar sistema de ventas y titulo único del transporte</td>
+        <td>Ver itinerarios destacados</td>
     </tr>
-    <tr>
-        <td>UC-13</td>
-        <td>Definir eventos/incidencias</td>
+        <tr>
+        <td><b>UC-13</b></td>
+        <td><b>Ver avisos</b></td>
     </tr>
     <tr>
         <td>UC-14</td>
-        <td>Gestionar usuarios</td>
+        <td>Lugares</td>
     </tr>
     <tr>
         <td>UC-15</td>
-        <td>Definir variable</td>
+        <td>Ver eventos</td>
     </tr>
     <tr>
         <td>UC-16</td>
-        <td>Definir condiciones</td>
+        <td>Ver monumentos</td>
     </tr>
-    <tr>
-        <td>UC-17</td>
-        <td>Crear aviso acústico</td>
+        <tr>
+        <td><b>UC-17</b></td>
+        <td><b>Ver sitios turísticos</b></td>
     </tr>
     <tr>
         <td>UC-18</td>
-        <td>Crear aviso visual</td>
+        <td>Añadir listado de horarios y servicios</td>
     </tr>
     <tr>
         <td>UC-19</td>
-        <td>Crear aviso móvil</td>
+        <td>Agregar datos</td>
     </tr>
     <tr>
         <td>UC-20</td>
-        <td>Crear aviso por correo</td>
+        <td>Crear páginas</td>
     </tr>
-    <tr>
-        <td>UC-21</td>
-        <td>Adquirir bono</td>
+        <tr>
+        <td><b>UC-21</b></td>
+        <td><b>Previsualizar</b></td>
     </tr>
     <tr>
         <td>UC-22</td>
-        <td>Renovar título</td>
+        <td>Modificar datos</td>
     </tr>
     <tr>
         <td>UC-23</td>
-        <td>Ver histórico de itinerarios</td>
+        <td>Gestionar publicidad</td>
     </tr>
     <tr>
         <td>UC-24</td>
-        <td>Iniciar sesión</td>
+        <td>Ver estadísticas de acceso</td>
     </tr>
-    <tr>
-        <td>UC-25</td>
-        <td>Registrarse</td>
+        <tr>
+        <td><b>UC-25</b></td>
+        <td><b>Eliminar páginas</b></td>
     </tr>
     <tr>
         <td>UC-26</td>
-        <td>Recargar saldo</td>
+        <td>Modificar diseño común</td>
     </tr>
     <tr>
         <td>UC-27</td>
-        <td>Adquirir título</td>
+        <td>Gestionar idiomas</td>
     </tr>
     <tr>
         <td>UC-28</td>
-        <td>Reservar itinerario</td>
+        <td>Gestionar sistema de ventas y título único del transporte</td>
     </tr>
-    <tr>
-        <td>UC-29</td>
-        <td>Pagar reserva</td>
+        <tr>
+        <td><b>UC-29</b></td>
+        <td><b>Gestionar usuarios</b></td>
     </tr>
     <tr>
         <td>UC-30</td>
-        <td>Imprimir ticket</td>
+        <td>Definir variables</td>
     </tr>
     <tr>
         <td>UC-31</td>
-        <td>Presentar recorridos de una línea</td>
+        <td>Definir condiciones</td>
     </tr>
     <tr>
         <td>UC-32</td>
-        <td>Buscar paradas</td>
+        <td>Crear aviso acústico</td>
     </tr>
-    <tr>
-        <td>UC-33</td>
-        <td>Introducir identificador de parada</td>
+        <tr>
+        <td><b>UC-33</b></td>
+        <td><b>Crear aviso visual</b></td>
     </tr>
     <tr>
         <td>UC-34</td>
-        <td>Parametrizar búsqueda (P/E)</td>
+        <td>Crear aviso móvil</td>
     </tr>
     <tr>
         <td>UC-35</td>
-        <td>Perteneciente a un lugar</td>
+        <td>Crear aviso por correo</td>
     </tr>
     <tr>
         <td>UC-36</td>
-        <td>Pertenecientes a una línea</td>
+        <td>Definir eventos/incidencias</td>
     </tr>
-    <tr>
-        <td>UC-37</td>
-        <td>Cerca origen/destino</td>
+        <tr>
+        <td><b>UC-37</b></td>
+        <td><b>Mostrar actividad de los operadores</b></td>
     </tr>
     <tr>
         <td>UC-38</td>
-        <td>Buscar itinerarios</td>
+        <td>Guardar foto de estado</td>
     </tr>
     <tr>
         <td>UC-39</td>
-        <td>Seleccionar origen/destino</td>
+        <td>Guardar película de evolución temporal</td>
     </tr>
     <tr>
         <td>UC-40</td>
-        <td>Mostrar tiempo y distancia del recorrido</td>
+        <td>Gestionar elementos del mapa</td>
     </tr>
-    <tr>
-        <td>UC-41</td>
-        <td>Mostrar transbordos</td>
+        <tr>
+        <td><b>UC-41</b></td>
+        <td><b>Gestionar línea</b></td>
     </tr>
     <tr>
         <td>UC-42</td>
-        <td>Mostrar tarifa por etapas</td>
+        <td>Hacer clic en parada/estación (Gestor)</td>
     </tr>
     <tr>
         <td>UC-43</td>
-        <td>Ordenar búsqueda por</td>
+        <td>Ver retraso/adelantos de línea</td>
     </tr>
     <tr>
         <td>UC-44</td>
-        <td>Menor coste</td>
+        <td>Hacer clic en parada/estación</td>
     </tr>
-    <tr>
-        <td>UC-45</td>
-        <td>Menor tiempo</td>
+        <tr>
+        <td><b>UC-45</b></td>
+        <td><b>Mostrar información de la parada/estación</b></td>
     </tr>
     <tr>
         <td>UC-46</td>
-        <td>Menos transbordos</td>
+        <td>Hacer clic en lugar/sitio de interés</td>
     </tr>
     <tr>
         <td>UC-47</td>
-        <td>Seleccionar fechas y horas de salida y llegada</td>
+        <td>Mostrar información de sitio/lugar de interés</td>
     </tr>
     <tr>
         <td>UC-48</td>
+        <td>Reservar itinerario</td>
+    </tr>
+        <tr>
+        <td>UC-49</td>
+        <td>Pagar reserva</td>
+    </tr>
+        <tr>
+        <td>UC-50</td>
+        <td>Imprimir ticket</td>
+    </tr>
+        <tr>
+        <td>UC-51</td>
+        <td>Presentar recorridos de una línea</td>
+    </tr>
+        <tr>
+        <td>UC-52</td>
+        <td>Buscar paradas</td>
+    </tr>
+        <tr>
+        <td>UC-53</td>
+        <td>Introducir identificador de parada</td>
+    </tr>
+        <tr>
+        <td>UC-54</td>
+        <td>Parametrizar búsqueda (P/E)</td>
+    </tr>
+        <tr>
+        <td>UC-55</td>
+        <td>Parametrizar búsqueda (P/E) perteneciente a un lugar</td>
+    </tr>
+        <tr>
+        <td>UC-56</td>
+        <td>Parametrizar búsqueda (P/E) perteneciente a una línea</td>
+    </tr>
+        <tr>
+        <td>UC-57</td>
+        <td>Parametrizar búsqueda (P/E) cerca origen/destino</td>
+    </tr>
+        <tr>
+        <td>UC-58</td>
+        <td>Buscar itinearios</td>
+    </tr>
+        <tr>
+        <td>UC-59</td>
+        <td>Mostrar tiempo y distancia del recorrido</td>
+    </tr>
+        <tr>
+        <td>UC-60</td>
+        <td>Mostrar transbordos</td>
+    </tr>
+        <tr>
+        <td>UC-61</td>
+        <td>Mostrar tarifa por etapas</td>
+    </tr>
+        <tr>
+        <td>UC-62</td>
         <td>Mostrar esquema del recorrido</td>
     </tr>
-    <tr>
-        <td>UC-49</td>
+        <tr>
+        <td>UC-63</td>
         <td>Imprimir esquema</td>
     </tr>
+        <tr>
+        <td>UC-64</td>
+        <td>Seleccionar fechas y horas de salida y llegada</td>
+    </tr>
+        <tr>
+        <td>UC-65</td>
+        <td>Ordenar búsqueda por</td>
+    </tr>
+        <tr>
+        <td>UC-66</td>
+        <td>Ordenar búsqueda por menor coste</td>
+    </tr>
+        <tr>
+        <td>UC-67</td>
+        <td>Ordenar búsqueda por menor tiempo</td>
+    </tr>
+        <tr>
+        <td>UC-68</td>
+        <td>Ordenar búsqueda por menos transbordos</td>
+    </tr>
+        <tr>
+        <td>UC-69</td>
+        <td>Seleccionar origen/destino</td>
+    </tr>
+        <tr>
+        <td>UC-70</td>
+        <td>Adquirir bono</td>
+    </tr>
+        <tr>
+        <td>UC-71</td>
+        <td>Renovar título</td>
+    </tr>
+        <tr>
+        <td>UC-72</td>
+        <td>Ver histórico de itinerarios</td>
+    </tr>
+        <tr>
+        <td>UC-73</td>
+        <td>Iniciar sesión</td>
+    </tr>
+        <tr>
+        <td>UC-74</td>
+        <td>Registrarse</td>
+    </tr>
+        <tr>
+        <td>UC-75</td>
+        <td>Recargar saldo</td>
+    </tr>
+        <tr>
+        <td>UC-76</td>
+        <td>Adquirir título</td>
+
 </table>
 
 <br>
@@ -5233,7 +5226,7 @@
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
-        Información corporativa</td>
+        Contactar</td>
     </tr>
     <tr>
         <td><b>Autor:</b><br>
@@ -5245,7 +5238,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Da la opción de contactar con el servicio de atención al cliente</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
@@ -5286,7 +5279,7 @@
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
-        Horarios y servicios</td>
+        Ver noticias</td>
     </tr>
     <tr>
         <td><b>Autor:</b><br>
@@ -5298,7 +5291,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Otorga la posibilidad de ver las noticias relacionadas con el transporte y los eventos en Gran Canaria</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
@@ -5339,7 +5332,7 @@
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
-        Blog</td>
+        Cambiar idioma</td>
     </tr>
     <tr>
         <td><b>Autor:</b><br>
@@ -5351,7 +5344,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Permite cambiar el idioma en el que se visualiza la página</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
@@ -5392,7 +5385,7 @@
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
-        Foro</td>
+        Realizar búsqueda</td>
     </tr>
     <tr>
         <td><b>Autor:</b><br>
@@ -5404,7 +5397,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Permite la localización de cualquier contenido mediante la introducción de términos clave</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
@@ -5445,7 +5438,7 @@
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
-        Cloud tag</td>
+        Acceder a cloud tag</td>
     </tr>
     <tr>
         <td><b>Autor:</b><br>
@@ -5457,7 +5450,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Dispone el acceso a una nube donde de forma grafica a través de etiquetas se puede acceder a las funcionalidades de la pagina</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
@@ -5498,7 +5491,7 @@
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
-        Buscador</td>
+        Ver foro</td>
     </tr>
     <tr>
         <td><b>Autor:</b><br>
@@ -5510,7 +5503,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Redirige al usuario al foro donde podrá opinar a cerca de distintos temas relacionados con el transporte en Gran Canaria </td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
@@ -5551,7 +5544,7 @@
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
-        Cambiar idioma</td>
+        Ver blog</td>
     </tr>
     <tr>
         <td><b>Autor:</b><br>
@@ -5563,7 +5556,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Ofrece la posibilidad de acceder al blog de la página</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
@@ -5604,7 +5597,7 @@
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
-        Noticias</td>
+        Ver horarios y servicios</td>
     </tr>
     <tr>
         <td><b>Autor:</b><br>
@@ -5616,7 +5609,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Ofrece una vista de los horarios y servicios disponibles </td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
@@ -5657,7 +5650,7 @@
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
-        Contacto</td>
+        Ver información corporativa</td>
     </tr>
     <tr>
         <td><b>Autor:</b><br>
@@ -5669,7 +5662,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Da acceso a una vista con la información corporativa</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
@@ -5710,7 +5703,7 @@
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
-        Lugares</td>
+        Ver publicidad</td>
     </tr>
     <tr>
         <td><b>Autor:</b><br>
@@ -5722,7 +5715,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Permite ver la publicidad que aparece en el portal de la página</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
@@ -5763,7 +5756,7 @@
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
-        Eventos</td>
+        Ver títulos y tarifas del transporte</td>
     </tr>
     <tr>
         <td><b>Autor:</b><br>
@@ -5775,7 +5768,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Dispone de una vista con los títulos y tarifas del transporte</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
@@ -5816,7 +5809,7 @@
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
-        Monumentos</td>
+        Ver itinerarios destacados</td>
     </tr>
     <tr>
         <td><b>Autor:</b><br>
@@ -5828,7 +5821,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Dispone de una vista donde se pueden ver los itinerarios destacados</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
@@ -5869,7 +5862,7 @@
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
-        Sitios turísticos</td>
+        Ver avisos</td>
     </tr>
     <tr>
         <td><b>Autor:</b><br>
@@ -5881,7 +5874,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Da la posibilidad de ver los avisos que emite la página</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
@@ -5922,7 +5915,7 @@
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
-        Avisos</td>
+        Ver lugares</td>
     </tr>
     <tr>
         <td><b>Autor:</b><br>
@@ -5934,7 +5927,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Otorga la posibilidad de ver lugares desde el portal</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
@@ -5975,7 +5968,7 @@
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
-        Itinerarios destacados</td>
+        Ver eventos</td>
     </tr>
     <tr>
         <td><b>Autor:</b><br>
@@ -5987,7 +5980,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Ofrece una vista de los eventos públicos </td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
@@ -6028,7 +6021,7 @@
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
-        Títulos y tarifas del transporte</td>
+        Ver monumentos</td>
     </tr>
     <tr>
         <td><b>Autor:</b><br>
@@ -6040,7 +6033,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Permite ver los monumentos de la isla de Gran Canaria</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
@@ -6081,7 +6074,7 @@
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
-        Publicidad</td>
+        Ver sitios turísticos</td>
     </tr>
     <tr>
         <td><b>Autor:</b><br>
@@ -6093,7 +6086,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Ofrece un listado de los sitios turísticos</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
