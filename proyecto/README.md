@@ -2743,14 +2743,14 @@
     </tr>
     <tr>
         <td><b>Datos específicos:</b></td>
-        <td>- Identificador de usuario
-        - Número del documento nacional de identidad
-        - Nombre y apellidos
-        - Fecha de nacimiento
-        - Sexo
-        - Fecha de alta como usuario
-        - Dirección
-        - Teléfono
+        <td>- Identificador de usuario<br>
+        - Número del documento nacional de identidad<br>
+        - Nombre y apellidos<br>
+        - Fecha de nacimiento<br>
+        - Sexo<br>
+        - Fecha de alta como usuario<br>
+        - Dirección<br>
+        - Teléfono<br>
         - Correo electrónico</td>
     </tr>
     <tr>
@@ -2796,14 +2796,14 @@
     </tr>
     <tr>
         <td><b>Datos específicos:</b></td>
-        <td>- Identificador de gestor
-        - Número del documento nacional de identidad
-        - Nombre y apellidos
-        - Fecha de nacimiento
-        - Sexo
-        - Fecha de alta como gestor
-        - Dirección
-        - Teléfono
+        <td>- Identificador de gestor<br>
+        - Número del documento nacional de identidad<br>
+        - Nombre y apellidos<br>
+        - Fecha de nacimiento<br>
+        - Sexo<br>
+        - Fecha de alta como gestor<br>
+        - Dirección<br>
+        - Teléfono<br>
         - Correo electrónico</td>
     </tr>
     <tr>
@@ -2850,7 +2850,7 @@
     <tr>
         <td><b>Datos específicos:</b></td>
         <td>- Identificador de imagen<br>
-        - Titulo identificativo de imagen<br>
+        - Título identificativo de imagen<br>
         - Url de imagen</td>
     </tr>
     <tr>
@@ -3134,7 +3134,7 @@
     </tr>
     <tr>
         <td><b>Datos específicos:</b></td>
-        <td>- Idioma de la página de contacto (español, inglés, alemán, francés o italiano)<br>
+        <td>- Idioma de la página de información corporativa (español, inglés, alemán, francés o italiano)<br>
         - Cuerpo de la página<br>
         - Texto adicional nº 1<br>
         - Texto adicional nº 2<br>
