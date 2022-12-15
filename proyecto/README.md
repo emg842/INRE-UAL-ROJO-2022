@@ -1456,11 +1456,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-01, ACT-02 </td>
+        <td>UC-38</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1501,11 +1497,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-01, ACT-02 </td>
+        <td>UC-43, UC-44, UC-45, UC-46, UC-47 </td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1538,10 +1530,6 @@
         <td>Seleccionar origen-destino</td>
     </tr>
     <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-01, ACT-02 </td>
-    </tr>
-    <tr>
         <td><b>Versión:</b></td>
         <td>1.0 (Diciembre-2022)</td>
     </tr>
@@ -1556,10 +1544,6 @@
     <tr>
         <td><b>Referencias:</b></td>
         <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-01, ACT-02 </td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1603,10 +1587,6 @@
         <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
     </tr>
     <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-01, ACT-02 </td>
-    </tr>
-    <tr>
         <td><b>Descripción:</b></td>
         <td>Muestra la tarifa del itinerario en cuestión</td>
     </tr>
@@ -1648,10 +1628,6 @@
         <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
     </tr>
     <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-01, ACT-02 </td>
-    </tr>
-    <tr>
         <td><b>Descripción:</b></td>
         <td>Muestra un esquema del recorrido correspondiente al itinerario en cuestión</td>
     </tr>
@@ -1691,10 +1667,6 @@
     <tr>
         <td><b>Referencias:</b></td>
         <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-01, ACT-02 </td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
