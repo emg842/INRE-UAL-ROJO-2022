@@ -3815,7 +3815,7 @@
         - Número de accesos a la página</td>
     </tr>
     <tr>
-        <td><b>Importancia:</b></td>
+        <td><b>Importancia:</b></td> 
         <td>Muy elevada</td>
     </tr>
     <tr>
