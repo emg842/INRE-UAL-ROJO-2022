@@ -1028,6 +1028,406 @@
 </table>
 <br>
 
+<table align = "center">
+    <tr>
+        <td><b>FR-18:</b></td>
+        <td>Agregar datos</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se podrán agregar datos e información nueva a la página web</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-19:</b></td>
+        <td>Crear nuevas páginas</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se podrán crear nuevas páginas en la web</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-20:</b></td>
+        <td>Visualizar páginas nuevas</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se podrán visualizar las nuevas páginas que se han creado antes de añadirlas a la web</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-21:</b></td>
+        <td>Modificar datos</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se podrán modificar datos ya existentes en la página web</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-22:</b></td>
+        <td>Gestionar publicidad</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se podrá gestionar la publicidad que se muestra en la web</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-23:</b></td>
+        <td>Ver estadísticas de acceso</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se podrán visualizar las estadísticas de acceso a la web</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-24:</b></td>
+        <td>Eliminar páginas</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se podrán eliminar páginas de la web</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-25:</b></td>
+        <td>Añadir listado de horarios y servicios</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se podrán añadir nuevos listados de horarios y servicios a la web</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-26:</b></td>
+        <td>Gestionar idiomas</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se podrán gestionar los distintos idiomas que va a soportar la web</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-27:</b></td>
+        <td>Modificar diseño común</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se podrá modificar el diseño común de la página web</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+<br>
+
 ### <a name="requisitosfuncionalesdelsistemadeinformacion"></a> Requisitos funcionales del Sistema de información
 
 <br>
