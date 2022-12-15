@@ -5788,27 +5788,27 @@
     </tr>
     <tr>
         <td>UC-01</td>
-        <td>Información Corporativa</td>
+        <td>Ver información corporativa</td>
     </tr>
     <tr>
         <td>UC-02</td>
-        <td>Horarios y servicios</td>
+        <td>Ver horarios y servicios</td>
     </tr>
     <tr>
         <td>UC-03</td>
-        <td>Blog</td>
+        <td>Ver blog</td>
     </tr>
     <tr>
         <td>UC-04</td>
-        <td>Foro</td>
+        <td>Ver foro</td>
     </tr>
     <tr>
         <td>UC-05</td>
-        <td>Cloud tag</td>
+        <td>Ver cloud tag</td>
     </tr>
     <tr>
         <td>UC-06</td>
-        <td>Buscador</td>
+        <td>Ver buscador</td>
     </tr>
     <tr>
         <td>UC-07</td>
@@ -5816,43 +5816,43 @@
     </tr>
     <tr>
         <td>UC-08</td>
-        <td>Noticias</td>
+        <td>Ver noticias</td>
     </tr>
     <tr>
         <td>UC-09</td>
-        <td>Contacto</td>
+        <td>Contactar</td>
     </tr>
     <tr>
         <td>UC-10</td>
-        <td>Lugares</td>
+        <td>Ver lugares</td>
     </tr>
     <tr>
         <td>UC-11</td>
-        <td>Eventos</td>
+        <td>Ver eventos</td>
     </tr>
     <tr>
         <td>UC-12</td>
-        <td>Monumentos</td>
+        <td>Ver monumentos</td>
     </tr>
     <tr>
         <td>UC-13</td>
-        <td>Sitios Turísticos</td>
+        <td>Ver sitios Turísticos</td>
     </tr>
     <tr>
         <td>UC-14</td>
-        <td>Avisos</td>
+        <td>Ver avisos</td>
     </tr>
     <tr>
         <td>UC-15</td>
-        <td>Itinerarios destacados</td>
+        <td>Ver itinerarios destacados</td>
     </tr>
     <tr>
         <td>UC-16</td>
-        <td>Títulos y tarifas del transporte</td>
+        <td>Ver títulos y tarifas del transporte</td>
     </tr>
     <tr>
         <td>UC-17</td>
-        <td>Publicidad</td>
+        <td>Ver publicidad</td>
     </tr>
     <tr>
         <td>UC-18</td>
