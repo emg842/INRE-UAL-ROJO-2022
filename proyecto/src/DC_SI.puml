@@ -175,7 +175,7 @@ class ParadaEstacionLinea {
     PK FK idParadaEstacion : Integer
     funcion : Enum {'origen', 'destino', 'pasoPorParada'}
     numParada : Integer
-    horaPasoOriginal : Datetime
+    horaPaso : Datetime
 }
 
 class Portal {
