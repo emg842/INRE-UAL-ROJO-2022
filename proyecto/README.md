@@ -129,12 +129,17 @@
         <td>1.0</td>
         <td>Subida de los modelos de procesos de negocio</td>
         <td>Daniel López García</td>
-    </tr>
-        <tr>
+    <tr>
         <td>15/12/2022</td>
         <td>1.0</td>
         <td>Listado de Casos de uso</td>
         <td>Miguel Ángel Moncada Álvarez</td>
+    </tr>
+    <tr>
+        <td>15/12/2022</td>
+        <td>1.0</td>
+        <td>Subida de los requisitos de información</td>
+        <td>Joaquín Murcia Escánez</td>
     </tr>
 </table>
 
@@ -4348,14 +4353,15 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+        <td>El sistema deberá almacenar la información correspondiente a los avisos del mismo. En concreto:</td>
     </tr>
     <tr>
         <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
+        <td>- Identificador de aviso<br>
+        - Identificador de gestor<br>
+        - Motivo del aviso<br>
+        - Cuerpo del aviso<br>
+        - Tipo de aviso (Acústico, visual, SMS o correo)</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -4396,14 +4402,12 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+        <td>El sistema deberá almacenar la información correspondiente a los avisos generados por una condición creada por un gestor del mismo. En concreto:</td>
     </tr>
     <tr>
         <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
+        <td>- Identificador de aviso<br>
+        - Identificador de condición</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -4444,14 +4448,14 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+        <td>El sistema deberá almacenar la información correspondiente a las condiciones creadas por gestores del mismo para la generación de avisos. En concreto:</td>
     </tr>
     <tr>
         <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
+        <td>- Identificador de condición<br>
+        - Identificador de gestor<br>
+        - Descripción de la condición<br>
+        - Controlador de la activación de la condición (si se quiere tener en cuenta o ser ignorada)</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -4492,14 +4496,12 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+        <td>El sistema deberá almacenar la información correspondiente a las variables asociadas a la activación de condiciones creadas por gestores del mismo para la generación de avisos. En concreto:</td>
     </tr>
     <tr>
         <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
+        <td>- Identificador de condición<br>
+        - Identificador de variable</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -4540,14 +4542,19 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+        <td>El sistema deberá almacenar la información correspondiente a los gestores del mismo. En concreto:</td>
     </tr>
     <tr>
         <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
+        <td>- Identificador de gestor<br>
+        - Número del documento nacional de identidad<br>
+        - Nombre y apellidos<br>
+        - Fecha de nacimiento<br>
+        - Sexo<br>
+        - Fecha de alta como gestor<br>
+        - Dirección<br>
+        - Teléfono<br>
+        - Correo electrónico</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -4588,14 +4595,14 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+        <td>El sistema deberá almacenar la información correspondiente a las variables creadas por gestores del mismo para la activación de condiciones generadoras de avisos. En concreto:</td>
     </tr>
     <tr>
         <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
+        <td>- Identificador de variable<br>
+        - Identificador de gestor<br>
+        - Descripción de la variable<br>
+        - Controlador de la activación de la variable (si se quiere tener en cuenta o ser ignorada)</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -4636,14 +4643,16 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+        <td>El sistema deberá almacenar la información correspondiente a las calles de interés para el mismo. En concreto:</td>
     </tr>
     <tr>
         <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
+        <td>- Identificador de calle<br>
+        - Identificador de lugar<br>
+        - Nombre de la calle<br>
+        - Tipo de calle (calle, carretera, avenida, plaza, camino o paseo)<br>
+        - Número de visitas<br>
+        - Información adicional</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -4684,14 +4693,15 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+        <td>El sistema deberá almacenar la información correspondiente a las coordenadas geográficas de interés para el mismo. En concreto:</td>
     </tr>
     <tr>
         <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
+        <td>- Latitud<br>
+        - Longitud<br>
+        - Altura<br>
+        - Identificador de calle<br>
+        - Identificador de lugar</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -4732,14 +4742,16 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+        <td>El sistema deberá almacenar la información correspondiente a los eventos culturales de interés para el mismo. En concreto:</td>
     </tr>
     <tr>
         <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
+        <td>- Identificador de evento cultural<br>
+        - Identificador de lugar<br>
+        - Nombre del evento cultural<br>
+        - Descripción del evento cultural<br>
+        - Fecha y hora de celebración del evento cultural<br>
+        - Información adicional</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -4780,14 +4792,17 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+        <td>El sistema deberá almacenar la información correspondiente a los portales de interés para el mismo. En concreto:</td>
     </tr>
     <tr>
         <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
+        <td>- Número de portal<br>
+        - Identificador de calle<br>
+        - Latitud<br>
+        - Longitud<br>
+        - Altura<br>
+        - Nombre identificativo de portal<br>
+        - Número de visitas</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -4828,14 +4843,19 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+        <td>El sistema deberá almacenar la información correspondiente a los eventos/incidencias definidos por gestores del mismo. En concreto:</td>
     </tr>
     <tr>
         <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
+        <td>- Identificador de evento/incidencia<br>
+        - Latitud<br>
+        - Longitud<br>
+        - Altura<br>
+        - Identificador de gestor<br>
+        - Cabecera del evento/incidencia<br>
+        - Descripción del evento/incidencia<br>
+        - Fecha y hora de suceso del evento/incidencia<br>
+        - Información adicional</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -4876,14 +4896,16 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+        <td>El sistema deberá almacenar la información correspondiente a los lugares de interés para el mismo. En concreto:</td>
     </tr>
     <tr>
         <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
+        <td>- Identificador de lugar<br>
+        - Identificador de lugar contenedor<br>
+        - Nombre del lugar<br>
+        - Tipo de lugar (zona, barrio o municipio)<br>
+        - Número de visitas<br>
+        - Información adicional</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -4924,14 +4946,15 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+        <td>El sistema deberá almacenar la información correspondiente a las líneas de interés para el mismo. En concreto:</td>
     </tr>
     <tr>
         <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
+        <td>- Identificador de línea<br>
+        - Nombre identificativo de línea<br>
+        - Descripción de la línea<br>
+        - Número de visitas<br>
+        - Información adicional</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -4972,14 +4995,15 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+        <td>El sistema deberá almacenar la información correspondiente a las paradas/estaciones de las líneas de interés para el mismo. En concreto:</td>
     </tr>
     <tr>
         <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
+        <td>- Identificador de línea<br>
+        - Identificador de parada/estación<br>
+        - Función de la parada/estación (origen, destino o paso por parada)<br>
+        - Número de parada<br>
+        - Hora de paso por parada/estación</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -5020,14 +5044,18 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+        <td>El sistema deberá almacenar la información correspondiente a las imágenes del mismo. En concreto:</td>
     </tr>
     <tr>
         <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
+        <td>- Identificador de imagen<br>
+        - Identificador de parada/estación<br>
+        - Identificador de sitio de interés turístico<br>
+        - Identificador de evento cultural<br>
+        - Identificador de situación<br>
+        - Identificador de evento/incidencia<br>
+        - Título identificativo de imagen<br>
+        - Url de imagen</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -5068,14 +5096,19 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+        <td>El sistema deberá almacenar la información correspondiente a los servicios ofrecidos por los operadores del mismo. En concreto:</td>
     </tr>
     <tr>
         <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
+        <td>- Identificador de servicio<br>
+        - Cabecera identificativa de servicio<br>
+        - Descripción del servicio<br>
+        - Fecha y hora inicial del servicio<br>
+        - Fecha y hora inicial real del servicio<br>
+        - Fecha y hora final del servicio<br>
+        - Fecha y hora final real del servicio<br>
+        - Controlador de la cancelación del servicio<br>
+        - Información adicional</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -5116,14 +5149,16 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+        <td>El sistema deberá almacenar la información correspondiente a los operadores del mismo. En concreto:</td>
     </tr>
     <tr>
         <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
+        <td>- Matrícula del operador<br>
+        - Medio de transporte (guagua urbana, guagua interurbana, coche/taxi, embarcación pesada o avión)<br>
+        - Capacidad del operador<br>
+        - Ocupación del operador<br>
+        - Controlador de la disponibilidad del operador<br>
+        - Información adicional</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -5164,14 +5199,20 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+        <td>El sistema deberá almacenar la información correspondiente a las etapas de interés para el mismo. En concreto:</td>
     </tr>
     <tr>
         <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
+        <td>- Identificador de etapa<br>
+        - Lugar de origen de la etapa<br>
+        - Lugar de destino de la etapa<br>
+        - Distancia (en km) de la etapa<br>
+        - Coste de la etapa<br>
+        - Fecha y hora de salida del lugar de origen de la etapa<br>
+        - Fecha y hora de llegada al lugar de destino de la etapa<br>
+        - Medio de transporte en que se realiza la etapa (guagua urbana, guagua interurbana, coche/taxi, embarcación pesada o avión)<br>
+        - Número de visitas<br>
+        - Información adicional</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -5212,14 +5253,17 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+        <td>El sistema deberá almacenar la información correspondiente a las paradas/estaciones de interés para el mismo. En concreto:</td>
     </tr>
     <tr>
         <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
+        <td>- Identificador de parada/estación<br>
+        - Identificador de calle<br>
+        - Nombre de la parada/estación<br>
+        - Tipo (parada o estación)<br>
+        - Controlador de la disponibilidad de la parada/estación<br>
+        - Número de visitas<br>
+        - Información adicional</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -5260,14 +5304,16 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+        <td>El sistema deberá almacenar la información correspondiente a los sitios de interés turístico de utilidad para el mismo. En concreto:</td>
     </tr>
     <tr>
         <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
+        <td>- Identificador de sitio de interés turístico<br>
+        - Identificador de lugar<br>
+        - Nombre del sitio de interés turístico<br>
+        - Tipo de sitio de interés turístico (plaza, parque nacional, duna, parque, playa o monumento)<br>
+        - Descripción del sitio de interés turístico<br>
+        - Información adicional</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -5308,14 +5354,18 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+        <td>El sistema deberá almacenar la información correspondiente a las diferentes situaciones obstáculo dadas durante los servicios ofrecidos por los operadores del mismo. En concreto:</td>
     </tr>
     <tr>
         <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
+        <td>- Identificador de situación<br>
+        - Identificador de servicio<br>
+        - Cabecera identificativa de situación<br>
+        - Descripción de la situación<br>
+        - Resolución esporádica llevada a cabo<br>
+        - Fecha y hora en que se ha producido la situación<br>
+        - Fecha y hora en que se ha actualizado por última vez el estado de la situación<br>
+        - Información adicional</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -5356,14 +5406,12 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+        <td>El sistema deberá almacenar la información correspondiente a la asociación entre los servicios ofrecidos por los operadores y los propios operadores del mismo. En concreto:</td>
     </tr>
     <tr>
         <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
+        <td>- Identificador de servicio<br>
+        - Matrícula del operador</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -5404,14 +5452,12 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+        <td>El sistema deberá almacenar la información correspondiente a la asociación entre los itinerarios de interés para el mismo y las etapas que lo componen. En concreto:</td>
     </tr>
     <tr>
         <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
+        <td>- Identificador de etapa<br>
+        - Identificador de itinerario</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -5452,14 +5498,13 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+        <td>El sistema deberá almacenar la información correspondiente a la asociación entre las etapas de interés para el mismo y las paradas/estaciones de origen y destino de dicha etapa. En concreto:</td>
     </tr>
     <tr>
         <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
+        <td>- Identificador de parada/estación<br>
+        - Identificador de etapa<br>
+        - Función de la parada/estación (origen o destino)</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -5500,14 +5545,20 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+        <td>El sistema deberá almacenar la información correspondiente a los itinerarios de interés para el mismo. En concreto:</td>
     </tr>
     <tr>
         <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
+        <td>- Identificador de itinerario<br>
+        - Lugar de origen del itinerario<br>
+        - Lugar de destino del itinerario<br>
+        - Distancia (en km) del itinerario<br>
+        - Coste del itinerario<br>
+        - Fecha y hora de salida del lugar de origen del itinerario<br>
+        - Fecha y hora de llegada al lugar de destino del itinerario<br>
+        - Número de transbordos<br>
+        - Número de reservas<br>
+        - Información adicional</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -5548,14 +5599,14 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+        <td>El sistema deberá almacenar la información correspondiente a las reservas de itinerarios efectuadas por los usuarios del mismo. En concreto:</td>
     </tr>
     <tr>
         <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
+        <td>- Identificador de reserva<br>
+        - Identificador de usuario<br>
+        - Identificador de itinerario<br>
+        - Descripción de la reserva</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -5596,14 +5647,16 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+        <td>El sistema deberá almacenar la información correspondiente a los bonos adquiridos por los usuarios del mismo. En concreto:</td>
     </tr>
     <tr>
         <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
+        <td>- Identificador de bono<br>
+        - Identificador de usuario<br>
+        - Nombre identificativo de bono<br>
+        - Descripción del bono<br>
+        - Coste del bono<br>
+        - Información adicional</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -5644,14 +5697,17 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+        <td>El sistema deberá almacenar la información correspondiente a los títulos de transporte adquiridos por los usuarios del mismo. En concreto:</td>
     </tr>
     <tr>
         <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
+        <td>- Código del título de transporte<br>
+        - Identificador de usuario<br>
+        - Categoría del título de transporte (básica, avanzada o premium)<br>
+        - Fecha de expedición del título de transporte<br>
+        - Fecha de caducidad del título de transporte<br>
+        - Saldo disponible en el título de transporte<br>
+        - Coste de recarga del título de transporte</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -5692,14 +5748,19 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+        <td>El sistema deberá almacenar la información correspondiente a los usuarios del mismo. En concreto:</td>
     </tr>
     <tr>
         <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
+        <td>- Identificador de usuario<br>
+        - Número del documento nacional de identidad<br>
+        - Nombre y apellidos<br>
+        - Fecha de nacimiento<br>
+        - Sexo<br>
+        - Fecha de alta como usuario<br>
+        - Dirección<br>
+        - Teléfono<br>
+        - Correo electrónico</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -5788,27 +5849,27 @@
     </tr>
     <tr>
         <td>UC-01</td>
-        <td>Información Corporativa</td>
+        <td>Ver información corporativa</td>
     </tr>
     <tr>
         <td>UC-02</td>
-        <td>Horarios y servicios</td>
+        <td>Ver horarios y servicios</td>
     </tr>
     <tr>
         <td>UC-03</td>
-        <td>Blog</td>
+        <td>Ver blog</td>
     </tr>
     <tr>
         <td>UC-04</td>
-        <td>Foro</td>
+        <td>Ver foro</td>
     </tr>
     <tr>
         <td>UC-05</td>
-        <td>Cloud tag</td>
+        <td>Ver cloud tag</td>
     </tr>
     <tr>
         <td>UC-06</td>
-        <td>Buscador</td>
+        <td>Ver buscador</td>
     </tr>
     <tr>
         <td>UC-07</td>
@@ -5816,43 +5877,43 @@
     </tr>
     <tr>
         <td>UC-08</td>
-        <td>Noticias</td>
+        <td>Ver noticias</td>
     </tr>
     <tr>
         <td>UC-09</td>
-        <td>Contacto</td>
+        <td>Contactar</td>
     </tr>
     <tr>
         <td>UC-10</td>
-        <td>Lugares</td>
+        <td>Ver lugares</td>
     </tr>
     <tr>
         <td>UC-11</td>
-        <td>Eventos</td>
+        <td>Ver eventos</td>
     </tr>
     <tr>
         <td>UC-12</td>
-        <td>Monumentos</td>
+        <td>Ver monumentos</td>
     </tr>
     <tr>
         <td>UC-13</td>
-        <td>Sitios Turísticos</td>
+        <td>Ver sitios Turísticos</td>
     </tr>
     <tr>
         <td>UC-14</td>
-        <td>Avisos</td>
+        <td>Ver avisos</td>
     </tr>
     <tr>
         <td>UC-15</td>
-        <td>Itinerarios destacados</td>
+        <td>Ver itinerarios destacados</td>
     </tr>
     <tr>
         <td>UC-16</td>
-        <td>Títulos y tarifas del transporte</td>
+        <td>Ver títulos y tarifas del transporte</td>
     </tr>
     <tr>
         <td>UC-17</td>
-        <td>Publicidad</td>
+        <td>Ver publicidad</td>
     </tr>
     <tr>
         <td>UC-18</td>
