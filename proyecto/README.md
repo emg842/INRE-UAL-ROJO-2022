@@ -2733,6 +2733,1013 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a los usuarios del mismo. En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Identificador de usuario
+        - Número del documento nacional de identidad
+        - Nombre y apellidos
+        - Fecha de nacimiento
+        - Sexo
+        - Fecha de alta como usuario
+        - Dirección
+        - Teléfono
+        - Correo electrónico</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-02:</b></td>
+        <td>Gestor</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Joaquín Murcia Escánez</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a los gestores del mismo. En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Identificador de gestor
+        - Número del documento nacional de identidad
+        - Nombre y apellidos
+        - Fecha de nacimiento
+        - Sexo
+        - Fecha de alta como gestor
+        - Dirección
+        - Teléfono
+        - Correo electrónico</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-03:</b></td>
+        <td>Imagen</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Joaquín Murcia Escánez</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a las imágenes del mismo. En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Identificador de imagen<br>
+        - Titulo identificativo de imagen<br>
+        - Url de imagen</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-04:</b></td>
+        <td>ImagenAvisoInformativo</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Joaquín Murcia Escánez</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a las imágenes relacionadas con los avisos informativos del mismo. En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Identificador de imagen<br>
+        - Identificador de aviso<br>
+        - Idioma del aviso (español, inglés, alemán, francés o italiano)</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-05:</b></td>
+        <td>AvisoInformativo</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Joaquín Murcia Escánez</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a los avisos informativos del mismo. En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Identificador de aviso<br>
+        - Idioma del aviso (español, inglés, alemán, francés o italiano)<br>
+        - Cabecera del aviso<br>
+        - Cuerpo del aviso<br>
+        - Texto adicional nº 1<br>
+        - Texto adicional nº 2</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-06:</b></td>
+        <td>ImagenInfoContacto</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Joaquín Murcia Escánez</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a las imágenes relacionadas con la página de contacto del mismo. En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Identificador de imagen<br>
+        - Idioma de la página de contacto (español, inglés, alemán, francés o italiano)</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-07:</b></td>
+        <td>InfoContacto</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Joaquín Murcia Escánez</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a la página de contacto del mismo. En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Idioma de la página de contacto (español, inglés, alemán, francés o italiano)<br>
+        - Cuerpo de la página<br>
+        - Texto adicional nº 1<br>
+        - Texto adicional nº 2<br>
+        - Número de accesos a la página</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-08:</b></td>
+        <td>ImagenInfoCorporativa</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Joaquín Murcia Escánez</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a las imágenes relacionadas con la página de información corporativa del mismo. En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Identificador de imagen<br>
+        - Idioma de la página de información corporativa (español, inglés, alemán, francés o italiano)</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-09:</b></td>
+        <td>InfoCorporativa</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Joaquín Murcia Escánez</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a la página de información corporativa del mismo. En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Idioma de la página de contacto (español, inglés, alemán, francés o italiano)<br>
+        - Cuerpo de la página<br>
+        - Texto adicional nº 1<br>
+        - Texto adicional nº 2<br>
+        - Número de accesos a la página</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-10:</b></td>
+        <td>ImagenInfoHorariosServicios</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Joaquín Murcia Escánez</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a las imágenes relacionadas con la página de horarios y servicios del mismo. En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Identificador de imagen<br>
+        - Idioma de la página de horarios y servicios (español, inglés, alemán, francés o italiano)</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-11:</b></td>
+        <td>InfoHorariosServicios</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Joaquín Murcia Escánez</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a la página de horarios y servicios del mismo. En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Idioma de la página de horarios y servicios (español, inglés, alemán, francés o italiano)<br>
+        - Cuerpo de la página<br>
+        - Texto adicional nº 1<br>
+        - Texto adicional nº 2<br>
+        - Número de accesos a la página</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-12:</b></td>
+        <td>ImagenInfoItinerariosDestacados</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Joaquín Murcia Escánez</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+      <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a las imágenes relacionadas con la página de itinerarios destacados del mismo. En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Identificador de imagen<br>
+        - Idioma de la página de itinerarios destacados (español, inglés, alemán, francés o italiano)</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-13:</b></td>
+        <td>InfoItinerariosDestacados</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Joaquín Murcia Escánez</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a la página de itinerarios destacados del mismo. En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Idioma de la página de itinerarios destacados (español, inglés, alemán, francés o italiano)<br>
+        - Cuerpo de la página<br>
+        - Texto adicional nº 1<br>
+        - Texto adicional nº 2<br>
+        - Número de accesos a la página</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-14:</b></td>
+        <td>ImagenInfoLugares</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Joaquín Murcia Escánez</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a las imágenes relacionadas con la página de lugares del mismo. En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Identificador de imagen<br>
+        - Idioma de la página de lugares (español, inglés, alemán, francés o italiano)</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-15:</b></td>
+        <td>InfoLugares</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Joaquín Murcia Escánez</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a la página de lugares del mismo. En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Idioma de la página de lugares (español, inglés, alemán, francés o italiano)<br>
+        - Cuerpo de la página<br>
+        - Texto adicional nº 1<br>
+        - Texto adicional nº 2<br>
+        - Número de accesos a la página</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-16:</b></td>
+        <td>ImagenInfoNoticias</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Joaquín Murcia Escánez</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a las imágenes relacionadas con la página de noticias del mismo. En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Identificador de imagen<br>
+        - Idioma de la página de noticias (español, inglés, alemán, francés o italiano)</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-17:</b></td>
+        <td>InfoNoticias</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Joaquín Murcia Escánez</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a la página de noticias del mismo. En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Idioma de la página de noticias (español, inglés, alemán, francés o italiano)<br>
+        - Cuerpo de la página<br>
+        - Texto adicional nº 1<br>
+        - Texto adicional nº 2<br>
+        - Número de accesos a la página</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-18:</b></td>
+        <td>ImagenInfoTitulosTarifas</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Joaquín Murcia Escánez</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a las imágenes relacionadas con la página de títulos y tarifas del mismo. En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Identificador de imagen<br>
+        - Idioma de la página de títulos y tarifas (español, inglés, alemán, francés o italiano)</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-19:</b></td>
+        <td>InfoTitulosTarifas</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Joaquín Murcia Escánez</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a la página de títulos y tarifas del mismo. En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Idioma de la página de títulos y tarifas (español, inglés, alemán, francés o italiano)<br>
+        - Cuerpo de la página<br>
+        - Texto adicional nº 1<br>
+        - Texto adicional nº 2<br>
+        - Número de accesos a la página</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-20:</b></td>
+        <td>ImagenPublicidad</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Joaquín Murcia Escánez</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+     <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a las imágenes relacionadas con la publicidad del mismo. En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Identificador de imagen<br>
+        - Identificador de publicidad<br>
+        - Idioma de la publicidad (español, inglés, alemán, francés o italiano)</td>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-21:</b></td>
+        <td>Publicidad</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Joaquín Murcia Escánez</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a la publicidad del mismo. En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Identificador de publicidad<br>
+        - Idioma de la publicidad (español, inglés, alemán, francés o italiano)<br>
+        - Cuerpo del aviso<br>
+        - Texto adicional nº 1<br>
+        - Texto adicional nº 2<br>
+        - Fecha de expiración de la publicidad</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+### <a name="requisitosdeinformaciondelsistemadeinformacion"></a> Requisitos de información del Sistema de información
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-01:</b></td>
+        <td>Aviso</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Joaquín Murcia Escánez</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
         <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
     </tr>
     <tr>
@@ -2761,7 +3768,7 @@
 <table align = "center">
     <tr>
         <td><b>IR-02:</b></td>
-        <td>Gestor</td>
+        <td>AvisoCondicion</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2809,7 +3816,7 @@
 <table align = "center">
     <tr>
         <td><b>IR-03:</b></td>
-        <td>Imagen</td>
+        <td>Condicion</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2857,7 +3864,7 @@
 <table align = "center">
     <tr>
         <td><b>IR-04:</b></td>
-        <td>ImagenAvisoInformativo</td>
+        <td>CondicionVariable</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2905,7 +3912,7 @@
 <table align = "center">
     <tr>
         <td><b>IR-05:</b></td>
-        <td>AvisoInformativo</td>
+        <td>Gestor</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2953,7 +3960,7 @@
 <table align = "center">
     <tr>
         <td><b>IR-06:</b></td>
-        <td>ImagenInfoContacto</td>
+        <td>Variable</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3001,7 +4008,7 @@
 <table align = "center">
     <tr>
         <td><b>IR-07:</b></td>
-        <td>InfoContacto</td>
+        <td>Calle</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3049,7 +4056,7 @@
 <table align = "center">
     <tr>
         <td><b>IR-08:</b></td>
-        <td>ImagenInfoCorporativa</td>
+        <td>CoordenadasGeograficas</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3097,7 +4104,7 @@
 <table align = "center">
     <tr>
         <td><b>IR-09:</b></td>
-        <td>InfoCorporativa</td>
+        <td>EventoCultural</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3145,7 +4152,7 @@
 <table align = "center">
     <tr>
         <td><b>IR-10:</b></td>
-        <td>ImagenInfoHorariosServicios</td>
+        <td>Portal</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3193,7 +4200,7 @@
 <table align = "center">
     <tr>
         <td><b>IR-11:</b></td>
-        <td>InfoHorariosServicios</td>
+        <td>EventoIncidencia</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3241,7 +4248,7 @@
 <table align = "center">
     <tr>
         <td><b>IR-12:</b></td>
-        <td>ImagenInfoItinerariosDestacados</td>
+        <td>Lugar</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3289,7 +4296,7 @@
 <table align = "center">
     <tr>
         <td><b>IR-13:</b></td>
-        <td>InfoItinerariosDestacados</td>
+        <td>Linea</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3337,7 +4344,7 @@
 <table align = "center">
     <tr>
         <td><b>IR-14:</b></td>
-        <td>ImagenInfoLugares</td>
+        <td>ParadaEstacionLinea</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3385,7 +4392,7 @@
 <table align = "center">
     <tr>
         <td><b>IR-15:</b></td>
-        <td>InfoLugares</td>
+        <td>Imagen</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3433,7 +4440,7 @@
 <table align = "center">
     <tr>
         <td><b>IR-16:</b></td>
-        <td>ImagenInfoNoticias</td>
+        <td>Servicio</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3481,7 +4488,7 @@
 <table align = "center">
     <tr>
         <td><b>IR-17:</b></td>
-        <td>InfoNoticias</td>
+        <td>Operador</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3529,7 +4536,7 @@
 <table align = "center">
     <tr>
         <td><b>IR-18:</b></td>
-        <td>ImagenInfoTitulosTarifas</td>
+        <td>Etapa</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3577,7 +4584,7 @@
 <table align = "center">
     <tr>
         <td><b>IR-19:</b></td>
-        <td>InfoTitulosTarifas</td>
+        <td>ParadaEstacion</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3625,7 +4632,7 @@
 <table align = "center">
     <tr>
         <td><b>IR-20:</b></td>
-        <td>ImagenPublicidad</td>
+        <td>SitioInteresTuristico</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3673,7 +4680,7 @@
 <table align = "center">
     <tr>
         <td><b>IR-21:</b></td>
-        <td>Publicidad</td>
+        <td>Situacion</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3718,14 +4725,10 @@
 
 <br>
 
-### <a name="requisitosdeinformaciondelsistemadeinformacion"></a> Requisitos de información del Sistema de información
-
-<br>
-
 <table align = "center">
     <tr>
-        <td><b>IR-01:</b></td>
-        <td>Usuario</td>
+        <td><b>IR-22:</b></td>
+        <td>ServicioOperador</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3733,7 +4736,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
+        <td>Joaquín Murcia Escánez</td>
     </tr>
     <tr>
         <td><b>Fuentes:</b></td>
@@ -3772,8 +4775,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>IR-01:</b></td>
-        <td>Usuario</td>
+        <td><b>IR-23:</b></td>
+        <td>EtapaItinerario</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3781,7 +4784,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
+        <td>Joaquín Murcia Escánez</td>
     </tr>
     <tr>
         <td><b>Fuentes:</b></td>
@@ -3820,8 +4823,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>IR-01:</b></td>
-        <td>Usuario</td>
+        <td><b>IR-24:</b></td>
+        <td>ParadaEstacionEtapa</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3829,7 +4832,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
+        <td>Joaquín Murcia Escánez</td>
     </tr>
     <tr>
         <td><b>Fuentes:</b></td>
@@ -3868,8 +4871,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>IR-01:</b></td>
-        <td>Usuario</td>
+        <td><b>IR-25:</b></td>
+        <td>Itinerario</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3877,7 +4880,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
+        <td>Joaquín Murcia Escánez</td>
     </tr>
     <tr>
         <td><b>Fuentes:</b></td>
@@ -3916,8 +4919,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>IR-01:</b></td>
-        <td>Usuario</td>
+        <td><b>IR-26:</b></td>
+        <td>Reserva</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3925,7 +4928,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
+        <td>Joaquín Murcia Escánez</td>
     </tr>
     <tr>
         <td><b>Fuentes:</b></td>
@@ -3964,8 +4967,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>IR-01:</b></td>
-        <td>Usuario</td>
+        <td><b>IR-27:</b></td>
+        <td>Bono</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3973,7 +4976,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
+        <td>Joaquín Murcia Escánez</td>
     </tr>
     <tr>
         <td><b>Fuentes:</b></td>
@@ -4012,8 +5015,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>IR-01:</b></td>
-        <td>Usuario</td>
+        <td><b>IR-28:</b></td>
+        <td>TituloTransporte</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -4021,7 +5024,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
+        <td>Joaquín Murcia Escánez</td>
     </tr>
     <tr>
         <td><b>Fuentes:</b></td>
@@ -4060,7 +5063,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>IR-01:</b></td>
+        <td><b>IR-29:</b></td>
         <td>Usuario</td>
     </tr>
     <tr>
@@ -4069,679 +5072,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
-    </tr>
-    <tr>
-        <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>IR-01:</b></td>
-        <td>Usuario</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
-    </tr>
-    <tr>
-        <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>IR-01:</b></td>
-        <td>Usuario</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
-    </tr>
-    <tr>
-        <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>IR-01:</b></td>
-        <td>Usuario</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
-    </tr>
-    <tr>
-        <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>IR-01:</b></td>
-        <td>Usuario</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
-    </tr>
-    <tr>
-        <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>IR-01:</b></td>
-        <td>Usuario</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
-    </tr>
-    <tr>
-        <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>IR-01:</b></td>
-        <td>Usuario</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
-    </tr>
-    <tr>
-        <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>IR-01:</b></td>
-        <td>Usuario</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
-    </tr>
-    <tr>
-        <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>IR-01:</b></td>
-        <td>Usuario</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
-    </tr>
-    <tr>
-        <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>IR-01:</b></td>
-        <td>Usuario</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
-    </tr>
-    <tr>
-        <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>IR-01:</b></td>
-        <td>Usuario</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
-    </tr>
-    <tr>
-        <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>IR-01:</b></td>
-        <td>Usuario</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
-    </tr>
-    <tr>
-        <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>IR-01:</b></td>
-        <td>Usuario</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
-    </tr>
-    <tr>
-        <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>IR-01:</b></td>
-        <td>Usuario</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
-    </tr>
-    <tr>
-        <td><b>Datos específicos:</b></td>
-        <td>- Atributo de la clase nº 1<br>
-        - Atributo de la clase nº 2<br>
-        - Atributo de la clase nº 3<br>
-        - Atributo de la clase nº 4</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>IR-01:</b></td>
-        <td>Usuario</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
+        <td>Joaquín Murcia Escánez</td>
     </tr>
     <tr>
         <td><b>Fuentes:</b></td>
