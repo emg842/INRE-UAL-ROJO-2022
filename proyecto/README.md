@@ -2721,7 +2721,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
+        <td>Joaquín Murcia Escánez</td>
     </tr>
     <tr>
         <td><b>Fuentes:</b></td>
@@ -2769,7 +2769,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
+        <td>Joaquín Murcia Escánez</td>
     </tr>
     <tr>
         <td><b>Fuentes:</b></td>
@@ -2817,7 +2817,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
+        <td>Joaquín Murcia Escánez</td>
     </tr>
     <tr>
         <td><b>Fuentes:</b></td>
@@ -2865,7 +2865,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
+        <td>Joaquín Murcia Escánez</td>
     </tr>
     <tr>
         <td><b>Fuentes:</b></td>
@@ -2913,7 +2913,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
+        <td>Joaquín Murcia Escánez</td>
     </tr>
     <tr>
         <td><b>Fuentes:</b></td>
@@ -2961,7 +2961,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
+        <td>Joaquín Murcia Escánez</td>
     </tr>
     <tr>
         <td><b>Fuentes:</b></td>
@@ -3009,7 +3009,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
+        <td>Joaquín Murcia Escánez</td>
     </tr>
     <tr>
         <td><b>Fuentes:</b></td>
@@ -3057,7 +3057,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
+        <td>Joaquín Murcia Escánez</td>
     </tr>
     <tr>
         <td><b>Fuentes:</b></td>
@@ -3105,7 +3105,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
+        <td>Joaquín Murcia Escánez</td>
     </tr>
     <tr>
         <td><b>Fuentes:</b></td>
@@ -3153,7 +3153,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
+        <td>Joaquín Murcia Escánez</td>
     </tr>
     <tr>
         <td><b>Fuentes:</b></td>
@@ -3201,7 +3201,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
+        <td>Joaquín Murcia Escánez</td>
     </tr>
     <tr>
         <td><b>Fuentes:</b></td>
@@ -3249,7 +3249,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
+        <td>Joaquín Murcia Escánez</td>
     </tr>
     <tr>
         <td><b>Fuentes:</b></td>
@@ -3297,7 +3297,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
+        <td>Joaquín Murcia Escánez</td>
     </tr>
     <tr>
         <td><b>Fuentes:</b></td>
@@ -3345,7 +3345,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
+        <td>Joaquín Murcia Escánez</td>
     </tr>
     <tr>
         <td><b>Fuentes:</b></td>
@@ -3393,7 +3393,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
+        <td>Joaquín Murcia Escánez</td>
     </tr>
     <tr>
         <td><b>Fuentes:</b></td>
@@ -3441,7 +3441,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
+        <td>Joaquín Murcia Escánez</td>
     </tr>
     <tr>
         <td><b>Fuentes:</b></td>
@@ -3489,7 +3489,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
+        <td>Joaquín Murcia Escánez</td>
     </tr>
     <tr>
         <td><b>Fuentes:</b></td>
@@ -3537,7 +3537,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
+        <td>Joaquín Murcia Escánez</td>
     </tr>
     <tr>
         <td><b>Fuentes:</b></td>
@@ -3585,7 +3585,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
+        <td>Joaquín Murcia Escánez</td>
     </tr>
     <tr>
         <td><b>Fuentes:</b></td>
@@ -3633,7 +3633,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
+        <td>Joaquín Murcia Escánez</td>
     </tr>
     <tr>
         <td><b>Fuentes:</b></td>
@@ -3681,7 +3681,7 @@
     </tr>
     <tr>
         <td><b>Autor:</b></td>
-        <td>Nombre y apellidos</td>
+        <td>Joaquín Murcia Escánez</td>
     </tr>
     <tr>
         <td><b>Fuentes:</b></td>
