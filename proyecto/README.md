@@ -147,7 +147,7 @@
 [3. &nbsp;&nbsp;&nbsp;&nbsp; Necesidades del negocio](#necesidadesdelnegocio)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [3.1. &nbsp;&nbsp;&nbsp;&nbsp; Objetivos del negocio](#objetivosdelnegocio)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [3.2. &nbsp;&nbsp;&nbsp;&nbsp; Modelos de Procesos de Negocio [opcional]](#modelosdeprocesosdenegocio)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Subprocesos](#subprocesos)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Procesos](#procesos)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Tareas](#tareas)<br>
 [4. &nbsp;&nbsp;&nbsp;&nbsp; Requisitos del sistema a desarrollar](#requisitosdelsistemaadesarrollar)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [4.1. &nbsp;&nbsp;&nbsp;&nbsp; Requisitos](#requisitos)<br>
@@ -247,22 +247,22 @@
     </tr>
     <tr>
         <td>Validación del DNI al registrarse</td>
-        <td>Un usuario no registrado envía una foto la cual será recibida por el gestor de contenidos, este a su vez lo enviará por un proceso de verificación llevado a cabo por el software externo a la empresa. En caso de que el software verifique la validez del DNI este enviará un informe comentando dicho resultado al gestor de contenidos, en caso de serrechazada la imagen se enviará un informa con los fallos al gestor de contenidos. Cuando el gestor reciba el informe de los fallos se lo mandará al usuario para que vuelva a manadar la imagen del DNI y haga de nuevo el proceso de verificación. Si la foto ha sido validada le mandará al usuario un mensaje de verificación y terminará el proceso</td>
+        <td>Un usuario no registrado envía una foto la cual será recibida por el gestor de contenidos, este a su vez lo enviará por un proceso de verificación llevado a cabo por el software externo a la empresa. En caso de que el software verifique la validez del DNI este enviará un informe comentando dicho resultado al gestor de contenidos y en caso de ser rechazada la imagen se enviará un informe con los fallos al gestor de contenidos. Cuando el gestor reciba el informe de los fallos se lo mandará al usuario para que vuelva a mandar la imagen del DNI y haga de nuevo el proceso de verificación. Si la foto ha sido validada le mandará al usuario un mensaje de verificación y terminará el proceso</td>
     </tr>
     <tr>
         <td>Adquisición de un bono o de un título único de transporte</td>
-        <td>Una vez en la página, el usuario tendrá la opción tanto de comprar un bono, como de adquirir el título de transporte. Una vez seleccionada la opción, se deberá enviar el formulario del servicio escogido al sistema. En caso de que cumpla los requisitos, se proporcionará el bono o título solicitado al usuario en cuestión</td>
+        <td>El usuario tendrá la opción tanto de comprar un bono, como de adquirir el título de transporte. Una vez seleccionada la opción, se deberá enviar el formulario del servicio escogido al sistema. En caso de que cumpla los requisitos, se proporcionará el bono o título solicitado al usuario en cuestión, haciéndole llegar un mensaje con las credenciales correspondientes a dicho bono o título a su correo. En caso contrario, se le mandará un mensaje comunicándole que el formulario debe volver a ser rellenado pues ha habido algún tipo de error</td>
     </tr>
     <tr>
         <td>Reserva de itinerario</td>
-        <td>1. El proceso comienza cuando un cliente busca un itinerario y solicita su reserva.
+        <td>1. El proceso comienza cuando un cliente busca un itinerario y solicita su reserva.<br>
         2. La solicitud es recibida por el sistema de reservas, que verifica la disponibilidad de los servicios solicitados.<br>
         3. Si hay disponibilidad, se procede a generar una factura del precio total del itinerario y se envía al cliente.<br>
         4. Si no hay disponibilidad se mandará un aviso al cliente.<br>
-        5. Cuando el cliente recibe la factura podrá relaizar el pago o cancelar la reserva terminando el proceso.<br>
+        5. Cuando el cliente recibe la factura podrá realizar el pago o cancelar la reserva terminando el proceso.<br>
         6. Cuando el cliente reciba el aviso de que no hay disponibilidad, podrá buscar otro itinerario iniciando de nuevo el proceso o terminar el proceso.<br>
-        7. Cuando realice el pago le llegará un aviso al sistema de reservas, este se encargará de generar el recibo y de enviarselo al cliente.<br>
-        8. Cuando el cliente recibe el recibo se termina el proceso.</td>
+        7. Cuando realice el pago le llegará un aviso al sistema de reservas, este se encargará de generar el recibo y de enviárselo al cliente.<br>
+        8. Cuando al cliente le llega el recibo se termina el proceso.</td>
     </tr>
 </table>
 
@@ -276,7 +276,7 @@
 
 <br>
 
-<p>Un usuario no registrado envía una foto la cual será recibida por el gestor de contenidos, este a su vez lo enviará por un proceso de verificación llevado a cabo por el software externo a la empresa. En caso de que el software verifique la validez del DNI este enviará un informe comentando dicho resultado al gestor de contenidos, en caso de serrechazada la imagen se enviará un informa con los fallos al gestor de contenidos. Cuando el gestor reciba el informe de los fallos se lo mandará al usuario para que vuelva a manadar la imagen del DNI y haga de nuevo el proceso de verificación. Si la foto ha sido validada le mandará al usuario un mensaje de verificación y terminará el proceso</p>
+<p>Un usuario no registrado envía una foto la cual será recibida por el gestor de contenidos, este a su vez lo enviará por un proceso de verificación llevado a cabo por el software externo a la empresa. En caso de que el software verifique la validez del DNI este enviará un informe comentando dicho resultado al gestor de contenidos y en caso de ser rechazada la imagen se enviará un informe con los fallos al gestor de contenidos. Cuando el gestor reciba el informe de los fallos se lo mandará al usuario para que vuelva a mandar la imagen del DNI y haga de nuevo el proceso de verificación. Si la foto ha sido validada le mandará al usuario un mensaje de verificación y terminará el proceso</p>
 
 <br>
 
@@ -288,7 +288,7 @@
 
 <br>
 
-<p>El usuario tendrá la opción tanto de comprar un bono como de adquirir el título de transporte. Una vez seleccionada la opción, se deberá enviar el formulario del servicio escogido al sistema. En caso de que cumpla los requisitos, se proporcionará el bono o título solicitado al usuario en cuestión</p>
+<p>El usuario tendrá la opción tanto de comprar un bono, como de adquirir el título de transporte. Una vez seleccionada la opción, se deberá enviar el formulario del servicio escogido al sistema. En caso de que cumpla los requisitos, se proporcionará el bono o título solicitado al usuario en cuestión, haciéndole llegar un mensaje con las credenciales correspondientes a dicho bono o título a su correo. En caso contrario, se le mandará un mensaje comunicándole que el formulario debe volver a ser rellenado pues ha habido algún tipo de error</p>
 
 <br>
 
@@ -300,14 +300,14 @@
 
 <br>
 
-<p>1. El proceso comienza cuando un cliente busca un itinerario y solicita su reserva.
+<p>1. El proceso comienza cuando un cliente busca un itinerario y solicita su reserva.<br>
 2. La solicitud es recibida por el sistema de reservas, que verifica la disponibilidad de los servicios solicitados.<br>
 3. Si hay disponibilidad, se procede a generar una factura del precio total del itinerario y se envía al cliente.<br>
 4. Si no hay disponibilidad se mandará un aviso al cliente.<br>
-5. Cuando el cliente recibe la factura podrá relaizar el pago o cancelar la reserva terminando el proceso.<br>
+5. Cuando el cliente recibe la factura podrá realizar el pago o cancelar la reserva terminando el proceso.<br>
 6. Cuando el cliente reciba el aviso de que no hay disponibilidad, podrá buscar otro itinerario iniciando de nuevo el proceso o terminar el proceso.<br>
-7. Cuando realice el pago le llegará un aviso al sistema de reservas, este se encargará de generar el recibo y de enviarselo al cliente.<br>
-8. Cuando el cliente recibe el recibo se termina el proceso.</p>
+7. Cuando realice el pago le llegará un aviso al sistema de reservas, este se encargará de generar el recibo y de enviárselo al cliente.<br>
+8. Cuando al cliente le llega el recibo se termina el proceso.</td></p>
 
 <br>
 
@@ -574,96 +574,6 @@
 
 <br>
 
-<!-- <table align = "center">
-    <tr>
-        <td><b>FR-07:</b></td>
-        <td>Buscar eventos</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-01, ACT-02 </td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Permite buscar a cerca de eventos y lugares de ocio en la isla</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br> -->
-
-<!-- <table align = "center">
-    <tr>
-        <td><b>FR-08:</b></td>
-        <td>Buscar monumentos</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-01, ACT-02 </td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Permite buscar monumentos en la isla</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br> -->
-
 <table align = "center">
     <tr>
         <td><b>FR-07:</b></td>
@@ -705,51 +615,6 @@
 
 <br>
 
-<!-- <table align = "center">
-    <tr>
-        <td><b>FR-10:</b></td>
-        <td>Ver incidencias</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-01, ACT-02 </td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Ofrece una lista de las incidencias del transporte actuales</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br> -->
-
 <table align = "center">
     <tr>
         <td><b>FR-08:</b></td>
@@ -790,51 +655,6 @@
 </table>
 
 <br>
-
-<!-- <table align = "center">
-    <tr>
-        <td><b>FR-12:</b></td>
-        <td>Ir al inicio</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-01, ACT-02 </td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Redirige a la vista inicial del portal</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br> -->
 
 <table align = "center">
     <tr>
@@ -2886,54 +2706,2074 @@
 
 <br>
 
-### <a name="requisitosdeinformacion"></a> Requisitos de información
+### <a name="requisitosdeinformaciondelportal"></a> Requisitos de información del Portal
 
 <br>
 
 <table align = "center">
-<tr>
-    <td><b>IR-01:</b></td>
-    <td>Nombre del requisito de información (clase en el diagrama de clases)</td>
-</tr>
-<tr>
-    <td><b>Versión:</b></td>
-    <td>1.0 (Diciembre-2022)</td>
-</tr>
-<tr>
-    <td><b>Autor:</b></td>
-    <td>Nombre y apellidos</td>
-</tr>
-<tr>
-    <td><b>Fuentes:</b></td>
-    <td>Pliego de condiciones y entrevista</td>
-</tr>
-<tr>
-    <td><b>Referencias:</b></td>
-    <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-</tr>
-<tr>
-    <td><b>Descripción:</b></td>
-    <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
-</tr>
-<tr>
-    <td><b>Datos específicos:</b></td>
-    <td>- Atributo de la clase nº 1<br>
-    - Atributo de la clase nº 2<br>
-    - Atributo de la clase nº 3<br>
-    - Atributo de la clase nº 4</td>
-</tr>
-<tr>
-    <td><b>Importancia:</b></td>
-    <td>Muy elevada</td>
-</tr>
-<tr>
-    <td><b>Estado:</b></td>
-    <td>Aceptado</td>
-</tr>
-<tr>
-    <td><b>Comentarios:</b></td>
-    <td></td>
-</tr>
+    <tr>
+        <td><b>IR-01:</b></td>
+        <td>Usuario</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-02:</b></td>
+        <td>Gestor</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-03:</b></td>
+        <td>Imagen</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-04:</b></td>
+        <td>ImagenAvisoInformativo</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-05:</b></td>
+        <td>AvisoInformativo</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-06:</b></td>
+        <td>ImagenInfoContacto</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-07:</b></td>
+        <td>InfoContacto</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-08:</b></td>
+        <td>ImagenInfoCorporativa</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-09:</b></td>
+        <td>InfoCorporativa</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-10:</b></td>
+        <td>ImagenInfoHorariosServicios</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-11:</b></td>
+        <td>InfoHorariosServicios</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-12:</b></td>
+        <td>ImagenInfoItinerariosDestacados</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-13:</b></td>
+        <td>InfoItinerariosDestacados</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-14:</b></td>
+        <td>ImagenInfoLugares</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-15:</b></td>
+        <td>InfoLugares</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-16:</b></td>
+        <td>ImagenInfoNoticias</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-17:</b></td>
+        <td>InfoNoticias</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-18:</b></td>
+        <td>ImagenInfoTitulosTarifas</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-19:</b></td>
+        <td>InfoTitulosTarifas</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-20:</b></td>
+        <td>ImagenPublicidad</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-21:</b></td>
+        <td>Publicidad</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+### <a name="requisitosdeinformaciondelsistemadeinformacion"></a> Requisitos de información del Sistema de información
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-01:</b></td>
+        <td>Usuario</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-01:</b></td>
+        <td>Usuario</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-01:</b></td>
+        <td>Usuario</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-01:</b></td>
+        <td>Usuario</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-01:</b></td>
+        <td>Usuario</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-01:</b></td>
+        <td>Usuario</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-01:</b></td>
+        <td>Usuario</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-01:</b></td>
+        <td>Usuario</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-01:</b></td>
+        <td>Usuario</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-01:</b></td>
+        <td>Usuario</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-01:</b></td>
+        <td>Usuario</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-01:</b></td>
+        <td>Usuario</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-01:</b></td>
+        <td>Usuario</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-01:</b></td>
+        <td>Usuario</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-01:</b></td>
+        <td>Usuario</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-01:</b></td>
+        <td>Usuario</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-01:</b></td>
+        <td>Usuario</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-01:</b></td>
+        <td>Usuario</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-01:</b></td>
+        <td>Usuario</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-01:</b></td>
+        <td>Usuario</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-01:</b></td>
+        <td>Usuario</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>IR-01:</b></td>
+        <td>Usuario</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Nombre y apellidos</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El sistema deberá almacenar la información correspondiente a ... . En concreto:</td>
+    </tr>
+    <tr>
+        <td><b>Datos específicos:</b></td>
+        <td>- Atributo de la clase nº 1<br>
+        - Atributo de la clase nº 2<br>
+        - Atributo de la clase nº 3<br>
+        - Atributo de la clase nº 4</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
 </table>
 
 <br>
