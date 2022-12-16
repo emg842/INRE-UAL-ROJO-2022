@@ -141,6 +141,12 @@
         <td>Subida de los requisitos de información</td>
         <td>Joaquín Murcia Escánez</td>
     </tr>
+        <tr>
+        <td>16/12/2022</td>
+        <td>1.0</td>
+        <td>Casos de uso del Sistema de información</td>
+        <td>Miguel Ángel Moncada Álvarez</td>
+    </tr>
 </table>
 
 <br><br>
