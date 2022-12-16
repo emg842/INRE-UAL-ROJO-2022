@@ -141,6 +141,12 @@
         <td>Subida de los requisitos de información</td>
         <td>Joaquín Murcia Escánez</td>
     </tr>
+    <tr>
+        <td>15/12/2022</td>
+        <td>1.0</td>
+        <td>Subida de los casos de uso del portal detallados</td>
+        <td>Daniel López García</td>
+    </tr>
 </table>
 
 <br><br>
