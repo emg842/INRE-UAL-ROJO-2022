@@ -147,6 +147,12 @@
         <td>Subida de los casos de uso del portal detallados</td>
         <td>Daniel López García</td>
     </tr>
+        <tr>
+        <td>16/12/2022</td>
+        <td>1.0</td>
+        <td>Subida de los casos de uso del Sistema de información detallados</td>
+        <td>Miguel Ángel Moncada Álvarez</td>
+    </tr>
 </table>
 
 <br><br>
@@ -8893,7 +8899,7 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- Dado un usuario registrado en el sistema e iniciado, accede al mapa interactivo donde tendrá la opción de seleccionar un itinerario<br>
+        1.- Dado un usuario registrado en el sistema e iniciado, accede al mapa interactivo donde tendrá la opción de seleccionar un itinerario <br>
         2.- Una vez seleccionado un itineario, reserva dicho itinerario siendo redirigido a la ventana de pago<br>
         </td>
     </tr>
@@ -8944,9 +8950,8 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- Dado un usuario iniciado en el sistema, accede a la ventana donde se realiza la reserva de un itinerario<br>
-        2.- Una vez en la ventana de reserva, <br>
-        3.- Realiza el pago del itinerario seleccionado<br>
+        1.- Dado un usuario iniciado en el sistema, accede a la ventana donde se realiza la reserva de un itinerario [UC-28]<br>
+        2.- Una vez en la ventana de reserva realiza el pago del itinerario seleccionado <br>
         </td>
     </tr>
     <tr>
@@ -8996,10 +9001,9 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- Dado un usuario iniciado en el sistema, accede a la ventana donde se realiza la reserva de un itinerario<br>
-        2.- Una vez en la ventana de reserva, <br>
-        3.- Realiza el pago del itinerario seleccionado
-        4.- Una vez realizado el pago, el sistema proporciona la opción de la impresión del recibo como prueba de la realización del pago<br></td>
+        1.- Dado un usuario iniciado en el sistema, accede a la ventana donde se realiza la reserva de un itinerario [UC-28]<br>
+        2.- Una vez en la ventana de reserva, realiza el pago del itinerario seleccionado [UC-29] <br>
+        3.- Una vez realizado el pago, el sistema proporciona la opción de la impresión del recibo como prueba de la realización del pago<br></td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
