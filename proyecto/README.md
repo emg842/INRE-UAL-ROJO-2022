@@ -6184,7 +6184,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Da la opción de contactar con el servicio de atención al cliente</td>
+        Dar la opción de contactar con el servicio de atención al cliente</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
@@ -7619,35 +7619,32 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Ofrece la posibilidad de obtener información acerca de la parada/estación seleccionada</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- Dado el usuario que se encuentra en el mapa interactivo, pincha sobre la parada o estación que desee <br>
+        2.- Como consecuencia del paso anterior, se mostrará toda la información relacionada con la parada/estación seleccionada [UC-02] <br>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+         </td>
     </tr>
 </table>
 
@@ -7672,20 +7669,20 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Redirecciona al usuario a la información correspondiente a la parada o estación seleccionada</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
+        1.- Dado el usuario que se encuentra en el mapa interactivo, pincha sobre la parada o estación que desee<br>
+        2.- Como consecuencia del paso anterior, se mostrará toda la información relacionada con la parada/estación seleccionada [UC-01]<br>
         3.- ...<br>
         4.- ...<br>
         5.- ...</td>
@@ -7700,7 +7697,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        RF-09</td>
     </tr>
 </table>
 
@@ -7725,20 +7722,20 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Muestra la información de un lugar/sitio de interés</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
+        1.- Dado el usuario que se encuentra en el mapa interactivo, pincha sobre el lugar que desee<br>
+        2.- Como consecuencia del paso anterior, se mostrará toda la información relacionada con la parada/estación seleccionada [UC-04]<br>
         3.- ...<br>
         4.- ...<br>
         5.- ...</td>
@@ -7778,11 +7775,11 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Redirecciona al usuario a la vista donde se muestra la información del sitio seleccionado</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -7790,8 +7787,8 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
+        1.- Dado el usuario que se encuentra en el mapa interactivo, pincha sobre el lugar que desee<br>
+        2.- Como consecuencia del paso anterior, se mostrará toda la información relacionada con la parada/estación seleccionada [UC-03]<br>
         3.- ...<br>
         4.- ...<br>
         5.- ...</td>
@@ -7831,31 +7828,31 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Almacena una foto del estado de la actividad de los operadores</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01, ACT-04</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El gestor ha de encontrarse en la vista del mapa interactivo</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
+        1.- Dado que el gestor se encuentra en el mapa interactivo, pulsa en la opción de mostrar la actividad de los operadores [UC-09]<br>
+        2.- Una vez en el menú donde se muestra la actividad de los operadores, guarda la foto del estado<br>
         3.- ...<br>
         4.- ...<br>
         5.- ...</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        1.A. Una vez en el menú donde se muestra la actividad de los operadores, se guarda la foto del estado</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        La foto queda guardado en el sistema para ser usado más tarde</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -7884,31 +7881,31 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Almacena un vídeo del estado de la actividad de los operadores</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01, ACT-04</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El gestor ha de encontrarse en la vista donde se muestra la actividad de los operadores</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
+        1.- Dado que el gestor se encuentra en el mapa interactivo, pulsa en la opción de mostrar la actividad de los operadores [UC-09]<br>
+        2.- Una vez en el menú donde se muestra la actividad de los operadores, guardar el vídeo del estado<br>
         3.- ...<br>
         4.- ...<br>
         5.- ...</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        1.A.- Una vez en el menú donde se muestra la actividad de los operadores, se guarda el vídeo del estado</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El vídeo queda guardado en el sistema para ser usado más tarde </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -7937,11 +7934,11 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Modela los elementos del mapa interactivo ya sea por labores de mantenimiento o para implementar nuevas funcionalidades</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01, ACT-04</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -7949,7 +7946,7 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
+        1.- Dado que el gestor se encuentra en el mapa interactivo, gestiona los distintos elementos del mapa (paradas, estaciones, sitios, monumentos...)<br>
         2.- ...<br>
         3.- ...<br>
         4.- ...<br>
@@ -7957,11 +7954,11 @@
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        La modificación realizada queda guardada en el sistema de manera que se almacenan los datos de la gestión de los elementos</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8002,7 +7999,7 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
+        1.- Dado que el gestor se encuentra en el mapa interactivo, gestiona una línea del mapa, ya sea para modificar el recorrido de esta o las paradas de la misma<br>
         2.- ...<br>
         3.- ...<br>
         4.- ...<br>
@@ -8010,11 +8007,11 @@
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        La modificación realizada queda guardada en el sistema de manera que se almacenan los datos de la gestión de la línea</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8043,11 +8040,11 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Muestra la actividad de los operadores en un  periodo de tiempo determinado, ya sea a través de una foto o un vídeo</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01, ACT-04</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -8055,7 +8052,7 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
+        1.- Dado que el gestor se encuentra en el mapa interactivo, se muestra la actividad de los operadores a través de un vídeo o una foto<br>
         2.- ...<br>
         3.- ...<br>
         4.- ...<br>
@@ -8063,11 +8060,12 @@
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        1.A.- La forma de representar la actividad de los operadores es a través de una foto</td>
+        1.B.- La forma de representar la actividad de los operadores es a través de un vídeo</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8096,31 +8094,31 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Pincha en la parada/estación para ver los retrasos o adelantos de la línea</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01, ACT-04</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El gestor ha de estar situado en el mapa interactivo</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
+        1.- Dado que el gestor está situado en el mapa interactivo, clica en la parada o estación determinada<br>
+        2.- Una vez clicado, se muestra el retraso/adelanto de la línea [UC-11]<br>
         3.- ...<br>
         4.- ...<br>
         5.- ...</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8149,31 +8147,29 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Otorga una vista de los adelantos o retrasos de la línea en cuestión</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01, ACT-04</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El gestor debe haber clicado en una parada o estación</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- Dado que el gestor se encuentra en el mapa interactivo, clica en una parada/estación<br>
+        2.- El sistema muestra los retrasos o adelantos de la línea elegida<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8202,27 +8198,24 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Modela el sistema de ventas y el título único de transporte</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El gestor ha de estar iniciado</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- Dado que el gestor esta iniciado, se gestionan las ventas y el título único<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
@@ -8255,31 +8248,28 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Documenta eventos o incidencias ocurridas</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El gestor ha de estar iniciado</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        Dado que el gestor está iniciado, documenta las incidencias o eventos ocurridos <br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+       El sistema guarda los eventos o incidencias definidos  </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8308,31 +8298,28 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Realiza la gestión de los usuarios guardados en el sistema a los que el gestor tiene acceso</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El gestor ha de estar iniciado</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- Dado que el usuario está iniciado, se gestionan los usuarios registrados en el sistema<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema guarda los cambios realizados en la gestión de los usuarios</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8361,19 +8348,19 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Define una variable en base a la que se defenirán eventos</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El gestor ha de estar iniciado</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
+        1.- Dado que el gestor está iniciado, se define una variable de la que dependerá la definición de eventos<br>
         2.- ...<br>
         3.- ...<br>
         4.- ...<br>
@@ -8381,11 +8368,11 @@
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema almacenará la variable definida y la tendrá en cuenta a la hora de definir eventos</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8414,31 +8401,28 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Define una condición en base a la que se defenirán eventos</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El gestor ha de estar iniciado</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- Dado que el gestor está iniciado, se define una condición de la que dependerá la definición de eventos<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema almacenará la variable definida y la tendrá en cuenta a la hora de definir eventos</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8467,19 +8451,19 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Elabora un aviso acústico que avisará de notificaciones a cerca de eventos, noticias, etc</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El gestor ha de estar iniciado</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
+        1.- Dado que el gestor está iniciado, elabora un aviso acústico que avisará de notificaciones a cerca de eventos, noticias, etc<br>
         2.- ...<br>
         3.- ...<br>
         4.- ...<br>
@@ -8487,11 +8471,11 @@
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema almacena el aviso acústico creado para poder utilizarlo en adelante</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8520,31 +8504,28 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Elabora un aviso visual que saltará en forma de pop-up en caso de que estemos conectados en la página </td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El gestor ha de estar iniciado</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- Dado que el gestor está iniciado, se elabora un aviso acústico para las distintas notificaciones en caso de estar conectado<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+       El sistema deberá guardar el aviso creado por el gestor</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8573,19 +8554,19 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Elabora un aviso adaptado al móvil para aquellos usuarios registrados en la página</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El gestor ha de estar iniciado</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
+        1.- Dado que el gestor esta iniciado, se realiza un aviso adaptado al móvil para aquellos usuarios registrados en la página<br>
         2.- ...<br>
         3.- ...<br>
         4.- ...<br>
@@ -8593,11 +8574,11 @@
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema deberá guardar el aviso creado por el gestor </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8626,31 +8607,28 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Elabora un aviso que hace uso del correo electrónico </td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01, ACT-05</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El gestor ha de estar iniciado y el sistema de correo disponible </td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- Dado que el gestor está iniciado en el sistema, elabora un aviso que hará uso del correo electrónico del usuario avisado para su realización<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema deberá guardar el aviso creado por el gestor</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8679,31 +8657,28 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Adquiere el bono solicitado al sistema</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El usuario ha de estar registrado en el sistema e iniciado</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- Dado un ususario registrado e iniciado, adquiere el bono<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema guarda la referencia con la información del bono concedido al usuario</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8732,31 +8707,28 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Renueva el título de transportamente una vez haya caducado</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El usuario ha de estar registrado en el sistema e iniciado</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- Dado un usuario registrado e iniciado, renueva el título de transporte caducado<br>
+</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema guardará la información del título en cuestión y lo volverá a establecer como válido</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8785,31 +8757,28 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Visualiza el histórico de itinerarios realizados por parte del usuario</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El usuario ha de estar registrado en el sistema e iniciado</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- Dado que el usuario está registrado e iniciado, se visualiza el histórico de itinerarios del usuario<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8838,31 +8807,28 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Inicia sesión en la página haciendo uso de sus credenciales</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El usuario ha de estar registrado en el sistema </td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- Dado un usuario registrado en el sistema inicia sesión haciendo uso de sus credenciales<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8891,31 +8857,28 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Registra un usuario introduciendo un correo electrrónico y una contraseña además de información opcional para la identificación del usuario</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El usuario se registra introduciendo su correo electrónico, contraseña e información opcional del usuario<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema guarda los datos del registro para que sea posible el inicio de sesión haciendo uso de las credenciales correspondientes</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8944,31 +8907,28 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Recarga el saldo adjuntado a la cuenta del usuario de la página</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El usuario ha de estar iniciado y haber introducido un método de pago para realizar la recarga</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- Dado un usuario iniciado y con un método de pago adjuntado a su cuenta, recarga el saldo de la misma<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema guarda el nuevo saldo total de la cuenta despues de la recarga</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8997,31 +8957,29 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Obtiene el título de transporte tras rellenar el formulario correspondiente y solicitarlo</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El usuario ha de estar registrado en el sistema e iniciado</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- Dado un usuario registrado en el sistema e iniciado, rellena el formulario con la infromación necesaria para obtener el título <br>
+        2.- En caso de que la información esté correcta, se obtiene el título<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        1.A.- En caso de no haber introducido valores válidos en el formulario, saltaría un mensaje de error avisando de la invalidez de los datos. </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El título queda registrado en el sistema adjuntado al usuario que lo ha adquirido</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -9050,19 +9008,19 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Realiza la reserva del itinerario en cuestión</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El usuario ha de estar registrado en el sistema e iniciado</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
+        1.- Dado un usuario registrado en el sistema e iniciado, se reserva el itinerario en cuestión siempre y cuando esté disponible<br>
         2.- ...<br>
         3.- ...<br>
         4.- ...<br>
@@ -9070,11 +9028,11 @@
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        En caso de que el itinerario no esté disponible, el sistema lo notificará indicando que el itinerario no se puede reservar en este momento</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El usuario debe estar registrado e iniciado</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -9103,7 +9061,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Paga la reserva </td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
