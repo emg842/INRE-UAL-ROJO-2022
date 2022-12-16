@@ -1710,10 +1710,6 @@
         <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
     </tr>
     <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-01, ACT-02 </td>
-    </tr>
-    <tr>
         <td><b>Descripción:</b></td>
         <td>Realiza una búsqueda de la parada o la estación y se indica en el mapa interactivo</td>
     </tr>
@@ -1755,10 +1751,6 @@
         <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
     </tr>
     <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-01, ACT-02 </td>
-    </tr>
-    <tr>
         <td><b>Descripción:</b></td>
         <td>Ordena las paradas/estaciones que se muestran en base a la opción escogida</td>
     </tr>
@@ -1784,7 +1776,7 @@
 <table align = "center">
     <tr>
         <td><b>FR-09:</b></td>
-        <td>Interactuar con el mapa</td>
+        <!-- <td>Interactuar con el mapa</td> -->
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -1801,10 +1793,6 @@
     <tr>
         <td><b>Referencias:</b></td>
         <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-01, ACT-02 </td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1853,10 +1841,6 @@
         <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
     </tr>
     <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-01, ACT-02 </td>
-    </tr>
-    <tr>
         <td><b>Descripción:</b></td>
         <td>Representa el recorrido de la línea en el mapa</td>
     </tr>
@@ -1898,10 +1882,6 @@
         <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
     </tr>
     <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-01, ACT-02 </td>
-    </tr>
-    <tr>
         <td><b>Descripción:</b></td>
         <td>Inicia sesión introduciendo tanto el nombre de usuario como su contraseña</td>
     </tr>
@@ -1941,10 +1921,6 @@
     <tr>
         <td><b>Referencias:</b></td>
         <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-01, ACT-02 </td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1992,10 +1968,6 @@
         <td>Ofrece la posibilidad de comprar una tarjeta de transporte</td>
     </tr>
     <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-01, ACT-02 </td>
-    </tr>
-    <tr>
         <td><b>Importancia:</b></td>
         <td>Muy elevada</td>
     </tr>
@@ -2014,7 +1986,7 @@
 <table align = "center">
     <tr>
         <td><b>FR-14:</b></td>
-        <td>Representar recorrido de una línea</td>
+        <td>Recargar saldo tarjeta de transporte/td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2031,10 +2003,6 @@
     <tr>
         <td><b>Referencias:</b></td>
         <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-01, ACT-02 </td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2056,7 +2024,7 @@
 
 <br>
 
-<table align = "center">
+<!-- <table align = "center">
     <tr>
         <td><b>FR-15:</b></td>
         <td>Representar recorrido de una línea</td>
@@ -2078,10 +2046,6 @@
         <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
     </tr>
     <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-01, ACT-02 </td>
-    </tr>
-    <tr>
         <td><b>Descripción:</b></td>
         <td>Representa el recorrido de la línea en el mapa</td>
     </tr>
@@ -2099,9 +2063,9 @@
     </tr>
 </table>
 
-<br>
+<br> -->
 
-<table align = "center">
+<!-- <table align = "center">
     <tr>
         <td><b>FR-16:</b></td>
         <td>Modificar datos</td>
@@ -2144,9 +2108,9 @@
     </tr>
 </table>
 
-<br>
+<br> -->
 
-<table align = "center">
+<!-- <table align = "center">
     <tr>
         <td><b>FR-17:</b></td>
         <td>Introducir datos</td>
@@ -2189,9 +2153,9 @@
     </tr>
 </table>
 
-<br>
+<br> -->
 
-<table align = "center">
+<!-- <table align = "center">
     <tr>
         <td><b>FR-18:</b></td>
         <td>Añadir listado de horarios y servicios</td>
@@ -2234,9 +2198,9 @@
     </tr>
 </table>
 
-<br>
+<br> -->
 
-<table align = "center">
+<!-- <table align = "center">
     <tr>
         <td><b>FR-19:</b></td>
         <td>Gestionar idiomas</td>
@@ -2279,9 +2243,9 @@
     </tr>
 </table>
 
-<br>
+<br> -->
 
-<table align = "center">
+<!-- <table align = "center">
     <tr>
         <td><b>FR-20:</b></td>
         <td>Modificar diseño de las páginas</td>
@@ -2324,9 +2288,9 @@
     </tr>
 </table>
 
-<br>
+<br> -->
 
-<table align = "center">
+<!-- <table align = "center">
     <tr>
         <td><b>FR-21:</b></td>
         <td>Publicar contenido</td>
@@ -2369,9 +2333,9 @@
     </tr>
 </table>
 
-<br>
+<br> -->
 
-<table align = "center">
+<!-- <table align = "center">
     <tr>
         <td><b>FR-22:</b></td>
         <td>Retirar contenido</td>
@@ -2414,9 +2378,9 @@
     </tr>
 </table>
 
-<br>
+<br> -->
 
-<table align = "center">
+<!-- <table align = "center">
     <tr>
         <td><b>FR-23:</b></td>
         <td>Modificar contenido</td>
@@ -2459,9 +2423,9 @@
     </tr>
 </table>
 
-<br>
+<br> -->
 
-<table align = "center">
+<!-- <table align = "center">
     <tr>
         <td><b>FR-24:</b></td>
         <td>Visualizar estadísticas de acceso a secciones y servicios</td>
@@ -2504,9 +2468,9 @@
     </tr>
 </table>
 
-<br>
+<br> -->
 
-<table align = "center">
+<!-- <table align = "center">
     <tr>
         <td><b>FR-25:</b></td>
         <td>Gestionar publicidad</td>
@@ -2549,9 +2513,9 @@
     </tr>
 </table>
 
-<br>
+<br> -->
 
-<table align = "center">
+<!-- <table align = "center">
     <tr>
         <td><b>FR-26:</b></td>
         <td>Registrar situación de los operadores</td>
@@ -2594,7 +2558,7 @@
     </tr>
 </table>
 
-<br>
+<br> -->
 
 <table align = "center">
     <tr>
@@ -2616,10 +2580,6 @@
     <tr>
         <td><b>Referencias:</b></td>
         <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-03 </td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2663,10 +2623,6 @@
         <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
     </tr>
     <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-03 </td>
-    </tr>
-    <tr>
         <td><b>Descripción:</b></td>
         <td>Gestiona las acciones de venta de servicios de transporte y el título de transporte único para cada usuario siempre que esté registrado</td>
     </tr>
@@ -2689,7 +2645,7 @@
 <table align = "center">
     <tr>
         <td><b>FR-29:</b></td>
-        <td>Gestionar sistema de señalización</td>
+        <!-- <td>Gestionar sistema de señalización</td> -->
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2708,10 +2664,6 @@
         <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
     </tr>
     <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-03 </td>
-    </tr>
-    <tr>
         <td><b>Descripción:</b></td>
         <td>Definir paradas y estaciones además de sus correspondientes avisos</td>
     </tr>
@@ -2728,13 +2680,14 @@
         <td>Los avisos respecto a paradas y estaciones podrán ser:<br>
         - Acústicos<br>
         - Visuales<br>
+        - Por móvil (sms) <br>
         - Por correo</td>
     </tr>
 </table>
 
 <br>
 
-<table align = "center">
+<!-- <table align = "center">
     <tr>
         <td><b>FR-30:</b></td>
         <td>Gestionar sistema de ventas y título de transporte</td>
@@ -2756,10 +2709,6 @@
         <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
     </tr>
     <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-03 </td>
-    </tr>
-    <tr>
         <td><b>Descripción:</b></td>
         <td>Gestiona las acciones de venta de servicios de transporte y el título de transporte único para cada usuario siempre que esté registrado</td>
     </tr>
@@ -2777,9 +2726,9 @@
     </tr>
 </table>
 
-<br>
+<br> -->
 
-<table align = "center">
+<!-- <table align = "center">
     <tr>
         <td><b>FR-31:</b></td>
         <td>Definir evento</td>
@@ -2822,12 +2771,12 @@
     </tr>
 </table>
 
-<br>
+<br> -->
 
 <table align = "center">
     <tr>
         <td><b>FR-32:</b></td>
-        <td>Examinar estado de la explotación de operadores</td>
+        <!-- <td>Examinar estado de la explotación de operadores</td> -->
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2864,51 +2813,6 @@
     <tr>
         <td><b>Comentarios:</b></td>
         <td>Se estudian tanto grupal como individualmente</td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>FR-33:</b></td>
-        <td>Gestionar idiomas</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-03 </td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Gestiona los idiomas disponibles y la forma de cambiar de uno a otro</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
     </tr>
 </table>
 
