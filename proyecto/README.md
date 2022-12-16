@@ -6146,7 +6146,7 @@
 
 <br>
 
-### <a name="listadeactoresdelportal"></a> Listas de actores del Portal
+### <a name="listadeactoresdelportal"></a> Lista de actores del Portal
 
 <br>
 
@@ -6167,7 +6167,7 @@
 
 <br>
 
-### <a name="listadeactoresdelsistemadeinformacion"></a> Listas de actores del Sistema de información
+### <a name="listadeactoresdelsistemadeinformacion"></a> Lista de actores del Sistema de información
 
 <br>
 
@@ -6195,6 +6195,10 @@
         <tr>
         <td>ACT-05</td>
         <td>Sistema de correo</td>
+    </tr>
+        <tr>
+        <td>ACT-06</td>
+        <td>Mapa interactivo (Usuario)</td>
     </tr>
 </table>
 
