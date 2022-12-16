@@ -6693,7 +6693,7 @@
     <tr>
         <td><b>Flujo Normal:</b><br>
         1.- El usuario pulsará el botón para ver los lugares<br>
-        2.- El sistema mostrará los lugares</td>
+        2.- El sistema mostrará los lugares, que pueden ser eventos, monumentos o sitios turísticos</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -6705,7 +6705,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        FR-13, IR-03, IR-14, IR-15</td>
+        UC-11, UC-12, UC-13, FR-13, IR-03, IR-14, IR-15</td>
     </tr>
 </table>
 
@@ -6744,8 +6744,8 @@
         <td><b>Flujo Normal:</b><br>
         1.- El usuario pulsará el botón para ver los lugares<br>
         2.- El sistema mostrará los lugares<br>
-        3.- El usuario eligirá ver los monumentos<br>
-        4.- El sistema mostrará los monumentos de la isla</td>
+        3.- El usuario eligirá ver los eventos<br>
+        4.- El sistema mostrará los eventos de la isla</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -6796,7 +6796,7 @@
         <td><b>Flujo Normal:</b><br>
         1.- El usuario pulsará el botón para ver los lugares<br>
         2.- El sistema mostrará los lugares<br>
-        3.- El usuario eligirá ver los eventos<br>
+        3.- El usuario eligirá ver los monumentos<br>
         4.- El sistema mostrará los eventos de la isla</td>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -7528,8 +7528,8 @@
     <tr>
         <td><b>Flujo Normal:</b><br>
         1.- El gestor elige añadir una página<br>
-        2.- El sistema muestra un mensaje para confirmar<br>
-        3.- El gestor confirma que se ha creado la nueva página</td>
+        2.- El sistema muestra una vista para crear la página y además la puede previsualizar<br>
+        3.- El gestor confirma la creación de la nueva página</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -7541,7 +7541,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        FR-19</td>
+        UC-27, FR-19</td>
     </tr>
 </table>
 
@@ -7574,9 +7574,9 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El gestor elige añadir una página<br>
-        2.- El sistema muestra un mensaje para confirmar<br>
-        3.- El gestor confirma que se ha creado la nueva página<br>
+        1.- El gestor eligió añadir una página<br>
+        2.- El sistema muestra una previsualización de la página antes de ser publicada<br>
+        3.- El gestor valida la previsualización y confirma la creación página<br>
         4.- El sistema mostrará la nueva página</td>
     </tr>
     <tr>
@@ -7589,7 +7589,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        FR-19, FR-20</td>
+        UC-26, FR-19, FR-20</td>
     </tr>
 </table>
 
@@ -7643,7 +7643,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-19</td>
+        UC-02, IR-19</td>
     </tr>
 </table>
 
@@ -7839,11 +7839,9 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- Dado que el gestor se encuentra en el mapa interactivo, pulsa en la opción de mostrar la actividad de los operadores [UC-09]<br>
-        2.- Una vez en el menú donde se muestra la actividad de los operadores, guarda la foto del estado<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El gestor se encuentra en el mapa interactivo, dónde puede ver la actividad global de los operadores<br>
+        2.- Se puede mostrar y focalizar la actividad de los operadores a través de una foto<br>
+        3.- El actor guarda la actividad de los operadores en un determinado instante a través de una foto<br>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -7855,7 +7853,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-21</td>
+        UC-09, IR-21</td>
     </tr>
 </table>
 
@@ -7892,11 +7890,9 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- Dado que el gestor se encuentra en el mapa interactivo, pulsa en la opción de mostrar la actividad de los operadores [UC-09]<br>
-        2.- Una vez en el menú donde se muestra la actividad de los operadores, guardar el vídeo del estado<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El gestor se encuentra en el mapa interactivo, dónde puede ver la actividad global de los operadores<br>
+        2.- Se puede mostrar y focalizar la actividad de los operadores a través de una película de evolución temporal<br>
+        3.- El actor guarda la actividad de los operadores a través de una película de evolución temporal<br>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -7908,7 +7904,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-21</td>
+        UC-09, IR-21</td>
     </tr>
 </table>
 
@@ -8051,16 +8047,13 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- Dado que el gestor se encuentra en el mapa interactivo, se muestra la actividad de los operadores a través de un vídeo o una foto<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El gestor se encuentra en el mapa interactivo, dónde puede ver la actividad global de los operadores<br>
+        2.- Se puede mostrar y focalizar la actividad de los operadores a través de un vídeo o una foto<br>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- La forma de representar la actividad de los operadores es a través de una foto</td>
-        1.B.- La forma de representar la actividad de los operadores es a través de un vídeo</td>
+        1.A.- La forma de representar y guardar la actividad de los operadores es a través de una foto</td>
+        1.B.- La forma de representar y guardar la actividad de los operadores es a través de un vídeo</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
@@ -8068,7 +8061,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-16</td>
+        UC-05, UC-06, IR-16</td>
     </tr>
 </table>
 
@@ -8106,7 +8099,7 @@
     <tr>
         <td><b>Flujo Normal:</b><br>
         1.- Dado que el gestor está situado en el mapa interactivo, clica en la parada o estación determinada<br>
-        2.- Una vez clicado, se muestra el retraso/adelanto de la línea [UC-11]<br>
+        2.- Una vez clicado, se muestra el retraso/adelanto de la línea [UC-11] y también información de la parada/estación [UC-01]<br>
         3.- ...<br>
         4.- ...<br>
         5.- ...</td>
@@ -8121,7 +8114,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-01, UC-11, IR-14, IR-15, IR-19</td>
     </tr>
 </table>
 
@@ -8172,7 +8165,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-14</td>
+        UC-10, IR-14</td>
     </tr>
 </table>
 
