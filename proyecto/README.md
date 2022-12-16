@@ -7586,9 +7586,7 @@
         <td><b>Flujo Normal:</b><br>
         1.- Dado el usuario que se encuentra en el mapa interactivo, pincha sobre la parada o estación que desee<br>
         2.- Como consecuencia del paso anterior, se mostrará toda la información relacionada con la parada/estación seleccionada [UC-01]<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -7596,11 +7594,11 @@
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        RF-09</td>
+        RF-09, UC-01</td>
     </tr>
 </table>
 
@@ -7639,21 +7637,19 @@
         <td><b>Flujo Normal:</b><br>
         1.- Dado el usuario que se encuentra en el mapa interactivo, pincha sobre el lugar que desee<br>
         2.- Como consecuencia del paso anterior, se mostrará toda la información relacionada con la parada/estación seleccionada [UC-04]<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-20</td>
+        IR-20, UC-04</td>
     </tr>
 </table>
 
@@ -7692,13 +7688,11 @@
         <td><b>Flujo Normal:</b><br>
         1.- Dado el usuario que se encuentra en el mapa interactivo, pincha sobre el lugar que desee<br>
         2.- Como consecuencia del paso anterior, se mostrará toda la información relacionada con la parada/estación seleccionada [UC-03]<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
@@ -7706,7 +7700,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-03</td>
     </tr>
 </table>
 
@@ -7846,10 +7840,7 @@
     <tr>
         <td><b>Flujo Normal:</b><br>
         1.- Dado que el gestor se encuentra en el mapa interactivo, gestiona los distintos elementos del mapa (paradas, estaciones, sitios, monumentos...)<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -7861,7 +7852,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        </td>
     </tr>
 </table>
 
@@ -7899,10 +7890,7 @@
     <tr>
         <td><b>Flujo Normal:</b><br>
         1.- Dado que el gestor se encuentra en el mapa interactivo, gestiona una línea del mapa, ya sea para modificar el recorrido de esta o las paradas de la misma<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -8004,9 +7992,7 @@
         <td><b>Flujo Normal:</b><br>
         1.- Dado que el gestor está situado en el mapa interactivo, clica en la parada o estación determinada<br>
         2.- Una vez clicado, se muestra el retraso/adelanto de la línea [UC-11] y también información de la parada/estación [UC-01]<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -8055,7 +8041,7 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- Dado que el gestor se encuentra en el mapa interactivo, clica en una parada/estación<br>
+        1.- Dado que el gestor se encuentra en el mapa interactivo, clica en una parada/estación [UC-10]<br>
         2.- El sistema muestra los retrasos o adelantos de la línea elegida<br>
         </td>
     </tr>
@@ -8115,7 +8101,7 @@
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8156,7 +8142,7 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Dado que el gestor está iniciado, documenta las incidencias o eventos ocurridos <br>
+        1.- Dado que el gestor está iniciado, documenta las incidencias o eventos ocurridos <br>
         </td>
     </tr>
     <tr>
@@ -8257,10 +8243,7 @@
     <tr>
         <td><b>Flujo Normal:</b><br>
         1.- Dado que el gestor está iniciado, se define una variable de la que dependerá la definición de eventos<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -8360,10 +8343,7 @@
     <tr>
         <td><b>Flujo Normal:</b><br>
         1.- Dado que el gestor está iniciado, elabora un aviso acústico que avisará de notificaciones a cerca de eventos, noticias, etc<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -8463,10 +8443,7 @@
     <tr>
         <td><b>Flujo Normal:</b><br>
         1.- Dado que el gestor esta iniciado, se realiza un aviso adaptado al móvil para aquellos usuarios registrados en la página<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -8916,15 +8893,13 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- Dado un usuario registrado en el sistema e iniciado, se reserva el itinerario en cuestión siempre y cuando esté disponible<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- Dado un usuario registrado en el sistema e iniciado, accede al mapa interactivo donde tendrá la opción de seleccionar un itinerario<br>
+        2.- Una vez seleccionado un itineario, reserva dicho itinerario siendo redirigido a la ventana de pago<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        En caso de que el itinerario no esté disponible, el sistema lo notificará indicando que el itinerario no se puede reservar en este momento</td>
+        1.A.-En caso de que el itinerario no esté disponible, el sistema lo notificará indicando que el itinerario no se puede reservar en este momento</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
@@ -8932,7 +8907,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-26</td>
+        IR-26, UC-29</td>
     </tr>
 </table>
 
@@ -8957,7 +8932,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Paga la reserva </td>
+        Paga la reserva elegida por el usuario </td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
@@ -8965,27 +8940,26 @@
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El usuario ha de estar iniciado en el sistema y poseer saldo suficiente en su cuenta como para pagar la reserva deseada</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- Dado un usuario iniciado en el sistema, accede a la ventana donde se realiza la reserva de un itinerario<br>
+        2.- Una vez en la ventana de reserva, <br>
+        3.- Realiza el pago del itinerario seleccionado<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        1.A.- En caso de no disponer de saldo suficiente para realizar la reserva, se nos redirige a una vista donde se indica que el saldo es insuficiente</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        Se actualiza el saldo de la cuenta tras la reserva</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-26</td>
+        IR-26, UC-28, UC-30</td>
     </tr>
 </table>
 
@@ -9010,7 +8984,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Da la opción de guardar el ticket de la reserva en formato pdf, o imprimir en caso de que tengamos un dispositivo que permita la acción</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
@@ -9022,15 +8996,15 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- Dado un usuario iniciado en el sistema, accede a la ventana donde se realiza la reserva de un itinerario<br>
+        2.- Una vez en la ventana de reserva, <br>
+        3.- Realiza el pago del itinerario seleccionado
+        4.- Una vez realizado el pago, el sistema proporciona la opción de la impresión del recibo como prueba de la realización del pago<br></td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        1.A.- En caso de tener un dispositivo disponible para la impresión, esta se realiza</br>
+        1.B.- En caso de no tener un dispositivo disponible para la impresión, el sistema redirige a una ventana donde se nos indica la falta de un dispositivo que lleve a cabo esta última acción </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
@@ -9038,7 +9012,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-26</td>
+        UC-28, UC-29, IR-26</td>
     </tr>
 </table>
 
