@@ -1438,7 +1438,7 @@
 <table align = "center">
     <tr>
         <td><b>FR-01:</b></td>
-        <td>Buscador de itinerarios (Mapa interactivo)</td>
+        <td>Búsqueda de itinerarios</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -1458,7 +1458,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Realiza la búsqueda y nos indica en el mapa interactivo el itinerario seleccionado</td>
+        <td>Se realiza una búsqueda de itinerarios</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -1470,7 +1470,7 @@
     </tr>
     <tr>
         <td><b>Comentarios:</b></td>
-        <td>La búsqueda debe de realizarse en menos de 100ms</td>
+        <td></td>
     </tr>
 </table>
 
@@ -1479,7 +1479,7 @@
 <table align = "center">
     <tr>
         <td><b>FR-02:</b></td>
-        <td>Seleccionar orden de itinerarios buscados</td>
+        <td>Mostrar transbordos de un itinerario</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -1495,11 +1495,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-43, UC-44, UC-45, UC-46, UC-47 </td>
+        <td>UC-41</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Ordena los itinerarios coincidentes en base al criterio escogido</td>
+        <td>Se podrán ver los transbordos del itinerario escogido</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -1511,12 +1511,7 @@
     </tr>
     <tr>
         <td><b>Comentarios:</b></td>
-        <td>Podremos ordenar los itinerarios en base a:<br>
-        - Fecha<br>
-        - Horas de salida y llegada<br>
-        - Tiempo de transporte<br>
-        - Coste del transporte<br>
-        - Nº de transbordos</td>
+        <td></td>
     </tr>
 </table>
 
@@ -1525,6 +1520,129 @@
 <table align = "center">
     <tr>
         <td><b>FR-03:</b></td>
+        <td>Mostrar tarifas por etapas de un itinerario</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>UC-42</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se podrán ver las tarifas por etapas del itinerario escogido</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-04:</b></td>
+        <td>Mostrar tiempo y distancia total de un itinerario</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>UC-40</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se podrá ver la distancia total y el tiempo requerido del itinerario escogido</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-05:</b></td>
+        <td>Seleccionar fecha y hora de un itinerario</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>UC-47</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se podrá seleccionar la fecha y la hora de salida o llegada que se desee para llegar hasta algún punto. Como resultado, se mostrarán los itinerarios que se adapten a estos requisitos</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-06:</b></td>
         <td>Seleccionar origen-destino</td>
     </tr>
     <tr>
@@ -1541,7 +1659,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-39</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1565,48 +1683,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-04:</b></td>
-        <td>Mostrar tarifa del itinerario</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Muestra la tarifa del itinerario en cuestión</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>FR-05:</b></td>
+        <td><b>FR-07:</b></td>
         <td>Mostrar esquema del recorrido</td>
     </tr>
     <tr>
@@ -1623,7 +1700,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-48</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1647,7 +1724,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-06:</b></td>
+        <td><b>FR-08:</b></td>
         <td>Imprimir esquema del recorrido</td>
     </tr>
     <tr>
@@ -1664,7 +1741,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-49</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1688,8 +1765,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-07:</b></td>
-        <td>Buscador de paradas/estaciones (Mapa interactivo)</td>
+        <td><b>FR-09:</b></td>
+        <td>Seleccionar orden de la búsqueda de itinerarios</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -1705,11 +1782,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-43</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Realiza una búsqueda de la parada o la estación y se indica en el mapa interactivo</td>
+        <td>Se ordenan los distintos itinerarios que se muestran en base a la opción escogida</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -1729,97 +1806,130 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-08:</b></td>
-        <td>Seleccionar orden de paradas/estaciones coincidentes</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Ordena las paradas/estaciones que se muestran en base a la opción escogida</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td>- Cercanas a un sitio indicado<br>
-        - Cerca de una línea <br>
-        - Dentro de un municipio<br>
-        - Dentro de una zona/barrio</td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>FR-09:</b></td>
-        <!-- <td>Interactuar con el mapa</td> -->
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Permite modificar la vista que se tiene del mapa realizando acciones indicadas en comentarios</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td>Interacciones posibles:<br>
-        - Acercar<br>
-        - Alejar<br>
-        - Desplazar<br>
-        - Centrar<br>
-        - Ver mapa base</td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
         <td><b>FR-10:</b></td>
+        <td>Ordenar la búsqueda por coste</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>UC-44</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se ordenan los distintos itinerarios que se muestran en base al menor coste de estos</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-11:</b></td>
+        <td>Ordenar la búsqueda por tiempo</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>UC-45</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se ordenan los distintos itinerarios que se muestran en base a la duración del trayecto total</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-12:</b></td>
+        <td>Ordenar la búsqueda por transbordos</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>UC-46</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se ordenan los distintos itinerarios que se muestran en base a los que requieran menos transbordos</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-13:</b></td>
         <td>Representar recorrido de una línea</td>
     </tr>
     <tr>
@@ -1836,7 +1946,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-31</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1860,7 +1970,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-11:</b></td>
+        <td><b>FR-14:</b></td>
         <td>Iniciar sesión</td>
     </tr>
     <tr>
@@ -1877,7 +1987,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-24</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1901,7 +2011,48 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-12:</b></td>
+        <td><b>FR-15:</b></td>
+        <td>Registrarse</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>UC-25</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>El usuario se podrá registrar en la web</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-16:</b></td>
         <td>Renovar tarjeta</td>
     </tr>
     <tr>
@@ -1918,7 +2069,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1942,7 +2093,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-13:</b></td>
+        <td><b>FR-17:</b></td>
         <td>Comprar tarjeta de transporte</td>
     </tr>
     <tr>
@@ -1959,7 +2110,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-27</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1983,7 +2134,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-14:</b></td>
+        <td><b>FR-18:</b></td>
         <td>Recargar saldo tarjeta de transporte/td>
     </tr>
     <tr>
@@ -2000,7 +2151,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-26</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2022,186 +2173,10 @@
 
 <br>
 
-<!-- <table align = "center">
-    <tr>
-        <td><b>FR-15:</b></td>
-        <td>Representar recorrido de una línea</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Representa el recorrido de la línea en el mapa</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br> -->
-
-<!-- <table align = "center">
-    <tr>
-        <td><b>FR-16:</b></td>
-        <td>Modificar datos</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-03 </td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Modifica los datos que aparecen en cualquier apartado de la página</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br> -->
-
-<!-- <table align = "center">
-    <tr>
-        <td><b>FR-17:</b></td>
-        <td>Introducir datos</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-03 </td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Introduce datos en cualquier apartado de la página</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br> -->
-
-<!-- <table align = "center">
-    <tr>
-        <td><b>FR-18:</b></td>
-        <td>Añadir listado de horarios y servicios</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-03 </td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Añade un listado de los horarios del transporte y los servicios a ofrecer</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br> -->
-
-<!-- <table align = "center">
+<table align = "center">
     <tr>
         <td><b>FR-19:</b></td>
-        <td>Gestionar idiomas</td>
+        <td>Adquirir bono transporte</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2217,15 +2192,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-03 </td>
+        <td>UC-27</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Gestiona los idiomas en los que se puede visualizar la página</td>
+        <td>Se podrá adquirir un bono transporte</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -2241,12 +2212,12 @@
     </tr>
 </table>
 
-<br> -->
+<br>
 
-<!-- <table align = "center">
+<table align = "center">
     <tr>
         <td><b>FR-20:</b></td>
-        <td>Modificar diseño de las páginas</td>
+        <td>Ver histórico de itinerarias</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2262,15 +2233,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-03 </td>
+        <td>UC-23</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Modifica el estilo y la apariencia de cualquiera de las páginas</td>
+        <td>Se podrá ver el historial de itinerarios realizados con anterioridad</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -2286,12 +2253,12 @@
     </tr>
 </table>
 
-<br> -->
+<br>
 
-<!-- <table align = "center">
+<table align = "center">
     <tr>
         <td><b>FR-21:</b></td>
-        <td>Publicar contenido</td>
+        <td>Gestionar sistema de ventas y título de transporte</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2307,15 +2274,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-03 </td>
+        <td>UC-12</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Pulica contenido ya sea a cerca de eventos, publicidad, noticias, etc</td>
+        <td>Gestiona las acciones de venta de servicios de transporte y el título de transporte único para cada usuario siempre que esté registrado</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -2331,12 +2294,12 @@
     </tr>
 </table>
 
-<br> -->
+<br>
 
-<!-- <table align = "center">
+<table align = "center">
     <tr>
         <td><b>FR-22:</b></td>
-        <td>Retirar contenido</td>
+        <td>Crear aviso por correo electrónico</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2352,15 +2315,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-03 </td>
+        <td>UC-20</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Retira contenido previamente publicado en la página que ya no debe estar</td>
+        <td>Se mandarán avisos de incidencias/alteraciones/novedades al correo electrónico de los usuarios</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -2376,12 +2335,12 @@
     </tr>
 </table>
 
-<br> -->
+<br>
 
-<!-- <table align = "center">
+<table align = "center">
     <tr>
         <td><b>FR-23:</b></td>
-        <td>Modificar contenido</td>
+        <td>Crear aviso por sms</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2397,15 +2356,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-03 </td>
+        <td>UC-19</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Modifica el contenido de cualquiera de las páginas</td>
+        <td>Se mandarán avisos de incidencias/alteraciones/novedades al teléfono móvil de los usuarios vía sms</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -2421,12 +2376,12 @@
     </tr>
 </table>
 
-<br> -->
+<br>
 
-<!-- <table align = "center">
+<table align = "center">
     <tr>
         <td><b>FR-24:</b></td>
-        <td>Visualizar estadísticas de acceso a secciones y servicios</td>
+        <td>Crear aviso visual</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2442,15 +2397,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-03 </td>
+        <td>UC-18</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Visualiza estadísticas de acceso por parte de los usuarios a las distintas secciones y servicios</td>
+        <td>Se crearán avisos visuales de incidencias/alteraciones/novedades</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -2466,12 +2417,12 @@
     </tr>
 </table>
 
-<br> -->
+<br>
 
-<!-- <table align = "center">
+<table align = "center">
     <tr>
         <td><b>FR-25:</b></td>
-        <td>Gestionar publicidad</td>
+        <td>Crear aviso acústico</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2487,15 +2438,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-03 </td>
+        <td>UC-17</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Gestiona la aparición de publicidad mientras se navega por la página</td>
+        <td>Se crearán avisos acústicos de incidencias/alteraciones/novedades</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -2511,12 +2458,12 @@
     </tr>
 </table>
 
-<br> -->
+<br>
 
-<!-- <table align = "center">
+<table align = "center">
     <tr>
         <td><b>FR-26:</b></td>
-        <td>Registrar situación de los operadores</td>
+        <td>Gestionar usuarios</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2532,15 +2479,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-03 </td>
+        <td>UC-14</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Registra la situación de los operadores en tiempo real ya sea a través de vídeo o fotos</td>
+        <td>Se podrán gestionar los usuarios registrados en la web</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -2556,12 +2499,12 @@
     </tr>
 </table>
 
-<br> -->
+<br>
 
 <table align = "center">
     <tr>
         <td><b>FR-27:</b></td>
-        <td>Registrar adelanto o retraso de cada línea</td>
+        <td>Definir condiciones</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2577,11 +2520,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-16</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Indica la llegada anticipada o retrasada de un operador a las paradas</td>
+        <td>Se podrán crear condiciones en el flujo de la web</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -2602,7 +2545,7 @@
 <table align = "center">
     <tr>
         <td><b>FR-28:</b></td>
-        <td>Gestionar sistema de ventas y título de transporte</td>
+        <td>Definir variables</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2618,11 +2561,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-15</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Gestiona las acciones de venta de servicios de transporte y el título de transporte único para cada usuario siempre que esté registrado</td>
+        <td>Se podrán definir variables en el flujo de la web</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -2643,7 +2586,7 @@
 <table align = "center">
     <tr>
         <td><b>FR-29:</b></td>
-        <!-- <td>Gestionar sistema de señalización</td> -->
+        <td>Definir eventos/incidencias</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2659,11 +2602,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-13</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Definir paradas y estaciones además de sus correspondientes avisos</td>
+        <td>Se podrán definir eventos e incidencias en la web</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -2675,106 +2618,16 @@
     </tr>
     <tr>
         <td><b>Comentarios:</b></td>
-        <td>Los avisos respecto a paradas y estaciones podrán ser:<br>
-        - Acústicos<br>
-        - Visuales<br>
-        - Por móvil (sms) <br>
-        - Por correo</td>
+        <td></td>
     </tr>
 </table>
 
 <br>
 
-<!-- <table align = "center">
-    <tr>
-        <td><b>FR-30:</b></td>
-        <td>Gestionar sistema de ventas y título de transporte</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Gestiona las acciones de venta de servicios de transporte y el título de transporte único para cada usuario siempre que esté registrado</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br> -->
-
-<!-- <table align = "center">
-    <tr>
-        <td><b>FR-31:</b></td>
-        <td>Definir evento</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-03 </td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Añade un evento en su correspondiente apartado</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br> -->
-
 <table align = "center">
     <tr>
-        <td><b>FR-32:</b></td>
-        <!-- <td>Examinar estado de la explotación de operadores</td> -->
+        <td><b>FR-30:</b></td>
+        <td>Mostrar actividad de los operadores</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2790,15 +2643,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b></td>
-        <td>ACT-03 </td>
+        <td>UC-09</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Examina la explotación de los operadores en base a los datos delas jornadas laborales de estos</td>
+        <td>Examina la actividad de los operadores en base a los datos de las jornadas laborales de estos</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -2816,6 +2665,784 @@
 
 <br>
 
+<table align = "center">
+    <tr>
+        <td><b>FR-31:</b></td>
+        <td>Guardar foto de estado de la actividad de los operadores</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>UC-05</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se guarda la foto del estado actual de la actividad realizada por los operadores durante sus jornadas laborales</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td>Se estudian tanto grupal como individualmente</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-32:</b></td>
+        <td>Guardar película de evolución temporal de los operadores</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>UC-06</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se guarda una película de evolución temporal de la actividad realizada por los operadores</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td>Se estudian tanto grupal como individualmente</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-33:</b></td>
+        <td>Gestionar elementos del mapa</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>UC-07</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se podrán gestionar los distintos elementos del mapa interactivo</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td>Se estudian tanto grupal como individualmente</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-34:</b></td>
+        <td>Gestionar líneas</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>UC-08</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se podrán gestionar las distintas líneas de transporte del mapa interactivo/td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td>Se estudian tanto grupal como individualmente</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-35:</b></td>
+        <td>Ver adelantos o retrasos de cada línea</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>UC-11</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se registra la llegada anticipada o retrasada de un operador a las paradas respecto a su hora habitual</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-36:</b></td>
+        <td>Hacer clic sobre una parada/estación</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>UC-10</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se podrá hacer clic sobre una parada u estación</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-37:</b></td>
+        <td>Mostrar información de la parada u estación</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>UC-01</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se podrá ver la información relacionada con una parada u estación haciendo clic sobre la misma</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-38:</b></td>
+        <td>Hacer clic sobre un sitio de interés</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>UC-04</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se podrá hacer clic sobre un sitio de interés</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-39:</b></td>
+        <td>Mostrar información de un sitio de interés</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>UC-03</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se podrá ver la información relacionada con un sitio de interés haciendo clic sobre el misma</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-40:</b></td>
+        <td>Reservar itinerario</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>UC-28</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se podrá reservar un itinerario</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-41:</b></td>
+        <td>Pagar reserva de itinerario</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>UC-29</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se podrá pagar la reserva de un itinerario</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-42:</b></td>
+        <td>Imprimir ticket de la reserva de un itinerario</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>UC-30</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se podrá imprimir el ticket de la reserva de un itinerario</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-43:</b></td>
+        <td>Presentar recorridos de una línea</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>UC-31</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se mostrarán los distintos recorridos de una linea</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-44:</b></td>
+        <td>Buscar una parada</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>UC-32</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se podrá buscar una parada en concreto</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-45:</b></td>
+        <td>Introducción identificador de parada</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>UC-33</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se podrá introducir un identificador de parada facilitar la búsqueda de la misma</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-46:</b></td>
+        <td>Parametrizar búsqueda de paradas/estaciones</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>UC-34</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se podrá parametrizar la búsqueda de paradas o estaciones concretas según determinados filtros</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-47:</b></td>
+        <td>Búsqueda de paradas/estaciones pertenecientes a un lugar</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>UC-35</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se podrán buscar las paradas o estaciones que pertenezcan a un lugar en concreto</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-48:</b></td>
+        <td>Búsqueda de paradas/estaciones pertenecientes a una línea</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>UC-36</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se podrán buscar las paradas o estaciones que pertenezcan a una línea en concreto</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-49:</b></td>
+        <td>Búsqueda de paradas/estaciones cerca de un origen/destino determinado</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>UC-37</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se podrán buscar las paradas o estaciones más cercanas a un punto de origen o destino</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
 ### <a name="requisitosnofuncionalesdelportal"></a> Requisitos no funcionales del Portal
 
 <br>
@@ -5860,7 +6487,7 @@
     </tr>
     <tr>
         <td>UC-03</td>
-        <td>Mostrar información</td>
+        <td>Mostrar información del sitio de interés turístico</td>
     </tr>
     <tr>
         <td>UC-04</td>
