@@ -222,16 +222,8 @@
         <td><b>Descripción</b></td>
     </tr>
     <tr>
-        <td>término</td>
-        <td>descripción</td>
-    </tr>
-    <tr>
-        <td>término</td>
-        <td>descripción</td>
-    </tr>
-    <tr>
-        <td>término</td>
-        <td>descripción</td>
+        <td>Cloud Tag</td>
+        <td>Nube donde de forma gráfica en forma de etiquetas se pueden acceder a las funcionalidades de la página</td>
     </tr>
 </table>
 
@@ -3426,7 +3418,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-04, IR-06, IR-08, IR-10, IR-12, IR-14, IR-16, IR-18, IR-20</td>
+        <td>UC-01, UC-02, UC-05, UC-08, UC-09, UC-10, UC-11, UC-12, UC-13, UC-14, UC-15, UC-16, UC-17, UC-19, UC-24, IR-04, IR-06, IR-08, IR-10, IR-12, IR-14, IR-16, IR-18, IR-20</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3473,7 +3465,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-05</td>
+        <td>UC-14, IR-03, IR-05</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3520,7 +3512,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-04</td>
+        <td>UC-14, UC-23, IR-04</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3570,7 +3562,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-07</td>
+        <td>UC-09, IR-03, IR-07</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3616,7 +3608,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-06</td>
+        <td>UC-09, UC-23, IR-06</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3665,7 +3657,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-09</td>
+        <td>UC-01, IR-03, IR-09</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3711,7 +3703,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-08</td>
+        <td>UC-01, UC-23, IR-08</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3760,7 +3752,7 @@
     </tr>
         <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-11</td>
+        <td>UC-02, UC-19, IR-03, IR-11</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3806,7 +3798,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-10</td>
+        <td>UC-02, UC-19, UC-23, IR-10</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3855,7 +3847,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-13</td>
+        <td>UC-15, IR-03, IR-13</td>
     </tr>
       <tr>
         <td><b>Descripción:</b></td>
@@ -3901,7 +3893,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-12</td>
+        <td>UC-15, UC-23, IR-12</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3950,7 +3942,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-15</td>
+        <td>UC-10, UC-11, UC-12, UC-13, IR-03, IR-15</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3996,7 +3988,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-14</td>
+        <td>UC-10, UC-11, UC-12, UC-13, UC-23, IR-14</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4045,7 +4037,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-17</td>
+        <td>UC-08, IR-03, IR-17</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4091,7 +4083,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-16</td>
+        <td>UC-08, UC-23, IR-16</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4140,7 +4132,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-19</td>
+        <td>UC-16, IR-03, IR-19</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4186,7 +4178,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-18</td>
+        <td>UC-16, UC-23, IR-18</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4235,7 +4227,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-21</td>
+        <td>UC-17, UC-24, IR-03, IR-21</td>
     </tr>
      <tr>
         <td><b>Descripción:</b></td>
@@ -4281,7 +4273,7 @@
     </tr>
         <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-20</td>
+        <td>UC-17, UC-23, UC-24, IR-20</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4335,7 +4327,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-02, IR-05</td>
+        <td>UC-17, UC-18, UC-19, UC-20, IR-02, IR-05</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4430,7 +4422,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-02, IR-04, IR-05</td>
+        <td>UC-16, IR-02, IR-04, IR-05</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4577,7 +4569,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-04, IR-05</td>
+        <td>UC-15, IR-04, IR-05</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4825,7 +4817,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-05, IR-08, IR-15</td>
+        <td>UC-13, IR-05, IR-08, IR-15</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4878,7 +4870,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-07, IR-08, IR-09, IR-12, IR-20</td>
+        <td>UC-35, IR-07, IR-08, IR-09, IR-12, IR-20</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4928,7 +4920,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-14</td>
+        <td>UC-08, UC-36, IR-14</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4977,7 +4969,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-13, IR-19</td>
+        <td>UC-11, IR-13, IR-19</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5078,7 +5070,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-21, IR-22</td>
+        <td>UC-09, IR-21, IR-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5181,7 +5173,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-23, IR-24</td>
+        <td>UC-42, IR-23, IR-24</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5235,7 +5227,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-07, IR-14, IR-15, IR-24</td>
+        <td>UC-01, IR-07, IR-14, IR-15, IR-24</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5286,7 +5278,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-12, IR-15</td>
+        <td>UC-03, IR-12, IR-15</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5336,7 +5328,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-15, IR-16</td>
+        <td>UC-05, UC-06, IR-15, IR-16</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5527,7 +5519,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-23, IR-26</td>
+        <td>UC-23, UC-38, UC-40, UC-41, IR-23, IR-26</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5581,7 +5573,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-25, IR-29</td>
+        <td>UC-28, UC-29, UC-30, IR-25, IR-29</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5629,7 +5621,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-29</td>
+        <td>UC-12, UC-21, IR-29</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5679,7 +5671,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-29</td>
+        <td>UC-12, UC-22, UC-26, UC-27, IR-29</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5730,7 +5722,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-26, IR-27, IR-28</td>
+        <td>UC-14, UC-25, IR-26, IR-27, IR-28</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -6256,7 +6248,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        FR-11, IR-08, IR-09</td>
+        FR-11, IR-03, IR-08, IR-09</td>
     </tr>
 </table>
 
@@ -6306,7 +6298,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        FR-07, IR-10, IR-11</td>
+        FR-07, IR-03, IR-10, IR-11</td>
     </tr>
 </table>
 
@@ -6343,7 +6335,7 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El usaurio pulsa el botón para ver el blog<br>
+        1.- El usuario pulsa el botón para ver el blog<br>
         2.- El sistema muestra la página del blog</td>
     </tr>
     <tr>
@@ -6456,7 +6448,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        FR-03</td>
+        FR-03, IR-03</td>
     </tr>
 </table>
 
@@ -6493,8 +6485,8 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El usaurio pulsará el buscador<br>
-        2.- El usaurio introducirá la búsqueda<br>
+        1.- El usuario pulsará el buscador<br>
+        2.- El usuario introducirá la búsqueda<br>
         3.- El sistema mostrará la búsqueda</td>
     </tr>
     <tr>
@@ -6609,7 +6601,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        FR-05, IR-16, IR-17</td>
+        FR-05, IR-03, IR-16, IR-17</td>
     </tr>
 </table>
 
@@ -6659,7 +6651,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        FR-06, IR-06, IR-07</td>
+        FR-06, IR-03, IR-06, IR-07</td>
     </tr>
 </table>
 
@@ -6709,7 +6701,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        FR-13, IR-14, IR-15</td>
+        FR-13, IR-03, IR-14, IR-15</td>
     </tr>
 </table>
 
@@ -6761,7 +6753,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        UC-10, FR-13, FR-14, IR-14, IR-15</td>
+        UC-10, FR-13, FR-14, IR-03, IR-14, IR-15</td>
     </tr>
 </table>
 
@@ -6812,7 +6804,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        UC-10, FR-13, FR-15, IR-14, IR-15</td>
+        UC-10, FR-13, FR-15, IR-03, IR-14, IR-15</td>
     </tr>
 </table>
 
@@ -6863,7 +6855,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        UC-10, FR-13, FR-16, IR-14, IR-15</td>
+        UC-10, FR-13, FR-16, IR-03, IR-14, IR-15</td>
     </tr>
 </table>
 
@@ -6913,7 +6905,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        FR-17, IR-04, IR-05</td>
+        FR-17, IR-03, IR-04, IR-05</td>
     </tr>
 </table>
 
@@ -6965,7 +6957,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        FR-08, IR-12, IR-13</td>
+        FR-08, IR-03, IR-12, IR-13</td>
     </tr>
 </table>
 
@@ -7015,7 +7007,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        FR-09, IR-18, IR-19</td>
+        FR-09, IR-03, IR-18, IR-19</td>
     </tr>
 </table>
 
@@ -7065,7 +7057,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        FR-10, IR-20, IR-21</td>
+        FR-10, IR-03, IR-20, IR-21</td>
     </tr>
 </table>
 
@@ -7171,7 +7163,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        FR-25, IR-10, IR-11</td>
+        FR-25, IR-03, IR-10, IR-11</td>
     </tr>
 </table>
 
@@ -7384,7 +7376,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        FR-23</td>
+        FR-23, IR-05, IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19, IR-21</td>
     </tr>
 </table>
 
@@ -7441,7 +7433,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        FR-22, IR-20, IR-21</td>
+        FR-22, IR-03, IR-20, IR-21</td>
     </tr>
 </table>
 
@@ -7647,7 +7639,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-         </td>
+        IR-19</td>
     </tr>
 </table>
 
@@ -7753,7 +7745,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-20</td>
     </tr>
 </table>
 
@@ -7859,7 +7851,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-21</td>
     </tr>
 </table>
 
@@ -7912,7 +7904,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-21</td>
     </tr>
 </table>
 
@@ -8018,7 +8010,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-13</td>
     </tr>
 </table>
 
@@ -8072,7 +8064,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-16</td>
     </tr>
 </table>
 
@@ -8176,7 +8168,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-14</td>
     </tr>
 </table>
 
@@ -8226,7 +8218,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-27, IR-28</td>
     </tr>
 </table>
 
@@ -8276,7 +8268,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-11</td>
     </tr>
 </table>
 
@@ -8326,7 +8318,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-29</td>
     </tr>
 </table>
 
@@ -8379,7 +8371,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-06</td>
     </tr>
 </table>
 
@@ -8429,7 +8421,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-03</td>
     </tr>
 </table>
 
@@ -8482,7 +8474,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-01</td>
     </tr>
 </table>
 
@@ -8532,7 +8524,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-01</td>
     </tr>
 </table>
 
@@ -8585,7 +8577,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-01</td>
     </tr>
 </table>
 
@@ -8635,7 +8627,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-01</td>
     </tr>
 </table>
 
@@ -8672,7 +8664,7 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- Dado un ususario registrado e iniciado, adquiere el bono<br>
+        1.- Dado un usuario registrado e iniciado, adquiere el bono<br>
         </td>
     </tr>
     <tr>
@@ -8685,7 +8677,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-27</td>
     </tr>
 </table>
 
@@ -8735,7 +8727,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-28</td>
     </tr>
 </table>
 
@@ -8785,7 +8777,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-25</td>
     </tr>
 </table>
 
@@ -8885,7 +8877,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-29</td>
     </tr>
 </table>
 
@@ -8935,7 +8927,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-28</td>
     </tr>
 </table>
 
@@ -8972,7 +8964,7 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- Dado un usuario registrado en el sistema e iniciado, rellena el formulario con la infromación necesaria para obtener el título <br>
+        1.- Dado un usuario registrado en el sistema e iniciado, rellena el formulario con la infoomación necesaria para obtener el título <br>
         2.- En caso de que la información esté correcta, se obtiene el título<br>
         </td>
     </tr>
@@ -8986,7 +8978,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-28</td>
     </tr>
 </table>
 
@@ -9039,7 +9031,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-26</td>
     </tr>
 </table>
 
@@ -9092,7 +9084,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-26</td>
     </tr>
 </table>
 
@@ -9145,7 +9137,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-26</td>
     </tr>
 </table>
 
@@ -9390,7 +9382,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        UC-32, UC-34</td>
+        UC-32, UC-34, IR-12</td>
     </tr>
 </table>
 
@@ -9439,7 +9431,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        UC-32, UC-34</td>
+        UC-32, UC-34, IR-13</td>
     </tr>
 </table>
 
@@ -9539,7 +9531,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        UC-39, UC-40, UC-41, UC-42, UC-43, UC-44, UC-45, UC-46, UC-47, UC-48, UC-49</td>
+        UC-39, UC-40, UC-41, UC-42, UC-43, UC-44, UC-45, UC-46, UC-47, UC-48, UC-49, IR-25</td>
     </tr>
 </table>
 
@@ -9637,7 +9629,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        UC-38</td>
+        UC-38, IR-25</td>
     </tr>
 </table>
 
@@ -9687,7 +9679,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-25</td>
     </tr>
 </table>
 
@@ -9736,7 +9728,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        UC-38</td>
+        UC-18</td>
     </tr>
 </table>
 
