@@ -37,7 +37,7 @@ class Condicion {
     PK idCondicion : Integer
     FK idGestor : Integer
     descripcion : String
-    activa : String
+    activa : Boolean
 }
 
 class CondicionVariable {
@@ -46,9 +46,9 @@ class CondicionVariable {
 }
 
 class CoordenadasGeograficas {
-    PK latitud: Integer
-    PK longitud : Integer
-    PK altura : Integer
+    PK latitud: String
+    PK longitud : String
+    PK altura : String
     FK idCalle : Integer
     FK idLugar : Integer
 }
@@ -82,9 +82,9 @@ class EventoCultural {
 
 class EventoIncidencia {
     PK idEventoIncidencia : Integer
-    FK latitud: Integer
-    FK longitud : Integer
-    FK altura : Integer
+    FK latitud: String
+    FK longitud : String
+    FK altura : String
     FK idGestor : Integer
     cabecera : String
     descripcion : String
@@ -138,7 +138,7 @@ class Linea {
 
 class Lugar {
     PK idLugar : Integer
-    FK idLugar : Integer
+    FK idLugarContenedor : Integer
     nombre : String
     tipo : Enum {'zona', 'barrio', 'municipio'}
     numVisitas : Integer
@@ -146,7 +146,7 @@ class Lugar {
 }
 
 class Operador {
-    PK idOperador : Integer
+    PK matricula : Integer
     medioTransporte : Enum {'guagua urbana', 'guagua interurbana', 'cocheTaxi', 'embarcacionPesada', 'avion'}
     capacidad : Integer
     ocupacion : Integer
@@ -175,16 +175,15 @@ class ParadaEstacionLinea {
     PK FK idParadaEstacion : Integer
     funcion : Enum {'origen', 'destino', 'pasoPorParada'}
     numParada : Integer
-    horaPasoOriginal : Datetime
-    horaPasoReal : Datetime
+    horaPaso : Datetime
 }
 
 class Portal {
     PK numPortal : Integer
     PK FK idCalle : Integer
-    FK latitud: Integer
-    FK longitud : Integer
-    FK altura : Integer
+    FK latitud: String
+    FK longitud : String
+    FK altura : String
     nombre : String
     numVisitas : Integer
 }
@@ -210,7 +209,7 @@ class Servicio {
 
 class ServicioOperador {
     PK FK idServicio : Integer
-    PK FK idOperador : Integer
+    PK FK matricula : Integer
 }
 
 class SitioInteresTuristico {
@@ -236,7 +235,7 @@ class Situacion {
 class TituloTransporte {
     PK codigo : Integer
     FK idUsuario : Integer
-    categoria : Enum {'Basica', 'Avanzada', 'Premium'}
+    categoria : Enum {'basica', 'avanzada', 'premium'}
     fechaExpedicion : Datetime
     fechaCaducidad : Datetime
     saldoDisponible : Double
@@ -259,7 +258,7 @@ class Variable {
     PK idVariable : Integer
     FK idGestor : Integer
     descripcion : String
-    activa : String
+    activa : Boolean
 }
 
 Aviso "1" -- "0..m" AvisoCondicion
