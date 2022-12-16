@@ -141,6 +141,12 @@
         <td>Subida de los requisitos de información</td>
         <td>Joaquín Murcia Escánez</td>
     </tr>
+    <tr>
+        <td>15/12/2022</td>
+        <td>1.0</td>
+        <td>Subida de los casos de usos del portal detallados</td>
+        <td>Daniel López García</td>
+    </tr>
 </table>
 
 <br><br>
@@ -6205,7 +6211,7 @@
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
-        Contactar</td>
+        Ver información corporativa</td>
     </tr>
     <tr>
         <td><b>Autor:</b><br>
@@ -6217,35 +6223,32 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Da la opción de contactar con el servicio de atención al cliente</td>
+        Da la opción de ver información sobre la empresa</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01, ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El usuario pulsa el botón para ver la información corporativa<br>
+        2.- El sistema mostrará la página de información de la empresa</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        FR-11, IR-08, IR-09</td>
     </tr>
 </table>
 
@@ -6255,324 +6258,6 @@
     <tr>
         <td><b>Identificador:</b><br>
         UC-02</td>
-    </tr>
-    <tr>
-        <td><b>Nombre:</b><br>
-        Ver noticias</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b><br>
-        Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fecha:</b><br>
-        20/12/2022</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b><br>
-        Otorga la posibilidad de ver las noticias relacionadas con el transporte y los eventos en Gran Canaria</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
-    </tr>
-    <tr>
-        <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>Identificador:</b><br>
-        UC-03</td>
-    </tr>
-    <tr>
-        <td><b>Nombre:</b><br>
-        Cambiar idioma</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b><br>
-        Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fecha:</b><br>
-        20/12/2022</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b><br>
-        Permite cambiar el idioma en el que se visualiza la página</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
-    </tr>
-    <tr>
-        <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>Identificador:</b><br>
-        UC-04</td>
-    </tr>
-    <tr>
-        <td><b>Nombre:</b><br>
-        Realizar búsqueda</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b><br>
-        Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fecha:</b><br>
-        20/12/2022</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b><br>
-        Permite la localización de cualquier contenido mediante la introducción de términos clave</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
-    </tr>
-    <tr>
-        <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>Identificador:</b><br>
-        UC-05</td>
-    </tr>
-    <tr>
-        <td><b>Nombre:</b><br>
-        Acceder a cloud tag</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b><br>
-        Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fecha:</b><br>
-        20/12/2022</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b><br>
-        Dispone el acceso a una nube donde de forma grafica a través de etiquetas se puede acceder a las funcionalidades de la pagina</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
-    </tr>
-    <tr>
-        <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>Identificador:</b><br>
-        UC-06</td>
-    </tr>
-    <tr>
-        <td><b>Nombre:</b><br>
-        Ver foro</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b><br>
-        Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fecha:</b><br>
-        20/12/2022</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b><br>
-        Redirige al usuario al foro donde podrá opinar a cerca de distintos temas relacionados con el transporte en Gran Canaria </td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
-    </tr>
-    <tr>
-        <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>Identificador:</b><br>
-        UC-07</td>
-    </tr>
-    <tr>
-        <td><b>Nombre:</b><br>
-        Ver blog</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b><br>
-        Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fecha:</b><br>
-        20/12/2022</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b><br>
-        Ofrece la posibilidad de acceder al blog de la página</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
-    </tr>
-    <tr>
-        <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>Identificador:</b><br>
-        UC-08</td>
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
@@ -6588,35 +6273,335 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Ofrece una vista de los horarios y servicios disponibles </td>
+        Da la posibilidad de ver horarios y servicios de los transportes públicos de Gran Canaria</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01, ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El usuario pulsa el botón para ver los horarios y servicios<br>
+        2.- El sistema muestra la página para ver los horarios y servicios</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        FR-07, IR-10, IR-11</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-03</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Ver blog</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Permite ver un blog con información de la aplicación</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        ACT-01, ACT-02</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- El usaurio pulsa el botón para ver el blog<br>
+        2.- El sistema muestra la página del blog</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        FR-01 </td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-04</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Ver foro</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Permite ver un foro en el que habrá comentarios de otros usurios</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        ACT-01, ACT-02</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- El usuario pulsará el botón ppara ver el foro<br>
+        2.- El sistema mostrará la página del foro</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        FR-02</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-05</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Ver cloud tag</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        permite ver una nube donde de forma grafica a través de etiquetas se puede acceder a las funcionalidades de la pagina</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        ACT-01, ACT-02</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- El usuario pulsará el botón para ver el cloud tag<br>
+        2.- El sistema mostrará el cloud tag</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        FR-03</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-06</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Ver buscador</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Permitirá ver un buscador para que el usuario lo utilice </td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        ACT-01, ACT-02</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- El usaurio pulsará el buscador<br>
+        2.- El usaurio introducirá la búsqueda<br>
+        3.- El sistema mostrará la búsqueda</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        3.A.- El sistema dirá que no hay resultados de la búsqueda </td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        FR-04, NFR-02</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-07</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Cambiar idioma</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        ofrece la opción de cambiar el idioma del portal</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        ACT-01, ACT-02</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- El usuario pulsará el botón para cambiar el idioma<br>
+        2.- El sistema mostrará los idioma disponibles<br>
+        3.- El usuario eligirá el idioma<br>
+        4.- El sistema mostrará el portal con el idioma seleccionado</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        FR-12, FR-26</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-08</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Ver noticias</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Ofrece una vista con las noticias de la isla</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        ACT-01, ACT-02</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- El usuario pulsará el botón para ver las noticias<br>
+        2.- El sistema mostrará la página con las noticias</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        FR-05, IR-16, IR-17</td>
     </tr>
 </table>
 
@@ -6629,7 +6614,7 @@
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
-        Ver información corporativa</td>
+        Contactar</td>
     </tr>
     <tr>
         <td><b>Autor:</b><br>
@@ -6641,35 +6626,32 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Da acceso a una vista con la información corporativa</td>
+        Da la posibilidad de acceder a una página para contactar con la empresa</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01, ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El usuario pulsará el botón para contactar<br>
+        2.- El sistema mostrará la página con la información de contacto</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        FR-06, IR-06, IR-07</td>
     </tr>
 </table>
 
@@ -6679,218 +6661,6 @@
     <tr>
         <td><b>Identificador:</b><br>
         UC-10</td>
-    </tr>
-    <tr>
-        <td><b>Nombre:</b><br>
-        Ver publicidad</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b><br>
-        Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fecha:</b><br>
-        20/12/2022</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b><br>
-        Permite ver la publicidad que aparece en el portal de la página</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
-    </tr>
-    <tr>
-        <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>Identificador:</b><br>
-        UC-11</td>
-    </tr>
-    <tr>
-        <td><b>Nombre:</b><br>
-        Ver títulos y tarifas del transporte</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b><br>
-        Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fecha:</b><br>
-        20/12/2022</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b><br>
-        Dispone de una vista con los títulos y tarifas del transporte</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
-    </tr>
-    <tr>
-        <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>Identificador:</b><br>
-        UC-12</td>
-    </tr>
-    <tr>
-        <td><b>Nombre:</b><br>
-        Ver itinerarios destacados</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b><br>
-        Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fecha:</b><br>
-        20/12/2022</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b><br>
-        Dispone de una vista donde se pueden ver los itinerarios destacados</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
-    </tr>
-    <tr>
-        <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>Identificador:</b><br>
-        UC-13</td>
-    </tr>
-    <tr>
-        <td><b>Nombre:</b><br>
-        Ver avisos</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b><br>
-        Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fecha:</b><br>
-        20/12/2022</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b><br>
-        Da la posibilidad de ver los avisos que emite la página</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
-    </tr>
-    <tr>
-        <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>Identificador:</b><br>
-        UC-14</td>
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
@@ -6906,35 +6676,32 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Otorga la posibilidad de ver lugares desde el portal</td>
+        Otorga la posibilidad de ver lugares de interes de la isla de Gran Canaria desde el portal</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01, ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El usuario pulsará el botón para ver los lugares<br>
+        2.- El sistema mostrará los lugares</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        FR-13, IR-14, IR-15</td>
     </tr>
 </table>
 
@@ -6943,7 +6710,7 @@
 <table align = "center">
     <tr>
         <td><b>Identificador:</b><br>
-        UC-15</td>
+        UC-11</td>
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
@@ -6959,35 +6726,34 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Ofrece una vista de los eventos públicos </td>
+        Da la opción de ver los eventos que hay en la isla</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01, ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        Pulsar botón para ver los lugares</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El usuario pulsará el botón para ver los lugares<br>
+        2.- El sistema mostrará los lugares<br>
+        3.- El usuario eligirá ver los monumentos<br>
+        4.- El sistema mostrará los monumentos de la isla</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-10, FR-13, FR-14, IR-14, IR-15</td>
     </tr>
 </table>
 
@@ -6996,7 +6762,7 @@
 <table align = "center">
     <tr>
         <td><b>Identificador:</b><br>
-        UC-16</td>
+        UC-12</td>
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
@@ -7012,35 +6778,33 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Permite ver los monumentos de la isla de Gran Canaria</td>
+        Permite la opción para ver los monumentos de la isla</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01, ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        Acceder a lugares</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
-    </tr>
+        1.- El usuario pulsará el botón para ver los lugares<br>
+        2.- El sistema mostrará los lugares<br>
+        3.- El usuario eligirá ver los eventos<br>
+        4.- El sistema mostrará los eventos de la isla</td>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-10, FR-13, FR-15, IR-14, IR-15</td>
     </tr>
 </table>
 
@@ -7049,7 +6813,7 @@
 <table align = "center">
     <tr>
         <td><b>Identificador:</b><br>
-        UC-17</td>
+        UC-13</td>
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
@@ -7065,35 +6829,235 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Ofrece un listado de los sitios turísticos</td>
+        Da la posibilidad de ver los sitios turísticos de la isla</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01, ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        Acceder a lugares</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
-    </tr>
+        1.- El usuario pulsará el botón para ver los lugares<br>
+        2.- El sistema mostrará los lugares<br>
+        3.- El usuario eligirá ver los sitios turísticos<br>
+        4.- El sistema mostrará los sitios turísticos de la isla</td>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-10, FR-13, FR-16, IR-14, IR-15</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-14</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Ver avisos</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Permite la opción para mostrar avisos relevantes de las islas</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        ACT-01, ACT-02</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- El usuario pulsa el botón para ver los avisos<br>
+        2.- El sistema mostrará los avisos</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        2.A.- El sistema mostrará una ventana diciendo que no hay avisos disponibles</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        FR-17, IR-04, IR-05</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-15</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Ver itinerarios destacados</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Ofrece una vista en la que poder ver los itinerarios destacados de manera más detallada</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        ACT-01, ACT-02</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- El usuario pulsará el botón para ver los itinerarios destacados<br>
+        2.- El sistema mostrará los itinerarios destacados<br>
+        3.- El usuario eligirá un itinerario<br>
+        4.- El sistema mostrará el itinerario de manera más detallada</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        FR-08, IR-12, IR-13</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-16</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Ver títulos y tarifas del transporte</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Permite ver títulos y tarifas del transporte disponibles en las islas</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        ACT-01, ACT-02</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- El usuario pulsará el botón para ver títulos y tarifas del transporte<br>
+        2.- El sistema mosrará un listado de los títulos y tarifas del transporte disponibles en la isla</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        FR-09, IR-18, IR-19</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-17</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Ver publicidad</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        El portal mostrará publicidad relevante con la isla</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        ACT-01, ACT-02</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- El usuario entra al portal<br>
+        2.- El sistema mostrará cada cierto tiempo publicidad</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        FR-10, IR-20, IR-21</td>
     </tr>
 </table>
 
@@ -7118,35 +7082,35 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        El portal tendrá opción para que su propietario/gestor añada datos</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        Iniciar el portal como gestor</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El gestor pulsará el botón para añadir datos<br>
+        2.- El sistema mostrará la ventana para añadir datos<br>
+        3.- El gestor añadirá los datos y pulsará el botón subir<br>
+        4.- El sistema confirmará que la subida de los datos se ha hecho de manera correcta</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        4.A.- El sistema dirá que ha habido un problema con la subida de los datos<br>
+        5.A.- El sistema le llevará de nuevo a la vista de añadir los datos señalando el fallo</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema guardará los nuevos datos</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        FR-18</td>
     </tr>
 </table>
 
@@ -7171,35 +7135,35 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        El portal dará la opción para añadir el listado de los horarios y servicios disponibles de la isla</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        Iniciar el portal como gestor</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El gestor pulsará el botón para añadir horarios y servicios<br>
+        2.- El sistema mostrará la ventana para añadir los horarios y servicios<br>
+        3.- El gestor añadirá los horarios o servicios que quiera y pulsará el botón añadir<br>
+        4.- El sistema confirmará que la subida de los datos se ha hecho de manera correcta</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        4.A.- El sistema dirá que ha habido un problema con la subida de los datos<br>
+        5.A.- El sistema le llevará de nuevo a la vista de añadir los horarios y servicios señalando el fallo</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema guardará los nuevos horarios y servicios</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        FR-25, IR-10, IR-11</td>
     </tr>
 </table>
 
@@ -7224,35 +7188,39 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        El sistema tendrá una funcionalidad para añadir o eliminar idiomas</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        Iniciar el portal como gestor</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El gestor pulsará el botón para gestionar idiomas<br>
+        2.- El sistema mostrará la ventana para gestionar los idiomas<br>
+        3.- El gestor podrá elegir añadir un idioma o eliminarlo<br>
+        3.1.- El gestor elige añadir un idioma<br>
+        3.1.1.- El sistema mostrará el plugin para añadir los idiomas<br>
+        3.1.2.- El gestor buscará un idioma y lo añadirá<br>
+        3.2.- El gestor elige eliminar un idioma<br>
+        3.2.1.- El sistema muestra los idiomas ya añadidos<br>
+        3.2.2.- El gestor busca el idioma que quiere eliminar y lo elimina</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        3.1.2.A. El plugin no contiene el idioma buscado</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema guardará el nuevo idioma o eliminará el idioma elegido</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        FR-26</td>
     </tr>
 </table>
 
@@ -7277,35 +7245,34 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        El portal da la opción para modificar su diseño</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        Iniciar el portal como gestor</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El gestor pulsará el botón para modificar el diseño<br>
+        2.- El sistema mostrará la ventana para modificar el diseño<br>
+        3.- El gestor cambiará el diseño a su gusto<br>
+        4.- El sistema confirmará el cambio del diseño</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema guardará el nuevo diseño</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        FR-27</td>
     </tr>
 </table>
 
@@ -7330,35 +7297,36 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        El portal dará la opción para eliminar páginas</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        Iniciar el portal como gestor</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El gestor pulsará eligirá la página que quiere eliminar<br>
+        2.- El gestor eliminará la página<br>
+        3.- El sistema mostrará un pop-up para confirmar la eliminación<br>
+        4.- El gestor aceptará<br>
+        5.- El sistema mostrará un mensaje confirmando que la página ha sido eliminada</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        4.A.- El gestor cancela<br>
+        5.A.- El sistema muestra un mensaje diciendo que la página no se ha eliminado</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema borrará la página elegida</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        FR-24</td>
     </tr>
 </table>
 
@@ -7383,35 +7351,32 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        El sistema tendrá una opción para ver las estadísticas</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        Iniciar el portal como gestor</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El gestor pulsará el botón ver las estadísticas<br>
+        2.- El sistema mostrará la ventana con las estadísticas</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        FR-23</td>
     </tr>
 </table>
 
@@ -7436,35 +7401,39 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        El portal dará la opción para que se gestione la publicidad que mostrará</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        Iniciar el portal como gestor</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El gestor pulsará el botón para gestionar la publicidad<br>
+        2.- El sistema mostrará la ventana para gestionar la publicidad<br>
+        3.- El gestor podrá elegir añadir nueva publicidad o eliminar una que ya había<br>
+        3.1.- El gestor elige añadir publicidad<br>
+        3.1.1.- El sistema mostrará la ventana para añadir publicidad<br>
+        3.1.2.- El gestor eligirá la publicidad para añadirla y pulsara el botón añadir<br>
+        3.2.- El gestor elige eliminar una publicidad<br>
+        3.2.1.- El sistema muestra la publicidad ya añadidos<br>
+        3.2.2.- El gestor busca la publicidad que quiere eliminar y la elimina</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema guardará la nueva publicidad o eliminará la publicidad elegida</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        FR-22, IR-20, IR-21</td>
     </tr>
 </table>
 
@@ -7489,35 +7458,35 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        El portal tendrá opción para que su propietario/gestor modifique los datos</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        Iniciar el portal como gestor</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El gestor pulsará el botón para modificar los datos<br>
+        2.- El sistema mostrará la ventana con los datos para modificar<br>
+        3.- El gestor modificará los datos y pulsará el botón modificar<br>
+        4.- El sistema confirmará que los cambios de los datos se han hecho de manera correcta</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        4.A.- El sistema dirá que ha habido un problema con los cambios de los datos<br>
+        5.A.- El sistema le llevará de nuevo a la vista de modificar los datos señalando el fallo</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema guardará los datos modificados</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        FR-21</td>
     </tr>
 </table>
 
@@ -7542,35 +7511,33 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        El portal dará la opción para que el gestor añada nuevas páginas</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        Iniciar el portal como gestor</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El gestor elige añadir una página<br>
+        2.- El sistema muestra un mensaje para confirmar<br>
+        3.- El gestor confirma que se ha creado la nueva página</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        2.A.- El gestor cancela y no crea la página</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        Se guarda en el sistema la nueva página</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        FR-19</td>
     </tr>
 </table>
 
@@ -7594,36 +7561,31 @@
         20/12/2022</td>
     </tr>
     <tr>
-        <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
-    </tr>
-    <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        Iniciar el portal como gestor y añadir una página</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El gestor elige añadir una página<br>
+        2.- El sistema muestra un mensaje para confirmar<br>
+        3.- El gestor confirma que se ha creado la nueva página<br>
+        4.- El sistema mostrará la nueva página</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        2.A.- El gestor cancela y no crea la página</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        FR-19, FR-20</td>
     </tr>
 </table>
 
