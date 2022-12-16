@@ -141,6 +141,12 @@
         <td>Subida de los requisitos de información</td>
         <td>Joaquín Murcia Escánez</td>
     </tr>
+    <tr>
+        <td>15/12/2022</td>
+        <td>1.0</td>
+        <td>Subida de los casos de uso del portal detallados</td>
+        <td>Daniel López García</td>
+    </tr>
 </table>
 
 <br><br>
@@ -216,16 +222,8 @@
         <td><b>Descripción</b></td>
     </tr>
     <tr>
-        <td>término</td>
-        <td>descripción</td>
-    </tr>
-    <tr>
-        <td>término</td>
-        <td>descripción</td>
-    </tr>
-    <tr>
-        <td>término</td>
-        <td>descripción</td>
+        <td>Cloud Tag</td>
+        <td>Nube donde de forma gráfica en forma de etiquetas se pueden acceder a las funcionalidades de la página</td>
     </tr>
 </table>
 
@@ -3218,7 +3216,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td></td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3271,7 +3269,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td></td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3324,7 +3322,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-01, UC-02, UC-05, UC-08, UC-09, UC-10, UC-11, UC-12, UC-13, UC-14, UC-15, UC-16, UC-17, UC-19, UC-24, IR-04, IR-06, IR-08, IR-10, IR-12, IR-14, IR-16, IR-18, IR-20</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3371,7 +3369,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-14, IR-03, IR-05</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3418,7 +3416,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-14, UC-23, IR-04</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3468,7 +3466,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-09, IR-03, IR-07</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3514,7 +3512,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-09, UC-23, IR-06</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3563,7 +3561,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-01, IR-03, IR-09</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3609,7 +3607,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-01, UC-23, IR-08</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3656,6 +3654,10 @@
         <td><b>Fuentes:</b></td>
         <td>Pliego de condiciones y entrevista</td>
     </tr>
+        <tr>
+        <td><b>Referencias:</b></td>
+        <td>UC-02, UC-19, IR-03, IR-11</td>
+    </tr>
     <tr>
         <td><b>Descripción:</b></td>
         <td>El sistema deberá almacenar la información correspondiente a las imágenes relacionadas con la página de horarios y servicios del mismo. En concreto:</td>
@@ -3700,7 +3702,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-02, UC-19, UC-23, IR-10</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3749,7 +3751,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-15, IR-03, IR-13</td>
     </tr>
       <tr>
         <td><b>Descripción:</b></td>
@@ -3795,7 +3797,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-15, UC-23, IR-12</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3844,7 +3846,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-10, UC-11, UC-12, UC-13, IR-03, IR-15</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3890,7 +3892,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-10, UC-11, UC-12, UC-13, UC-23, IR-14</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3939,7 +3941,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-08, IR-03, IR-17</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3985,7 +3987,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-08, UC-23, IR-16</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4034,7 +4036,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-16, IR-03, IR-19</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4080,7 +4082,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-16, UC-23, IR-18</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4129,7 +4131,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-17, UC-24, IR-03, IR-21</td>
     </tr>
      <tr>
         <td><b>Descripción:</b></td>
@@ -4172,6 +4174,10 @@
     <tr>
         <td><b>Fuentes:</b></td>
         <td>Pliego de condiciones y entrevista</td>
+    </tr>
+        <tr>
+        <td><b>Referencias:</b></td>
+        <td>UC-17, UC-23, UC-24, IR-20</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4225,7 +4231,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-17, UC-18, UC-19, UC-20, IR-02, IR-05</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4274,7 +4280,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-01, IR-03</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4320,7 +4326,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-16, IR-02, IR-04, IR-05</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4368,7 +4374,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-03, IR-06</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4414,7 +4420,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-01, IR-03, IR-06, IR-11</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4467,7 +4473,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-15, IR-04, IR-05</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4515,7 +4521,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-08, IR-10, IR-12, IR-19</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4565,7 +4571,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-07, IR-10, IR-11, IR-12</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4614,7 +4620,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-12, IR-15</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4664,7 +4670,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-07, IR-08</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4715,7 +4721,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-13, IR-05, IR-08, IR-15</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4768,7 +4774,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-35, IR-07, IR-08, IR-09, IR-12, IR-20</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4818,7 +4824,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-08, UC-36, IR-14</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4867,7 +4873,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-11, IR-13, IR-19</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4916,7 +4922,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-09, IR-11, IR-19, IR-20, IR-21</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4968,7 +4974,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-09, IR-21, IR-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5021,7 +5027,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5071,7 +5077,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-42, IR-23, IR-24</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5125,7 +5131,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-01, IR-07, IR-14, IR-15, IR-24</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5176,7 +5182,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-03, IR-12, IR-15</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5226,7 +5232,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-05, UC-06, IR-15, IR-16</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5278,7 +5284,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-16, IR-17</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5324,7 +5330,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-18, IR-25</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5370,7 +5376,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>IR-18, IR-19</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5417,7 +5423,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-23, UC-38, UC-40, UC-41, IR-23, IR-26</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5471,7 +5477,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-28, UC-29, UC-30, IR-25, IR-29</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5519,7 +5525,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-12, UC-21, IR-29</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5569,7 +5575,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-12, UC-22, UC-26, UC-27, IR-29</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5620,7 +5626,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        <td>UC-14, UC-25, IR-26, IR-27, IR-28</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -6044,7 +6050,7 @@
 
 <br>
 
-### <a name="listadeactoresdelportal"></a> Listas de actores del Portal
+### <a name="listadeactoresdelportal"></a> Lista de actores del Portal
 
 <br>
 
@@ -6065,7 +6071,7 @@
 
 <br>
 
-### <a name="listadeactoresdelsistemadeinformacion"></a> Listas de actores del Sistema de información
+### <a name="listadeactoresdelsistemadeinformacion"></a> Lista de actores del Sistema de información
 
 <br>
 
@@ -6094,6 +6100,10 @@
         <td>ACT-05</td>
         <td>Sistema de correo</td>
     </tr>
+        <tr>
+        <td>ACT-06</td>
+        <td>Mapa interactivo (Usuario)</td>
+    </tr>
 </table>
 
 <br>
@@ -6109,7 +6119,7 @@
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
-        Contactar</td>
+        Ver información corporativa</td>
     </tr>
     <tr>
         <td><b>Autor:</b><br>
@@ -6125,31 +6135,28 @@
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01, ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El usuario pulsa el botón para ver la información corporativa<br>
+        2.- El sistema mostrará la página de información de la empresa</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        FR-11, IR-03, IR-08, IR-09</td>
     </tr>
 </table>
 
@@ -6159,324 +6166,6 @@
     <tr>
         <td><b>Identificador:</b><br>
         UC-02</td>
-    </tr>
-    <tr>
-        <td><b>Nombre:</b><br>
-        Ver noticias</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b><br>
-        Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fecha:</b><br>
-        20/12/2022</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b><br>
-        Otorga la posibilidad de ver las noticias relacionadas con el transporte y los eventos en Gran Canaria</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
-    </tr>
-    <tr>
-        <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>Identificador:</b><br>
-        UC-03</td>
-    </tr>
-    <tr>
-        <td><b>Nombre:</b><br>
-        Cambiar idioma</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b><br>
-        Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fecha:</b><br>
-        20/12/2022</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b><br>
-        Permite cambiar el idioma en el que se visualiza la página</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
-    </tr>
-    <tr>
-        <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>Identificador:</b><br>
-        UC-04</td>
-    </tr>
-    <tr>
-        <td><b>Nombre:</b><br>
-        Realizar búsqueda</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b><br>
-        Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fecha:</b><br>
-        20/12/2022</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b><br>
-        Permite la localización de cualquier contenido mediante la introducción de términos clave</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
-    </tr>
-    <tr>
-        <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>Identificador:</b><br>
-        UC-05</td>
-    </tr>
-    <tr>
-        <td><b>Nombre:</b><br>
-        Acceder a cloud tag</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b><br>
-        Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fecha:</b><br>
-        20/12/2022</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b><br>
-        Dispone el acceso a una nube donde de forma grafica a través de etiquetas se puede acceder a las funcionalidades de la pagina</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
-    </tr>
-    <tr>
-        <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>Identificador:</b><br>
-        UC-06</td>
-    </tr>
-    <tr>
-        <td><b>Nombre:</b><br>
-        Ver foro</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b><br>
-        Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fecha:</b><br>
-        20/12/2022</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b><br>
-        Redirige al usuario al foro donde podrá opinar a cerca de distintos temas relacionados con el transporte en Gran Canaria </td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
-    </tr>
-    <tr>
-        <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>Identificador:</b><br>
-        UC-07</td>
-    </tr>
-    <tr>
-        <td><b>Nombre:</b><br>
-        Ver blog</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b><br>
-        Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fecha:</b><br>
-        20/12/2022</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b><br>
-        Ofrece la posibilidad de acceder al blog de la página</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
-    </tr>
-    <tr>
-        <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>Identificador:</b><br>
-        UC-08</td>
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
@@ -6492,35 +6181,335 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Ofrece una vista de los horarios y servicios disponibles </td>
+        Da la posibilidad de ver horarios y servicios de los transportes públicos de Gran Canaria</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01, ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El usuario pulsa el botón para ver los horarios y servicios<br>
+        2.- El sistema muestra la página para ver los horarios y servicios</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        FR-07, IR-03, IR-10, IR-11</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-03</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Ver blog</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Permite ver un blog con información de la aplicación</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        ACT-01, ACT-02</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- El usuario pulsa el botón para ver el blog<br>
+        2.- El sistema muestra la página del blog</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        FR-01 </td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-04</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Ver foro</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Permite ver un foro en el que habrá comentarios de otros usurios</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        ACT-01, ACT-02</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- El usuario pulsará el botón ppara ver el foro<br>
+        2.- El sistema mostrará la página del foro</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        FR-02</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-05</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Ver cloud tag</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        permite ver una nube donde de forma grafica a través de etiquetas se puede acceder a las funcionalidades de la pagina</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        ACT-01, ACT-02</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- El usuario pulsará el botón para ver el cloud tag<br>
+        2.- El sistema mostrará el cloud tag</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        FR-03, IR-03</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-06</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Ver buscador</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Permitirá ver un buscador para que el usuario lo utilice </td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        ACT-01, ACT-02</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- El usuario pulsará el buscador<br>
+        2.- El usuario introducirá la búsqueda<br>
+        3.- El sistema mostrará la búsqueda</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        3.A.- El sistema dirá que no hay resultados de la búsqueda </td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        FR-04, NFR-02</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-07</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Cambiar idioma</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        ofrece la opción de cambiar el idioma del portal</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        ACT-01, ACT-02</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- El usuario pulsará el botón para cambiar el idioma<br>
+        2.- El sistema mostrará los idioma disponibles<br>
+        3.- El usuario eligirá el idioma<br>
+        4.- El sistema mostrará el portal con el idioma seleccionado</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        FR-12, FR-26</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-08</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Ver noticias</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Ofrece una vista con las noticias de la isla</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        ACT-01, ACT-02</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- El usuario pulsará el botón para ver las noticias<br>
+        2.- El sistema mostrará la página con las noticias</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        FR-05, IR-03, IR-16, IR-17</td>
     </tr>
 </table>
 
@@ -6533,7 +6522,7 @@
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
-        Ver información corporativa</td>
+        Contactar</td>
     </tr>
     <tr>
         <td><b>Autor:</b><br>
@@ -6545,35 +6534,32 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Da acceso a una vista con la información corporativa</td>
+        Da la posibilidad de acceder a una página para contactar con la empresa</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01, ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El usuario pulsará el botón para contactar<br>
+        2.- El sistema mostrará la página con la información de contacto</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        FR-06, IR-03, IR-06, IR-07</td>
     </tr>
 </table>
 
@@ -6583,218 +6569,6 @@
     <tr>
         <td><b>Identificador:</b><br>
         UC-10</td>
-    </tr>
-    <tr>
-        <td><b>Nombre:</b><br>
-        Ver publicidad</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b><br>
-        Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fecha:</b><br>
-        20/12/2022</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b><br>
-        Permite ver la publicidad que aparece en el portal de la página</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
-    </tr>
-    <tr>
-        <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>Identificador:</b><br>
-        UC-11</td>
-    </tr>
-    <tr>
-        <td><b>Nombre:</b><br>
-        Ver títulos y tarifas del transporte</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b><br>
-        Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fecha:</b><br>
-        20/12/2022</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b><br>
-        Dispone de una vista con los títulos y tarifas del transporte</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
-    </tr>
-    <tr>
-        <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>Identificador:</b><br>
-        UC-12</td>
-    </tr>
-    <tr>
-        <td><b>Nombre:</b><br>
-        Ver itinerarios destacados</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b><br>
-        Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fecha:</b><br>
-        20/12/2022</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b><br>
-        Dispone de una vista donde se pueden ver los itinerarios destacados</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
-    </tr>
-    <tr>
-        <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>Identificador:</b><br>
-        UC-13</td>
-    </tr>
-    <tr>
-        <td><b>Nombre:</b><br>
-        Ver avisos</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b><br>
-        Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fecha:</b><br>
-        20/12/2022</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b><br>
-        Da la posibilidad de ver los avisos que emite la página</td>
-    </tr>
-    <tr>
-        <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
-    </tr>
-    <tr>
-        <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
-    </tr>
-    <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>Identificador:</b><br>
-        UC-14</td>
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
@@ -6810,35 +6584,32 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Otorga la posibilidad de ver lugares desde el portal</td>
+        Otorga la posibilidad de ver lugares de interes de la isla de Gran Canaria desde el portal</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01, ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El usuario pulsará el botón para ver los lugares<br>
+        2.- El sistema mostrará los lugares</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        FR-13, IR-03, IR-14, IR-15</td>
     </tr>
 </table>
 
@@ -6847,7 +6618,7 @@
 <table align = "center">
     <tr>
         <td><b>Identificador:</b><br>
-        UC-15</td>
+        UC-11</td>
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
@@ -6863,35 +6634,34 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Ofrece una vista de los eventos públicos </td>
+        Da la opción de ver los eventos que hay en la isla</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01, ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        Pulsar botón para ver los lugares</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El usuario pulsará el botón para ver los lugares<br>
+        2.- El sistema mostrará los lugares<br>
+        3.- El usuario eligirá ver los monumentos<br>
+        4.- El sistema mostrará los monumentos de la isla</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-10, FR-13, FR-14, IR-03, IR-14, IR-15</td>
     </tr>
 </table>
 
@@ -6900,7 +6670,7 @@
 <table align = "center">
     <tr>
         <td><b>Identificador:</b><br>
-        UC-16</td>
+        UC-12</td>
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
@@ -6916,35 +6686,33 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Permite ver los monumentos de la isla de Gran Canaria</td>
+        Permite la opción para ver los monumentos de la isla</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01, ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        Acceder a lugares</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
-    </tr>
+        1.- El usuario pulsará el botón para ver los lugares<br>
+        2.- El sistema mostrará los lugares<br>
+        3.- El usuario eligirá ver los eventos<br>
+        4.- El sistema mostrará los eventos de la isla</td>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-10, FR-13, FR-15, IR-03, IR-14, IR-15</td>
     </tr>
 </table>
 
@@ -6953,7 +6721,7 @@
 <table align = "center">
     <tr>
         <td><b>Identificador:</b><br>
-        UC-17</td>
+        UC-13</td>
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
@@ -6969,35 +6737,235 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Ofrece un listado de los sitios turísticos</td>
+        Da la posibilidad de ver los sitios turísticos de la isla</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01, ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        Acceder a lugares</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
-    </tr>
+        1.- El usuario pulsará el botón para ver los lugares<br>
+        2.- El sistema mostrará los lugares<br>
+        3.- El usuario eligirá ver los sitios turísticos<br>
+        4.- El sistema mostrará los sitios turísticos de la isla</td>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-10, FR-13, FR-16, IR-03, IR-14, IR-15</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-14</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Ver avisos</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Permite la opción para mostrar avisos relevantes de las islas</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        ACT-01, ACT-02</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- El usuario pulsa el botón para ver los avisos<br>
+        2.- El sistema mostrará los avisos</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        2.A.- El sistema mostrará una ventana diciendo que no hay avisos disponibles</td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        FR-17, IR-03, IR-04, IR-05</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-15</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Ver itinerarios destacados</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Ofrece una vista en la que poder ver los itinerarios destacados de manera más detallada</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        ACT-01, ACT-02</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- El usuario pulsará el botón para ver los itinerarios destacados<br>
+        2.- El sistema mostrará los itinerarios destacados<br>
+        3.- El usuario eligirá un itinerario<br>
+        4.- El sistema mostrará el itinerario de manera más detallada</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        FR-08, IR-03, IR-12, IR-13</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-16</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Ver títulos y tarifas del transporte</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        Permite ver títulos y tarifas del transporte disponibles en las islas</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        ACT-01, ACT-02</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- El usuario pulsará el botón para ver títulos y tarifas del transporte<br>
+        2.- El sistema mosrará un listado de los títulos y tarifas del transporte disponibles en la isla</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        FR-09, IR-03, IR-18, IR-19</td>
+    </tr>
+</table>
+
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>Identificador:</b><br>
+        UC-17</td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b><br>
+        Ver publicidad</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b><br>
+        Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fecha:</b><br>
+        20/12/2022</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b><br>
+        El portal mostrará publicidad relevante con la isla</td>
+    </tr>
+    <tr>
+        <td><b>Actores:</b><br>
+        ACT-01, ACT-02</td>
+    </tr>
+    <tr>
+        <td><b>Precondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- El usuario entra al portal<br>
+        2.- El sistema mostrará cada cierto tiempo publicidad</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Alternativo:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Poscondiciones:</b><br>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br>
+        FR-10, IR-03, IR-20, IR-21</td>
     </tr>
 </table>
 
@@ -7022,35 +6990,35 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        El portal tendrá opción para que su propietario/gestor añada datos</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        Iniciar el portal como gestor</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El gestor pulsará el botón para añadir datos<br>
+        2.- El sistema mostrará la ventana para añadir datos<br>
+        3.- El gestor añadirá los datos y pulsará el botón subir<br>
+        4.- El sistema confirmará que la subida de los datos se ha hecho de manera correcta</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        4.A.- El sistema dirá que ha habido un problema con la subida de los datos<br>
+        5.A.- El sistema le llevará de nuevo a la vista de añadir los datos señalando el fallo</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema guardará los nuevos datos</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        FR-18</td>
     </tr>
 </table>
 
@@ -7075,35 +7043,35 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        El portal dará la opción para añadir el listado de los horarios y servicios disponibles de la isla</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        Iniciar el portal como gestor</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El gestor pulsará el botón para añadir horarios y servicios<br>
+        2.- El sistema mostrará la ventana para añadir los horarios y servicios<br>
+        3.- El gestor añadirá los horarios o servicios que quiera y pulsará el botón añadir<br>
+        4.- El sistema confirmará que la subida de los datos se ha hecho de manera correcta</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        4.A.- El sistema dirá que ha habido un problema con la subida de los datos<br>
+        5.A.- El sistema le llevará de nuevo a la vista de añadir los horarios y servicios señalando el fallo</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema guardará los nuevos horarios y servicios</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        FR-25, IR-03, IR-10, IR-11</td>
     </tr>
 </table>
 
@@ -7128,35 +7096,39 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        El sistema tendrá una funcionalidad para añadir o eliminar idiomas</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        Iniciar el portal como gestor</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El gestor pulsará el botón para gestionar idiomas<br>
+        2.- El sistema mostrará la ventana para gestionar los idiomas<br>
+        3.- El gestor podrá elegir añadir un idioma o eliminarlo<br>
+        3.1.- El gestor elige añadir un idioma<br>
+        3.1.1.- El sistema mostrará el plugin para añadir los idiomas<br>
+        3.1.2.- El gestor buscará un idioma y lo añadirá<br>
+        3.2.- El gestor elige eliminar un idioma<br>
+        3.2.1.- El sistema muestra los idiomas ya añadidos<br>
+        3.2.2.- El gestor busca el idioma que quiere eliminar y lo elimina</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        3.1.2.A. El plugin no contiene el idioma buscado</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema guardará el nuevo idioma o eliminará el idioma elegido</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        FR-26</td>
     </tr>
 </table>
 
@@ -7181,35 +7153,34 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        El portal da la opción para modificar su diseño</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        Iniciar el portal como gestor</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El gestor pulsará el botón para modificar el diseño<br>
+        2.- El sistema mostrará la ventana para modificar el diseño<br>
+        3.- El gestor cambiará el diseño a su gusto<br>
+        4.- El sistema confirmará el cambio del diseño</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema guardará el nuevo diseño</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        FR-27</td>
     </tr>
 </table>
 
@@ -7234,35 +7205,36 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        El portal dará la opción para eliminar páginas</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        Iniciar el portal como gestor</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El gestor pulsará eligirá la página que quiere eliminar<br>
+        2.- El gestor eliminará la página<br>
+        3.- El sistema mostrará un pop-up para confirmar la eliminación<br>
+        4.- El gestor aceptará<br>
+        5.- El sistema mostrará un mensaje confirmando que la página ha sido eliminada</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        4.A.- El gestor cancela<br>
+        5.A.- El sistema muestra un mensaje diciendo que la página no se ha eliminado</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema borrará la página elegida</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        FR-24</td>
     </tr>
 </table>
 
@@ -7287,35 +7259,32 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        El sistema tendrá una opción para ver las estadísticas</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        Iniciar el portal como gestor</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El gestor pulsará el botón ver las estadísticas<br>
+        2.- El sistema mostrará la ventana con las estadísticas</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        FR-23, IR-05, IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19, IR-21</td>
     </tr>
 </table>
 
@@ -7340,35 +7309,39 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        El portal dará la opción para que se gestione la publicidad que mostrará</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        Iniciar el portal como gestor</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El gestor pulsará el botón para gestionar la publicidad<br>
+        2.- El sistema mostrará la ventana para gestionar la publicidad<br>
+        3.- El gestor podrá elegir añadir nueva publicidad o eliminar una que ya había<br>
+        3.1.- El gestor elige añadir publicidad<br>
+        3.1.1.- El sistema mostrará la ventana para añadir publicidad<br>
+        3.1.2.- El gestor eligirá la publicidad para añadirla y pulsara el botón añadir<br>
+        3.2.- El gestor elige eliminar una publicidad<br>
+        3.2.1.- El sistema muestra la publicidad ya añadidos<br>
+        3.2.2.- El gestor busca la publicidad que quiere eliminar y la elimina</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema guardará la nueva publicidad o eliminará la publicidad elegida</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        FR-22, IR-03, IR-20, IR-21</td>
     </tr>
 </table>
 
@@ -7393,35 +7366,35 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        El portal tendrá opción para que su propietario/gestor modifique los datos</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        Iniciar el portal como gestor</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El gestor pulsará el botón para modificar los datos<br>
+        2.- El sistema mostrará la ventana con los datos para modificar<br>
+        3.- El gestor modificará los datos y pulsará el botón modificar<br>
+        4.- El sistema confirmará que los cambios de los datos se han hecho de manera correcta</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        4.A.- El sistema dirá que ha habido un problema con los cambios de los datos<br>
+        5.A.- El sistema le llevará de nuevo a la vista de modificar los datos señalando el fallo</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema guardará los datos modificados</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        FR-21</td>
     </tr>
 </table>
 
@@ -7446,35 +7419,33 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        El portal dará la opción para que el gestor añada nuevas páginas</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        Iniciar el portal como gestor</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El gestor elige añadir una página<br>
+        2.- El sistema muestra un mensaje para confirmar<br>
+        3.- El gestor confirma que se ha creado la nueva página</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        2.A.- El gestor cancela y no crea la página</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        Se guarda en el sistema la nueva página</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        FR-19</td>
     </tr>
 </table>
 
@@ -7498,36 +7469,31 @@
         20/12/2022</td>
     </tr>
     <tr>
-        <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
-    </tr>
-    <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        Iniciar el portal como gestor y añadir una página</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El gestor elige añadir una página<br>
+        2.- El sistema muestra un mensaje para confirmar<br>
+        3.- El gestor confirma que se ha creado la nueva página<br>
+        4.- El sistema mostrará la nueva página</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        2.A.- El gestor cancela y no crea la página</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        FR-19, FR-20</td>
     </tr>
 </table>
 
@@ -7556,35 +7522,32 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Ofrece la posibilidad de obtener información acerca de la parada/estación seleccionada</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- Dado el usuario que se encuentra en el mapa interactivo, pincha sobre la parada o estación que desee <br>
+        2.- Como consecuencia del paso anterior, se mostrará toda la información relacionada con la parada/estación seleccionada [UC-02] <br>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-19</td>
     </tr>
 </table>
 
@@ -7609,20 +7572,20 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Redirecciona al usuario a la información correspondiente a la parada o estación seleccionada</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
+        1.- Dado el usuario que se encuentra en el mapa interactivo, pincha sobre la parada o estación que desee<br>
+        2.- Como consecuencia del paso anterior, se mostrará toda la información relacionada con la parada/estación seleccionada [UC-01]<br>
         3.- ...<br>
         4.- ...<br>
         5.- ...</td>
@@ -7637,7 +7600,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        RF-09</td>
     </tr>
 </table>
 
@@ -7662,20 +7625,20 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Muestra la información de un lugar/sitio de interés</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
+        1.- Dado el usuario que se encuentra en el mapa interactivo, pincha sobre el lugar que desee<br>
+        2.- Como consecuencia del paso anterior, se mostrará toda la información relacionada con la parada/estación seleccionada [UC-04]<br>
         3.- ...<br>
         4.- ...<br>
         5.- ...</td>
@@ -7690,7 +7653,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-20</td>
     </tr>
 </table>
 
@@ -7715,11 +7678,11 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Redirecciona al usuario a la vista donde se muestra la información del sitio seleccionado</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -7727,8 +7690,8 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
+        1.- Dado el usuario que se encuentra en el mapa interactivo, pincha sobre el lugar que desee<br>
+        2.- Como consecuencia del paso anterior, se mostrará toda la información relacionada con la parada/estación seleccionada [UC-03]<br>
         3.- ...<br>
         4.- ...<br>
         5.- ...</td>
@@ -7768,35 +7731,35 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Almacena una foto del estado de la actividad de los operadores</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01, ACT-04</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El gestor ha de encontrarse en la vista del mapa interactivo</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
+        1.- Dado que el gestor se encuentra en el mapa interactivo, pulsa en la opción de mostrar la actividad de los operadores [UC-09]<br>
+        2.- Una vez en el menú donde se muestra la actividad de los operadores, guarda la foto del estado<br>
         3.- ...<br>
         4.- ...<br>
         5.- ...</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        1.A. Una vez en el menú donde se muestra la actividad de los operadores, se guarda la foto del estado</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        La foto queda guardado en el sistema para ser usado más tarde</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-21</td>
     </tr>
 </table>
 
@@ -7821,35 +7784,35 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Almacena un vídeo del estado de la actividad de los operadores</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01, ACT-04</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El gestor ha de encontrarse en la vista donde se muestra la actividad de los operadores</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
+        1.- Dado que el gestor se encuentra en el mapa interactivo, pulsa en la opción de mostrar la actividad de los operadores [UC-09]<br>
+        2.- Una vez en el menú donde se muestra la actividad de los operadores, guardar el vídeo del estado<br>
         3.- ...<br>
         4.- ...<br>
         5.- ...</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        1.A.- Una vez en el menú donde se muestra la actividad de los operadores, se guarda el vídeo del estado</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El vídeo queda guardado en el sistema para ser usado más tarde </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-21</td>
     </tr>
 </table>
 
@@ -7874,11 +7837,11 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Modela los elementos del mapa interactivo ya sea por labores de mantenimiento o para implementar nuevas funcionalidades</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01, ACT-04</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -7886,7 +7849,7 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
+        1.- Dado que el gestor se encuentra en el mapa interactivo, gestiona los distintos elementos del mapa (paradas, estaciones, sitios, monumentos...)<br>
         2.- ...<br>
         3.- ...<br>
         4.- ...<br>
@@ -7894,11 +7857,11 @@
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        La modificación realizada queda guardada en el sistema de manera que se almacenan los datos de la gestión de los elementos</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -7939,7 +7902,7 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
+        1.- Dado que el gestor se encuentra en el mapa interactivo, gestiona una línea del mapa, ya sea para modificar el recorrido de esta o las paradas de la misma<br>
         2.- ...<br>
         3.- ...<br>
         4.- ...<br>
@@ -7947,15 +7910,15 @@
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        La modificación realizada queda guardada en el sistema de manera que se almacenan los datos de la gestión de la línea</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-13</td>
     </tr>
 </table>
 
@@ -7980,11 +7943,11 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Muestra la actividad de los operadores en un  periodo de tiempo determinado, ya sea a través de una foto o un vídeo</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01, ACT-04</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -7992,7 +7955,7 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
+        1.- Dado que el gestor se encuentra en el mapa interactivo, se muestra la actividad de los operadores a través de un vídeo o una foto<br>
         2.- ...<br>
         3.- ...<br>
         4.- ...<br>
@@ -8000,15 +7963,16 @@
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        1.A.- La forma de representar la actividad de los operadores es a través de una foto</td>
+        1.B.- La forma de representar la actividad de los operadores es a través de un vídeo</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-16</td>
     </tr>
 </table>
 
@@ -8033,31 +7997,31 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Pincha en la parada/estación para ver los retrasos o adelantos de la línea</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01, ACT-04</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El gestor ha de estar situado en el mapa interactivo</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
+        1.- Dado que el gestor está situado en el mapa interactivo, clica en la parada o estación determinada<br>
+        2.- Una vez clicado, se muestra el retraso/adelanto de la línea [UC-11]<br>
         3.- ...<br>
         4.- ...<br>
         5.- ...</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8086,35 +8050,33 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Otorga una vista de los adelantos o retrasos de la línea en cuestión</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01, ACT-04</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El gestor debe haber clicado en una parada o estación</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- Dado que el gestor se encuentra en el mapa interactivo, clica en una parada/estación<br>
+        2.- El sistema muestra los retrasos o adelantos de la línea elegida<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-14</td>
     </tr>
 </table>
 
@@ -8139,27 +8101,24 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Modela el sistema de ventas y el título único de transporte</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El gestor ha de estar iniciado</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- Dado que el gestor esta iniciado, se gestionan las ventas y el título único<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
@@ -8167,7 +8126,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-27, IR-28</td>
     </tr>
 </table>
 
@@ -8192,35 +8151,32 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Documenta eventos o incidencias ocurridas</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El gestor ha de estar iniciado</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        Dado que el gestor está iniciado, documenta las incidencias o eventos ocurridos <br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+       El sistema guarda los eventos o incidencias definidos  </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-11</td>
     </tr>
 </table>
 
@@ -8245,35 +8201,32 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Realiza la gestión de los usuarios guardados en el sistema a los que el gestor tiene acceso</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El gestor ha de estar iniciado</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- Dado que el usuario está iniciado, se gestionan los usuarios registrados en el sistema<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema guarda los cambios realizados en la gestión de los usuarios</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-29</td>
     </tr>
 </table>
 
@@ -8298,19 +8251,19 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Define una variable en base a la que se defenirán eventos</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El gestor ha de estar iniciado</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
+        1.- Dado que el gestor está iniciado, se define una variable de la que dependerá la definición de eventos<br>
         2.- ...<br>
         3.- ...<br>
         4.- ...<br>
@@ -8318,15 +8271,15 @@
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema almacenará la variable definida y la tendrá en cuenta a la hora de definir eventos</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-06</td>
     </tr>
 </table>
 
@@ -8351,35 +8304,32 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Define una condición en base a la que se defenirán eventos</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El gestor ha de estar iniciado</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- Dado que el gestor está iniciado, se define una condición de la que dependerá la definición de eventos<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema almacenará la variable definida y la tendrá en cuenta a la hora de definir eventos</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-03</td>
     </tr>
 </table>
 
@@ -8404,19 +8354,19 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Elabora un aviso acústico que avisará de notificaciones a cerca de eventos, noticias, etc</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El gestor ha de estar iniciado</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
+        1.- Dado que el gestor está iniciado, elabora un aviso acústico que avisará de notificaciones a cerca de eventos, noticias, etc<br>
         2.- ...<br>
         3.- ...<br>
         4.- ...<br>
@@ -8424,15 +8374,15 @@
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema almacena el aviso acústico creado para poder utilizarlo en adelante</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-01</td>
     </tr>
 </table>
 
@@ -8457,35 +8407,32 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Elabora un aviso visual que saltará en forma de pop-up en caso de que estemos conectados en la página </td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El gestor ha de estar iniciado</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- Dado que el gestor está iniciado, se elabora un aviso acústico para las distintas notificaciones en caso de estar conectado<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+       El sistema deberá guardar el aviso creado por el gestor</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-01</td>
     </tr>
 </table>
 
@@ -8510,19 +8457,19 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Elabora un aviso adaptado al móvil para aquellos usuarios registrados en la página</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El gestor ha de estar iniciado</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
+        1.- Dado que el gestor esta iniciado, se realiza un aviso adaptado al móvil para aquellos usuarios registrados en la página<br>
         2.- ...<br>
         3.- ...<br>
         4.- ...<br>
@@ -8530,15 +8477,15 @@
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema deberá guardar el aviso creado por el gestor </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-01</td>
     </tr>
 </table>
 
@@ -8563,35 +8510,32 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Elabora un aviso que hace uso del correo electrónico </td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-01, ACT-05</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El gestor ha de estar iniciado y el sistema de correo disponible </td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- Dado que el gestor está iniciado en el sistema, elabora un aviso que hará uso del correo electrónico del usuario avisado para su realización<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema deberá guardar el aviso creado por el gestor</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-01</td>
     </tr>
 </table>
 
@@ -8616,35 +8560,32 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Adquiere el bono solicitado al sistema</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El usuario ha de estar registrado en el sistema e iniciado</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- Dado un usuario registrado e iniciado, adquiere el bono<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema guarda la referencia con la información del bono concedido al usuario</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-27</td>
     </tr>
 </table>
 
@@ -8669,35 +8610,32 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Renueva el título de transportamente una vez haya caducado</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El usuario ha de estar registrado en el sistema e iniciado</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- Dado un usuario registrado e iniciado, renueva el título de transporte caducado<br>
+</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema guardará la información del título en cuestión y lo volverá a establecer como válido</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-28</td>
     </tr>
 </table>
 
@@ -8722,35 +8660,32 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Visualiza el histórico de itinerarios realizados por parte del usuario</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El usuario ha de estar registrado en el sistema e iniciado</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- Dado que el usuario está registrado e iniciado, se visualiza el histórico de itinerarios del usuario<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-25</td>
     </tr>
 </table>
 
@@ -8775,31 +8710,28 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Inicia sesión en la página haciendo uso de sus credenciales</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El usuario ha de estar registrado en el sistema </td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- Dado un usuario registrado en el sistema inicia sesión haciendo uso de sus credenciales<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8828,35 +8760,32 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Registra un usuario introduciendo un correo electrrónico y una contraseña además de información opcional para la identificación del usuario</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El usuario se registra introduciendo su correo electrónico, contraseña e información opcional del usuario<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema guarda los datos del registro para que sea posible el inicio de sesión haciendo uso de las credenciales correspondientes</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-29</td>
     </tr>
 </table>
 
@@ -8881,35 +8810,32 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Recarga el saldo adjuntado a la cuenta del usuario de la página</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El usuario ha de estar iniciado y haber introducido un método de pago para realizar la recarga</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- Dado un usuario iniciado y con un método de pago adjuntado a su cuenta, recarga el saldo de la misma<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El sistema guarda el nuevo saldo total de la cuenta despues de la recarga</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-28</td>
     </tr>
 </table>
 
@@ -8934,35 +8860,33 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Obtiene el título de transporte tras rellenar el formulario correspondiente y solicitarlo</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El usuario ha de estar registrado en el sistema e iniciado</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- Dado un usuario registrado en el sistema e iniciado, rellena el formulario con la infoomación necesaria para obtener el título <br>
+        2.- En caso de que la información esté correcta, se obtiene el título<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        1.A.- En caso de no haber introducido valores válidos en el formulario, saltaría un mensaje de error avisando de la invalidez de los datos. </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El título queda registrado en el sistema adjuntado al usuario que lo ha adquirido</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-28</td>
     </tr>
 </table>
 
@@ -8987,19 +8911,19 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Realiza la reserva del itinerario en cuestión</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El usuario ha de estar registrado en el sistema e iniciado</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
+        1.- Dado un usuario registrado en el sistema e iniciado, se reserva el itinerario en cuestión siempre y cuando esté disponible<br>
         2.- ...<br>
         3.- ...<br>
         4.- ...<br>
@@ -9007,15 +8931,15 @@
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        En caso de que el itinerario no esté disponible, el sistema lo notificará indicando que el itinerario no se puede reservar en este momento</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        El usuario debe estar registrado e iniciado</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-26</td>
     </tr>
 </table>
 
@@ -9040,7 +8964,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Paga la reserva </td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
@@ -9068,7 +8992,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-26</td>
     </tr>
 </table>
 
@@ -9121,7 +9045,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-26</td>
     </tr>
 </table>
 
@@ -9146,31 +9070,27 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Posibilita la acción de que los recorridos de una línea sean presentados de forma gráfica a través de un mapa interactivo</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
     <tr>
-        <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        <td><b>Precondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El actor pulsa sobre el botón para ver una representación gráfica de los recorridos de una línea en específico<br>
+        2.- El sistema muestra un mapa interactivo junto con un desplegable donde permite al usuario escoger una de las diferentes líneas existentes para que su recorrido sea representado sobre el mapa<br>
+        3.- El usuario elige una de las líneas presentes en el desplegable<br>
+        4.- El mapa se actualiza mostrando ahora la ruta de la línea escogida por el usuario<br></td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -9199,35 +9119,31 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Se otorga la posibilidad de realizar la búsqueda de una parada en un mapa</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
     <tr>
-        <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        <td><b>Precondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El actor pulsa sobre el botón para realizar una operación de búsqueda de paradas en un mapa<br>
+        2.- El sistema muestra una caja de texto destinada a que en ella el actor introduzca el identificador de una parada y, a modo de otro método de búsqueda, un desplegable para la selección de un parámetro de búsqueda (que la parada pertenezca a un lugar [UC-35], que pertenezca a una línea [UC-36] o que se encuentre cerca del origen/destino [UC-037])<br>
+        3.- El actor procede a introducir el identificador de una parada en cuestión [UC-33] o a seleccionar uno de los parámetros de búsqueda [UC-34]<br>
+        4.- El sistema ahora muestra un mapa en el que se representan las paradas resultantes de la búsqueda dependiendo de si se ha empleado un método u otro (y del parámetro seleccionado en caso de haber seguido ese método)</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-33, UC-34, UC-35, UC-36, UC-37</td>
     </tr>
 </table>
 
@@ -9252,35 +9168,31 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Se permite la introducción del identificador de parada para la búsqueda de la misma en un mapa</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El actor debe encontrarse buscando una parada</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El actor acaba de clicar en el botón destinado a la búsqueda de paradas en un mapa [UC-32] por lo que el sistema procede a mostrar una caja de texto destinada a que en ella el actor introduzca el identificador de una parada<br>
+        2.- El actor procede a introducir el identificador de una parada en cuestión<br>
+        3.- El sistema ahora muestra un mapa en el que se representan las paradas resultantes de la búsqueda</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-32</td>
     </tr>
 </table>
 
@@ -9305,35 +9217,31 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Se otorga la posibilidad de parametrizar la búsqueda de paradas en un mapa</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El actor debe encontrarse buscando una parada</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El actor acaba de clicar en el botón destinado a la búsqueda de paradas en un mapa [UC-32] por lo que el sistema procede a mostrar un desplegable para la selección de un parámetro de búsqueda (que la parada pertenezca a un lugar [UC-35], que pertenezca a una línea [UC-36] o que se encuentre cerca del origen/destino [UC-037])<br>
+        2.- El actor procede a seleccionar uno de los parámetros de búsqueda<br>
+        3.- El sistema ahora muestra un mapa en el que se representan las paradas resultantes de la búsqueda</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-32, UC-35, UC-36, UC-37</td>
     </tr>
 </table>
 
@@ -9358,35 +9266,31 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Se otorga la posibilidad de parametrizar la búsqueda de paradas en un mapa en base a si pertenece a un lugar</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El actor debe encontrarse buscando una parada apoyando dicha búsqueda en un proceso de parametrización de la búsqueda mediante la selección de una de las opciones de un desplegable</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+         1.- El actor acaba de clicar en el botón destinado a la búsqueda de paradas en un mapa [UC-32] por lo que el sistema procede a mostrar un desplegable para la selección de un parámetro de búsqueda [UC-034]<br>
+        2.- El actor selecciona la opción de buscar paradas pertenecientes a un lugar<br>
+        3.- El sistema ahora muestra un mapa en el que se representan las paradas resultantes de la búsqueda</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-32, UC-34, IR-12</td>
     </tr>
 </table>
 
@@ -9411,35 +9315,31 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Se otorga la posibilidad de parametrizar la búsqueda de paradas en un mapa en base a si pertenece a una línea</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El actor debe encontrarse buscando una parada apoyando dicha búsqueda en un proceso de parametrización de la búsqueda mediante la selección de una de las opciones de un desplegable</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+         1.- El actor acaba de clicar en el botón destinado a la búsqueda de paradas en un mapa [UC-32] por lo que el sistema procede a mostrar un desplegable para la selección de un parámetro de búsqueda [UC-034]<br>
+        2.- El actor selecciona la opción de buscar paradas pertenecientes a una línea<br>
+        3.- El sistema ahora muestra un mapa en el que se representan las paradas resultantes de la búsqueda</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-32, UC-34, IR-13</td>
     </tr>
 </table>
 
@@ -9464,35 +9364,31 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Se otorga la posibilidad de parametrizar la búsqueda de paradas en un mapa en base a si se encuentra cerca de un origen/destino</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El actor debe encontrarse buscando una parada apoyando dicha búsqueda en un proceso de parametrización de la búsqueda mediante la selección de una de las opciones de un desplegable</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+         1.- El actor acaba de clicar en el botón destinado a la búsqueda de paradas en un mapa [UC-32] por lo que el sistema procede a mostrar un desplegable para la selección de un parámetro de búsqueda [UC-034]<br>
+        2.- El actor selecciona la opción de buscar paradas cercanas al origen/destino<br>
+        3.- El sistema ahora muestra un mapa en el que se representan las paradas resultantes de la búsqueda</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-32, UC-34</td>
     </tr>
 </table>
 
@@ -9517,35 +9413,33 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Se ofrece la posibilidad de buscar itinerarios</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
     <tr>
-        <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        <td><b>Precondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El actor pulsa el botón para realizar la búsqueda de un itinerario<br>
+        2.- El sistema muestra dos cajas de texto en las que el actor ha de insertar el origen y el destino deseados [UC-39] y demás opciones extras para la selección de fechas y horas de salida y llegada y para la ordenación de los resultados de búsqueda. Además, hacen también acto de presencia casillas para activar que se muestren el tiempo y distancia del recorrido [UC-40], el número de transbordos [UC-41], la tarifa por etapas [UC-42] y un esquema del recorrido [UC-48]<br>
+        3.- El usuario introduce un origen y un destino para la búsqueda de un itinerario con tal ruta<br>
+        4.- El sistema procede ahora a mostrar una secuencia de ventanas en las que se muestran el tiempo y distancia del recorrido, el número de transbordos, las tarifas por etapas y, finalmente, un esquema del recorrido junto a un botón para finalizar la búsqueda</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        3.A.- Además del origen y destino del itinerario, el actor selecciona fechas y horas de salida y llegada [UC-47], lo que supone que se filtren los resultados de búsqueda<br>
+        3.B.- Además del origen y el destino el actor desea ordenar los resultados de búsqueda [UC-43] en función de si el coste es menor [UC-44], de si el tiempo es menor [UC-45] o de si el número de transbordos es menor [UC-46], lo que supone que se filtren los resultados de búsqueda</td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-39, UC-40, UC-41, UC-42, UC-43, UC-44, UC-45, UC-46, UC-47, UC-48, UC-49, IR-25</td>
     </tr>
 </table>
 
@@ -9570,35 +9464,31 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Para la búsqueda de itinerarios se precisa de la selección de un origen y un destino</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El actor se encuentra buscando itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El actor ha pulsado el botón para la búsqueda de itinerarios [UC-38] por lo que el sistema ahora muestra dos cajas de texto en las que el actor ha de insertar el origen y el destino deseados<br>
+        2.- El usuario introduce un origen y un destino para la búsqueda de un itinerario con tal ruta<br>
+        3.- El sistema muestra los resultados de búsqueda</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-38</td>
     </tr>
 </table>
 
@@ -9623,35 +9513,31 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Se permite ver el tiempo y la distancia de un itinerario al ser encontrado como resultado de una búsqueda</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El actor se encuentra buscando itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El actor ha pulsado el botón para realizar la búsqueda de un itinerario [UC-38] por lo que el sistema muestra, entre otras cosas, una casilla para activar que se muestren el tiempo y distancia del recorrido<br>
+        2.- El actor clica sobre la casilla<br>
+        3. El sistema muestra un mensaje que informa del estado activado de la casilla</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-38, IR-25</td>
     </tr>
 </table>
 
@@ -9676,27 +9562,24 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Se permite ver el número de transbordos de un itinerario al ser encontrado como resultado de una búsqueda</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El actor se encuentra buscando itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El actor ha pulsado el botón para realizar la búsqueda de un itinerario [UC-38] por lo que el sistema muestra, entre otras cosas, una casilla para activar que se muestre el número de transbordos del recorrido<br>
+        2.- El actor clica sobre la casilla<br>
+        3. El sistema muestra un mensaje que informa del estado activado de la casilla</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
@@ -9704,7 +9587,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        IR-25</td>
     </tr>
 </table>
 
@@ -9729,35 +9612,31 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Se permite ver las tarifas de las etapas de un itinerario al ser encontrado como resultado de una búsqueda</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El actor se encuentra buscando itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El actor ha pulsado el botón para realizar la búsqueda de un itinerario [UC-38] por lo que el sistema muestra, entre otras cosas, una casilla para activar que se muestren las tarifas de las etapas que componen el recorrido<br>
+        2.- El actor clica sobre la casilla<br>
+        3. El sistema muestra un mensaje que informa del estado activado de la casilla</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-18</td>
     </tr>
 </table>
 
@@ -9782,35 +9661,31 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Los resultados de la búsqueda de un itinerario pueden ser ordenados por una serie de criterios</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El actor se encuentra buscando itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El actor ha pulsado el botón para realizar la búsqueda de un itinerario [UC-038] y el sistema muestra dos cajas de texto en las que el actor ha de insertar el origen y el destino deseados y demás opciones extras para la selección de fechas y horas de salida y llegada y para la ordenación de los resultados de búsqueda en función de si el coste es menor [UC-44], de si el tiempo es menor [UC-45] o de si el número de transbordos es menor [UC-46], lo que supone que se filtren los resultados de búsqueda<br>
+        2.- El actor procede a seleccionar uno de los parámetros de ordenación<br>
+        3.- El sistema ahora muestra un mapa en el que se representan los itinerarios resultantes de la búsqueda</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-38, UC-44, UC-45, UC-46</td>
     </tr>
 </table>
 
@@ -9833,37 +9708,33 @@
         <td><b>Fecha:</b><br>
         20/12/2022</td>
     </tr>
-    <tr>
+        <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Los resultados de la búsqueda de un itinerario pueden ser ordenados en función del menor coste</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El actor se encuentra buscando itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El actor ha pulsado el botón para realizar la búsqueda de un itinerario [UC-038] y el sistema muestra dos cajas de texto en las que el actor ha de insertar el origen y el destino deseados y demás opciones extras para la selección de fechas y horas de salida y llegada y para la ordenación de los resultados de búsqueda en función de si el coste es menor<br>
+        2.- El actor procede a seleccionar el parámetro de ordenación en función del menor coste<br>
+        3.- El sistema ahora muestra un mapa en el que se representan los itinerarios resultantes de la búsqueda</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-43</td>
     </tr>
 </table>
 
@@ -9886,37 +9757,33 @@
         <td><b>Fecha:</b><br>
         20/12/2022</td>
     </tr>
-    <tr>
+        <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Los resultados de la búsqueda de un itinerario pueden ser ordenados en función del menor tiempo</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El actor se encuentra buscando itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El actor ha pulsado el botón para realizar la búsqueda de un itinerario [UC-038] y el sistema muestra dos cajas de texto en las que el actor ha de insertar el origen y el destino deseados y demás opciones extras para la selección de fechas y horas de salida y llegada y para la ordenación de los resultados de búsqueda en función de si el tiempo es menor<br>
+        2.- El actor procede a seleccionar el parámetro de ordenación en función del menor tiempo<br>
+        3.- El sistema ahora muestra un mapa en el que se representan los itinerarios resultantes de la búsqueda</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-43</td>
     </tr>
 </table>
 
@@ -9941,35 +9808,31 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Los resultados de la búsqueda de un itinerario pueden ser ordenados en función del menor número de transbordos</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El actor se encuentra buscando itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El actor ha pulsado el botón para realizar la búsqueda de un itinerario [UC-038] y el sistema muestra dos cajas de texto en las que el actor ha de insertar el origen y el destino deseados y demás opciones extras para la selección de fechas y horas de salida y llegada y para la ordenación de los resultados de búsqueda en función de si el número de transbordos es menor [UC-46]<br>
+        2.- El actor procede a seleccionar el parámetro de ordenación en función del menor número de transbordos<br>
+        3.- El sistema ahora muestra un mapa en el que se representan los itinerarios resultantes de la búsqueda</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-43</td>
     </tr>
 </table>
 
@@ -10000,29 +9863,21 @@
         <td><b>Actores:</b><br>
         Identificadores de los actores</td>
     </tr>
-    <tr>
-        <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
-    </tr>
-    <tr>
+   <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El actor ha pulsado el botón para realizar la búsqueda de un itinerario [UC-38] por lo que el sistema muestra dos cajas de texto en las que el actor ha de insertar el origen y el destino deseados y demás opciones extras para la selección de fechas y horas de salida y llegada<br>
+        2.- Además del origen y destino del itinerario, el actor selecciona fechas y horas de salida y llegada, lo que supone que se filtren los resultados de búsqueda<br>
+        3.- El sistema procede ahora a mostrar los resultados de la búsqueda realizada</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-38</td>
     </tr>
 </table>
 
@@ -10047,35 +9902,32 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Se otorga la posibilidad de ver el recorrido de los itinerarios resultados de un proceso de búsqueda en un mapa</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
-    <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El actor se encuentra buscando itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El actor ha pulsado el botón para realizar la búsqueda de un itinerario [UC-38] por lo que el sistema muestra, entre otras cosas, una casilla para activar que se muestre el esquema del recorrido en un mapa<br>
+        2.- El actor clica sobre la casilla<br>
+        3.- El sistema muestra un mensaje que informa del estado activado de la casilla además de dos botones, uno para cerrar el proceso y otro para imprimir el esquema del recorrido [UC-49]<br>
+        4.- El actor clica en el botón destinado a la finalización del proceso</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        4.A. El actor clica en el botón destinado a la impresión del esquema del recorrido por lo que el sistema genera el documento imprimible</td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-38, UC-49</td>
     </tr>
 </table>
 
@@ -10100,7 +9952,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Se permite la impresión del esquema del recorrido de un itinerario resultado de una operación de búsqueda</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
@@ -10112,23 +9964,19 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El actor ha pulsado el botón para realizar la búsqueda de un itinerario por lo que el sistema ha mostrado, entre otras cosas, una casilla para activar que se muestre el esquema del recorrido en un mapa [UC-48] sobre la cual clica el actor provocando que el sistema muestre un mensaje que informa del estado activado de la casilla además de dos botones, uno para cerrar el proceso y otro para imprimir el esquema del recorrido<br>
+        2.- El actor pulsa el botón para la impresión del esquema<br>
+        3.- El sistema genera el documento imprimible poniendo fin al proceso</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-48</td>
     </tr>
 </table>
 
