@@ -9170,31 +9170,27 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Posibilita la acción de que los recorridos de una línea sean presentados de forma gráfica a través de un mapa interactivo</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
     <tr>
-        <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        <td><b>Precondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El actor pulsa sobre el botón para ver una representación gráfica de los recorridos de una línea en específico<br>
+        2.- El sistema muestra un mapa interactivo junto con un desplegable donde permite al usuario escoger una de las diferentes líneas existentes para que su recorrido sea representado sobre el mapa<br>
+        3.- El usuario elige una de las líneas presentes en el desplegable<br>
+        4.- El mapa se actualiza mostrando ahora la ruta de la línea escogida por el usuario<br></td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -9223,35 +9219,31 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Se otorga la posibilidad de realizar la búsqueda de una parada en un mapa</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
     <tr>
-        <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        <td><b>Precondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El actor pulsa sobre el botón para realizar una operación de búsqueda de paradas en un mapa<br>
+        2.- El sistema muestra una caja de texto destinada a que en ella el actor introduzca el identificador de una parada y, a modo de otro método de búsqueda, un desplegable para la selección de un parámetro de búsqueda (que la parada pertenezca a un lugar [UC-35], que pertenezca a una línea [UC-36] o que se encuentre cerca del origen/destino [UC-037])<br>
+        3.- El actor procede a introducir el identificador de una parada en cuestión [UC-33] o a seleccionar uno de los parámetros de búsqueda [UC-34]<br>
+        4.- El sistema ahora muestra un mapa en el que se representan las paradas resultantes de la búsqueda dependiendo de si se ha empleado un método u otro (y del parámetro seleccionado en caso de haber seguido ese método)</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-33, UC-34, UC-35, UC-36, UC-37</td>
     </tr>
 </table>
 
@@ -9276,35 +9268,31 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Se permite la introducción del identificador de parada para la búsqueda de la misma en un mapa</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El actor debe encontrarse buscando una parada</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El actor acaba de clicar en el botón destinado a la búsqueda de paradas en un mapa [UC-32] por lo que el sistema procede a mostrar una caja de texto destinada a que en ella el actor introduzca el identificador de una parada<br>
+        2.- El actor procede a introducir el identificador de una parada en cuestión<br>
+        3.- El sistema ahora muestra un mapa en el que se representan las paradas resultantes de la búsqueda</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-32</td>
     </tr>
 </table>
 
@@ -9329,35 +9317,31 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Se otorga la posibilidad de parametrizar la búsqueda de paradas en un mapa</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El actor debe encontrarse buscando una parada</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El actor acaba de clicar en el botón destinado a la búsqueda de paradas en un mapa [UC-32] por lo que el sistema procede a mostrar un desplegable para la selección de un parámetro de búsqueda (que la parada pertenezca a un lugar [UC-35], que pertenezca a una línea [UC-36] o que se encuentre cerca del origen/destino [UC-037])<br>
+        2.- El actor procede a seleccionar uno de los parámetros de búsqueda<br>
+        3.- El sistema ahora muestra un mapa en el que se representan las paradas resultantes de la búsqueda</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-32, UC-35, UC-36, UC-37</td>
     </tr>
 </table>
 
@@ -9382,35 +9366,31 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Se otorga la posibilidad de parametrizar la búsqueda de paradas en un mapa en base a si pertenece a un lugar</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El actor debe encontrarse buscando una parada apoyando dicha búsqueda en un proceso de parametrización de la búsqueda mediante la selección de una de las opciones de un desplegable</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+         1.- El actor acaba de clicar en el botón destinado a la búsqueda de paradas en un mapa [UC-32] por lo que el sistema procede a mostrar un desplegable para la selección de un parámetro de búsqueda [UC-034]<br>
+        2.- El actor selecciona la opción de buscar paradas pertenecientes a un lugar<br>
+        3.- El sistema ahora muestra un mapa en el que se representan las paradas resultantes de la búsqueda</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-32, UC-34</td>
     </tr>
 </table>
 
@@ -9435,35 +9415,31 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Se otorga la posibilidad de parametrizar la búsqueda de paradas en un mapa en base a si pertenece a una línea</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El actor debe encontrarse buscando una parada apoyando dicha búsqueda en un proceso de parametrización de la búsqueda mediante la selección de una de las opciones de un desplegable</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+         1.- El actor acaba de clicar en el botón destinado a la búsqueda de paradas en un mapa [UC-32] por lo que el sistema procede a mostrar un desplegable para la selección de un parámetro de búsqueda [UC-034]<br>
+        2.- El actor selecciona la opción de buscar paradas pertenecientes a una línea<br>
+        3.- El sistema ahora muestra un mapa en el que se representan las paradas resultantes de la búsqueda</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-32, UC-34</td>
     </tr>
 </table>
 
@@ -9488,35 +9464,31 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Se otorga la posibilidad de parametrizar la búsqueda de paradas en un mapa en base a si se encuentra cerca de un origen/destino</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El actor debe encontrarse buscando una parada apoyando dicha búsqueda en un proceso de parametrización de la búsqueda mediante la selección de una de las opciones de un desplegable</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+         1.- El actor acaba de clicar en el botón destinado a la búsqueda de paradas en un mapa [UC-32] por lo que el sistema procede a mostrar un desplegable para la selección de un parámetro de búsqueda [UC-034]<br>
+        2.- El actor selecciona la opción de buscar paradas cercanas al origen/destino<br>
+        3.- El sistema ahora muestra un mapa en el que se representan las paradas resultantes de la búsqueda</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-32, UC-34</td>
     </tr>
 </table>
 
@@ -9541,35 +9513,33 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Se ofrece la posibilidad de buscar itinerarios</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
     <tr>
-        <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        <td><b>Precondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El actor pulsa el botón para realizar la búsqueda de un itinerario<br>
+        2.- El sistema muestra dos cajas de texto en las que el actor ha de insertar el origen y el destino deseados [UC-39] y demás opciones extras para la selección de fechas y horas de salida y llegada y para la ordenación de los resultados de búsqueda. Además, hacen también acto de presencia casillas para activar que se muestren el tiempo y distancia del recorrido [UC-40], el número de transbordos [UC-41], la tarifa por etapas [UC-42] y un esquema del recorrido [UC-48]<br>
+        3.- El usuario introduce un origen y un destino para la búsqueda de un itinerario con tal ruta<br>
+        4.- El sistema procede ahora a mostrar una secuencia de ventanas en las que se muestran el tiempo y distancia del recorrido, el número de transbordos, las tarifas por etapas y, finalmente, un esquema del recorrido junto a un botón para finalizar la búsqueda</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        3.A.- Además del origen y destino del itinerario, el actor selecciona fechas y horas de salida y llegada [UC-47], lo que supone que se filtren los resultados de búsqueda<br>
+        3.B.- Además del origen y el destino el actor desea ordenar los resultados de búsqueda [UC-43] en función de si el coste es menor [UC-44], de si el tiempo es menor [UC-45] o de si el número de transbordos es menor [UC-46], lo que supone que se filtren los resultados de búsqueda</td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-39, UC-40, UC-41, UC-42, UC-43, UC-44, UC-45, UC-46, UC-47, UC-48, UC-49</td>
     </tr>
 </table>
 
@@ -9594,35 +9564,31 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Para la búsqueda de itinerarios se precisa de la selección de un origen y un destino</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El actor se encuentra buscando itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El actor ha pulsado el botón para la búsqueda de itinerarios [UC-38] por lo que el sistema ahora muestra dos cajas de texto en las que el actor ha de insertar el origen y el destino deseados<br>
+        2.- El usuario introduce un origen y un destino para la búsqueda de un itinerario con tal ruta<br>
+        3.- El sistema muestra los resultados de búsqueda</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-38</td>
     </tr>
 </table>
 
@@ -9647,35 +9613,31 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Se permite ver el tiempo y la distancia de un itinerario al ser encontrado como resultado de una búsqueda</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El actor se encuentra buscando itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El actor ha pulsado el botón para realizar la búsqueda de un itinerario [UC-38] por lo que el sistema muestra, entre otras cosas, una casilla para activar que se muestren el tiempo y distancia del recorrido<br>
+        2.- El actor clica sobre la casilla<br>
+        3. El sistema muestra un mensaje que informa del estado activado de la casilla</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-38</td>
     </tr>
 </table>
 
@@ -9700,27 +9662,24 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Se permite ver el número de transbordos de un itinerario al ser encontrado como resultado de una búsqueda</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El actor se encuentra buscando itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El actor ha pulsado el botón para realizar la búsqueda de un itinerario [UC-38] por lo que el sistema muestra, entre otras cosas, una casilla para activar que se muestre el número de transbordos del recorrido<br>
+        2.- El actor clica sobre la casilla<br>
+        3. El sistema muestra un mensaje que informa del estado activado de la casilla</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
@@ -9753,35 +9712,31 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Se permite ver las tarifas de las etapas de un itinerario al ser encontrado como resultado de una búsqueda</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El actor se encuentra buscando itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El actor ha pulsado el botón para realizar la búsqueda de un itinerario [UC-38] por lo que el sistema muestra, entre otras cosas, una casilla para activar que se muestren las tarifas de las etapas que componen el recorrido<br>
+        2.- El actor clica sobre la casilla<br>
+        3. El sistema muestra un mensaje que informa del estado activado de la casilla</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-38</td>
     </tr>
 </table>
 
@@ -9806,35 +9761,31 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Los resultados de la búsqueda de un itinerario pueden ser ordenados por una serie de criterios</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El actor se encuentra buscando itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El actor ha pulsado el botón para realizar la búsqueda de un itinerario [UC-038] y el sistema muestra dos cajas de texto en las que el actor ha de insertar el origen y el destino deseados y demás opciones extras para la selección de fechas y horas de salida y llegada y para la ordenación de los resultados de búsqueda en función de si el coste es menor [UC-44], de si el tiempo es menor [UC-45] o de si el número de transbordos es menor [UC-46], lo que supone que se filtren los resultados de búsqueda<br>
+        2.- El actor procede a seleccionar uno de los parámetros de ordenación<br>
+        3.- El sistema ahora muestra un mapa en el que se representan los itinerarios resultantes de la búsqueda</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-38, UC-44, UC-45, UC-46</td>
     </tr>
 </table>
 
@@ -9857,37 +9808,33 @@
         <td><b>Fecha:</b><br>
         20/12/2022</td>
     </tr>
-    <tr>
+        <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Los resultados de la búsqueda de un itinerario pueden ser ordenados en función del menor coste</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El actor se encuentra buscando itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El actor ha pulsado el botón para realizar la búsqueda de un itinerario [UC-038] y el sistema muestra dos cajas de texto en las que el actor ha de insertar el origen y el destino deseados y demás opciones extras para la selección de fechas y horas de salida y llegada y para la ordenación de los resultados de búsqueda en función de si el coste es menor<br>
+        2.- El actor procede a seleccionar el parámetro de ordenación en función del menor coste<br>
+        3.- El sistema ahora muestra un mapa en el que se representan los itinerarios resultantes de la búsqueda</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-43</td>
     </tr>
 </table>
 
@@ -9910,37 +9857,33 @@
         <td><b>Fecha:</b><br>
         20/12/2022</td>
     </tr>
-    <tr>
+        <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Los resultados de la búsqueda de un itinerario pueden ser ordenados en función del menor tiempo</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El actor se encuentra buscando itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El actor ha pulsado el botón para realizar la búsqueda de un itinerario [UC-038] y el sistema muestra dos cajas de texto en las que el actor ha de insertar el origen y el destino deseados y demás opciones extras para la selección de fechas y horas de salida y llegada y para la ordenación de los resultados de búsqueda en función de si el tiempo es menor<br>
+        2.- El actor procede a seleccionar el parámetro de ordenación en función del menor tiempo<br>
+        3.- El sistema ahora muestra un mapa en el que se representan los itinerarios resultantes de la búsqueda</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-43</td>
     </tr>
 </table>
 
@@ -9965,35 +9908,31 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Los resultados de la búsqueda de un itinerario pueden ser ordenados en función del menor número de transbordos</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El actor se encuentra buscando itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El actor ha pulsado el botón para realizar la búsqueda de un itinerario [UC-038] y el sistema muestra dos cajas de texto en las que el actor ha de insertar el origen y el destino deseados y demás opciones extras para la selección de fechas y horas de salida y llegada y para la ordenación de los resultados de búsqueda en función de si el número de transbordos es menor [UC-46]<br>
+        2.- El actor procede a seleccionar el parámetro de ordenación en función del menor número de transbordos<br>
+        3.- El sistema ahora muestra un mapa en el que se representan los itinerarios resultantes de la búsqueda</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-43</td>
     </tr>
 </table>
 
@@ -10024,29 +9963,21 @@
         <td><b>Actores:</b><br>
         Identificadores de los actores</td>
     </tr>
-    <tr>
-        <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
-    </tr>
-    <tr>
+   <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El actor ha pulsado el botón para realizar la búsqueda de un itinerario [UC-38] por lo que el sistema muestra dos cajas de texto en las que el actor ha de insertar el origen y el destino deseados y demás opciones extras para la selección de fechas y horas de salida y llegada<br>
+        2.- Además del origen y destino del itinerario, el actor selecciona fechas y horas de salida y llegada, lo que supone que se filtren los resultados de búsqueda<br>
+        3.- El sistema procede ahora a mostrar los resultados de la búsqueda realizada</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-38</td>
     </tr>
 </table>
 
@@ -10071,35 +10002,32 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Se otorga la posibilidad de ver el recorrido de los itinerarios resultados de un proceso de búsqueda en un mapa</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Identificadores de los actores</td>
+        ACT-02, ACT-06</td>
     </tr>
-    <tr>
         <td><b>Precondiciones:</b><br>
-        Listar precondiciones en caso de que las hubiera</td>
+        El actor se encuentra buscando itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El actor ha pulsado el botón para realizar la búsqueda de un itinerario [UC-38] por lo que el sistema muestra, entre otras cosas, una casilla para activar que se muestre el esquema del recorrido en un mapa<br>
+        2.- El actor clica sobre la casilla<br>
+        3.- El sistema muestra un mensaje que informa del estado activado de la casilla además de dos botones, uno para cerrar el proceso y otro para imprimir el esquema del recorrido [UC-49]<br>
+        4.- El actor clica en el botón destinado a la finalización del proceso</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        4.A. El actor clica en el botón destinado a la impresión del esquema del recorrido por lo que el sistema genera el documento imprimible</td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-38, UC-49</td>
     </tr>
 </table>
 
@@ -10124,7 +10052,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Breve descripción del caso de uso</td>
+        Se permite la impresión del esquema del recorrido de un itinerario resultado de una operación de búsqueda</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
@@ -10136,23 +10064,19 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- ...<br>
-        2.- ...<br>
-        3.- ...<br>
-        4.- ...<br>
-        5.- ...</td>
+        1.- El actor ha pulsado el botón para realizar la búsqueda de un itinerario por lo que el sistema ha mostrado, entre otras cosas, una casilla para activar que se muestre el esquema del recorrido en un mapa [UC-48] sobre la cual clica el actor provocando que el sistema muestre un mensaje que informa del estado activado de la casilla además de dos botones, uno para cerrar el proceso y otro para imprimir el esquema del recorrido<br>
+        2.- El actor pulsa el botón para la impresión del esquema<br>
+        3.- El sistema genera el documento imprimible poniendo fin al proceso</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        1.A.- ...</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        Sólo comentar aquellas cosas que afecten a la base de datos (dadas de alta, modificaciones, ...)</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
+        UC-48</td>
     </tr>
 </table>
 
