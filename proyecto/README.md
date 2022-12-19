@@ -6304,9 +6304,7 @@
 
 [- Diagrama de casos de uso general](#diagramacugeneral)<br>
 [- Diagrama de casos de uso del Portal](#diagramacudelportal)<br>
-[- Diagrama de casos de uso del Sistema de información](#diagramacudelsistemadeinformacion)<br>
-[- Diagrama de casos de uso del usuario del Portal](#diagramacudelusuariodelportal)<br>
-[- Diagrama de casos de uso del usuario del Sistema de información](#diagramacudelusuariodelsistemadeinformacion)
+[- Diagrama de casos de uso del Sistema de información](#diagramacudelsistemadeinformacion)
 
 <br>
 
@@ -6338,21 +6336,6 @@
 
 <br>
 
-<a name="diagramacudelusuariodelportal"></a> Diagrama de casos de uso del usuario del Portal
-
-<br>
-
-<div align="center"><img src="./out/DCU/DCU_usu_P.svg"></div>
-
-<br>
-
-<a name="diagramacudelusuariodelsistemadeinformacion"></a> Diagrama de casos de uso del usuario del Sistema de información
-
-<br>
-
-<div align="center"><img src="./out/DCU/DCU_usu_SI.svg"></div>
-
-<br>
 
 ### <a name="listadecasosdeusodelportal"></a> Lista de casos de uso del Portal
 

@@ -12,10 +12,10 @@
       ><path d="M-12 -12 L40.5 -12 L40.5 70.5 L-12 70.5 L-12 -12 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath3"
-      ><path d="M-42 -6 L82 -6 L82 10 L-42 10 L-42 -6 Z"
+      ><path d="M-42 -8 L82 -8 L82 14 L-42 14 L-42 -8 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath4"
-      ><path d="M-105 -15 L205 -15 L205 25 L-105 25 L-105 -15 Z"
+      ><path d="M-105 -20 L205 -20 L205 35 L-105 35 L-105 -20 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath5"
       ><path d="M-4.8 -4.8 L36.2 -4.8 L36.2 20.2 L-4.8 20.2 L-4.8 -4.8 Z"
@@ -207,7 +207,7 @@
       ><path d="M-2 -2 L42 -2 L42 254 L-2 254 L-2 -2 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath68"
-      ><path d="M-2 -2 L-2 14 L36 14 L36 18 L-2 18 L-2 179 L8 179 L8 185 L-2 185 L-2 254 L42 254 L42 -2 Z"
+      ><path d="M-2 -2 L-2 14 L38 14 L38 20 L-2 20 L-2 179 L8 179 L8 185 L-2 185 L-2 254 L42 254 L42 -2 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath69"
       ><path d="M-4.8 -4.8 L58.2 -4.8 L58.2 26.2 L-4.8 26.2 L-4.8 -4.8 Z"
@@ -249,31 +249,31 @@
       ><path d="M-2 -2 L94 -2 L94 46 L-2 46 L-2 -2 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath82"
-      ><path d="M-2 -2 L-2 46 L94 46 L94 36 L58 36 L58 32 L94 32 L94 -2 Z"
+      ><path d="M-2 -2 L-2 46 L94 46 L94 38 L60 38 L60 32 L94 32 L94 -2 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath83"
       ><path d="M-2 -2 L98 -2 L98 46 L-2 46 L-2 -2 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath84"
-      ><path d="M-2 -2 L-2 46 L98 46 L98 20 L67 20 L67 16 L98 16 L98 -2 Z"
+      ><path d="M-2 -2 L-2 46 L98 46 L98 22 L69 22 L69 16 L98 16 L98 -2 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath85"
       ><path d="M-2 -2 L98 -2 L98 78 L-2 78 L-2 -2 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath86"
-      ><path d="M-2 -2 L-2 78 L98 78 L98 20 L61 20 L61 16 L98 16 L98 -2 Z"
+      ><path d="M-2 -2 L-2 78 L98 78 L98 22 L63 22 L63 16 L98 16 L98 -2 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath87"
       ><path d="M-2 -2 L46 -2 L46 102 L-2 102 L-2 -2 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath88"
-      ><path d="M-2 -2 L-2 102 L46 102 L46 26 L6 26 L6 22 L46 22 L46 -2 Z"
+      ><path d="M-2 -2 L-2 102 L46 102 L46 28 L8 28 L8 22 L46 22 L46 -2 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath89"
       ><path d="M-2 -2 L74 -2 L74 98 L-2 98 L-2 -2 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath90"
-      ><path d="M-2 -2 L-2 16 L29 16 L29 20 L-2 20 L-2 98 L74 98 L74 -2 Z"
+      ><path d="M-2 -2 L-2 16 L31 16 L31 22 L-2 22 L-2 98 L74 98 L74 -2 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath91"
       ><path d="M-2 -2 L46 -2 L46 106 L-2 106 L-2 -2 Z"
@@ -285,31 +285,31 @@
       ><path d="M-2 -2 L110 -2 L110 78 L-2 78 L-2 -2 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath94"
-      ><path d="M-2 -2 L-2 16 L29 16 L29 20 L-2 20 L-2 78 L110 78 L110 -2 Z"
+      ><path d="M-2 -2 L-2 16 L31 16 L31 22 L-2 22 L-2 78 L110 78 L110 -2 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath95"
       ><path d="M-2 -2 L118 -2 L118 46 L-2 46 L-2 -2 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath96"
-      ><path d="M-2 -2 L-2 17 L29 17 L29 21 L-2 21 L-2 46 L118 46 L118 -2 Z"
+      ><path d="M-2 -2 L-2 17 L31 17 L31 23 L-2 23 L-2 46 L118 46 L118 -2 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath97"
       ><path d="M-2 -2 L110 -2 L110 46 L-2 46 L-2 -2 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath98"
-      ><path d="M-2 -2 L-2 34 L34 34 L34 38 L-2 38 L-2 46 L110 46 L110 -2 Z"
+      ><path d="M-2 -2 L-2 34 L36 34 L36 40 L-2 40 L-2 46 L110 46 L110 -2 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath99"
       ><path d="M-2 -2 L118 -2 L118 62 L-2 62 L-2 -2 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath100"
-      ><path d="M-2 -2 L-2 53 L34 53 L34 57 L-2 57 L-2 62 L118 62 L118 -2 Z"
+      ><path d="M-2 -2 L-2 53 L36 53 L36 59 L-2 59 L-2 62 L118 62 L118 -2 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath101"
       ><path d="M-2 -2 L106 -2 L106 82 L-2 82 L-2 -2 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath102"
-      ><path d="M-2 -2 L-2 79 L34 79 L34 82 L106 82 L106 -2 Z"
+      ><path d="M-2 -2 L-2 79 L36 79 L36 82 L106 82 L106 -2 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath103"
       ><path d="M-2 -2 L106 -2 L106 46 L-2 46 L-2 -2 Z"
@@ -376,7 +376,7 @@
       /><line y2="60" fill="none" x1="15" clip-path="url(#clipPath2)" x2="0" y1="40"
       /><line y2="60" fill="none" x1="15" clip-path="url(#clipPath2)" x2="30" y1="40"
     /></g
-    ><g font-size="11px" transform="translate(102,106) scale(0.4,0.4)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" font-family="sans-serif" stroke="black" stroke-opacity="1"
+    ><g font-size="11px" transform="translate(104,106) scale(0.4,0.4)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" font-family="sans-serif" stroke="black" stroke-opacity="1"
     ><text x="11" xml:space="preserve" y="12" clip-path="url(#clipPath4)" stroke="none"
       >Usuario (Portal)</text
     ></g
