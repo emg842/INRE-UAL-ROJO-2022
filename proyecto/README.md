@@ -468,7 +468,7 @@
 <table align = "center">
     <tr>
         <td><b>FR-04:</b></td>
-        <td>Buscador (Portal)</td>
+        <td>Buscador</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -592,7 +592,7 @@
 <table align = "center">
     <tr>
         <td><b>FR-07:</b></td>
-        <td>Ver horarios de las líneas</td>
+        <td>Ver horarios de las líneas y servicios</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -612,7 +612,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Muestra la hora a la que pasa un determinado transporte por una determinada parada de la línea que se esté consultando</td>
+        <td>Muestra los horarios de las distintas líneas. Además, se podrán ver los diferentes servicios disponibles.</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -649,7 +649,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-15</td>
+        <td>UC-12</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -690,7 +690,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-16</td>
+        <td>UC-13</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -715,7 +715,7 @@
 <table align = "center">
     <tr>
         <td><b>FR-10:</b></td>
-        <td>Mostrar publicidad</td>
+        <td>Ver publicidad</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -731,7 +731,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-17</td>
+        <td>UC-14</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -776,7 +776,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Ofrece la información corporativa del ayuntamiento de las Islas Canarias</td>
+        <td>Ofrece información corporativa del ayuntamiento de las Islas Canarias</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -838,7 +838,7 @@
 <table align = "center">
     <tr>
         <td><b>FR-13:</b></td>
-        <td>Ver información acerca de lugares de interés</td>
+        <td>Ver información acerca de lugares</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -858,7 +858,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Ofrece información acerca de los distintos lugares de interés de las Islas Canarias</td>
+        <td>Ofrece información acerca de los distintos lugares de las Islas Canarias</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -879,7 +879,7 @@
 <table align = "center">
     <tr>
         <td><b>FR-14:</b></td>
-        <td>Ver información acerca de eventos</td>
+        <td>Recibir avisos</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -899,7 +899,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Ofrece información acerca de los distintos eventos que se celebran en las Islas Canarias</td>
+        <td>Se ofrece información acerca de posibles cambios o alteraciones en en el turismo de las Islas Canarias</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -914,172 +914,11 @@
         <td></td>
     </tr>
 </table>
-
 <br>
 
 <table align = "center">
     <tr>
         <td><b>FR-15:</b></td>
-        <td>Ver información acerca de monumentos</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>UC-12</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Ofrece información acerca de los distintos monumentos que se encuentran en las Islas Canarias</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<table align = "center">
-    <tr>
-        <td><b>FR-16:</b></td>
-        <td>Ver información acerca de sitios turísticos</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>UC-13</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Ofrece información acerca de los sitios más turísticos de las Islas Canarias</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>FR-17:</b></td>
-        <td>Ver avisos</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>UC-14</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Ofrece información acerca de posibles cambios o alteraciones en en el turismo de las Islas Canarias</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>FR-18:</b></td>
-        <td>Agregar datos</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>UC-18</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Se podrán agregar datos e información nueva a la página web</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>FR-19:</b></td>
         <td>Crear nuevas páginas</td>
     </tr>
     <tr>
@@ -1096,7 +935,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-26</td>
+        <td>UC-15</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1119,8 +958,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-20:</b></td>
-        <td>Visualizar páginas nuevas</td>
+        <td><b>FR-16:</b></td>
+        <td>Previsualizar páginas nuevas</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -1136,7 +975,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-27</td>
+        <td>UC-16</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1159,8 +998,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-21:</b></td>
-        <td>Modificar datos</td>
+        <td><b>FR-17:</b></td>
+        <td>Modificar datos de una página</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -1176,7 +1015,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-25</td>
+        <td>UC-17</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1199,7 +1038,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-22:</b></td>
+        <td><b>FR-18:</b></td>
         <td>Gestionar publicidad</td>
     </tr>
     <tr>
@@ -1216,7 +1055,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-24</td>
+        <td>UC-21</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1239,7 +1078,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-23:</b></td>
+        <td><b>FR-19:</b></td>
         <td>Ver estadísticas de acceso</td>
     </tr>
     <tr>
@@ -1256,7 +1095,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-23</td>
+        <td>UC-20</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1279,7 +1118,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-24:</b></td>
+        <td><b>FR-20:</b></td>
         <td>Eliminar páginas</td>
     </tr>
     <tr>
@@ -1319,47 +1158,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-25:</b></td>
-        <td>Añadir listado de horarios y servicios</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>UC-19</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Se podrán añadir nuevos listados de horarios y servicios a la web</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>FR-26:</b></td>
+        <td><b>FR-21:</b></td>
         <td>Gestionar idiomas</td>
     </tr>
     <tr>
@@ -1376,7 +1175,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-20</td>
+        <td>UC-18</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1399,7 +1198,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-27:</b></td>
+        <td><b>FR-22:</b></td>
         <td>Modificar diseño común</td>
     </tr>
     <tr>
@@ -1416,7 +1215,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-21</td>
+        <td>UC-19</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1460,7 +1259,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-38</td>
+        <td>UC-33</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1479,135 +1278,11 @@
         <td></td>
     </tr>
 </table>
-
 <br>
 
 <table align = "center">
     <tr>
         <td><b>FR-02:</b></td>
-        <td>Mostrar transbordos de un itinerario</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>UC-41</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Se podrán ver los transbordos del itinerario escogido</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>FR-03:</b></td>
-        <td>Mostrar tarifas por etapas de un itinerario</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>UC-42</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Se podrán ver las tarifas por etapas del itinerario escogido</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>FR-04:</b></td>
-        <td>Mostrar tiempo y distancia total de un itinerario</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>UC-40</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Se podrá ver la distancia total y el tiempo requerido del itinerario escogido</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>FR-05:</b></td>
         <td>Seleccionar fecha y hora de un itinerario</td>
     </tr>
     <tr>
@@ -1624,7 +1299,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-47</td>
+        <td>UC-39</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1648,7 +1323,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-06:</b></td>
+        <td><b>FR-03:</b></td>
         <td>Seleccionar origen-destino</td>
     </tr>
     <tr>
@@ -1665,7 +1340,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-39</td>
+        <td>UC-34</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1689,8 +1364,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-07:</b></td>
-        <td>Mostrar esquema del recorrido</td>
+        <td><b>FR-04:</b></td>
+        <td>Pedir imprimible del esquema del recorrido</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -1706,11 +1381,51 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-48</td>
+        <td>UC-40</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Muestra un esquema del recorrido correspondiente al itinerario en cuestión</td>
+        <td>Se solicita el imprimible del esquema del recorrido correspondiente al itinerario en cuestión</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-05:</b></td>
+        <td>Seleccionar criterio de búsqueda de itinerarios</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>UC-35</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se realiza la búsqueda de itinerarios según el criterio escogido</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -1730,89 +1445,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-08:</b></td>
-        <td>Imprimir esquema del recorrido</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>UC-49</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Imprime el esquema del recorrido</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>FR-09:</b></td>
-        <td>Seleccionar orden de la búsqueda de itinerarios</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>UC-43</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Se ordenan los distintos itinerarios que se muestran en base a la opción escogida</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>FR-10:</b></td>
+        <td><b>FR-06:</b></td>
         <td>Ordenar la búsqueda por coste</td>
     </tr>
     <tr>
@@ -1829,7 +1462,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-44</td>
+        <td>UC-36</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1853,7 +1486,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-11:</b></td>
+        <td><b>FR-07:</b></td>
         <td>Ordenar la búsqueda por tiempo</td>
     </tr>
     <tr>
@@ -1870,7 +1503,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-45</td>
+        <td>UC-37</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1894,7 +1527,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-12:</b></td>
+        <td><b>FR-08:</b></td>
         <td>Ordenar la búsqueda por transbordos</td>
     </tr>
     <tr>
@@ -1911,7 +1544,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-46</td>
+        <td>UC-38</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1935,8 +1568,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-13:</b></td>
-        <td>Representar recorrido de una línea</td>
+        <td><b>FR-09:</b></td>
+        <td>Ver recorrido de una línea</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -1952,11 +1585,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-31</td>
+        <td>UC-26</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Representa el recorrido de la línea en el mapa</td>
+        <td>Se podrá ver el recorrido de la línea en el mapa</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -1976,7 +1609,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-14:</b></td>
+        <td><b>FR-10:</b></td>
         <td>Iniciar sesión</td>
     </tr>
     <tr>
@@ -1993,7 +1626,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-24</td>
+        <td>UC-20</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2017,7 +1650,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-15:</b></td>
+        <td><b>FR-11:</b></td>
         <td>Registrarse</td>
     </tr>
     <tr>
@@ -2034,7 +1667,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-25</td>
+        <td>UC-21</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2058,8 +1691,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-16:</b></td>
-        <td>Renovar tarjeta</td>
+        <td><b>FR-12:</b></td>
+        <td>Renovar título</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2075,11 +1708,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-22</td>
+        <td>UC-16</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Renueva la tarjeta de transporte actual</td>
+        <td>Renueva el título de transporte actual</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -2099,8 +1732,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-17:</b></td>
-        <td>Comprar tarjeta de transporte</td>
+        <td><b>FR-13:</b></td>
+        <td>Adquirir título de transporte</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2116,11 +1749,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-27</td>
+        <td>UC-19</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Ofrece la posibilidad de comprar una tarjeta de transporte</td>
+        <td>Ofrece la posibilidad de comprar un título de transporte</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -2140,8 +1773,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-18:</b></td>
-        <td>Recargar saldo tarjeta de transporte/td>
+        <td><b>FR-14:</b></td>
+        <td>Recargar saldo del título de transporte</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2157,11 +1790,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-26</td>
+        <td>UC-18</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Recarga el saldo de la tarjeta de transporte adjuntada a la cuenta iniciada</td>
+        <td>Recarga el saldo del título de transporte adjuntada a la cuenta iniciada</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -2181,7 +1814,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-19:</b></td>
+        <td><b>FR-15:</b></td>
         <td>Adquirir bono transporte</td>
     </tr>
     <tr>
@@ -2198,11 +1831,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-27</td>
+        <td>UC-15</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Se podrá adquirir un bono transporte</td>
+        <td>Se podrá adquirir un bono de transporte que otorgará al usuario una serie de ventajas</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -2222,8 +1855,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-20:</b></td>
-        <td>Ver histórico de itinerarias</td>
+        <td><b>FR-16:</b></td>
+        <td>Ver histórico de itinerarios</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2239,7 +1872,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-23</td>
+        <td>UC-17</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2263,7 +1896,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-21:</b></td>
+        <td><b>FR-17:</b></td>
         <td>Gestionar sistema de ventas y título de transporte</td>
     </tr>
     <tr>
@@ -2280,7 +1913,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-12</td>
+        <td>UC-06</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2304,7 +1937,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-22:</b></td>
+        <td><b>FR-18:</b></td>
         <td>Crear aviso por correo electrónico</td>
     </tr>
     <tr>
@@ -2321,7 +1954,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-20</td>
+        <td>UC-14</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2345,7 +1978,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-23:</b></td>
+        <td><b>FR-19:</b></td>
         <td>Crear aviso por sms</td>
     </tr>
     <tr>
@@ -2362,7 +1995,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-19</td>
+        <td>UC-13</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2386,7 +2019,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-24:</b></td>
+        <td><b>FR-20:</b></td>
         <td>Crear aviso visual</td>
     </tr>
     <tr>
@@ -2403,7 +2036,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-18</td>
+        <td>UC-12</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2427,7 +2060,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-25:</b></td>
+        <td><b>FR-21:</b></td>
         <td>Crear aviso acústico</td>
     </tr>
     <tr>
@@ -2444,7 +2077,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-17</td>
+        <td>UC-11</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2468,7 +2101,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-26:</b></td>
+        <td><b>FR-22:</b></td>
         <td>Gestionar usuarios</td>
     </tr>
     <tr>
@@ -2485,7 +2118,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-14</td>
+        <td>UC-08</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2509,7 +2142,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-27:</b></td>
+        <td><b>FR-23:</b></td>
         <td>Definir condiciones</td>
     </tr>
     <tr>
@@ -2526,7 +2159,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-16</td>
+        <td>UC-10</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2550,7 +2183,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-28:</b></td>
+        <td><b>FR-24:</b></td>
         <td>Definir variables</td>
     </tr>
     <tr>
@@ -2567,7 +2200,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-15</td>
+        <td>UC-09</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2591,7 +2224,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-29:</b></td>
+        <td><b>FR-25:</b></td>
         <td>Definir eventos/incidencias</td>
     </tr>
     <tr>
@@ -2608,7 +2241,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-13</td>
+        <td>UC-07</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2632,8 +2265,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-30:</b></td>
-        <td>Mostrar actividad de los operadores</td>
+        <td><b>FR-26:</b></td>
+        <td>Ver actividad de los operadores</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2649,11 +2282,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-09</td>
+        <td>UC-01</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Examina la actividad de los operadores en base a los datos de las jornadas laborales de estos</td>
+        <td>Se podrá ver la actividad de los operadores en base a los datos de las jornadas laborales de estos<td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -2673,8 +2306,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-31:</b></td>
-        <td>Guardar foto de estado de la actividad de los operadores</td>
+        <td><b>FR-27:</b></td>
+        <td>Visualizar foto de estado de la actividad de los operadores</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2690,11 +2323,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-05</td>
+        <td>UC-02</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Se guarda la foto del estado actual de la actividad realizada por los operadores durante sus jornadas laborales</td>
+        <td>Se podrá ver la foto del estado actual de la actividad realizada por los operadores durante sus jornadas laborales</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -2714,8 +2347,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-32:</b></td>
-        <td>Guardar película de evolución temporal de los operadores</td>
+        <td><b>FR-28:</b></td>
+        <td>Visualizar película de evolución temporal de los operadores</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2731,11 +2364,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-06</td>
+        <td>UC-03</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Se guarda una película de evolución temporal de la actividad realizada por los operadores</td>
+        <td>Se podrá visualizar una película de evolución temporal de la actividad realizada por los operadores</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -2755,7 +2388,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-33:</b></td>
+        <td><b>FR-29:</b></td>
         <td>Gestionar elementos del mapa</td>
     </tr>
     <tr>
@@ -2772,7 +2405,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-07</td>
+        <td>UC-04</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2796,8 +2429,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-34:</b></td>
-        <td>Gestionar líneas</td>
+        <td><b>FR-30:</b></td>
+        <td>Gestionar líneas (visualmente)</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2813,7 +2446,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-08</td>
+        <td>UC-05</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2832,13 +2465,12 @@
         <td>Se estudian tanto grupal como individualmente</td>
     </tr>
 </table>
-
 <br>
 
 <table align = "center">
     <tr>
-        <td><b>FR-35:</b></td>
-        <td>Ver adelantos o retrasos de cada línea</td>
+        <td><b>FR-31:</b></td>
+        <td>Ver información acerca de lugares/paradas/sitios de interés turístico</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2854,11 +2486,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-11</td>
+        <td>UC-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Se registra la llegada anticipada o retrasada de un operador a las paradas respecto a su hora habitual</td>
+        <td>Se podrá ver información detallada acerca de lugares y sitios de interés turístico, así como de las distintas paradas y zonas de las Islas Canarias</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -2873,176 +2505,11 @@
         <td></td>
     </tr>
 </table>
-
 <br>
 
 <table align = "center">
     <tr>
-        <td><b>FR-36:</b></td>
-        <td>Hacer clic sobre una parada/estación</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>UC-10</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Se podrá hacer clic sobre una parada u estación</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>FR-37:</b></td>
-        <td>Mostrar información de la parada u estación</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>UC-01</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Se podrá ver la información relacionada con una parada u estación haciendo clic sobre la misma</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>FR-38:</b></td>
-        <td>Hacer clic sobre un sitio de interés</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>UC-04</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Se podrá hacer clic sobre un sitio de interés</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>FR-39:</b></td>
-        <td>Mostrar información de un sitio de interés</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>UC-03</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Se podrá ver la información relacionada con un sitio de interés haciendo clic sobre el misma</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>FR-40:</b></td>
+        <td><b>FR-32:</b></td>
         <td>Reservar itinerario</td>
     </tr>
     <tr>
@@ -3059,7 +2526,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-28</td>
+        <td>UC-23</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3083,7 +2550,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-41:</b></td>
+        <td><b>FR-33:</b></td>
         <td>Pagar reserva de itinerario</td>
     </tr>
     <tr>
@@ -3100,11 +2567,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-29</td>
+        <td>UC-24</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Se podrá pagar la reserva de un itinerario</td>
+        <td>Se podrá pagar la reserva del itinerario en cuestión</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -3124,8 +2591,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-42:</b></td>
-        <td>Imprimir ticket de la reserva de un itinerario</td>
+        <td><b>FR-34:</b></td>
+        <td>Pedir justificante de pago</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3141,11 +2608,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-30</td>
+        <td>UC-25</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Se podrá imprimir el ticket de la reserva de un itinerario</td>
+        <td>Se podrá pedir el justificante del pago de la reserva de un itinerario</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -3160,53 +2627,11 @@
         <td></td>
     </tr>
 </table>
-
 <br>
 
 <table align = "center">
     <tr>
-        <td><b>FR-43:</b></td>
-        <td>Presentar recorridos de una línea</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>UC-31</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Se mostrarán los distintos recorridos de una linea</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>FR-44:</b></td>
+        <td><b>FR-35:</b></td>
         <td>Buscar una parada</td>
     </tr>
     <tr>
@@ -3223,7 +2648,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-32</td>
+        <td>UC-27</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3247,8 +2672,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-45:</b></td>
-        <td>Introducción identificador de parada</td>
+        <td><b>FR-36:</b></td>
+        <td>Introducción de identificador de parada</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3264,11 +2689,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-33</td>
+        <td>UC-32</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Se podrá introducir un identificador de parada facilitar la búsqueda de la misma</td>
+        <td>Se podrá introducir un identificador de parada para facilitar la búsqueda de la misma</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -3288,8 +2713,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-46:</b></td>
-        <td>Parametrizar búsqueda de paradas/estaciones</td>
+        <td><b>FR-37:</b></td>
+        <td>Buscar parada en base a un criterio</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3305,11 +2730,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-34</td>
+        <td>UC-28</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Se podrá parametrizar la búsqueda de paradas o estaciones concretas según determinados filtros</td>
+        <td>Se podrá personalizar la búsqueda de paradas estableciendo un determinado criterio</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -3329,8 +2754,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-47:</b></td>
-        <td>Búsqueda de paradas/estaciones pertenecientes a un lugar</td>
+        <td><b>FR-38:</b></td>
+        <td>Búsqueda de paradas pertenecientes a un lugar</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3346,11 +2771,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-35</td>
+        <td>UC-29</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Se podrán buscar las paradas o estaciones que pertenezcan a un lugar en concreto</td>
+        <td>Se podrán buscar paradas que pertenezcan a un lugar en concreto</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -3370,8 +2795,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-48:</b></td>
-        <td>Búsqueda de paradas/estaciones pertenecientes a una línea</td>
+        <td><b>FR-39:</b></td>
+        <td>Búsqueda de paradas pertenecientes a una línea</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3387,11 +2812,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-36</td>
+        <td>UC-30</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Se podrán buscar las paradas o estaciones que pertenezcan a una línea en concreto</td>
+        <td>Se podrán buscar paradas que pertenezcan a una línea en concreto</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -3411,8 +2836,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-49:</b></td>
-        <td>Búsqueda de paradas/estaciones cerca de un origen/destino determinado</td>
+        <td><b>FR-40:</b></td>
+        <td>Búsqueda de paradas cercanas a un origen/destino determinado</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3428,11 +2853,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-37</td>
+        <td>UC-31</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Se podrán buscar las paradas o estaciones más cercanas a un punto de origen o destino</td>
+        <td>Se podrán buscar las paradas más cercanas a un punto de origen o destino</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -6335,7 +5760,6 @@
 <div align="center"><img src="./out/DCU/DCU_SI.svg"></div>
 
 <br>
-
 
 ### <a name="listadecasosdeusodelportal"></a> Lista de casos de uso del Portal
 
