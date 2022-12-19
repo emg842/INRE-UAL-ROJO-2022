@@ -141,12 +141,6 @@
         <td>Subida de los casos de uso del portal detallados</td>
         <td>Daniel López García</td>
     </tr>
-    <tr>
-        <td>10/12/2022</td>
-        <td>1.0</td>
-        <td>Corrección tablas requisitos funcionales</td>
-        <td>Eduardo Martín G</td>
-    </tr>
         <tr>
         <td>16/12/2022</td>
         <td>1.0</td>
