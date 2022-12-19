@@ -6687,32 +6687,28 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Da la opción de contactar con el servicio de atención al cliente</td>
+        Posibilita la acción de ver la página del portal dedicada a mostrar información corporativa</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
         ACT-01, ACT-02</td>
     </tr>
     <tr>
-        <td><b>Precondiciones:</b><br>
-        </td>
+        <td><b>Precondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El usuario pulsa el botón para ver la información corporativa<br>
-        2.- El sistema mostrará la página de información de la empresa</td>
+        1.- El actor pulsa sobre el botón para ver la página de información corporativa<br>
+        2.- El sistema muestra la página de información corporativa</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br>
-        FR-11, IR-03, IR-08, IR-09</td>
+        <td><b>Referencias:</b><br><br></td>
     </tr>
 </table>
 
@@ -6737,32 +6733,28 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Da la posibilidad de ver horarios y servicios de los transportes públicos de Gran Canaria</td>
+        Posibilita la acción de ver la página del portal dedicada a mostrar información acerca de horarios y servicios</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
         ACT-01, ACT-02</td>
     </tr>
     <tr>
-        <td><b>Precondiciones:</b><br>
-        </td>
+        <td><b>Precondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El usuario pulsa el botón para ver los horarios y servicios<br>
-        2.- El sistema muestra la página para ver los horarios y servicios</td>
+        1.- El actor pulsa sobre el botón para ver la página de horarios y servicios<br>
+        2.- El sistema muestra la página de horarios y servicios</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br>
-        FR-07, IR-03, IR-10, IR-11</td>
+        <td><b>Referencias:</b><br><br></td>
     </tr>
 </table>
 
@@ -6787,32 +6779,28 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Permite ver un blog con información de la aplicación</td>
+        Posibilita la acción de acceder a un blog de cuya explotación y mantenimiento se encarga un sistema externo</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
         ACT-01, ACT-02</td>
     </tr>
     <tr>
-        <td><b>Precondiciones:</b><br>
-        </td>
+        <td><b>Precondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El usuario pulsa el botón para ver el blog<br>
-        2.- El sistema muestra la página del blog</td>
+        1.- El actor pulsa sobre el botón para acceder al blog<br>
+        2.- El sistema redirige al blog</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br>
-        FR-01 </td>
+        <td><b>Referencias:</b><br><br></td>
     </tr>
 </table>
 
@@ -6837,32 +6825,28 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Permite ver un foro en el que habrá comentarios de otros usurios</td>
+        Posibilita la acción de acceder a un foro de cuya explotación y mantenimiento se encarga un sistema externo</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
         ACT-01, ACT-02</td>
     </tr>
     <tr>
-        <td><b>Precondiciones:</b><br>
-        </td>
+        <td><b>Precondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El usuario pulsará el botón ppara ver el foro<br>
-        2.- El sistema mostrará la página del foro</td>
+        1.- El actor pulsa sobre el botón para acceder al foro<br>
+        2.- El sistema redirige al foro</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br>
-        FR-02</td>
+        <td><b>Referencias:</b><br><br></td>
     </tr>
 </table>
 
@@ -6887,32 +6871,28 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        permite ver una nube donde de forma grafica a través de etiquetas se puede acceder a las funcionalidades de la pagina</td>
+        Posibilita la acción de ver el cloud tag del portal dedicado a la redirección a otras páginas del mismo</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
         ACT-01, ACT-02</td>
     </tr>
     <tr>
-        <td><b>Precondiciones:</b><br>
-        </td>
+        <td><b>Precondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El usuario pulsará el botón para ver el cloud tag<br>
-        2.- El sistema mostrará el cloud tag</td>
+        1.- El actor pulsa sobre el botón para ver el cloud tag<br>
+        2.- El sistema muestra el cloud tag</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br>
-        FR-03, IR-03</td>
+        <td><b>Referencias:</b><br><br></td>
     </tr>
 </table>
 
@@ -6937,33 +6917,28 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Permitirá ver un buscador para que el usuario lo utilice </td>
+        Plantea la posibilidad de poder buscar información relacionada con las palabras clave introducidas como parámetro de búsqueda en cualquiera de las páginas del portal</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
         ACT-01, ACT-02</td>
     </tr>
     <tr>
-        <td><b>Precondiciones:</b><br>
-        </td>
+        <td><b>Precondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El usuario pulsará el buscador<br>
-        2.- El usuario introducirá la búsqueda<br>
-        3.- El sistema mostrará la búsqueda</td>
+        1.- El actor pulsa sobre la barra de búsqueda, introduce una cadena de texto en ella y confirma la realización de una búsqueda en base a las palabras clave introducidas como parámetro clicando sobre un botón situado a la derecha de la barra de búsqueda o presionando la tecla <i>Enter</i>><br>
+        2.- El sistema muestra una serie de resultados obtenidos en base a la cadena de texto introducida por el actor los cuales contienen enlaces de redireccionamiento a las secciones de la página donde se encuentra la información buscada según considere el algoritmo de búsqueda</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        3.A.- El sistema dirá que no hay resultados de la búsqueda </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br>
-        FR-04, NFR-02</td>
+        <td><b>Referencias:</b><br><br></td>
     </tr>
 </table>
 
@@ -6988,34 +6963,30 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        ofrece la opción de cambiar el idioma del portal</td>
+        Otorga el poder cambiar el idioma de todo el contenido del portal</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
         ACT-01, ACT-02</td>
     </tr>
     <tr>
-        <td><b>Precondiciones:</b><br>
-        </td>
+        <td><b>Precondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El usuario pulsará el botón para cambiar el idioma<br>
-        2.- El sistema mostrará los idioma disponibles<br>
-        3.- El usuario eligirá el idioma<br>
-        4.- El sistema mostrará el portal con el idioma seleccionado</td>
+        1.- El actor pulsa sobre el desplegable contenedor de los diferentes idiomas disponibles para la visualización del portal<br>
+        2.- El sistema muestra los idiomas disponibles en forma de opciones seleccionables desde el desplegable<br>
+        3.- El usuario clica sobre el idioma deseado para la visualización del portal<br>
+        4.- El sistema muestra todo el contenido el portal en el idioma escogido por el actor</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br>
-        FR-12, FR-26</td>
+        <td><b>Referencias:</b><br><br></td>
     </tr>
 </table>
 
@@ -7038,34 +7009,30 @@
         <td><b>Fecha:</b><br>
         20/12/2022</td>
     </tr>
-    <tr>
+        <tr>
         <td><b>Descripción:</b><br>
-        Ofrece una vista con las noticias de la isla</td>
+        Posibilita la acción de ver la página del portal dedicada a mostrar noticias</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
         ACT-01, ACT-02</td>
     </tr>
     <tr>
-        <td><b>Precondiciones:</b><br>
-        </td>
+        <td><b>Precondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El usuario pulsará el botón para ver las noticias<br>
-        2.- El sistema mostrará la página con las noticias</td>
+        1.- El actor pulsa sobre el botón para ver las noticias<br>
+        2.- El sistema muestra las noticias</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br>
-        FR-05, IR-03, IR-16, IR-17</td>
+        <td><b>Referencias:</b><br><br></td>
     </tr>
 </table>
 
@@ -7087,35 +7054,30 @@
     <tr>
         <td><b>Fecha:</b><br>
         20/12/2022</td>
-    </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Da la posibilidad de acceder a una página para contactar con la empresa</td>
+        Posibilita la acción de ver la página del portal dedicada a mostrar información de contacto</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
         ACT-01, ACT-02</td>
     </tr>
     <tr>
-        <td><b>Precondiciones:</b><br>
-        </td>
+        <td><b>Precondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El usuario pulsará el botón para contactar<br>
-        2.- El sistema mostrará la página con la información de contacto</td>
+        1.- El actor pulsa sobre el botón para ver la página de contacto<br>
+        2.- El sistema muestra la página de contacto</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br>
-        FR-06, IR-03, IR-06, IR-07</td>
+        <td><b>Referencias:</b><br><br></td>
     </tr>
 </table>
 
@@ -7140,32 +7102,28 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Otorga la posibilidad de ver lugares de interes de la isla de Gran Canaria desde el portal</td>
+        Posibilita la acción de ver la página del portal dedicada a mostrar información acerca de lugares de interés turístico (lugares que albergan eventos, monumentos, ..)</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
         ACT-01, ACT-02</td>
     </tr>
     <tr>
-        <td><b>Precondiciones:</b><br>
-        </td>
+        <td><b>Precondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El usuario pulsará el botón para ver los lugares<br>
-        2.- El sistema mostrará los lugares, que pueden ser eventos, monumentos o sitios turísticos</td>
+        1.- El actor pulsa sobre el botón para ver la página de lugares<br>
+        2.- El sistema muestra la página de lugares</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br>
-        UC-11, UC-12, UC-13, FR-13, IR-03, IR-14, IR-15</td>
+        <td><b>Referencias:</b><br><br></td>
     </tr>
 </table>
 
@@ -7190,34 +7148,28 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Da la opción de ver los eventos que hay en la isla</td>
+        Permite la recepción de avisos</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
         ACT-01, ACT-02</td>
     </tr>
     <tr>
-        <td><b>Precondiciones:</b><br>
-        Pulsar botón para ver los lugares</td>
+        <td><b>Precondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El usuario pulsará el botón para ver los lugares<br>
-        2.- El sistema mostrará los lugares<br>
-        3.- El usuario eligirá ver los eventos<br>
-        4.- El sistema mostrará los eventos de la isla</td>
+        1.- El sistema muestra un aviso informativo en una zona determinada de fácil avistamiento para el actor. Dicho aviso estará compuesto por un texto y un botón para el cierre del mismo<br>
+        2.- El actor clica sobre el botón destinado al cierre de la notificación poniendo así fin al proceso de recepción de un aviso</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br>
-        UC-10, FR-13, FR-14, IR-03, IR-14, IR-15</td>
+        <td><b>Referencias:</b><br><br></td>
     </tr>
 </table>
 
@@ -7242,33 +7194,28 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Permite la opción para ver los monumentos de la isla</td>
+        Posibilita la acción de ver la página del portal dedicada a mostrar información acerca de itinearios destacados</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
         ACT-01, ACT-02</td>
     </tr>
     <tr>
-        <td><b>Precondiciones:</b><br>
-        Acceder a lugares</td>
+        <td><b>Precondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El usuario pulsará el botón para ver los lugares<br>
-        2.- El sistema mostrará los lugares<br>
-        3.- El usuario eligirá ver los monumentos<br>
-        4.- El sistema mostrará los eventos de la isla</td>
-    <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        1.- El actor pulsa sobre el botón para ver la página de itinerarios destacados<br>
+        2.- El sistema muestra la página de itinerarios destacados</td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br>
-        UC-10, FR-13, FR-15, IR-03, IR-14, IR-15</td>
+        <td><b>Poscondiciones:</b><br><br></td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br><br></td>
     </tr>
 </table>
 
@@ -7293,33 +7240,28 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Da la posibilidad de ver los sitios turísticos de la isla</td>
+        Posibilita la acción de ver la página del portal dedicada a mostrar información acerca de títulos y tarifas del transporte</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
         ACT-01, ACT-02</td>
     </tr>
     <tr>
-        <td><b>Precondiciones:</b><br>
-        Acceder a lugares</td>
+        <td><b>Precondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El usuario pulsará el botón para ver los lugares<br>
-        2.- El sistema mostrará los lugares<br>
-        3.- El usuario eligirá ver los sitios turísticos<br>
-        4.- El sistema mostrará los sitios turísticos de la isla</td>
-    <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        1.- El actor pulsa sobre el botón para ver la página de títulos y tarifas del transporte<br>
+        2.- El sistema muestra la página de títulos y tarifas del transporte</td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br>
-        UC-10, FR-13, FR-16, IR-03, IR-14, IR-15</td>
+        <td><b>Poscondiciones:</b><br><br></td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b><br><br></td>
     </tr>
 </table>
 
@@ -7344,32 +7286,27 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Permite la opción para mostrar avisos relevantes de las islas</td>
+        Permite la visualización de publicidad</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
         ACT-01, ACT-02</td>
     </tr>
     <tr>
-        <td><b>Precondiciones:</b><br>
-        </td>
+        <td><b>Precondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El usuario pulsa el botón para ver los avisos<br>
-        2.- El sistema mostrará los avisos</td>
+        1.- El sistema muestra un anuncio publicitario en una zona determinada de fácil avistamiento para el actor (sin obstaculizar su cómoda visualización del contenido de la página en cuestión)</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        2.A.- El sistema mostrará una ventana diciendo que no hay avisos disponibles</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br>
-        FR-17, IR-03, IR-04, IR-05</td>
+        <td><b>Referencias:</b><br><br></td>
     </tr>
 </table>
 
@@ -7394,34 +7331,33 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Ofrece una vista en la que poder ver los itinerarios destacados de manera más detallada</td>
+        Ofrece el medio necesario para la creación de una nueva página (sección dentro del portal) a través de una interfaz a cargo de un software ajeno</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        ACT-01, ACT-02</td>
+        ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        </td>
+        El actor debe haber sido dado de alta y estar autenticado en el sistema</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El usuario pulsará el botón para ver los itinerarios destacados<br>
-        2.- El sistema mostrará los itinerarios destacados<br>
-        3.- El usuario eligirá un itinerario<br>
-        4.- El sistema mostrará el itinerario de manera más detallada</td>
+        1.- El actor pulsa sobre el botón para crear una nueva sección dentro del portal<br>
+        2.- El sistema muestra una interfaz de creación de páginas ajena en la cual hace aparición un botón para la confirmación de la adición de la página modelada al portal<br>
+        3.- El actor clica sobre el botón destinado a la confirmación de la adición de una nueva sección en forma de página al portal procediendo a mostrarse, con objeto de permitir al actor previsualizar como resultaría dicho añadido [CU-16], una nueva ventana la cual además cuenta con un botón de confirmación definitiva<br>
+        4.- El actor pulsa sobre el botón de confirmación poniendo así fin al proceso de creación de una página</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        </td>
+        El contenido de la página ha sido almacenado en el sistema</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        FR-08, IR-03, IR-12, IR-13</td>
+        CU-16</td>
     </tr>
 </table>
 
@@ -7446,32 +7382,32 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Permite ver títulos y tarifas del transporte disponibles en las islas</td>
+        Dispone la posibilidad de previsualizar como resultaría la adición de una nueva página al portal</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        ACT-01, ACT-02</td>
+        ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        </td>
+        El actor debe haber sido dado de alta y estar autenticado en el sistema, así como debe encontrarse en proceso de creación de una nueva sección en forma de página para su adición en el portal</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El usuario pulsará el botón para ver títulos y tarifas del transporte<br>
-        2.- El sistema mosrará un listado de los títulos y tarifas del transporte disponibles en la isla</td>
+        1.- El actor, el cual se encuentra en pleno proceso de creación de una página [CU-15], pulsa sobre el botón destinado a la confirmación de la adición de la misma al portal.<br>
+        2.- El sistema muestra, con objeto de permitir al actor previsualizar como resultaría dicho añadido, una nueva ventana la cual además cuenta con un botón de confirmación definitiva<br>
+        3.- El actor pulsa sobre el botón de confirmación poniendo así fin al proceso de creación de una página</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        </td>
+        El contenido de la página ha sido almacenado en el sistema</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        FR-09, IR-03, IR-18, IR-19</td>
+        CU-15</td>
     </tr>
 </table>
 
@@ -7496,32 +7432,31 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        El portal mostrará publicidad relevante con la isla</td>
+        Ofrece el medio necesario para la modificación de una página (sección dentro del portal) a través de una interfaz a cargo de un software ajeno</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        ACT-01, ACT-02</td>
+        ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        </td>
+        El actor debe haber sido dado de alta y estar autenticado en el sistema</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El usuario entra al portal<br>
-        2.- El sistema mostrará cada cierto tiempo publicidad</td>
+        1.- El actor pulsa sobre el botón para modificar una sección del portal<br>
+        2.- El sistema muestra una interfaz de creación de páginas ajena en la cual hace aparición un botón para la confirmación de la adición de la página modificada al portal sustituyendo así a su versión anterior<br>
+        3.- El actor clica sobre el botón destinado a la confirmación de la modificación de una sección en forma de página del portal poniendo así fin al proceso de modificación de una página</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        </td>
+        El contenido (ya modificado) de la página ha sido almacenado en el sistema</td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br>
-        FR-10, IR-03, IR-20, IR-21</td>
+        <td><b>Referencias:</b><br><br></td>
     </tr>
 </table>
 
@@ -7546,35 +7481,30 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        El portal tendrá opción para que su propietario/gestor añada datos</td>
+        Permite gestionar los idiomas disponibles para la visualización de los contenidos del portal</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        ACT-01</td>
+        ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Iniciar el portal como gestor</td>
+        El actor debe haber sido dado de alta y estar autenticado en el sistema</td>
     </tr>
-    <tr>
+     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El gestor pulsará el botón para añadir datos<br>
-        2.- El sistema mostrará la ventana para añadir datos<br>
-        3.- El gestor añadirá los datos y pulsará el botón subir<br>
-        4.- El sistema confirmará que la subida de los datos se ha hecho de manera correcta</td>
+        1.- El actor pulsa sobre el botón para la adición de un nuevo idioma o la eliminación de uno ya disponible<br>
+        2.- El sistema muestra un mensaje para la confirmación de la adición o eliminación de un idioma determinado<br>
+        3.- El actor clica sobre el botón en cuestión. Si se trata del proceso de adición, este hecho provocará el envío de una petición a un sistema externo para la inserción de un nuevo idioma como disponible para la visualización del portal. En cualquier caso, desemboca en la finalización del proceso de gestión de idiomas</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        4.A.- El sistema dirá que ha habido un problema con la subida de los datos<br>
-        5.A.- El sistema le llevará de nuevo a la vista de añadir los datos señalando el fallo</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        El sistema guardará los nuevos datos</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br>
-        FR-18</td>
+        <td><b>Referencias:</b><br><br></td>
     </tr>
 </table>
 
