@@ -28,20 +28,8 @@
     <tr>
         <td>10/12/2022</td>
         <td>1.0</td>
-        <td>Realización tablas requisitos funcionales</td>
-        <td>Miguel Ángel Moncada Álvarez</td>
-    </tr>
-    <tr>
-        <td>10/12/2022</td>
-        <td>1.0</td>
         <td>Corrección tablas requisitos funcionales</td>
-        <td>Miguel Ángel Moncada Álvarez</td>
-    </tr>
-    <tr>
-        <td>10/12/2022</td>
-        <td>1.0</td>
-        <td>Corrección tablas requisitos funcionales</td>
-        <td>Miguel Ángel Moncada Álvarez</td>
+        <td>Eduardo Martín Gómez</td>
     </tr>
     <tr>
         <td>10/12/2022</td>
@@ -144,14 +132,32 @@
     <tr>
         <td>15/12/2022</td>
         <td>1.0</td>
+        <td>Corrección tablas requisitos funcionales</td>
+        <td>Eduardo Martín Gómez</td>
+    </tr>
+    <tr>
+        <td>15/12/2022</td>
+        <td>1.0</td>
         <td>Subida de los casos de uso del portal detallados</td>
         <td>Daniel López García</td>
+    </tr>
+    <tr>
+        <td>10/12/2022</td>
+        <td>1.0</td>
+        <td>Corrección tablas requisitos funcionales</td>
+        <td>Eduardo Martín G</td>
     </tr>
         <tr>
         <td>16/12/2022</td>
         <td>1.0</td>
         <td>Subida de los casos de uso del Sistema de información detallados</td>
         <td>Miguel Ángel Moncada Álvarez</td>
+    </tr>
+    <tr>
+        <td>20/12/2022</td>
+        <td>1.0</td>
+        <td>Corrección tablas requisitos funcionales por cambios en el diagrama</td>
+        <td>Eduardo Martín Gómez</td>
     </tr>
 </table>
 
