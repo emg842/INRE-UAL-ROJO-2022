@@ -28,7 +28,7 @@
     <tr>
         <td>10/12/2022</td>
         <td>1.0</td>
-        <td>Corrección tablas requisitos funcionales</td>
+        <td>Realización tablas requisitos funcionales</td>
         <td>Eduardo Martín Gómez</td>
     </tr>
     <tr>
