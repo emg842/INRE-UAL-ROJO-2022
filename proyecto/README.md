@@ -6348,19 +6348,19 @@
     </tr>
     <tr>
         <td>UC-01</td>
-        <td>Ver información corporativa</td>
+        <td>Ver página de información corporativa</td>
     </tr>
     <tr>
         <td>UC-02</td>
-        <td>Ver horarios y servicios</td>
+        <td>Ver página de horarios y servicios</td>
     </tr>
     <tr>
         <td>UC-03</td>
-        <td>Ver blog</td>
+        <td>Acceder al blog</td>
     </tr>
     <tr>
         <td>UC-04</td>
-        <td>Ver foro</td>
+        <td>Acceder al foro</td>
     </tr>
     <tr>
         <td>UC-05</td>
@@ -6368,7 +6368,7 @@
     </tr>
     <tr>
         <td>UC-06</td>
-        <td>Ver buscador</td>
+        <td>Buscar</td>
     </tr>
     <tr>
         <td>UC-07</td>
@@ -6380,7 +6380,7 @@
     </tr>
     <tr>
         <td>UC-09</td>
-        <td>Contactar</td>
+        <td>Ver página de contacto</td>
     </tr>
     <tr>
         <td>UC-10</td>
@@ -6388,71 +6388,51 @@
     </tr>
     <tr>
         <td>UC-11</td>
-        <td>Ver eventos</td>
+        <td>Recibir aviso</td>
     </tr>
     <tr>
         <td>UC-12</td>
-        <td>Ver monumentos</td>
+        <td>Ver página de itinerarios destacados</td>
     </tr>
     <tr>
         <td>UC-13</td>
-        <td>Ver sitios Turísticos</td>
+        <td>Ver página de títulos y tarifas del transporte</td>
     </tr>
     <tr>
         <td>UC-14</td>
-        <td>Ver avisos</td>
-    </tr>
-    <tr>
-        <td>UC-15</td>
-        <td>Ver itinerarios destacados</td>
-    </tr>
-    <tr>
-        <td>UC-16</td>
-        <td>Ver títulos y tarifas del transporte</td>
-    </tr>
-    <tr>
-        <td>UC-17</td>
         <td>Ver publicidad</td>
     </tr>
     <tr>
+        <td>UC-15</td>
+        <td>Crear página</td>
+    </tr>
+    <tr>
+        <td>UC-16</td>
+        <td>Previsualizar página</td>
+    </tr>
+    <tr>
+        <td>UC-17</td>
+        <td>Modificar datos de una página</td>
+    </tr>
+    <tr>
         <td>UC-18</td>
-        <td>Agregar datos</td>
-    </tr>
-    <tr>
-        <td>UC-19</td>
-        <td>Añadir listado de horarios y servicios</td>
-    </tr>
-    <tr>
-        <td>UC-20</td>
         <td>Gestionar idiomas</td>
     </tr>
     <tr>
-        <td>UC-21</td>
+        <td>UC-19</td>
         <td>Modificar diseño común</td>
     </tr>
     <tr>
-        <td>UC-22</td>
-        <td>Eliminar páginas</td>
+        <td>UC-20</td>
+        <td>Ver estadísticas de acceso a una página</td>
     </tr>
     <tr>
-        <td>UC-23</td>
-        <td>Ver estadísticas de acceso</td>
-    </tr>
-    <tr>
-        <td>UC-24</td>
+        <td>UC-21</td>
         <td>Gestionar publicidad</td>
     </tr>
     <tr>
-        <td>UC-25</td>
-        <td>Modificar datos</td>
-    </tr>
-    <tr>
-        <td>UC-26</td>
-        <td>Crear páginas</td>
-    </tr>
-    <tr>
-        <td>UC-27</td>
-        <td>Previsualizar</td>
+        <td>UC-22</td>
+        <td>Eliminar página</td>
     </tr>
 </table>
 
@@ -6469,199 +6449,163 @@
     </tr>
     <tr>
         <td>UC-01</td>
-        <td>Mostrar información de la parada/estación</td>
+        <td>Ver actividad de los operadores</td>
     </tr>
     <tr>
         <td>UC-02</td>
-        <td>Hacer clic en parada/estación</td>
+        <td>Ver foto de estado</td>
     </tr>
     <tr>
         <td>UC-03</td>
-        <td>Mostrar información del sitio de interés turístico</td>
+        <td>Ver película de evolución temporal</td>
     </tr>
     <tr>
         <td>UC-04</td>
-        <td>Hacer clic en lugar/sitio de interés turístico</td>
+        <td>Gestionar elementos mostrados en el mapa</td>
     </tr>
     <tr>
         <td>UC-05</td>
-        <td>Guardar foto de estado</td>
+        <td>Gestionar líneas (visualmente)</td>
     </tr>
     <tr>
         <td>UC-06</td>
-        <td>Guardar película de evolución temporal</td>
+        <td>Gestionar sistema de ventas y título único del transporte</td>
     </tr>
     <tr>
         <td>UC-07</td>
-        <td>Gestionar elementos del mapa</td>
-    </tr>
-    <tr>
-        <td>UC-08</td>
-        <td>Gestionar línea</td>
-    </tr>
-    <tr>
-        <td>UC-09</td>
-        <td>Mostrar actividad de los operadores</td>
-    </tr>
-    <tr>
-        <td>UC-10</td>
-        <td>Hacer clic en parada/estación (Gestor)</td>
-    </tr>
-    <tr>
-        <td>UC-11</td>
-        <td>Ver retraso/adelantos de línea</td>
-    </tr>
-    <tr>
-        <td>UC-12</td>
-        <td>Gestionar sistema de ventas y titulo único del transporte</td>
-    </tr>
-    <tr>
-        <td>UC-13</td>
         <td>Definir eventos/incidencias</td>
     </tr>
     <tr>
-        <td>UC-14</td>
+        <td>UC-08</td>
         <td>Gestionar usuarios</td>
     </tr>
     <tr>
-        <td>UC-15</td>
-        <td>Definir variable</td>
+        <td>UC-09</td>
+        <td>Definir variables</td>
     </tr>
     <tr>
-        <td>UC-16</td>
+        <td>UC-10</td>
         <td>Definir condiciones</td>
     </tr>
     <tr>
-        <td>UC-17</td>
+        <td>UC-11</td>
         <td>Crear aviso acústico</td>
     </tr>
     <tr>
-        <td>UC-18</td>
+        <td>UC-12</td>
         <td>Crear aviso visual</td>
     </tr>
     <tr>
-        <td>UC-19</td>
+        <td>UC-13</td>
         <td>Crear aviso móvil</td>
     </tr>
     <tr>
-        <td>UC-20</td>
+        <td>UC-14</td>
         <td>Crear aviso por correo</td>
     </tr>
     <tr>
-        <td>UC-21</td>
+        <td>UC-15</td>
         <td>Adquirir bono</td>
     </tr>
     <tr>
-        <td>UC-22</td>
+        <td>UC-16</td>
         <td>Renovar título</td>
     </tr>
     <tr>
-        <td>UC-23</td>
+        <td>UC-17</td>
         <td>Ver histórico de itinerarios</td>
     </tr>
     <tr>
-        <td>UC-24</td>
-        <td>Iniciar sesión</td>
+        <td>UC-18</td>
+        <td>Recargar saldo del título</td>
     </tr>
     <tr>
-        <td>UC-25</td>
-        <td>Registrarse</td>
-    </tr>
-    <tr>
-        <td>UC-26</td>
-        <td>Recargar saldo</td>
-    </tr>
-    <tr>
-        <td>UC-27</td>
+        <td>UC-19</td>
         <td>Adquirir título</td>
     </tr>
     <tr>
-        <td>UC-28</td>
+        <td>UC-20</td>
+        <td>Iniciar sesión</td>
+    </tr>
+    <tr>
+        <td>UC-21</td>
+        <td>Registrarse</td>
+    </tr>
+    <tr>
+        <td>UC-22</td>
+        <td>Ver información de lugares/paradas/sitios de interés turístico, ...</td>
+    </tr>
+    <tr>
+        <td>UC-23</td>
         <td>Reservar itinerario</td>
     </tr>
     <tr>
-        <td>UC-29</td>
+        <td>UC-24</td>
         <td>Pagar reserva</td>
     </tr>
     <tr>
-        <td>UC-30</td>
-        <td>Imprimir ticket</td>
+        <td>UC-25</td>
+        <td>Pedir justificante de pago</td>
     </tr>
     <tr>
-        <td>UC-31</td>
-        <td>Presentar recorridos de una línea</td>
+        <td>UC-26</td>
+        <td>Ver recorrido de línea</td>
     </tr>
     <tr>
-        <td>UC-32</td>
+        <td>UC-27</td>
         <td>Buscar paradas</td>
     </tr>
     <tr>
-        <td>UC-33</td>
+        <td>UC-28</td>
+        <td>Buscar paradas en base a un criterio</td>
+    </tr>
+    <tr>
+        <td>UC-29</td>
+        <td>Buscar paradas en función de si pertenecen a un lugar</td>
+    </tr>
+    <tr>
+        <td>UC-30</td>
+        <td>Buscar paradas en función de si pertenecen a una línea</td>
+    </tr>
+    <tr>
+        <td>UC-31</td>
+        <td>Buscar paradas en función de si se encuentran cerca del origen/destino</td>
+    </tr>
+    <tr>
+        <td>UC-32</td>
         <td>Introducir identificador de parada</td>
     </tr>
     <tr>
-        <td>UC-34</td>
-        <td>Parametrizar búsqueda (P/E)</td>
-    </tr>
-    <tr>
-        <td>UC-35</td>
-        <td>Perteneciente a un lugar</td>
-    </tr>
-    <tr>
-        <td>UC-36</td>
-        <td>Pertenecientes a una línea</td>
-    </tr>
-    <tr>
-        <td>UC-37</td>
-        <td>Cerca origen/destino</td>
-    </tr>
-    <tr>
-        <td>UC-38</td>
+        <td>UC-33</td>
         <td>Buscar itinerarios</td>
     </tr>
     <tr>
-        <td>UC-39</td>
+        <td>UC-34</td>
         <td>Seleccionar origen/destino</td>
     </tr>
     <tr>
-        <td>UC-40</td>
-        <td>Mostrar tiempo y distancia del recorrido</td>
+        <td>UC-35</td>
+        <td>Buscar itinerarios en base a un criterio</td>
     </tr>
     <tr>
-        <td>UC-41</td>
-        <td>Mostrar transbordos</td>
+        <td>UC-36</td>
+        <td>Buscar itinerarios en función del coste</td>
     </tr>
     <tr>
-        <td>UC-42</td>
-        <td>Mostrar tarifa por etapas</td>
+        <td>UC-37</td>
+        <td>Buscar itinerarios en función del tiempo</td>
     </tr>
     <tr>
-        <td>UC-43</td>
-        <td>Ordenar búsqueda por</td>
+        <td>UC-38</td>
+        <td>Buscar itinerarios en función del número de transbordos</td>
     </tr>
     <tr>
-        <td>UC-44</td>
-        <td>Menor coste</td>
-    </tr>
-    <tr>
-        <td>UC-45</td>
-        <td>Menor tiempo</td>
-    </tr>
-    <tr>
-        <td>UC-46</td>
-        <td>Menos transbordos</td>
-    </tr>
-    <tr>
-        <td>UC-47</td>
+        <td>UC-39</td>
         <td>Seleccionar fechas y horas de salida y llegada</td>
     </tr>
     <tr>
-        <td>UC-48</td>
-        <td>Mostrar esquema del recorrido</td>
-    </tr>
-    <tr>
-        <td>UC-49</td>
-        <td>Imprimir esquema</td>
+        <td>UC-40</td>
+        <td>Pedir imprimible del esquema del recorrido</td>
     </tr>
 </table>
 
