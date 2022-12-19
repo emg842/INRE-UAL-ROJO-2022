@@ -8729,19 +8729,23 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario no registrado tendrá una opción para registrarse en el sistema</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario no debe estar registrado</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsa el botón registrarse.<br>
+        2-. El usuario rellenará los campos que se pidan.<br>
+        3.- El usuario pulsará continuar.<br>
+        4.- El sistema verificará el registro.<br>
+        5.- El sistema confirmará el registro.</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -8749,7 +8753,7 @@
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        </td>
+        El sistema guardará al nuevo usuario en la base de datos.</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8778,11 +8782,11 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá ver la información de los lugares, paradas, o sitios de interés turistico</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -8790,7 +8794,8 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario eligirá la información que quiera ver.<br>
+        2.- El sistema mostrará la información.</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -8827,11 +8832,11 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá reservar itinerarios</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -8839,7 +8844,9 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.-El usuario buscará un itinerario<br>
+        2.- El sistema mostrará los itinerarios<br>
+        3.- El usuario eligirá uno para reservar</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -8876,7 +8883,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        Una vez hecha una reserva el sistema pedirá que se realice el pago</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
@@ -8884,11 +8891,19 @@
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario deberá haber hecho una reserva de itinerario</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.-El usuario buscará un itinerario<br>
+        2.- El sistema mostrará los itinerarios<br>
+        3.- El usuario eligirá uno para reservar<br>
+        4.1.- El usuario hará el pago para la reserva<br>
+        4.1.1.- El sistema confirmará la reserva<br>
+        4.2.- El sistema pedirá al usuario iniciar sesión o registrarse<br>
+        4.2.1.- El usuario se registrará o iniciará sesión<br>
+        4.2.2.- El usuario hará el pago para la reserva<br>
+        4.2.3.- El sistema confirmará la reserva</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -8896,7 +8911,7 @@
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        </td>
+        El sistema añadirá la reserva en la base de datos</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8925,23 +8940,34 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El sistema dará la opción para que el usuario pida un justificante del pago</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario tendrá que haber hecho el pago de una reserva</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.-El usuario buscará un itinerario<br>
+        2.- El sistema mostrará los itinerarios<br>
+        3.- El usuario eligirá uno para reservar<br>
+        4.1.- El usuario hará el pago para la reserva<br>
+        4.1.1.- El sistema confirmará la reserva<br>
+        4.2.- El sistema pedirá al usuario iniciar sesión o registrarse<br>
+        4.2.1.- El usuario se registrará o iniciará sesión<br>
+        4.2.2.- El usuario hará el pago para la reserva<br>
+        4.2.3.- El sistema confirmará la reserva<br></td></td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        </td>
+        4.1.1.A.- El usuario pedirá el justificante.<br>
+        4.1.1.A.1.- El sistema mostrará el pdf con el recibo<br>
+        4.2.3.A.- El usuario pedirá el justificante.<br>
+        4.2.3.A.1.- El sistema mostrará el pdf con el recibo</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
@@ -8974,11 +9000,11 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá visualizar el recorrido de las líneas de autobúses</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -8986,7 +9012,8 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará en el mapa.<br>
+        2.- El sistema mostrará en pantalla completa el mapa con los recorridos de las líneas.</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -9023,11 +9050,11 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá hacer una búsqueda de las paradas de las líneas de los autobúses</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -9035,7 +9062,10 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará en mostrar paradas.<br>
+        2.- El sistema mostrará las paradas.<br>
+        3.- El usuario buscará la parada manualmente deslizando o mediante un buscador.<br>
+        4.- El usuario pulsará elegir un criterio de búsqueda.</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -9072,19 +9102,23 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá elegir un criterio para hacer la búsqueda</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario tiene que estar en la pestaña de buscar paradas</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará en mostrar paradas.<br>
+        2.- El sistema mostrará las paradas.<br>
+        3.- El usuario buscará la parada manualmente deslizando o mediante un buscador.<br>
+        4.- El usuario pulsará elegir un criterio de búsqueda.<br>
+        5.- El usuario elegirá la opción de elegir un lugar.<br>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -9121,19 +9155,25 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El sistema tendrá la opción de buscar paradas por lugares</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario debe pulsar elegir criterio en la pestaña de búsqueda</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará en mostrar paradas.<br>
+        2.- El sistema mostrará las paradas.<br>
+        3.- El usuario buscará la parada manualmente deslizando o mediante un buscador.<br>
+        4.- El usuario pulsará elegir un criterio de búsqueda.<br>
+        5.- El usuario elegirá la opción de elegir un lugar.<br>
+        6.- El usuario eligirá un lugar.<br>
+        7.- El sistema mostrará las paradas que pertenezcan a ese lugar.</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -9170,19 +9210,26 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usaurio podrá elegir el criterio para ver solo las paradas que pertenezcan a una línea concreta</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario debe pulsar la opción elegir criterio en la pestaña de búsqueda</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará en mostrar paradas.<br>
+        2.- El sistema mostrará de las paradas.<br>
+        3.- El usuario buscará la parada manualmente deslizando o mediante un buscador.<br>
+        4.- El usuario pulsará elegir un criterio de búsqueda.<br>
+        5.- El usuario elegirá la opción de elegir una línea.<br>
+        6.- El sistema mostrará las líneas<br>
+        7.- El usuario eligirá una línea.<br>
+        8.- El sistema mostrará las paradas que pertenezcan a esa línea.</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -9219,19 +9266,25 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá elegir el criterio de búscar paradas cerca del lugar de destino o de origen</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario debe pulsar elegir criterio en la pestaña de búsqueda</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará en mostrar paradas.<br>
+        2.- El sistema mostrará las paradas.<br>
+        3.- El usuario buscará la parada manualmente deslizando o mediante un buscador.<br>
+        4.- El usuario pulsará elegir un criterio de búsqueda.<br>
+        5.- El usuario elegirá la opción de elegir un lugar.<br>
+        6.- El usuario eligirá el lugar de destino/origen.<br>
+        7.- El sistema mostrará las paradas que pertenezcan a ese lugar.</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -9268,19 +9321,30 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá introducir el identificador de la parada para buscarla</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario debe estar en la pestaña de buscar parada</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        <tr>
+        <td><b>Precondiciones:</b><br>
+        El usuario debe pulsar elegir criterio en la pestaña de búsqueda</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- El usaurio pulsará en mostrar paradas.<br>
+        2.- El sistema mostrará las paradas.<br>
+        3.- El usuario buscará la parada manualmente deslizando o mediante un buscador.<br>
+        4.- El usuario introducirá en el buscador el nombre o el número de la parada.<br>
+        5.- El sistema mostrará la parada búscada</td>
+    </tr></td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -9317,11 +9381,11 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá hacer una búsqueda de itinerarios</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -9329,7 +9393,8 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará el botón de buscar itinerarios<br>
+        2.- El sistema mostrará los itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -9366,19 +9431,23 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá hacer una búsqueda de los itinerarios seleccionando el origen o destino</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario deberá estar en la pestaña de buscar itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará el botón de buscar itinerarios<br>
+        2.- El sistema mostrará los itinerarios<br>
+        3.- El usuario pulsará en elegir origen o destino<br>
+        4.- El usuario introducirá origen o destino o ambos<br>
+        5.- El sistema mostrará los itinerarios con esos criterios</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -9415,23 +9484,25 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá elegir los criterios en base a otros criterios</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario deberá estar en la pestaña de buscar itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará el botón de buscar itinerarios<br>
+        2.- El sistema mostrará los itinerarios<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        </td>
+        3.A- El usuario pulsará en elegir criterio</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
@@ -9464,22 +9535,28 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá elegir buscar itinerarios por precio</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario deberá estar en la pestaña de buscar itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará el botón de buscar itinerarios<br>
+        2.- El sistema mostrará los itinerarios<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
+        3.A.- El usuario pulsará en elegir criterio<br>
+        3.A.1.- El usuario elegirá el criterio de por coste<br>
+        3.A.2.- El usuario elegirá el precio<br>
+        3.A.3.- El sistema mostrá los itinerarios que se ajusten a ese precio
         </td>
     </tr>
     <tr>
@@ -9513,23 +9590,28 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá elegir los itinerarios en función del tiempo que tarden</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario deberá estar en la pestaña de buscar itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará el botón de buscar itinerarios<br>
+        2.- El sistema mostrará los itinerarios<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        </td>
+        3.A.- El usuario pulsará en elegir criterio<br>
+        3.A.1.- El usaurio elegirá el criterio duración<br>
+        3.A.2.- El usuario introducirá la duración que desee<br>
+        3.A.3.- El sistema mostrará los itinerarios que cumplan ese criterio</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
@@ -9562,23 +9644,28 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá elegir un itinerario en función del número de transbordos que tengan</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario deberá estar en la pestaña de buscar itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará el botón de buscar itinerarios<br>
+        2.- El sistema mostrará los itinerarios<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        </td>
+        3.A.- El usuario pulsará en elegir criterio<br>
+        3.A.1.- El usaurio elegirá el criterio número de transbordos<br>
+        3.A.2.- El usuario introducirá la cantidad de transbordos que desee<br>
+        3.A.3.- El sistema mostrará los itinerarios que cumplan ese criterio</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
@@ -9611,23 +9698,27 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá elegir la fecha/hora de salida y de llegada del itinerario </td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario deberá estar en la pestaña de buscar itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará el botón de buscar itinerarios<br>
+        2.- El sistema mostrará los itinerarios<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        </td>
+        3.A.- El usuario pulsará en añadir fecha/hora de salida o llegada<br>
+        3.A.1.- El usaurio añadirá fecha/hora de salida o fecha/hora de llegada o ambas<br>
+        3.A.4.- El sistema mostrará los itinerarios que cumplan ese criterio</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
@@ -9648,7 +9739,7 @@
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
-        Pedir imprimible del esquema del recorrido</td>
+        Imprimir esquema del recorrido</td>
     </tr>
     <tr>
         <td><b>Autor:</b><br>
@@ -9660,23 +9751,26 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá imprimir el esquema del itinerario que desee</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario deberá estar en la pestaña de buscar itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará el botón de buscar itinerarios<br>
+        2.- El sistema mostrará los itinerarios<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        </td>
+        3.A.- El usuario pulsará en imprimir ruta<br>
+        3.A.3.- El sistema mostrará un pdf (que se podrá descargar) con la ruta de ese itinerario</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
