@@ -7663,19 +7663,21 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El gestor podrá crear un aviso que sea leido por una voz</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-04</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El gestor en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El gestor pulsará en crear un aviso acústico<br>
+        2.- El sistema mostrará la ventana de crear avisos acústicos<br>
+        3.- El gestor escribirá el aviso y eligirá el tipo de voz que leerá el aviso</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -7683,7 +7685,7 @@
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        </td>
+        El aviso se guardará en la base de datos</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -7712,19 +7714,21 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El gestor podrá crear un aviso visual para los usuarios</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-04</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El gestor en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El gestor pulsará en crear un aviso visual<br>
+        2.- El sistema mostrará la ventana de crear avisos visuales<br>
+        3.- El gestor diseñará el aviso</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -7761,19 +7765,21 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El gestor podrá crear un aviso que llegará a los móviles</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-04</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El gestor en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El gestor pulsará en crear un aviso móvil<br>
+        2.- El sistema mostrará la ventana de crear avisos móvil<br>
+        3.- El gestor creará el aviso para el móvil</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -7810,19 +7816,21 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El gestor podrá crear un aviso que llegará al correo</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-04</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El gestor en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El gestor pulsará en crear un aviso por correo<br>
+        2.- El sistema mostrará la ventana de crear avisos por correo<br>
+        3.- El gestor escribirá el aviso en formato correo</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -7859,11 +7867,11 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario registrado podrá comprar un bono de transporte</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -7871,7 +7879,11 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará en adquirir bono<br>
+        2.- El sistema mostrarálos bonos disponibles<br>
+        3.- El usuario eligirá el bono que desea adquirir<br>
+        4.- El usuario hará el pago del bono<br>
+        5.- El sistema confirmará la compra del bono</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -7879,7 +7891,7 @@
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        </td>
+        El sistema guardará en la base de datos la compra del bono</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -7908,11 +7920,11 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usaurio podrá renovar su título</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -7920,7 +7932,11 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará en renovar título<br>
+        2.- El sistema mostrarálos sus títulos adquiridos<br>
+        3.- El usuario eligirá el título que desea renovar<br>
+        4.- El usuario hará el pago de la renovación del título<br>
+        5.- El sistema confirmará la renovación del título</td></td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -7928,7 +7944,7 @@
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        </td>
+        El sistema guardará en la base de datos la renovación del título</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -7957,11 +7973,11 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá ver un registro de los itinerarios que ya haya realizado</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -7969,7 +7985,9 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará ver itinerarios antiguos<br>
+        2.- El sistema mostrarálos los itinerarios ya comprados<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -8006,11 +8024,11 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá hacer una recarga de su título</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -8018,7 +8036,11 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará en recargar título<br>
+        2.- El sistema mostrará los títulos disponibles<br>
+        3.- El usuario eligirá el título que desea recargar<br>
+        4.- El usuario hará la recarga del título<br>
+        5.- El sistema confirmará la recarga</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -8026,7 +8048,7 @@
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        </td>
+        El sistema guardará en la base de datos la recarga del título</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8055,11 +8077,11 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá hacer la compra de un título</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -8067,7 +8089,11 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará en comprar título<br>
+        2.- El sistema mostrará los títulos disponibles<br>
+        3.- El usuario eligirá el título que desea comprar<br>
+        4.- El usuario hará el pago del título<br>
+        5.- El sistema confirmará la compra</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -8075,7 +8101,7 @@
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        </td>
+        El sistema guardará en la base de datos la compra del título</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8104,11 +8130,11 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá iniciar sesión en el sistema</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -8116,7 +8142,10 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará en iniciar sesión<br>
+        2.- El sistema le llevará a la pestaña de inicio de sesión<br>
+        3.- El usuario introducirá su usuario y contraseña y pulsará en entrar<br>
+        4.- El sistema confirmará el inicio de sesión </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
