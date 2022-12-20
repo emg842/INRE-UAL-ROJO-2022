@@ -3381,7 +3381,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-04, IR-06, IR-08, IR-10, IR-12, IR-14, IR-16, IR-18, IR-20</td>
+        <td>IR-04, IR-06, IR-08, IR-10, IR-12, IR-14, IR-16, IR-18, IR-20, CU-01, CU-02, CU-05, CU-08, CU-09, CU-10, CU-11, CU-12, CU-13, CU-14, CU-21</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3428,7 +3428,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-05</td>
+        <td>IR-03, IR-05, CU-11</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3475,7 +3475,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-04</td>
+        <td>IR-04, CU-07, CU-11, CU-18</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3525,7 +3525,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-07</td>
+        <td>IR-03, IR-07, CU-09, CU-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3571,7 +3571,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-06</td>
+        <td>IR-06, CU-07, CU-09, CU-17, CU-18, CU-19, CU-20, CU-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3620,7 +3620,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-09</td>
+        <td>IR-03, IR-09, CU-01, CU-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3666,7 +3666,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-08</td>
+        <td>IR-08, CU-01, CU-07, CU-17, CU-18, CU-19, CU-20, CU-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3715,7 +3715,7 @@
     </tr>
         <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-11</td>
+        <td>IR-03, IR-11, CU-02, CU-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3761,7 +3761,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-10</td>
+        <td>IR-10, CU-02, CU-07, CU-17, CU-18, CU-19, CU-20, CU-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3810,7 +3810,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-13</td>
+        <td>IR-03, IR-13, CU-12, CU-22</td>
     </tr>
       <tr>
         <td><b>Descripción:</b></td>
@@ -3856,7 +3856,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-12</td>
+        <td>IR-12, CU-07, CU-12, CU-17, CU-18, CU-19, CU-20, CU-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3905,7 +3905,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-15</td>
+        <td>IR-03, IR-15, CU-10, CU-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3951,7 +3951,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-14</td>
+        <td>IR-14, CU-07, CU-10, CU-17, CU-18, CU-19, CU-20, CU-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4000,7 +4000,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-17</td>
+        <td>IR-03, IR-17, CU-08, CU-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4046,7 +4046,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-16</td>
+        <td>IR-16, CU-07, CU-08, CU-17, CU-18, CU-19, CU-20, CU-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4095,7 +4095,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-19</td>
+        <td>IR-03, IR-19, CU-13, CU-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4141,7 +4141,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-18</td>
+        <td>IR-18, CU-07, CU-13, CU-17, CU-18, CU-19, CU-20, CU-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4190,7 +4190,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-21</td>
+        <td>IR-03, IR-21, CU-14, CU-21</td>
     </tr>
      <tr>
         <td><b>Descripción:</b></td>
@@ -4236,7 +4236,7 @@
     </tr>
         <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-20</td>
+        <td>IR-20, CU-07, CU-14, CU-18, CU-21</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -6132,7 +6132,8 @@
         <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br><br></td>
+        <td><b>Referencias:</b><br>
+        IR-03, IR-08, IR-09</td>
     </tr>
 </table>
 
@@ -6178,7 +6179,8 @@
         <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br><br></td>
+        <td><b>Referencias:</b><br>
+        IR-03, IR-10, IR-11</td>
     </tr>
 </table>
 
@@ -6316,7 +6318,8 @@
         <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br><br></td>
+        <td><b>Referencias:</b><br>
+        IR-03</td>
     </tr>
 </table>
 
@@ -6410,7 +6413,8 @@
         <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br><br></td>
+        <td><b>Referencias:</b><br>
+        IR-05, IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19, IR-21</td>
     </tr>
 </table>
 
@@ -6456,7 +6460,8 @@
         <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br><br></td>
+        <td><b>Referencias:</b><br>
+        IR-03, IR-16, IR-17</td>
     </tr>
 </table>
 
@@ -6501,7 +6506,8 @@
         <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br><br></td>
+        <td><b>Referencias:</b><br>
+        IR-03, IR-06, IR-07</td>
     </tr>
 </table>
 
@@ -6547,7 +6553,8 @@
         <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br><br></td>
+        <td><b>Referencias:</b><br>
+        IR-03, IR-14, IR-15</td>
     </tr>
 </table>
 
@@ -6593,7 +6600,8 @@
         <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br><br></td>
+        <td><b>Referencias:</b><br>
+        IR-03, IR-04, IR-05</td>
     </tr>
 </table>
 
@@ -6639,7 +6647,8 @@
         <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br><br></td>
+        <td><b>Referencias:</b><br>
+        IR-03, IR-12, IR-13</td>
     </tr>
 </table>
 
@@ -6685,7 +6694,8 @@
         <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br><br></td>
+        <td><b>Referencias:</b><br>
+        IR-03, IR-18, IR-19</td>
     </tr>
 </table>
 
@@ -6730,7 +6740,8 @@
         <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br><br></td>
+        <td><b>Referencias:</b><br>
+        IR-03, IR-20, IR-21</td>
     </tr>
 </table>
 
@@ -6844,7 +6855,7 @@
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
-        Modificar datos en una página</td>
+        Modificar datos de una página</td>
     </tr>
     <tr>
         <td><b>Autor:</b><br>
@@ -6880,7 +6891,8 @@
         El contenido (ya modificado) de la página ha sido almacenado en el sistema</td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br><br></td>
+        <td><b>Referencias:</b><br>
+        IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19</td>
     </tr>
 </table>
 
@@ -6928,7 +6940,8 @@
         <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br><br></td>
+        <td><b>Referencias:</b><br>
+        IR-05, IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19, IR-21</td>
     </tr>
 </table>
 
@@ -6953,35 +6966,31 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        El portal dará la opción para añadir el listado de los horarios y servicios disponibles de la isla</td>
+        Ofrece el medio necesario para la modificación del diseño común a todas las páginas (secciones dentro del portal) a través de una interfaz a cargo de un software ajeno</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        ACT-01</td>
+        ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Iniciar el portal como gestor</td>
+        El actor debe haber sido dado de alta y estar autenticado en el sistema</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El gestor pulsará el botón para añadir horarios y servicios<br>
-        2.- El sistema mostrará la ventana para añadir los horarios y servicios<br>
-        3.- El gestor añadirá los horarios o servicios que quiera y pulsará el botón añadir<br>
-        4.- El sistema confirmará que la subida de los datos se ha hecho de manera correcta</td>
+        1.- El actor pulsa sobre el botón para modificar el diseño común a todas las páginas del portal<br>
+        2.- El sistema muestra una interfaz de creación de páginas ajena en la cual hace aparición un botón para la confirmación de la adición de las páginas con diseño actualizado al portal sustituyendo así a sus versiones anteriores<br>
+        3.- El actor clica sobre el botón destinado a la confirmación de la modificación del diseño común a todas las páginas del portal poniendo así fin al proceso</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        4.A.- El sistema dirá que ha habido un problema con la subida de los datos<br>
-        5.A.- El sistema le llevará de nuevo a la vista de añadir los horarios y servicios señalando el fallo</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        El sistema guardará los nuevos horarios y servicios</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        FR-25, IR-03, IR-10, IR-11</td>
+        IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19</td>
     </tr>
 </table>
 
@@ -7006,39 +7015,32 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        El sistema tendrá una funcionalidad para añadir o eliminar idiomas</td>
+        Otorga la posibilidad de poder ver las estadísticas de acceso a una página determinada del portal</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        ACT-01</td>
+        ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Iniciar el portal como gestor</td>
+        El actor debe haber sido dado de alta y estar autenticado en el sistema</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El gestor pulsará el botón para gestionar idiomas<br>
-        2.- El sistema mostrará la ventana para gestionar los idiomas<br>
-        3.- El gestor podrá elegir añadir un idioma o eliminarlo<br>
-        3.1.- El gestor elige añadir un idioma<br>
-        3.1.1.- El sistema mostrará el plugin para añadir los idiomas<br>
-        3.1.2.- El gestor buscará un idioma y lo añadirá<br>
-        3.2.- El gestor elige eliminar un idioma<br>
-        3.2.1.- El sistema muestra los idiomas ya añadidos<br>
-        3.2.2.- El gestor busca el idioma que quiere eliminar y lo elimina</td>
+        1.- El actor pulsa sobre el botón para ver las estadísticas de acceso a una página<br>
+        2.- El sistema muestra una ventana donde se reflejan las diferentes páginas (secciones) presentes en el portal en forma de botones clicables<br>
+        3.- El actor clica sobre el botón relativo a aquella página cuyas estadísticas de acceso desea ver<br>
+        4.- El sistema muestra una nueva ventana emergente donde dichas estadísticas son presentadas con todo lujo de detalles</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        3.1.2.A. El plugin no contiene el idioma buscado</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        El sistema guardará el nuevo idioma o eliminará el idioma elegido</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        FR-26</td>
+        IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19</td>
     </tr>
 </table>
 
@@ -7063,34 +7065,32 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        El portal da la opción para modificar su diseño</td>
+        Permite añadir anuncios publicitarios al portal o eliminarlos del mismo</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        ACT-01</td>
+        ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Iniciar el portal como gestor</td>
+        El actor debe haber sido dado de alta y estar autenticado en el sistema</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El gestor pulsará el botón para modificar el diseño<br>
-        2.- El sistema mostrará la ventana para modificar el diseño<br>
-        3.- El gestor cambiará el diseño a su gusto<br>
-        4.- El sistema confirmará el cambio del diseño</td>
+        1.- El gestor pulsará sobre el botón para añadir/eliminar publicidad<br>
+        2.- Si se trata de añadir, el sistema mostrará una nueva ventana donde se pueden adjuntar atributos relativos a un anuncio publicitario como son un texto, una imagen, los idiomas y la fecha de expiración relacionados con el mismo. Por otro lado, si se trata de un proceso de eliminación, se mostrará también una nueva ventana pero esta será tan solo un mensaje para la cofirmación de la eliminación del anuncio. Tanto si se quiere eliminar como añadir publicidad se incluye la ventana en cuestión un botón de confirmación<br>
+        3.- El actor clica sobre el botón de confirmación poniendo así fin al proceso de gestión de publicidad</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        El sistema guardará el nuevo diseño</td>
+        El nuevo anuncio ha sido almacenado en el sistema o uno ya existente ha sido eliminado del mismo</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        FR-27</td>
+        IR-03, IR-20, IR-21</td>
     </tr>
 </table>
 
@@ -7115,36 +7115,32 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        El portal dará la opción para eliminar páginas</td>
+        Ofrece el medio necesario para la eliminación de una página (sección dentro del portal) a través de una interfaz a cargo de un software ajeno</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        ACT-01</td>
+        ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Iniciar el portal como gestor</td>
+        El actor debe haber sido dado de alta y estar autenticado en el sistema</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El gestor pulsará eligirá la página que quiere eliminar<br>
-        2.- El gestor eliminará la página<br>
-        3.- El sistema mostrará un pop-up para confirmar la eliminación<br>
-        4.- El gestor aceptará<br>
-        5.- El sistema mostrará un mensaje confirmando que la página ha sido eliminada</td>
+        1.- El actor pulsa sobre el botón para eliminar una sección del portal<br>
+        2.- El sistema muestra una interfaz de creación de páginas ajena en la cual hace aparición un botón para la confirmación de la eliminación de una página del portal en cuestión<br>
+        3.- El actor clica sobre el botón destinado a la confirmación de la eliminación de la página deseada poniendo así fin al proceso</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        4.A.- El gestor cancela<br>
-        5.A.- El sistema muestra un mensaje diciendo que la página no se ha eliminado</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        El sistema borrará la página elegida</td>
+        El contenido de la página ha sido eliminado del sistema</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        FR-24</td>
+        IR-06, IR-07, IR-08, IR-09, IR-10, IR-11, IR-12, IR-13, IR-14, IR-15, IR-16, IR-17, IR-18, IR-19</td>
     </tr>
 </table>
 
