@@ -153,6 +153,12 @@
         <td>Corrección tablas requisitos funcionales por cambios en el diagrama</td>
         <td>Eduardo Martín Gómez</td>
     </tr>
+    <tr>
+        <td>20/12/2022</td>
+        <td>1.0</td>
+        <td>Puesta a punto del proyecto</td>
+        <td>Joaquín Murcia Escánez</td>
+    </tr>
 </table>
 
 <br><br>
@@ -365,7 +371,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-03</td>
+        <td>UC-03, IR-01</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -406,7 +412,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-04</td>
+        <td>UC-04, IR-01</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -447,7 +453,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-05</td>
+        <td>UC-05, IR-01, IR-03</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -488,7 +494,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-06</td>
+        <td>UC-06, IR-01, IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -530,7 +536,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-08</td>
+        <td>UC-08, IR-01, IR-03, IR-16, IR-17</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -571,7 +577,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-09</td>
+        <td>UC-09, IR-01, IR-03, IR-06, IR-07</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -612,7 +618,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-02</td>
+        <td>UC-02, IR-01, IR-03, IR-10, IR-11</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -653,7 +659,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-12</td>
+        <td>UC-12, IR-01, IR-03, IR-12, IR-13</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -694,7 +700,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-13</td>
+        <td>UC-13, IR-01, IR-03, IR-18, IR-19</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -735,7 +741,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-14</td>
+        <td>UC-14, IR-01, IR-03, IR-20, IR-21</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -776,7 +782,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-01</td>
+        <td>UC-01, IR-01, IR-03, IR-08, IR-09</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -817,7 +823,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-07</td>
+        <td>UC-07, IR-01, IR-05, IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19, IR-21</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -858,7 +864,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-10</td>
+        <td>UC-10, IR-01, IR-03, IR-14, IR-15</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -899,7 +905,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-11</td>
+        <td>UC-11, IR-01, IR-03, IR-04, IR-05</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -939,7 +945,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-15</td>
+        <td>FR-16, UC-15, UC-16, IR-02</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -979,7 +985,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-16</td>
+        <td>FR-15, UC-15, UC-16, IR-02</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1019,7 +1025,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-17</td>
+        <td>UC-17, IR-02, IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1059,7 +1065,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-21</td>
+        <td>UC-21, IR-02, IR-03, IR-20, IR-21</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1099,7 +1105,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-20</td>
+        <td>UC-20, IR-02, IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1139,7 +1145,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-22</td>
+        <td>UC-22, IR-02, IR-06, IR-07, IR-08, IR-09, IR-10, IR-11, IR-12, IR-13, IR-14, IR-15, IR-16, IR-17, IR-18, IR-19</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1179,7 +1185,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-18</td>
+        <td>UC-18, IR-02, IR-05, IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19, IR-21</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1219,7 +1225,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-19</td>
+        <td>UC-19, IR-02, IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1263,7 +1269,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-33</td>
+        <td>FR-02, FR-03, FR-04, FR-05, FR-06, FR-07, FR-08  IR-25, IR-29, UC-33, UC-34, UC-35, UC-36, UC-37, UC-38, UC-39, UC-40</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1303,7 +1309,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-39</td>
+        <td>FR-01, IR-25, IR-29, UC-33, UC-39</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1344,7 +1350,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-34</td>
+        <td>FR-01, UC-33, UC-34, IR-25, IR-29</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1385,7 +1391,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-40</td>
+        <td>FR-01, UC-33, UC-40, IR-29</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1425,7 +1431,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-35</td>
+        <td>FR-01, FR-06, FR-07, FR-08, IR-25, IR-29, UC-33, UC-35, UC-36, UC-37, UC-38</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1466,7 +1472,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-36</td>
+        <td>FR-01, FR-05, UC-33, UC-35, UC-36, IR-25, IR-29</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1507,7 +1513,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-37</td>
+        <td>FR-01, FR-05, UC-33, UC-35 , UC-37, IR-25, IR-29</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1548,7 +1554,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-38</td>
+        <td>FR-01, FR-05, UC-33, UC-35, UC-38, IR-25, IR-29</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1589,7 +1595,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-26</td>
+        <td>UC-26, IR-29</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1630,7 +1636,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-20</td>
+        <td>UC-20, IR-29</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1671,7 +1677,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-21</td>
+        <td>UC-21, IR-29</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1712,7 +1718,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-16</td>
+        <td>UC-16, IR-28, IR-29</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1753,7 +1759,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-19</td>
+        <td>UC-19, IR-28, IR-29</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1794,7 +1800,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-18</td>
+        <td>UC-18, IR-28, IR-29</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1835,7 +1841,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-15</td>
+        <td>UC-15, IR-27, IR-29</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1876,7 +1882,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-17</td>
+        <td>UC-17, IR-26, IR-29</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1917,7 +1923,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-06</td>
+        <td>UC-06, IR-05, IR-27, IR-28</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1958,7 +1964,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-14</td>
+        <td>UC-14, IR-01, IR-05</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1999,7 +2005,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-13</td>
+        <td>UC-13, IR-01, IR-05</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2040,7 +2046,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-12</td>
+        <td>UC-12, IR-01, IR-05</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2081,7 +2087,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-11</td>
+        <td>UC-11, IR-01, IR-05</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2122,7 +2128,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-08</td>
+        <td>UC-08, IR-05, IR-29</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2163,7 +2169,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-10</td>
+        <td>UC-10, IR-03, IR-05</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2204,7 +2210,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-09</td>
+        <td>UC-09, IR-05, IR-06</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2245,7 +2251,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-07</td>
+        <td>UC-07, IR-05, IR-11</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2286,7 +2292,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-01</td>
+        <td>FR-27, FR-28, UC-01, UC-02, UC-03, IR-05, IR-15, IR-21</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2327,7 +2333,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-02</td>
+        <td>FR-26, UC-01, UC-02, IR-05, IR-15</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2368,7 +2374,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-03</td>
+        <td>FR-26, UC-01, UC-03, IR-05, IR-15</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2409,7 +2415,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-04</td>
+        <td>UC-04, IR-05</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2450,7 +2456,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-05</td>
+        <td>UC-05, IR-05</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2490,7 +2496,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-22</td>
+        <td>UC-22, IR-09, IR-12, IR-19, IR-20, IR-29</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2530,7 +2536,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-23</td>
+        <td>FR-33, UC-23, UC-24, IR-26, IR-29</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2571,7 +2577,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-24</td>
+        <td>FR-32, FR-34, UC-23, UC-24, UC-25, IR-29</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2612,7 +2618,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-25</td>
+        <td>FR-33, IR-29, UC-24, UC-25</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2652,7 +2658,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-27</td>
+        <td>FR-36, FR-37, FR-38, FR-39, FR-40, UC-27, UC-28, UC-29, UC-30, UC-31, UC-32, IR-14, IR-29</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2693,7 +2699,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-32</td>
+        <td>FR-35, IR-14, IR-29, UC-27, UC-32</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2734,7 +2740,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-28</td>
+        <td>FR-35, FR-38, FR-39, FR-40, UC-27, UC-28, UC-29, UC-30, UC-31, IR-14, IR-29</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2775,7 +2781,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-29</td>
+        <td>FR-35, FR-37, UC-27, UC-28, UC-29, IR-14, IR-29</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2816,7 +2822,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-30</td>
+        <td>FR-35, FR-37, UC-27, UC-28, UC-30, IR-14, IR-29</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2857,7 +2863,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-31</td>
+        <td>FR-35, FR-37, UC-27, UC-28, UC-31, IR-14, IR-29</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2901,10 +2907,6 @@
         <td>Pliego de condiciones y entrevista</td>
     </tr>
     <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
         <td><b>Descripción:</b></td>
         <td>Permite el funcionamiento de la página en cualquier dispositivo</td>
     </tr>
@@ -2940,10 +2942,6 @@
     <tr>
         <td><b>Fuentes:</b></td>
         <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2983,10 +2981,6 @@
         <td>Pliego de condiciones y entrevista</td>
     </tr>
     <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
         <td><b>Descripción:</b></td>
         <td>Proporcionar un editor WYSIWYG de manera que el gestor no tenga necesidad de tener conocimientos de codificación para editar la página</td>
     </tr>
@@ -3024,10 +3018,6 @@
         <td>Pliego de condiciones y entrevista</td>
     </tr>
     <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
         <td><b>Descripción:</b></td>
         <td>Proteger los datos y proporcionar una navegación segura al hacer uso de la página</td>
     </tr>
@@ -3063,10 +3053,6 @@
     <tr>
         <td><b>Fuentes:</b></td>
         <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3110,10 +3096,6 @@
         <td>Pliego de condiciones y entrevista</td>
     </tr>
     <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
         <td><b>Descripción:</b></td>
         <td>Permite el funcionamiento de la página en cualquier dispositivo</td>
     </tr>
@@ -3149,10 +3131,6 @@
     <tr>
         <td><b>Fuentes:</b></td>
         <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3192,10 +3170,6 @@
         <td>Pliego de condiciones y entrevista</td>
     </tr>
     <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
-    </tr>
-    <tr>
         <td><b>Descripción:</b></td>
         <td>Proteger los datos y proporcionar una navegación segura al hacer uso de la página</td>
     </tr>
@@ -3231,10 +3205,6 @@
     <tr>
         <td><b>Fuentes:</b></td>
         <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>Identificadores de casos de uso, de requisitos funcionales, no funcionales y de requisitos información del sistema</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
