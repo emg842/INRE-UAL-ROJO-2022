@@ -231,6 +231,10 @@
         <td>Cloud Tag</td>
         <td>Nube donde de forma gráfica en forma de etiquetas se pueden acceder a las funcionalidades de la página</td>
     </tr>
+        <tr>
+        <td>Contraloría</td>
+        <td>Entidad gubernamental destinada a la vigilancia y control de los gastos de la administración pública</td>
+    </tr>
 </table>
 
 <br><br>
@@ -7737,7 +7741,7 @@
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
-        Ver actividad de los operadores</td>
+        Gestionar actividad de los operadores</td>
     </tr>
     <tr>
         <td><b>Autor:</b><br>
@@ -7749,11 +7753,11 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        Posibilita la visualización de la actividad de cada uno de los operadores de los distintos servicios en el momento</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-05</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -7761,11 +7765,14 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El gestor pulsa sobre el botón que lo redirige a la gestión de la actividad de los operadores
+        2.- El sistema ofrece una vista donde es posible la gestión de la actividad de los operadores
+        3.- El gestor selecciona un operador 
+        4.- El gestor visualiza una foto del estado del operador en cuestión </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        </td>
+        4.A.- El gestor visualiza una foto y una película en tiempo real del estado del operador en cuestión </td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
@@ -7798,11 +7805,11 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        Posibilita al gestor ver la foto que refleja el estado del operador en el momento</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-05</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -7810,7 +7817,10 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El actor pulsa sobre el botón que lo redirige a la gestión de la actividad de los operadores 
+        2.- El sistema ofrece una vista donde es posible la gestión de la actividad de los operadores
+        3.- El actor selecciona un operador 
+        4.- El gestor visualiza una foto del estado del operador en cuestión</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -7847,11 +7857,11 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        Posibilita al gestor ver una película en tiempo real que refleja el estado del operador en el momento</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-05</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -7859,7 +7869,10 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El gestor pulsa sobre el botón que lo redirige a la gestión de la actividad de los operadores
+        2.- El sistema ofrece una vista donde es posible la gestión de la actividad de los operadores
+        3.- El gestor selecciona un operador 
+        4.- El gestor visualiza una foto y una película en tiempo real del estado del operador en cuestión</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -7896,11 +7909,11 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        Posibilita al gestor gestionar los elementos que aparecen en el mapa interactivo</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-05</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -7908,7 +7921,10 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El gestor pulsa sobre el botón que lo redirige a la gestión de los elementos del mapa interactivo
+        2.- El sistema ofrece una vista donde es posible la gestión de los elementos del mapa
+        3.- El gestor selecciona un elemento para gestionarlo
+        4.- El gestor gestiona el elemento escogido</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -7916,7 +7932,7 @@
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        </td>
+        El sistema guarda la gestión realizada en el elemento seleccionado</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -7945,11 +7961,11 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        Posibilita al gestor gestionar las líneas que aparecen en el mapa interactivo</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-05</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -7957,7 +7973,10 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El gestor pulsa sobre el botón que lo redirige a la gestión de las líneas del mapa interactivo
+        2.- El sistema ofrece una vista donde es posible la gestión de las líneas del mapa
+        3.- El gestor selecciona una línea para gestionarla
+        4.- El gestor gestiona la línea escogida</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -7965,7 +7984,7 @@
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        </td>
+        El sistema almacena la gestión realizada sobre la línea </td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -7994,19 +8013,22 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        Posibilita la gestión del sistema de ventas y del título único del transporte</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-04</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario en cuestión debe encontrarse iniciado como gestor en la plataforma</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El gestor pulsa sobre el botón que lo redirige a la gestión de ventas y del título único del transporte
+        2.- El sistema ofrece una vista donde es posible la gestión de las ventas y del título 
+        3.- El gestor selecciona entre gestionar las ventas o el título
+        4.- El gestor gestiona el servicio escogido</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -8014,7 +8036,7 @@
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        </td>
+        El sistema almacena la gestión realizada sobre el sistema de ventas y el título único de transporte</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8043,19 +8065,22 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        Posibilita al gestor la definición de eventos/incidencias</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-04</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario en cuestión debe encontrarse iniciado como gestor en la plataforma</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El gestor pulsa sobre el botón que lo redirige a la definición de eventos/incidencias
+        2.- El sistema ofrece una vista donde es posible la definición de eventos o incidencias 
+        3.- El gestor selecciona entre definir un evento o una incidencia
+        4.- El gestor gestiona el elemento escogido</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -8063,7 +8088,7 @@
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        </td>
+        El sistema almacena el evento o incidencia definido</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8092,19 +8117,22 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        Posibilita la gestión de los usuarios registrados en el sistema</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-04</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario en cuestión debe encontrarse iniciado como gestor en la plataforma</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El gestor pulsa sobre el botón que lo redirige a la gestión de los usuarios registrados en el sistema
+        2.- El sistema ofrece una vista donde es posible la gestión de los usuarios 
+        3.- El gestor selecciona el usuario a gestionar
+        4.- El gestor realiza las interacciones estimadas con el usuario en cuestión</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -8112,7 +8140,7 @@
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        </td>
+        El sistema almacena la gestión realizada sobre el usuario en cuestión</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8141,19 +8169,22 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        Posibilita la definición de una variable</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-04</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario en cuestión debe encontrarse iniciado como gestor en la plataforma</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El gestor pulsa sobre el botón que lo redirige a la definición de variables
+        2.- El sistema ofrece una vista donde es posible la definición variables 
+        3.- El gestor selecciona la definición de una variable
+        4.- El gestor define una variable determinada</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -8161,7 +8192,7 @@
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        </td>
+        El sistema almacena la variable definida</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8190,19 +8221,22 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        Posibilita la definición de una condición</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-04</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario en cuestión debe encontrarse iniciado como gestor en la plataforma</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El gestor pulsa sobre el botón que lo redirige a la definición de condiciones
+        2.- El sistema ofrece una vista donde es posible la definición condiciones 
+        3.- El gestor selecciona la definición de una condición
+        4.- El gestor define una condición determinada</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -8210,7 +8244,7 @@
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        </td>
+        El sistema almacena la condición definida</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
