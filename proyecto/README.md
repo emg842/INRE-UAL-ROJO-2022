@@ -3249,7 +3249,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td></td>
+        <td>CU-01, CU-02, CU-03, CU-04, CU-05, CU-06, CU-07, CU-08, CU-09, CU-10, CU-11, CU-12, CU-13, CU-14</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3302,7 +3302,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td></td>
+        <td>CU-15, CU-16, CU-17, CU-18, CU-19, CU-20, CU-21, CU-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4453,7 +4453,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-01, IR-03, IR-06, IR-11</td>
+        <td>CU-01, CU-02, CU-03, CU-04, CU-05, CU-06, CU-07, CU-08, CU-09, CU-10, CU-11, CU-12, CU-13, CU-14, IR-01, IR-03, IR-06, IR-11</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5659,7 +5659,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-26, IR-27, IR-28, UC-08, UC-21</td>
+        <td>CU-15, CU-16, CU-17, CU-18, CU-19, CU-20, CU-21, CU-22, CU-23, CU-24, CU-25, CU-26, CU-27, CU-28, CU-29, CU-30, CU-31, CU-32, CU-33, CU-34, CU-35, CU-36, CU-37, CU-38, CU-39, CU-40, IR-26, IR-27, IR-28, UC-08, UC-21</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
