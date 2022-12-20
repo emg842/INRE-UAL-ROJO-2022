@@ -7979,7 +7979,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        RF-16, IR-26, IR-29</td>
+        FR-16, IR-26, IR-29</td>
     </tr>
 </table>
 
