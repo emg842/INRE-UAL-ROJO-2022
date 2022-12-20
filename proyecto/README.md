@@ -29,19 +29,7 @@
         <td>10/12/2022</td>
         <td>1.0</td>
         <td>Realización tablas requisitos funcionales</td>
-        <td>Miguel Ángel Moncada Álvarez</td>
-    </tr>
-    <tr>
-        <td>10/12/2022</td>
-        <td>1.0</td>
-        <td>Corrección tablas requisitos funcionales</td>
-        <td>Miguel Ángel Moncada Álvarez</td>
-    </tr>
-    <tr>
-        <td>10/12/2022</td>
-        <td>1.0</td>
-        <td>Corrección tablas requisitos funcionales</td>
-        <td>Miguel Ángel Moncada Álvarez</td>
+        <td>Eduardo Martín Gómez</td>
     </tr>
     <tr>
         <td>10/12/2022</td>
@@ -144,6 +132,12 @@
     <tr>
         <td>15/12/2022</td>
         <td>1.0</td>
+        <td>Corrección tablas requisitos funcionales</td>
+        <td>Eduardo Martín Gómez</td>
+    </tr>
+    <tr>
+        <td>15/12/2022</td>
+        <td>1.0</td>
         <td>Subida de los casos de uso del portal detallados</td>
         <td>Daniel López García</td>
     </tr>
@@ -152,6 +146,12 @@
         <td>1.0</td>
         <td>Subida de los casos de uso del Sistema de información detallados</td>
         <td>Miguel Ángel Moncada Álvarez</td>
+    </tr>
+    <tr>
+        <td>20/12/2022</td>
+        <td>1.0</td>
+        <td>Corrección tablas requisitos funcionales por cambios en el diagrama</td>
+        <td>Eduardo Martín Gómez</td>
     </tr>
 </table>
 
@@ -472,7 +472,7 @@
 <table align = "center">
     <tr>
         <td><b>FR-04:</b></td>
-        <td>Buscador (Portal)</td>
+        <td>Buscador</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -596,7 +596,7 @@
 <table align = "center">
     <tr>
         <td><b>FR-07:</b></td>
-        <td>Ver horarios de las líneas</td>
+        <td>Ver horarios de las líneas y servicios</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -616,7 +616,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Muestra la hora a la que pasa un determinado transporte por una determinada parada de la línea que se esté consultando</td>
+        <td>Muestra los horarios de las distintas líneas. Además, se podrán ver los diferentes servicios disponibles.</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -653,7 +653,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-15</td>
+        <td>UC-12</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -694,7 +694,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-16</td>
+        <td>UC-13</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -719,7 +719,7 @@
 <table align = "center">
     <tr>
         <td><b>FR-10:</b></td>
-        <td>Mostrar publicidad</td>
+        <td>Ver publicidad</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -735,7 +735,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-17</td>
+        <td>UC-14</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -780,7 +780,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Ofrece la información corporativa del ayuntamiento de las Islas Canarias</td>
+        <td>Ofrece información corporativa del ayuntamiento de las Islas Canarias</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -842,7 +842,7 @@
 <table align = "center">
     <tr>
         <td><b>FR-13:</b></td>
-        <td>Ver información acerca de lugares de interés</td>
+        <td>Ver información acerca de lugares</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -862,7 +862,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Ofrece información acerca de los distintos lugares de interés de las Islas Canarias</td>
+        <td>Ofrece información acerca de los distintos lugares de las Islas Canarias</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -883,7 +883,7 @@
 <table align = "center">
     <tr>
         <td><b>FR-14:</b></td>
-        <td>Ver información acerca de eventos</td>
+        <td>Recibir avisos</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -903,7 +903,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Ofrece información acerca de los distintos eventos que se celebran en las Islas Canarias</td>
+        <td>Se ofrece información acerca de posibles cambios o alteraciones en en el turismo de las Islas Canarias</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -918,172 +918,11 @@
         <td></td>
     </tr>
 </table>
-
 <br>
 
 <table align = "center">
     <tr>
         <td><b>FR-15:</b></td>
-        <td>Ver información acerca de monumentos</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>UC-12</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Ofrece información acerca de los distintos monumentos que se encuentran en las Islas Canarias</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<table align = "center">
-    <tr>
-        <td><b>FR-16:</b></td>
-        <td>Ver información acerca de sitios turísticos</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>UC-13</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Ofrece información acerca de los sitios más turísticos de las Islas Canarias</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>FR-17:</b></td>
-        <td>Ver avisos</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>UC-14</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Ofrece información acerca de posibles cambios o alteraciones en en el turismo de las Islas Canarias</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>FR-18:</b></td>
-        <td>Agregar datos</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>UC-18</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Se podrán agregar datos e información nueva a la página web</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>FR-19:</b></td>
         <td>Crear nuevas páginas</td>
     </tr>
     <tr>
@@ -1100,7 +939,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-26</td>
+        <td>UC-15</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1123,8 +962,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-20:</b></td>
-        <td>Visualizar páginas nuevas</td>
+        <td><b>FR-16:</b></td>
+        <td>Previsualizar páginas nuevas</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -1140,7 +979,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-27</td>
+        <td>UC-16</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1163,8 +1002,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-21:</b></td>
-        <td>Modificar datos</td>
+        <td><b>FR-17:</b></td>
+        <td>Modificar datos de una página</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -1180,7 +1019,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-25</td>
+        <td>UC-17</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1203,7 +1042,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-22:</b></td>
+        <td><b>FR-18:</b></td>
         <td>Gestionar publicidad</td>
     </tr>
     <tr>
@@ -1220,7 +1059,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-24</td>
+        <td>UC-21</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1243,7 +1082,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-23:</b></td>
+        <td><b>FR-19:</b></td>
         <td>Ver estadísticas de acceso</td>
     </tr>
     <tr>
@@ -1260,7 +1099,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-23</td>
+        <td>UC-20</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1283,7 +1122,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-24:</b></td>
+        <td><b>FR-20:</b></td>
         <td>Eliminar páginas</td>
     </tr>
     <tr>
@@ -1323,47 +1162,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-25:</b></td>
-        <td>Añadir listado de horarios y servicios</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>UC-19</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Se podrán añadir nuevos listados de horarios y servicios a la web</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>FR-26:</b></td>
+        <td><b>FR-21:</b></td>
         <td>Gestionar idiomas</td>
     </tr>
     <tr>
@@ -1380,7 +1179,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-20</td>
+        <td>UC-18</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1403,7 +1202,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-27:</b></td>
+        <td><b>FR-22:</b></td>
         <td>Modificar diseño común</td>
     </tr>
     <tr>
@@ -1420,7 +1219,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-21</td>
+        <td>UC-19</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1464,7 +1263,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-38</td>
+        <td>UC-33</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1483,135 +1282,11 @@
         <td></td>
     </tr>
 </table>
-
 <br>
 
 <table align = "center">
     <tr>
         <td><b>FR-02:</b></td>
-        <td>Mostrar transbordos de un itinerario</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>UC-41</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Se podrán ver los transbordos del itinerario escogido</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>FR-03:</b></td>
-        <td>Mostrar tarifas por etapas de un itinerario</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>UC-42</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Se podrán ver las tarifas por etapas del itinerario escogido</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>FR-04:</b></td>
-        <td>Mostrar tiempo y distancia total de un itinerario</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>UC-40</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Se podrá ver la distancia total y el tiempo requerido del itinerario escogido</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>FR-05:</b></td>
         <td>Seleccionar fecha y hora de un itinerario</td>
     </tr>
     <tr>
@@ -1628,7 +1303,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-47</td>
+        <td>UC-39</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1652,7 +1327,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-06:</b></td>
+        <td><b>FR-03:</b></td>
         <td>Seleccionar origen-destino</td>
     </tr>
     <tr>
@@ -1669,7 +1344,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-39</td>
+        <td>UC-34</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1693,8 +1368,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-07:</b></td>
-        <td>Mostrar esquema del recorrido</td>
+        <td><b>FR-04:</b></td>
+        <td>Pedir imprimible del esquema del recorrido</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -1710,11 +1385,51 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-48</td>
+        <td>UC-40</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Muestra un esquema del recorrido correspondiente al itinerario en cuestión</td>
+        <td>Se solicita el imprimible del esquema del recorrido correspondiente al itinerario en cuestión</td>
+    </tr>
+    <tr>
+        <td><b>Importancia:</b></td>
+        <td>Muy elevada</td>
+    </tr>
+    <tr>
+        <td><b>Estado:</b></td>
+        <td>Aceptado</td>
+    </tr>
+    <tr>
+        <td><b>Comentarios:</b></td>
+        <td></td>
+    </tr>
+</table>
+<br>
+
+<table align = "center">
+    <tr>
+        <td><b>FR-05:</b></td>
+        <td>Seleccionar criterio de búsqueda de itinerarios</td>
+    </tr>
+    <tr>
+        <td><b>Versión:</b></td>
+        <td>1.0 (Diciembre-2022)</td>
+    </tr>
+    <tr>
+        <td><b>Autor:</b></td>
+        <td>Manuel Vallecillos Escobosa</td>
+    </tr>
+    <tr>
+        <td><b>Fuentes:</b></td>
+        <td>Pliego de condiciones y entrevista</td>
+    </tr>
+    <tr>
+        <td><b>Referencias:</b></td>
+        <td>UC-35</td>
+    </tr>
+    <tr>
+        <td><b>Descripción:</b></td>
+        <td>Se realiza la búsqueda de itinerarios según el criterio escogido</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -1734,89 +1449,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-08:</b></td>
-        <td>Imprimir esquema del recorrido</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>UC-49</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Imprime el esquema del recorrido</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>FR-09:</b></td>
-        <td>Seleccionar orden de la búsqueda de itinerarios</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>UC-43</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Se ordenan los distintos itinerarios que se muestran en base a la opción escogida</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>FR-10:</b></td>
+        <td><b>FR-06:</b></td>
         <td>Ordenar la búsqueda por coste</td>
     </tr>
     <tr>
@@ -1833,7 +1466,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-44</td>
+        <td>UC-36</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1857,7 +1490,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-11:</b></td>
+        <td><b>FR-07:</b></td>
         <td>Ordenar la búsqueda por tiempo</td>
     </tr>
     <tr>
@@ -1874,7 +1507,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-45</td>
+        <td>UC-37</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1898,7 +1531,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-12:</b></td>
+        <td><b>FR-08:</b></td>
         <td>Ordenar la búsqueda por transbordos</td>
     </tr>
     <tr>
@@ -1915,7 +1548,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-46</td>
+        <td>UC-38</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -1939,8 +1572,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-13:</b></td>
-        <td>Representar recorrido de una línea</td>
+        <td><b>FR-09:</b></td>
+        <td>Ver recorrido de una línea</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -1956,11 +1589,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-31</td>
+        <td>UC-26</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Representa el recorrido de la línea en el mapa</td>
+        <td>Se podrá ver el recorrido de la línea en el mapa</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -1980,7 +1613,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-14:</b></td>
+        <td><b>FR-10:</b></td>
         <td>Iniciar sesión</td>
     </tr>
     <tr>
@@ -1997,7 +1630,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-24</td>
+        <td>UC-20</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2021,7 +1654,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-15:</b></td>
+        <td><b>FR-11:</b></td>
         <td>Registrarse</td>
     </tr>
     <tr>
@@ -2038,7 +1671,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-25</td>
+        <td>UC-21</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2062,8 +1695,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-16:</b></td>
-        <td>Renovar tarjeta</td>
+        <td><b>FR-12:</b></td>
+        <td>Renovar título</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2079,11 +1712,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-22</td>
+        <td>UC-16</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Renueva la tarjeta de transporte actual</td>
+        <td>Renueva el título de transporte actual</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -2103,8 +1736,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-17:</b></td>
-        <td>Comprar tarjeta de transporte</td>
+        <td><b>FR-13:</b></td>
+        <td>Adquirir título de transporte</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2120,11 +1753,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-27</td>
+        <td>UC-19</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Ofrece la posibilidad de comprar una tarjeta de transporte</td>
+        <td>Ofrece la posibilidad de comprar un título de transporte</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -2144,8 +1777,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-18:</b></td>
-        <td>Recargar saldo tarjeta de transporte/td>
+        <td><b>FR-14:</b></td>
+        <td>Recargar saldo del título de transporte</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2161,11 +1794,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-26</td>
+        <td>UC-18</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Recarga el saldo de la tarjeta de transporte adjuntada a la cuenta iniciada</td>
+        <td>Recarga el saldo del título de transporte adjuntada a la cuenta iniciada</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -2185,7 +1818,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-19:</b></td>
+        <td><b>FR-15:</b></td>
         <td>Adquirir bono transporte</td>
     </tr>
     <tr>
@@ -2202,11 +1835,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-27</td>
+        <td>UC-15</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Se podrá adquirir un bono transporte</td>
+        <td>Se podrá adquirir un bono de transporte que otorgará al usuario una serie de ventajas</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -2226,8 +1859,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-20:</b></td>
-        <td>Ver histórico de itinerarias</td>
+        <td><b>FR-16:</b></td>
+        <td>Ver histórico de itinerarios</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2243,7 +1876,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-23</td>
+        <td>UC-17</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2267,7 +1900,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-21:</b></td>
+        <td><b>FR-17:</b></td>
         <td>Gestionar sistema de ventas y título de transporte</td>
     </tr>
     <tr>
@@ -2284,7 +1917,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-12</td>
+        <td>UC-06</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2308,7 +1941,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-22:</b></td>
+        <td><b>FR-18:</b></td>
         <td>Crear aviso por correo electrónico</td>
     </tr>
     <tr>
@@ -2325,7 +1958,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-20</td>
+        <td>UC-14</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2349,7 +1982,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-23:</b></td>
+        <td><b>FR-19:</b></td>
         <td>Crear aviso por sms</td>
     </tr>
     <tr>
@@ -2366,7 +1999,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-19</td>
+        <td>UC-13</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2390,7 +2023,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-24:</b></td>
+        <td><b>FR-20:</b></td>
         <td>Crear aviso visual</td>
     </tr>
     <tr>
@@ -2407,7 +2040,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-18</td>
+        <td>UC-12</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2431,7 +2064,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-25:</b></td>
+        <td><b>FR-21:</b></td>
         <td>Crear aviso acústico</td>
     </tr>
     <tr>
@@ -2448,7 +2081,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-17</td>
+        <td>UC-11</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2472,7 +2105,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-26:</b></td>
+        <td><b>FR-22:</b></td>
         <td>Gestionar usuarios</td>
     </tr>
     <tr>
@@ -2489,7 +2122,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-14</td>
+        <td>UC-08</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2513,7 +2146,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-27:</b></td>
+        <td><b>FR-23:</b></td>
         <td>Definir condiciones</td>
     </tr>
     <tr>
@@ -2530,7 +2163,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-16</td>
+        <td>UC-10</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2554,7 +2187,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-28:</b></td>
+        <td><b>FR-24:</b></td>
         <td>Definir variables</td>
     </tr>
     <tr>
@@ -2571,7 +2204,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-15</td>
+        <td>UC-09</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2595,7 +2228,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-29:</b></td>
+        <td><b>FR-25:</b></td>
         <td>Definir eventos/incidencias</td>
     </tr>
     <tr>
@@ -2612,7 +2245,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-13</td>
+        <td>UC-07</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2636,8 +2269,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-30:</b></td>
-        <td>Mostrar actividad de los operadores</td>
+        <td><b>FR-26:</b></td>
+        <td>Ver actividad de los operadores</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2653,11 +2286,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-09</td>
+        <td>UC-01</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Examina la actividad de los operadores en base a los datos de las jornadas laborales de estos</td>
+        <td>Se podrá ver la actividad de los operadores en base a los datos de las jornadas laborales de estos<td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -2677,8 +2310,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-31:</b></td>
-        <td>Guardar foto de estado de la actividad de los operadores</td>
+        <td><b>FR-27:</b></td>
+        <td>Visualizar foto de estado de la actividad de los operadores</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2694,11 +2327,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-05</td>
+        <td>UC-02</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Se guarda la foto del estado actual de la actividad realizada por los operadores durante sus jornadas laborales</td>
+        <td>Se podrá ver la foto del estado actual de la actividad realizada por los operadores durante sus jornadas laborales</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -2718,8 +2351,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-32:</b></td>
-        <td>Guardar película de evolución temporal de los operadores</td>
+        <td><b>FR-28:</b></td>
+        <td>Visualizar película de evolución temporal de los operadores</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2735,11 +2368,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-06</td>
+        <td>UC-03</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Se guarda una película de evolución temporal de la actividad realizada por los operadores</td>
+        <td>Se podrá visualizar una película de evolución temporal de la actividad realizada por los operadores</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -2759,7 +2392,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-33:</b></td>
+        <td><b>FR-29:</b></td>
         <td>Gestionar elementos del mapa</td>
     </tr>
     <tr>
@@ -2776,7 +2409,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-07</td>
+        <td>UC-04</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2800,8 +2433,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-34:</b></td>
-        <td>Gestionar líneas</td>
+        <td><b>FR-30:</b></td>
+        <td>Gestionar líneas (visualmente)</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2817,7 +2450,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-08</td>
+        <td>UC-05</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -2836,13 +2469,12 @@
         <td>Se estudian tanto grupal como individualmente</td>
     </tr>
 </table>
-
 <br>
 
 <table align = "center">
     <tr>
-        <td><b>FR-35:</b></td>
-        <td>Ver adelantos o retrasos de cada línea</td>
+        <td><b>FR-31:</b></td>
+        <td>Ver información acerca de lugares/paradas/sitios de interés turístico</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -2858,11 +2490,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-11</td>
+        <td>UC-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Se registra la llegada anticipada o retrasada de un operador a las paradas respecto a su hora habitual</td>
+        <td>Se podrá ver información detallada acerca de lugares y sitios de interés turístico, así como de las distintas paradas y zonas de las Islas Canarias</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -2877,176 +2509,11 @@
         <td></td>
     </tr>
 </table>
-
 <br>
 
 <table align = "center">
     <tr>
-        <td><b>FR-36:</b></td>
-        <td>Hacer clic sobre una parada/estación</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>UC-10</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Se podrá hacer clic sobre una parada u estación</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>FR-37:</b></td>
-        <td>Mostrar información de la parada u estación</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>UC-01</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Se podrá ver la información relacionada con una parada u estación haciendo clic sobre la misma</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>FR-38:</b></td>
-        <td>Hacer clic sobre un sitio de interés</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>UC-04</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Se podrá hacer clic sobre un sitio de interés</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>FR-39:</b></td>
-        <td>Mostrar información de un sitio de interés</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>UC-03</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Se podrá ver la información relacionada con un sitio de interés haciendo clic sobre el misma</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>FR-40:</b></td>
+        <td><b>FR-32:</b></td>
         <td>Reservar itinerario</td>
     </tr>
     <tr>
@@ -3063,7 +2530,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-28</td>
+        <td>UC-23</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3087,7 +2554,7 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-41:</b></td>
+        <td><b>FR-33:</b></td>
         <td>Pagar reserva de itinerario</td>
     </tr>
     <tr>
@@ -3104,11 +2571,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-29</td>
+        <td>UC-24</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Se podrá pagar la reserva de un itinerario</td>
+        <td>Se podrá pagar la reserva del itinerario en cuestión</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -3128,8 +2595,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-42:</b></td>
-        <td>Imprimir ticket de la reserva de un itinerario</td>
+        <td><b>FR-34:</b></td>
+        <td>Pedir justificante de pago</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3145,11 +2612,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-30</td>
+        <td>UC-25</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Se podrá imprimir el ticket de la reserva de un itinerario</td>
+        <td>Se podrá pedir el justificante del pago de la reserva de un itinerario</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -3164,53 +2631,11 @@
         <td></td>
     </tr>
 </table>
-
 <br>
 
 <table align = "center">
     <tr>
-        <td><b>FR-43:</b></td>
-        <td>Presentar recorridos de una línea</td>
-    </tr>
-    <tr>
-        <td><b>Versión:</b></td>
-        <td>1.0 (Diciembre-2022)</td>
-    </tr>
-    <tr>
-        <td><b>Autor:</b></td>
-        <td>Manuel Vallecillos Escobosa</td>
-    </tr>
-    <tr>
-        <td><b>Fuentes:</b></td>
-        <td>Pliego de condiciones y entrevista</td>
-    </tr>
-    <tr>
-        <td><b>Referencias:</b></td>
-        <td>UC-31</td>
-    </tr>
-    <tr>
-        <td><b>Descripción:</b></td>
-        <td>Se mostrarán los distintos recorridos de una linea</td>
-    </tr>
-    <tr>
-        <td><b>Importancia:</b></td>
-        <td>Muy elevada</td>
-    </tr>
-    <tr>
-        <td><b>Estado:</b></td>
-        <td>Aceptado</td>
-    </tr>
-    <tr>
-        <td><b>Comentarios:</b></td>
-        <td></td>
-    </tr>
-</table>
-
-<br>
-
-<table align = "center">
-    <tr>
-        <td><b>FR-44:</b></td>
+        <td><b>FR-35:</b></td>
         <td>Buscar una parada</td>
     </tr>
     <tr>
@@ -3227,7 +2652,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-32</td>
+        <td>UC-27</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3251,8 +2676,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-45:</b></td>
-        <td>Introducción identificador de parada</td>
+        <td><b>FR-36:</b></td>
+        <td>Introducción de identificador de parada</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3268,11 +2693,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-33</td>
+        <td>UC-32</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Se podrá introducir un identificador de parada facilitar la búsqueda de la misma</td>
+        <td>Se podrá introducir un identificador de parada para facilitar la búsqueda de la misma</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -3292,8 +2717,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-46:</b></td>
-        <td>Parametrizar búsqueda de paradas/estaciones</td>
+        <td><b>FR-37:</b></td>
+        <td>Buscar parada en base a un criterio</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3309,11 +2734,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-34</td>
+        <td>UC-28</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Se podrá parametrizar la búsqueda de paradas o estaciones concretas según determinados filtros</td>
+        <td>Se podrá personalizar la búsqueda de paradas estableciendo un determinado criterio</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -3333,8 +2758,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-47:</b></td>
-        <td>Búsqueda de paradas/estaciones pertenecientes a un lugar</td>
+        <td><b>FR-38:</b></td>
+        <td>Búsqueda de paradas pertenecientes a un lugar</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3350,11 +2775,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-35</td>
+        <td>UC-29</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Se podrán buscar las paradas o estaciones que pertenezcan a un lugar en concreto</td>
+        <td>Se podrán buscar paradas que pertenezcan a un lugar en concreto</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -3374,8 +2799,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-48:</b></td>
-        <td>Búsqueda de paradas/estaciones pertenecientes a una línea</td>
+        <td><b>FR-39:</b></td>
+        <td>Búsqueda de paradas pertenecientes a una línea</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3391,11 +2816,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-36</td>
+        <td>UC-30</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Se podrán buscar las paradas o estaciones que pertenezcan a una línea en concreto</td>
+        <td>Se podrán buscar paradas que pertenezcan a una línea en concreto</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -3415,8 +2840,8 @@
 
 <table align = "center">
     <tr>
-        <td><b>FR-49:</b></td>
-        <td>Búsqueda de paradas/estaciones cerca de un origen/destino determinado</td>
+        <td><b>FR-40:</b></td>
+        <td>Búsqueda de paradas cercanas a un origen/destino determinado</td>
     </tr>
     <tr>
         <td><b>Versión:</b></td>
@@ -3432,11 +2857,11 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>UC-37</td>
+        <td>UC-31</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
-        <td>Se podrán buscar las paradas o estaciones más cercanas a un punto de origen o destino</td>
+        <td>Se podrán buscar las paradas más cercanas a un punto de origen o destino</td>
     </tr>
     <tr>
         <td><b>Importancia:</b></td>
@@ -3960,7 +3385,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-04, IR-06, IR-08, IR-10, IR-12, IR-14, IR-16, IR-18, IR-20</td>
+        <td>IR-04, IR-06, IR-08, IR-10, IR-12, IR-14, IR-16, IR-18, IR-20, CU-01, CU-02, CU-05, CU-08, CU-09, CU-10, CU-11, CU-12, CU-13, CU-14, CU-21</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4007,7 +3432,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-05</td>
+        <td>IR-03, IR-05, CU-11</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4054,7 +3479,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-04</td>
+        <td>IR-04, CU-07, CU-11, CU-18</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4104,7 +3529,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-07</td>
+        <td>IR-03, IR-07, CU-09, CU-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4150,7 +3575,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-06</td>
+        <td>IR-06, CU-07, CU-09, CU-17, CU-18, CU-19, CU-20, CU-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4199,7 +3624,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-09</td>
+        <td>IR-03, IR-09, CU-01, CU-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4245,7 +3670,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-08</td>
+        <td>IR-08, CU-01, CU-07, CU-17, CU-18, CU-19, CU-20, CU-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4294,7 +3719,7 @@
     </tr>
         <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-11</td>
+        <td>IR-03, IR-11, CU-02, CU-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4340,7 +3765,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-10</td>
+        <td>IR-10, CU-02, CU-07, CU-17, CU-18, CU-19, CU-20, CU-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4389,7 +3814,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-13</td>
+        <td>IR-03, IR-13, CU-12, CU-22</td>
     </tr>
       <tr>
         <td><b>Descripción:</b></td>
@@ -4435,7 +3860,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-12</td>
+        <td>IR-12, CU-07, CU-12, CU-17, CU-18, CU-19, CU-20, CU-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4484,7 +3909,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-15</td>
+        <td>IR-03, IR-15, CU-10, CU-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4530,7 +3955,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-14</td>
+        <td>IR-14, CU-07, CU-10, CU-17, CU-18, CU-19, CU-20, CU-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4579,7 +4004,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-17</td>
+        <td>IR-03, IR-17, CU-08, CU-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4625,7 +4050,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-16</td>
+        <td>IR-16, CU-07, CU-08, CU-17, CU-18, CU-19, CU-20, CU-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4674,7 +4099,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-19</td>
+        <td>IR-03, IR-19, CU-13, CU-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4720,7 +4145,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-18</td>
+        <td>IR-18, CU-07, CU-13, CU-17, CU-18, CU-19, CU-20, CU-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4769,7 +4194,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-21</td>
+        <td>IR-03, IR-21, CU-14, CU-21</td>
     </tr>
      <tr>
         <td><b>Descripción:</b></td>
@@ -4815,7 +4240,7 @@
     </tr>
         <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-20</td>
+        <td>IR-20, CU-07, CU-14, CU-18, CU-21</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -6340,7 +5765,6 @@
 
 <br>
 
-
 ### <a name="listadecasosdeusodelportal"></a> Lista de casos de uso del Portal
 
 <br>
@@ -6712,7 +6136,8 @@
         <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br><br></td>
+        <td><b>Referencias:</b><br>
+        IR-03, IR-08, IR-09</td>
     </tr>
 </table>
 
@@ -6758,7 +6183,8 @@
         <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br><br></td>
+        <td><b>Referencias:</b><br>
+        IR-03, IR-10, IR-11</td>
     </tr>
 </table>
 
@@ -6896,7 +6322,8 @@
         <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br><br></td>
+        <td><b>Referencias:</b><br>
+        IR-03</td>
     </tr>
 </table>
 
@@ -6990,7 +6417,8 @@
         <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br><br></td>
+        <td><b>Referencias:</b><br>
+        IR-05, IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19, IR-21</td>
     </tr>
 </table>
 
@@ -7036,7 +6464,8 @@
         <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br><br></td>
+        <td><b>Referencias:</b><br>
+        IR-03, IR-16, IR-17</td>
     </tr>
 </table>
 
@@ -7081,7 +6510,8 @@
         <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br><br></td>
+        <td><b>Referencias:</b><br>
+        IR-03, IR-06, IR-07</td>
     </tr>
 </table>
 
@@ -7127,7 +6557,8 @@
         <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br><br></td>
+        <td><b>Referencias:</b><br>
+        IR-03, IR-14, IR-15</td>
     </tr>
 </table>
 
@@ -7173,7 +6604,8 @@
         <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br><br></td>
+        <td><b>Referencias:</b><br>
+        IR-03, IR-04, IR-05</td>
     </tr>
 </table>
 
@@ -7219,7 +6651,8 @@
         <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br><br></td>
+        <td><b>Referencias:</b><br>
+        IR-03, IR-12, IR-13</td>
     </tr>
 </table>
 
@@ -7265,7 +6698,8 @@
         <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br><br></td>
+        <td><b>Referencias:</b><br>
+        IR-03, IR-18, IR-19</td>
     </tr>
 </table>
 
@@ -7310,7 +6744,8 @@
         <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br><br></td>
+        <td><b>Referencias:</b><br>
+        IR-03, IR-20, IR-21</td>
     </tr>
 </table>
 
@@ -7424,7 +6859,7 @@
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
-        Modificar datos en una página</td>
+        Modificar datos de una página</td>
     </tr>
     <tr>
         <td><b>Autor:</b><br>
@@ -7460,7 +6895,8 @@
         El contenido (ya modificado) de la página ha sido almacenado en el sistema</td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br><br></td>
+        <td><b>Referencias:</b><br>
+        IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19</td>
     </tr>
 </table>
 
@@ -7508,7 +6944,8 @@
         <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br><br></td>
+        <td><b>Referencias:</b><br>
+        IR-05, IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19, IR-21</td>
     </tr>
 </table>
 
@@ -7533,35 +6970,31 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        El portal dará la opción para añadir el listado de los horarios y servicios disponibles de la isla</td>
+        Ofrece el medio necesario para la modificación del diseño común a todas las páginas (secciones dentro del portal) a través de una interfaz a cargo de un software ajeno</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        ACT-01</td>
+        ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Iniciar el portal como gestor</td>
+        El actor debe haber sido dado de alta y estar autenticado en el sistema</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El gestor pulsará el botón para añadir horarios y servicios<br>
-        2.- El sistema mostrará la ventana para añadir los horarios y servicios<br>
-        3.- El gestor añadirá los horarios o servicios que quiera y pulsará el botón añadir<br>
-        4.- El sistema confirmará que la subida de los datos se ha hecho de manera correcta</td>
+        1.- El actor pulsa sobre el botón para modificar el diseño común a todas las páginas del portal<br>
+        2.- El sistema muestra una interfaz de creación de páginas ajena en la cual hace aparición un botón para la confirmación de la adición de las páginas con diseño actualizado al portal sustituyendo así a sus versiones anteriores<br>
+        3.- El actor clica sobre el botón destinado a la confirmación de la modificación del diseño común a todas las páginas del portal poniendo así fin al proceso</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        4.A.- El sistema dirá que ha habido un problema con la subida de los datos<br>
-        5.A.- El sistema le llevará de nuevo a la vista de añadir los horarios y servicios señalando el fallo</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        El sistema guardará los nuevos horarios y servicios</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        FR-25, IR-03, IR-10, IR-11</td>
+        IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19</td>
     </tr>
 </table>
 
@@ -7586,39 +7019,32 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        El sistema tendrá una funcionalidad para añadir o eliminar idiomas</td>
+        Otorga la posibilidad de poder ver las estadísticas de acceso a una página determinada del portal</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        ACT-01</td>
+        ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Iniciar el portal como gestor</td>
+        El actor debe haber sido dado de alta y estar autenticado en el sistema</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El gestor pulsará el botón para gestionar idiomas<br>
-        2.- El sistema mostrará la ventana para gestionar los idiomas<br>
-        3.- El gestor podrá elegir añadir un idioma o eliminarlo<br>
-        3.1.- El gestor elige añadir un idioma<br>
-        3.1.1.- El sistema mostrará el plugin para añadir los idiomas<br>
-        3.1.2.- El gestor buscará un idioma y lo añadirá<br>
-        3.2.- El gestor elige eliminar un idioma<br>
-        3.2.1.- El sistema muestra los idiomas ya añadidos<br>
-        3.2.2.- El gestor busca el idioma que quiere eliminar y lo elimina</td>
+        1.- El actor pulsa sobre el botón para ver las estadísticas de acceso a una página<br>
+        2.- El sistema muestra una ventana donde se reflejan las diferentes páginas (secciones) presentes en el portal en forma de botones clicables<br>
+        3.- El actor clica sobre el botón relativo a aquella página cuyas estadísticas de acceso desea ver<br>
+        4.- El sistema muestra una nueva ventana emergente donde dichas estadísticas son presentadas con todo lujo de detalles</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        3.1.2.A. El plugin no contiene el idioma buscado</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        El sistema guardará el nuevo idioma o eliminará el idioma elegido</td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        FR-26</td>
+        IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19</td>
     </tr>
 </table>
 
@@ -7643,34 +7069,32 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        El portal da la opción para modificar su diseño</td>
+        Permite añadir anuncios publicitarios al portal o eliminarlos del mismo</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        ACT-01</td>
+        ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Iniciar el portal como gestor</td>
+        El actor debe haber sido dado de alta y estar autenticado en el sistema</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El gestor pulsará el botón para modificar el diseño<br>
-        2.- El sistema mostrará la ventana para modificar el diseño<br>
-        3.- El gestor cambiará el diseño a su gusto<br>
-        4.- El sistema confirmará el cambio del diseño</td>
+        1.- El gestor pulsará sobre el botón para añadir/eliminar publicidad<br>
+        2.- Si se trata de añadir, el sistema mostrará una nueva ventana donde se pueden adjuntar atributos relativos a un anuncio publicitario como son un texto, una imagen, los idiomas y la fecha de expiración relacionados con el mismo. Por otro lado, si se trata de un proceso de eliminación, se mostrará también una nueva ventana pero esta será tan solo un mensaje para la cofirmación de la eliminación del anuncio. Tanto si se quiere eliminar como añadir publicidad se incluye la ventana en cuestión un botón de confirmación<br>
+        3.- El actor clica sobre el botón de confirmación poniendo así fin al proceso de gestión de publicidad</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        El sistema guardará el nuevo diseño</td>
+        El nuevo anuncio ha sido almacenado en el sistema o uno ya existente ha sido eliminado del mismo</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        FR-27</td>
+        IR-03, IR-20, IR-21</td>
     </tr>
 </table>
 
@@ -7695,36 +7119,32 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        El portal dará la opción para eliminar páginas</td>
+        Ofrece el medio necesario para la eliminación de una página (sección dentro del portal) a través de una interfaz a cargo de un software ajeno</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        ACT-01</td>
+        ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        Iniciar el portal como gestor</td>
+        El actor debe haber sido dado de alta y estar autenticado en el sistema</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El gestor pulsará eligirá la página que quiere eliminar<br>
-        2.- El gestor eliminará la página<br>
-        3.- El sistema mostrará un pop-up para confirmar la eliminación<br>
-        4.- El gestor aceptará<br>
-        5.- El sistema mostrará un mensaje confirmando que la página ha sido eliminada</td>
+        1.- El actor pulsa sobre el botón para eliminar una sección del portal<br>
+        2.- El sistema muestra una interfaz de creación de páginas ajena en la cual hace aparición un botón para la confirmación de la eliminación de una página del portal en cuestión<br>
+        3.- El actor clica sobre el botón destinado a la confirmación de la eliminación de la página deseada poniendo así fin al proceso</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        4.A.- El gestor cancela<br>
-        5.A.- El sistema muestra un mensaje diciendo que la página no se ha eliminado</td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        El sistema borrará la página elegida</td>
+        El contenido de la página ha sido eliminado del sistema</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        FR-24</td>
+        IR-06, IR-07, IR-08, IR-09, IR-10, IR-11, IR-12, IR-13, IR-14, IR-15, IR-16, IR-17, IR-18, IR-19</td>
     </tr>
 </table>
 
@@ -8273,19 +7693,21 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El gestor podrá crear un aviso que sea leido por una voz</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-04</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El gestor en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El gestor pulsará en crear un aviso acústico<br>
+        2.- El sistema mostrará la ventana de crear avisos acústicos<br>
+        3.- El gestor escribirá el aviso y eligirá el tipo de voz que leerá el aviso</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -8293,7 +7715,7 @@
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        </td>
+        El aviso se guardará en la base de datos</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8322,19 +7744,21 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El gestor podrá crear un aviso visual para los usuarios</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-04</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El gestor en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El gestor pulsará en crear un aviso visual<br>
+        2.- El sistema mostrará la ventana de crear avisos visuales<br>
+        3.- El gestor diseñará el aviso</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -8371,19 +7795,21 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El gestor podrá crear un aviso que llegará a los móviles</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-04</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El gestor en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El gestor pulsará en crear un aviso móvil<br>
+        2.- El sistema mostrará la ventana de crear avisos móvil<br>
+        3.- El gestor creará el aviso para el móvil</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -8420,19 +7846,21 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El gestor podrá crear un aviso que llegará al correo</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-04</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El gestor en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El gestor pulsará en crear un aviso por correo<br>
+        2.- El sistema mostrará la ventana de crear avisos por correo<br>
+        3.- El gestor escribirá el aviso en formato correo</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -8469,11 +7897,11 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario registrado podrá comprar un bono de transporte</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -8481,7 +7909,11 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará en adquirir bono<br>
+        2.- El sistema mostrarálos bonos disponibles<br>
+        3.- El usuario eligirá el bono que desea adquirir<br>
+        4.- El usuario hará el pago del bono<br>
+        5.- El sistema confirmará la compra del bono</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -8489,7 +7921,7 @@
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        </td>
+        El sistema guardará en la base de datos la compra del bono</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8518,11 +7950,11 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usaurio podrá renovar su título</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -8530,7 +7962,11 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará en renovar título<br>
+        2.- El sistema mostrarálos sus títulos adquiridos<br>
+        3.- El usuario eligirá el título que desea renovar<br>
+        4.- El usuario hará el pago de la renovación del título<br>
+        5.- El sistema confirmará la renovación del título</td></td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -8538,7 +7974,7 @@
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        </td>
+        El sistema guardará en la base de datos la renovación del título</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8567,11 +8003,11 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá ver un registro de los itinerarios que ya haya realizado</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -8579,7 +8015,9 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará ver itinerarios antiguos<br>
+        2.- El sistema mostrarálos los itinerarios ya comprados<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -8616,11 +8054,11 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá hacer una recarga de su título</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -8628,7 +8066,11 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará en recargar título<br>
+        2.- El sistema mostrará los títulos disponibles<br>
+        3.- El usuario eligirá el título que desea recargar<br>
+        4.- El usuario hará la recarga del título<br>
+        5.- El sistema confirmará la recarga</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -8636,7 +8078,7 @@
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        </td>
+        El sistema guardará en la base de datos la recarga del título</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8665,11 +8107,11 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá hacer la compra de un título</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -8677,7 +8119,11 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará en comprar título<br>
+        2.- El sistema mostrará los títulos disponibles<br>
+        3.- El usuario eligirá el título que desea comprar<br>
+        4.- El usuario hará el pago del título<br>
+        5.- El sistema confirmará la compra</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -8685,7 +8131,7 @@
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        </td>
+        El sistema guardará en la base de datos la compra del título</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8714,11 +8160,11 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá iniciar sesión en el sistema</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -8726,7 +8172,10 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará en iniciar sesión<br>
+        2.- El sistema le llevará a la pestaña de inicio de sesión<br>
+        3.- El usuario introducirá su usuario y contraseña y pulsará en entrar<br>
+        4.- El sistema confirmará el inicio de sesión </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -8763,19 +8212,23 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario no registrado tendrá una opción para registrarse en el sistema</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-02</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario no debe estar registrado</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsa el botón registrarse.<br>
+        2-. El usuario rellenará los campos que se pidan.<br>
+        3.- El usuario pulsará continuar.<br>
+        4.- El sistema verificará el registro.<br>
+        5.- El sistema confirmará el registro.</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -8783,7 +8236,7 @@
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        </td>
+        El sistema guardará al nuevo usuario en la base de datos.</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8812,11 +8265,11 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá ver la información de los lugares, paradas, o sitios de interés turistico</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -8824,7 +8277,8 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario eligirá la información que quiera ver.<br>
+        2.- El sistema mostrará la información.</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -8861,11 +8315,11 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá reservar itinerarios</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -8873,7 +8327,9 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.-El usuario buscará un itinerario<br>
+        2.- El sistema mostrará los itinerarios<br>
+        3.- El usuario eligirá uno para reservar</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -8910,7 +8366,7 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        Una vez hecha una reserva el sistema pedirá que se realice el pago</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
@@ -8918,11 +8374,19 @@
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario deberá haber hecho una reserva de itinerario</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.-El usuario buscará un itinerario<br>
+        2.- El sistema mostrará los itinerarios<br>
+        3.- El usuario eligirá uno para reservar<br>
+        4.1.- El usuario hará el pago para la reserva<br>
+        4.1.1.- El sistema confirmará la reserva<br>
+        4.2.- El sistema pedirá al usuario iniciar sesión o registrarse<br>
+        4.2.1.- El usuario se registrará o iniciará sesión<br>
+        4.2.2.- El usuario hará el pago para la reserva<br>
+        4.2.3.- El sistema confirmará la reserva</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -8930,7 +8394,7 @@
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
-        </td>
+        El sistema añadirá la reserva en la base de datos</td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8959,23 +8423,34 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El sistema dará la opción para que el usuario pida un justificante del pago</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario tendrá que haber hecho el pago de una reserva</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.-El usuario buscará un itinerario<br>
+        2.- El sistema mostrará los itinerarios<br>
+        3.- El usuario eligirá uno para reservar<br>
+        4.1.- El usuario hará el pago para la reserva<br>
+        4.1.1.- El sistema confirmará la reserva<br>
+        4.2.- El sistema pedirá al usuario iniciar sesión o registrarse<br>
+        4.2.1.- El usuario se registrará o iniciará sesión<br>
+        4.2.2.- El usuario hará el pago para la reserva<br>
+        4.2.3.- El sistema confirmará la reserva<br></td></td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        </td>
+        4.1.1.A.- El usuario pedirá el justificante.<br>
+        4.1.1.A.1.- El sistema mostrará el pdf con el recibo<br>
+        4.2.3.A.- El usuario pedirá el justificante.<br>
+        4.2.3.A.1.- El sistema mostrará el pdf con el recibo</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
@@ -9008,11 +8483,11 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá visualizar el recorrido de las líneas de autobúses</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -9020,7 +8495,8 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará en el mapa.<br>
+        2.- El sistema mostrará en pantalla completa el mapa con los recorridos de las líneas.</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -9057,11 +8533,11 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá hacer una búsqueda de las paradas de las líneas de los autobúses</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -9069,7 +8545,10 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará en mostrar paradas.<br>
+        2.- El sistema mostrará las paradas.<br>
+        3.- El usuario buscará la parada manualmente deslizando o mediante un buscador.<br>
+        4.- El usuario pulsará elegir un criterio de búsqueda.</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -9106,19 +8585,23 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá elegir un criterio para hacer la búsqueda</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario tiene que estar en la pestaña de buscar paradas</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará en mostrar paradas.<br>
+        2.- El sistema mostrará las paradas.<br>
+        3.- El usuario buscará la parada manualmente deslizando o mediante un buscador.<br>
+        4.- El usuario pulsará elegir un criterio de búsqueda.<br>
+        5.- El usuario elegirá la opción de elegir un lugar.<br>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -9155,19 +8638,25 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El sistema tendrá la opción de buscar paradas por lugares</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario debe pulsar elegir criterio en la pestaña de búsqueda</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará en mostrar paradas.<br>
+        2.- El sistema mostrará las paradas.<br>
+        3.- El usuario buscará la parada manualmente deslizando o mediante un buscador.<br>
+        4.- El usuario pulsará elegir un criterio de búsqueda.<br>
+        5.- El usuario elegirá la opción de elegir un lugar.<br>
+        6.- El usuario eligirá un lugar.<br>
+        7.- El sistema mostrará las paradas que pertenezcan a ese lugar.</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -9204,19 +8693,26 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usaurio podrá elegir el criterio para ver solo las paradas que pertenezcan a una línea concreta</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario debe pulsar la opción elegir criterio en la pestaña de búsqueda</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará en mostrar paradas.<br>
+        2.- El sistema mostrará de las paradas.<br>
+        3.- El usuario buscará la parada manualmente deslizando o mediante un buscador.<br>
+        4.- El usuario pulsará elegir un criterio de búsqueda.<br>
+        5.- El usuario elegirá la opción de elegir una línea.<br>
+        6.- El sistema mostrará las líneas<br>
+        7.- El usuario eligirá una línea.<br>
+        8.- El sistema mostrará las paradas que pertenezcan a esa línea.</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -9253,19 +8749,25 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá elegir el criterio de búscar paradas cerca del lugar de destino o de origen</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario debe pulsar elegir criterio en la pestaña de búsqueda</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará en mostrar paradas.<br>
+        2.- El sistema mostrará las paradas.<br>
+        3.- El usuario buscará la parada manualmente deslizando o mediante un buscador.<br>
+        4.- El usuario pulsará elegir un criterio de búsqueda.<br>
+        5.- El usuario elegirá la opción de elegir un lugar.<br>
+        6.- El usuario eligirá el lugar de destino/origen.<br>
+        7.- El sistema mostrará las paradas que pertenezcan a ese lugar.</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -9302,19 +8804,30 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá introducir el identificador de la parada para buscarla</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario debe estar en la pestaña de buscar parada</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        <tr>
+        <td><b>Precondiciones:</b><br>
+        El usuario debe pulsar elegir criterio en la pestaña de búsqueda</td>
+    </tr>
+    <tr>
+        <td><b>Flujo Normal:</b><br>
+        1.- El usaurio pulsará en mostrar paradas.<br>
+        2.- El sistema mostrará las paradas.<br>
+        3.- El usuario buscará la parada manualmente deslizando o mediante un buscador.<br>
+        4.- El usuario introducirá en el buscador el nombre o el número de la parada.<br>
+        5.- El sistema mostrará la parada búscada</td>
+    </tr></td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -9351,11 +8864,11 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá hacer una búsqueda de itinerarios</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -9363,7 +8876,8 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará el botón de buscar itinerarios<br>
+        2.- El sistema mostrará los itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -9400,19 +8914,23 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá hacer una búsqueda de los itinerarios seleccionando el origen o destino</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario deberá estar en la pestaña de buscar itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará el botón de buscar itinerarios<br>
+        2.- El sistema mostrará los itinerarios<br>
+        3.- El usuario pulsará en elegir origen o destino<br>
+        4.- El usuario introducirá origen o destino o ambos<br>
+        5.- El sistema mostrará los itinerarios con esos criterios</td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
@@ -9449,23 +8967,25 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá elegir los criterios en base a otros criterios</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario deberá estar en la pestaña de buscar itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará el botón de buscar itinerarios<br>
+        2.- El sistema mostrará los itinerarios<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        </td>
+        3.A- El usuario pulsará en elegir criterio</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
@@ -9498,22 +9018,28 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá elegir buscar itinerarios por precio</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario deberá estar en la pestaña de buscar itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará el botón de buscar itinerarios<br>
+        2.- El sistema mostrará los itinerarios<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
+        3.A.- El usuario pulsará en elegir criterio<br>
+        3.A.1.- El usuario elegirá el criterio de por coste<br>
+        3.A.2.- El usuario elegirá el precio<br>
+        3.A.3.- El sistema mostrá los itinerarios que se ajusten a ese precio
         </td>
     </tr>
     <tr>
@@ -9547,23 +9073,28 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá elegir los itinerarios en función del tiempo que tarden</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario deberá estar en la pestaña de buscar itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará el botón de buscar itinerarios<br>
+        2.- El sistema mostrará los itinerarios<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        </td>
+        3.A.- El usuario pulsará en elegir criterio<br>
+        3.A.1.- El usaurio elegirá el criterio duración<br>
+        3.A.2.- El usuario introducirá la duración que desee<br>
+        3.A.3.- El sistema mostrará los itinerarios que cumplan ese criterio</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
@@ -9596,23 +9127,28 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá elegir un itinerario en función del número de transbordos que tengan</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario deberá estar en la pestaña de buscar itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará el botón de buscar itinerarios<br>
+        2.- El sistema mostrará los itinerarios<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        </td>
+        3.A.- El usuario pulsará en elegir criterio<br>
+        3.A.1.- El usaurio elegirá el criterio número de transbordos<br>
+        3.A.2.- El usuario introducirá la cantidad de transbordos que desee<br>
+        3.A.3.- El sistema mostrará los itinerarios que cumplan ese criterio</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
@@ -9645,23 +9181,27 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá elegir la fecha/hora de salida y de llegada del itinerario </td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario deberá estar en la pestaña de buscar itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará el botón de buscar itinerarios<br>
+        2.- El sistema mostrará los itinerarios<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        </td>
+        3.A.- El usuario pulsará en añadir fecha/hora de salida o llegada<br>
+        3.A.1.- El usaurio añadirá fecha/hora de salida o fecha/hora de llegada o ambas<br>
+        3.A.4.- El sistema mostrará los itinerarios que cumplan ese criterio</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
@@ -9682,7 +9222,7 @@
     </tr>
     <tr>
         <td><b>Nombre:</b><br>
-        Pedir imprimible del esquema del recorrido</td>
+        Imprimir esquema del recorrido</td>
     </tr>
     <tr>
         <td><b>Autor:</b><br>
@@ -9694,23 +9234,26 @@
     </tr>
     <tr>
         <td><b>Descripción:</b><br>
-        Hola</td>
+        El usuario podrá imprimir el esquema del itinerario que desee</td>
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
-        El usuario en cuestión debe encontrarse situado en la ventana del mapa interactivo</td>
+        El usuario deberá estar en la pestaña de buscar itinerarios</td>
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        Hola</td>
+        1.- El usuario pulsará el botón de buscar itinerarios<br>
+        2.- El sistema mostrará los itinerarios<br>
+        </td>
     </tr>
     <tr>
         <td><b>Flujo Alternativo:</b><br>
-        </td>
+        3.A.- El usuario pulsará en imprimir ruta<br>
+        3.A.3.- El sistema mostrará un pdf (que se podrá descargar) con la ruta de ese itinerario</td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
