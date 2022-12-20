@@ -6137,7 +6137,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-01, IR-03, IR-08, IR-09</td>
+        FR-11, IR-01, IR-03, IR-08, IR-09</td>
     </tr>
 </table>
 
@@ -6184,7 +6184,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-01, IR-03, IR-10, IR-11</td>
+        FR-07, IR-01, IR-03, IR-10, IR-11</td>
     </tr>
 </table>
 
@@ -6231,7 +6231,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-01</td>
+        FR-01, IR-01</td>
     </tr>
 </table>
 
@@ -6278,7 +6278,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-01</td>
+        FR-02, IR-01</td>
     </tr>
 </table>
 
@@ -6325,7 +6325,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-01, IR-03</td>
+        FR-03, IR-01, IR-03</td>
     </tr>
 </table>
 
@@ -6372,7 +6372,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-01, IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19</td>
+        FR-04, IR-01, IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19</td>
     </tr>
 </table>
 
@@ -6421,7 +6421,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-01, IR-05, IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19, IR-21</td>
+        FR-12, IR-01, IR-05, IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19, IR-21</td>
     </tr>
 </table>
 
@@ -6468,7 +6468,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-01, IR-03, IR-16, IR-17</td>
+        FR-05, IR-01, IR-03, IR-16, IR-17</td>
     </tr>
 </table>
 
@@ -6514,7 +6514,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-01, IR-03, IR-06, IR-07</td>
+        FR-06, IR-01, IR-03, IR-06, IR-07</td>
     </tr>
 </table>
 
@@ -6561,7 +6561,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-01, IR-03, IR-14, IR-15</td>
+        FR-13, IR-01, IR-03, IR-14, IR-15</td>
     </tr>
 </table>
 
@@ -6608,7 +6608,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-01, IR-03, IR-04, IR-05</td>
+        FR-14, IR-01, IR-03, IR-04, IR-05</td>
     </tr>
 </table>
 
@@ -6655,7 +6655,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-01, IR-03, IR-12, IR-13</td>
+        FR-08, IR-01, IR-03, IR-12, IR-13</td>
     </tr>
 </table>
 
@@ -6702,7 +6702,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-01, IR-03, IR-18, IR-19</td>
+        FR-09, IR-01, IR-03, IR-18, IR-19</td>
     </tr>
 </table>
 
@@ -6748,7 +6748,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-01, IR-03, IR-20, IR-21</td>
+        FR-10, IR-01, IR-03, IR-20, IR-21</td>
     </tr>
 </table>
 
@@ -6799,7 +6799,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-02, UC-16</td>
+        FR-15, IR-02, UC-16</td>
     </tr>
 </table>
 
@@ -6849,7 +6849,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-02, UC-15</td>
+        FR-16, IR-02, UC-15</td>
     </tr>
 </table>
 
@@ -6899,7 +6899,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-02, IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19</td>
+        FR-17, IR-02, IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19</td>
     </tr>
 </table>
 
@@ -6948,7 +6948,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-02, IR-05, IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19, IR-21</td>
+        FR-21, IR-02, IR-05, IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19, IR-21</td>
     </tr>
 </table>
 
@@ -6997,7 +6997,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-02, IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19</td>
+        FR-22, IR-02, IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19</td>
     </tr>
 </table>
 
@@ -7047,7 +7047,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-02, IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19</td>
+        FR-19, IR-02, IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19</td>
     </tr>
 </table>
 
@@ -7097,7 +7097,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-02, IR-03, IR-20, IR-21</td>
+        FR-18, IR-02, IR-03, IR-20, IR-21</td>
     </tr>
 </table>
 
@@ -7147,7 +7147,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-02, IR-06, IR-07, IR-08, IR-09, IR-10, IR-11, IR-12, IR-13, IR-14, IR-15, IR-16, IR-17, IR-18, IR-19</td>
+        FR-20, IR-02, IR-06, IR-07, IR-08, IR-09, IR-10, IR-11, IR-12, IR-13, IR-14, IR-15, IR-16, IR-17, IR-18, IR-19</td>
     </tr>
 </table>
 
@@ -7202,7 +7202,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-05, IR-15, IR-21, UC-02, UC-03</td>
+        FR-26, IR-05, IR-15, IR-21, UC-02, UC-03</td>
     </tr>
 </table>
 
@@ -7252,7 +7252,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-05, IR-15, UC-01</td>
+        FR-27, IR-05, IR-15, UC-01</td>
     </tr>
 </table>
 
@@ -7302,7 +7302,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-05, IR-15, UC-01</td>
+        FR-28, IR-05, IR-15, UC-01</td>
     </tr>
 </table>
 
@@ -7353,7 +7353,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-05</td>
+        FR-29, IR-05</td>
     </tr>
 </table>
 
@@ -7404,7 +7404,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-05</td>
+        FR-30, IR-05</td>
     </tr>
 </table>
 
@@ -7455,7 +7455,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-05, IR-27, IR-28</td>
+        FR-17, IR-05, IR-27, IR-28</td>
     </tr>
 </table>
 
@@ -7506,7 +7506,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-05, IR-11</td>
+        FR-25, IR-05, IR-11</td>
     </tr>
 </table>
 
@@ -7557,7 +7557,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-05, IR-29</td>
+        FR-22, IR-05, IR-29</td>
     </tr>
 </table>
 
@@ -7608,7 +7608,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-05, IR-06</td>
+        FR-24, IR-05, IR-06</td>
     </tr>
 </table>
 
@@ -7659,7 +7659,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-03, IR-05</td>
+        FR-23, IR-03, IR-05</td>
     </tr>
 </table>
 
@@ -7709,7 +7709,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-01, IR-05</td>
+        FR-21, IR-01, IR-05</td>
     </tr>
 </table>
 
@@ -7758,7 +7758,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-01, IR-05</td>
+        FR-20, IR-01, IR-05</td>
     </tr>
 </table>
 
@@ -7807,7 +7807,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-01, IR-05</td>
+        FR-19, IR-01, IR-05</td>
     </tr>
 </table>
 
@@ -7856,7 +7856,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-01, IR-05</td>
+        FR-18, IR-01, IR-05</td>
     </tr>
 </table>
 
@@ -7908,7 +7908,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-27, IR-29</td>
+        FR-15, IR-27, IR-29</td>
     </tr>
 </table>
 
@@ -7960,7 +7960,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-28, IR-29</td>
+        FR-12, IR-28, IR-29</td>
     </tr>
 </table>
 
@@ -8009,7 +8009,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-26, IR-29</td>
+        RF-16, IR-26, IR-29</td>
     </tr>
 </table>
 
@@ -8061,7 +8061,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-28, IR-29</td>
+        FR-14, IR-28, IR-29</td>
     </tr>
 </table>
 
@@ -8113,7 +8113,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-28, IR-29</td>
+        FR-13, IR-28, IR-29</td>
     </tr>
 </table>
 
@@ -8163,7 +8163,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-29</td>
+        FR-10, IR-29</td>
     </tr>
 </table>
 
@@ -8215,7 +8215,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-29</td>
+        FR-11, IR-29</td>
     </tr>
 </table>
 
@@ -8263,7 +8263,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-09, IR-12, IR-19, IR-20, IR-29</td>
+        FR-31, IR-09, IR-12, IR-19, IR-20, IR-29</td>
     </tr>
 </table>
 
@@ -8312,7 +8312,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-26, IR-29, UC-24</td>
+        FR-32, IR-26, IR-29, UC-24</td>
     </tr>
 </table>
 
@@ -8341,7 +8341,7 @@
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        Hola</td>
+        ACT-01, ACT-02, ACT-03</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -8368,7 +8368,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-29, UC-23, UC-25</td>
+        FR-33, IR-29, UC-23, UC-25</td>
     </tr>
 </table>
 
@@ -8427,7 +8427,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-29, UC-24</td>
+        FR-34, IR-29, UC-24</td>
     </tr>
 </table>
 
@@ -8475,7 +8475,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-29</td>
+        FR-09, IR-29</td>
     </tr>
 </table>
 
@@ -8525,7 +8525,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-14, IR-29, UC-28, UC-29, UC-30, UC-31, UC-32</td>
+        FR-35, IR-14, IR-29, UC-28, UC-29, UC-30, UC-31, UC-32</td>
     </tr>
 </table>
 
@@ -8576,7 +8576,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-14, IR-29, UC-27, UC-29, UC-30, UC-31</td>
+        FR-37, IR-14, IR-29, UC-27, UC-29, UC-30, UC-31</td>
     </tr>
 </table>
 
@@ -8629,7 +8629,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-14, IR-29, UC-27, UC-28</td>
+        FR-38, IR-14, IR-29, UC-27, UC-28</td>
     </tr>
 </table>
 
@@ -8683,7 +8683,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-14, IR-29, UC-27, UC-28</td>
+        FR-39, IR-14, IR-29, UC-27, UC-28</td>
     </tr>
 </table>
 
@@ -8736,7 +8736,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        FR-40, IR-14, IR-29, UC-27, UC-28</td>
     </tr>
 </table>
 
@@ -8794,7 +8794,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-14, IR-29, UC-27</td>
+        FR-36, IR-14, IR-29, UC-27</td>
     </tr>
 </table>
 
@@ -8842,7 +8842,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-25, IR-29, UC-34, UC-35, UC-36, UC-37, UC-38, UC-39, UC-40</td>
+        FR-01, IR-25, IR-29, UC-34, UC-35, UC-36, UC-37, UC-38, UC-39, UC-40</td>
     </tr>
 </table>
 
@@ -8893,7 +8893,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-25, IR-29, UC-33</td>
+        FR-03, IR-25, IR-29, UC-33</td>
     </tr>
 </table>
 
@@ -8942,7 +8942,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-25, IR-29, UC-33, UC-36, UC-37, UC-38</td>
+        FR-05, IR-25, IR-29, UC-33, UC-36, UC-37, UC-38</td>
     </tr>
 </table>
 
@@ -8996,7 +8996,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-25, IR-29, UC-33, UC-35</td>
+        FR-06, IR-25, IR-29, UC-33, UC-35</td>
     </tr>
 </table>
 
@@ -9049,7 +9049,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-25, IR-29, UC-33, UC-35</td>
+        FR-07, IR-25, IR-29, UC-33, UC-35</td>
     </tr>
 </table>
 
@@ -9102,7 +9102,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-25, IR-29, UC-33, UC-35</td>
+        FR-08, IR-25, IR-29, UC-33, UC-35</td>
     </tr>
 </table>
 
@@ -9154,7 +9154,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-25, IR-29, UC-33</td>
+        FR-02, IR-25, IR-29, UC-33</td>
     </tr>
 </table>
 
@@ -9205,7 +9205,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-29, UC-33</td>
+        FR-04, IR-29, UC-33</td>
     </tr>
 </table>
 
