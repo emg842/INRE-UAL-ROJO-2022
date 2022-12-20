@@ -3385,7 +3385,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-04, IR-06, IR-08, IR-10, IR-12, IR-14, IR-16, IR-18, IR-20, CU-01, CU-02, CU-05, CU-08, CU-09, CU-10, CU-11, CU-12, CU-13, CU-14, CU-21</td>
+        <td>IR-04, IR-06, IR-08, IR-10, IR-12, IR-14, IR-16, IR-18, IR-20, UC-01, UC-02, UC-05, UC-08, UC-09, UC-10, UC-11, UC-12, UC-13, UC-14, UC-21</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3432,7 +3432,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-05, CU-11</td>
+        <td>IR-03, IR-05, UC-11</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3479,7 +3479,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-04, CU-07, CU-11, CU-18</td>
+        <td>IR-04, UC-07, UC-11, UC-18</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3529,7 +3529,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-07, CU-09, CU-22</td>
+        <td>IR-03, IR-07, UC-09, UC-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3575,7 +3575,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-06, CU-07, CU-09, CU-17, CU-18, CU-19, CU-20, CU-22</td>
+        <td>IR-06, UC-07, UC-09, UC-17, UC-18, UC-19, UC-20, UC-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3624,7 +3624,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-09, CU-01, CU-22</td>
+        <td>IR-03, IR-09, UC-01, UC-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3670,7 +3670,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-08, CU-01, CU-07, CU-17, CU-18, CU-19, CU-20, CU-22</td>
+        <td>IR-08, UC-01, UC-07, UC-17, UC-18, UC-19, UC-20, UC-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3719,7 +3719,7 @@
     </tr>
         <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-11, CU-02, CU-22</td>
+        <td>IR-03, IR-11, UC-02, UC-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3765,7 +3765,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-10, CU-02, CU-07, CU-17, CU-18, CU-19, CU-20, CU-22</td>
+        <td>IR-10, UC-02, UC-07, UC-17, UC-18, UC-19, UC-20, UC-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3814,7 +3814,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-13, CU-12, CU-22</td>
+        <td>IR-03, IR-13, UC-12, UC-22</td>
     </tr>
       <tr>
         <td><b>Descripción:</b></td>
@@ -3860,7 +3860,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-12, CU-07, CU-12, CU-17, CU-18, CU-19, CU-20, CU-22</td>
+        <td>IR-12, UC-07, UC-12, UC-17, UC-18, UC-19, UC-20, UC-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3909,7 +3909,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-15, CU-10, CU-22</td>
+        <td>IR-03, IR-15, UC-10, UC-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -3955,7 +3955,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-14, CU-07, CU-10, CU-17, CU-18, CU-19, CU-20, CU-22</td>
+        <td>IR-14, UC-07, UC-10, UC-17, UC-18, UC-19, UC-20, UC-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4004,7 +4004,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-17, CU-08, CU-22</td>
+        <td>IR-03, IR-17, UC-08, UC-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4050,7 +4050,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-16, CU-07, CU-08, CU-17, CU-18, CU-19, CU-20, CU-22</td>
+        <td>IR-16, UC-07, UC-08, UC-17, UC-18, UC-19, UC-20, UC-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4099,7 +4099,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-19, CU-13, CU-22</td>
+        <td>IR-03, IR-19, UC-13, UC-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4145,7 +4145,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-18, CU-07, CU-13, CU-17, CU-18, CU-19, CU-20, CU-22</td>
+        <td>IR-18, UC-07, UC-13, UC-17, UC-18, UC-19, UC-20, UC-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4194,7 +4194,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-03, IR-21, CU-14, CU-21</td>
+        <td>IR-03, IR-21, UC-14, UC-21</td>
     </tr>
      <tr>
         <td><b>Descripción:</b></td>
@@ -4240,7 +4240,7 @@
     </tr>
         <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-20, CU-07, CU-14, CU-18, CU-21</td>
+        <td>IR-20, UC-07, UC-14, UC-18, UC-21</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4294,7 +4294,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-02, IR-05</td>
+        <td>IR-02, IR-05, UC-11, UC-12, UC-13, UC-14</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4389,7 +4389,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-02, IR-04, IR-05</td>
+        <td>IR-02, IR-04, IR-05, UC-10</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4536,7 +4536,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-04, IR-05</td>
+        <td>IR-04, IR-05, UC-09</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4683,7 +4683,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-12, IR-15</td>
+        <td>IR-12, IR-15, UC-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4784,7 +4784,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-05, IR-08, IR-15</td>
+        <td>IR-05, IR-08, IR-15, UC-07</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4837,7 +4837,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-07, IR-08, IR-09, IR-12, IR-20</td>
+        <td>IR-07, IR-08, IR-09, IR-12, IR-20, UC-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4936,7 +4936,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-13, IR-19</td>
+        <td>IR-13, IR-19, UC-27, UC-28, UC-29, UC-30, UC-31, UC-32</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -4985,7 +4985,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-09, IR-11, IR-19, IR-20, IR-21</td>
+        <td>IR-09, IR-11, IR-19, IR-20, IR-21, UC-01, UC-02, UC-03</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5194,7 +5194,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-07, IR-14, IR-15, IR-24</td>
+        <td>IR-07, IR-14, IR-15, IR-24, UC-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5245,7 +5245,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-12, IR-15</td>
+        <td>IR-12, IR-15, UC-22</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5295,7 +5295,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-15, IR-16</td>
+        <td>IR-15, IR-16, UC-01</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5486,7 +5486,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-23, IR-26</td>
+        <td>IR-23, IR-26, UC-33, UC-34, UC-35, UC-36, UC-37, UC-38, UC-39</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5540,7 +5540,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-25, IR-29</td>
+        <td>IR-25, IR-29, UC-23</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5588,7 +5588,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-29</td>
+        <td>IR-29, UC-06, UC-15, UC-17</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5638,7 +5638,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-29</td>
+        <td>IR-29, UC-06, UC-16, UC-18, UC-19</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -5689,7 +5689,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b></td>
-        <td>IR-26, IR-27, IR-28</td>
+        <td>IR-26, IR-27, IR-28, UC-08, UC-21</td>
     </tr>
     <tr>
         <td><b>Descripción:</b></td>
@@ -6137,7 +6137,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-03, IR-08, IR-09</td>
+        IR-01, IR-03, IR-08, IR-09</td>
     </tr>
 </table>
 
@@ -6184,7 +6184,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-03, IR-10, IR-11</td>
+        IR-01, IR-03, IR-10, IR-11</td>
     </tr>
 </table>
 
@@ -6230,7 +6230,8 @@
         <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br><br></td>
+        <td><b>Referencias:</b><br>
+        IR-01</td>
     </tr>
 </table>
 
@@ -6276,7 +6277,8 @@
         <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br><br></td>
+        <td><b>Referencias:</b><br>
+        IR-01</td>
     </tr>
 </table>
 
@@ -6323,7 +6325,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-03</td>
+        IR-01, IR-03</td>
     </tr>
 </table>
 
@@ -6369,7 +6371,8 @@
         <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Referencias:</b><br><br></td>
+        <td><b>Referencias:</b><br>
+        IR-01, IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19</td>
     </tr>
 </table>
 
@@ -6418,7 +6421,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-05, IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19, IR-21</td>
+        IR-01, IR-05, IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19, IR-21</td>
     </tr>
 </table>
 
@@ -6465,7 +6468,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-03, IR-16, IR-17</td>
+        IR-01, IR-03, IR-16, IR-17</td>
     </tr>
 </table>
 
@@ -6511,7 +6514,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-03, IR-06, IR-07</td>
+        IR-01, IR-03, IR-06, IR-07</td>
     </tr>
 </table>
 
@@ -6558,7 +6561,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-03, IR-14, IR-15</td>
+        IR-01, IR-03, IR-14, IR-15</td>
     </tr>
 </table>
 
@@ -6605,7 +6608,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-03, IR-04, IR-05</td>
+        IR-01, IR-03, IR-04, IR-05</td>
     </tr>
 </table>
 
@@ -6652,7 +6655,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-03, IR-12, IR-13</td>
+        IR-01, IR-03, IR-12, IR-13</td>
     </tr>
 </table>
 
@@ -6699,7 +6702,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-03, IR-18, IR-19</td>
+        IR-01, IR-03, IR-18, IR-19</td>
     </tr>
 </table>
 
@@ -6745,7 +6748,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-03, IR-20, IR-21</td>
+        IR-01, IR-03, IR-20, IR-21</td>
     </tr>
 </table>
 
@@ -6784,7 +6787,7 @@
         <td><b>Flujo Normal:</b><br>
         1.- El actor pulsa sobre el botón para crear una nueva sección dentro del portal<br>
         2.- El sistema muestra una interfaz de creación de páginas ajena en la cual hace aparición un botón para la confirmación de la adición de la página modelada al portal<br>
-        3.- El actor clica sobre el botón destinado a la confirmación de la adición de una nueva sección en forma de página al portal procediendo a mostrarse, con objeto de permitir al actor previsualizar como resultaría dicho añadido [CU-16], una nueva ventana la cual además cuenta con un botón de confirmación definitiva<br>
+        3.- El actor clica sobre el botón destinado a la confirmación de la adición de una nueva sección en forma de página al portal procediendo a mostrarse, con objeto de permitir al actor previsualizar como resultaría dicho añadido [UC-16], una nueva ventana la cual además cuenta con un botón de confirmación definitiva<br>
         4.- El actor pulsa sobre el botón de confirmación poniendo así fin al proceso de creación de una página</td>
     </tr>
     <tr>
@@ -6796,7 +6799,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        CU-16</td>
+        IR-02, UC-16</td>
     </tr>
 </table>
 
@@ -6833,7 +6836,7 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El actor, el cual se encuentra en pleno proceso de creación de una página [CU-15], pulsa sobre el botón destinado a la confirmación de la adición de la misma al portal.<br>
+        1.- El actor, el cual se encuentra en pleno proceso de creación de una página [UC-15], pulsa sobre el botón destinado a la confirmación de la adición de la misma al portal.<br>
         2.- El sistema muestra, con objeto de permitir al actor previsualizar como resultaría dicho añadido, una nueva ventana la cual además cuenta con un botón de confirmación definitiva<br>
         3.- El actor pulsa sobre el botón de confirmación poniendo así fin al proceso de creación de una página</td>
     </tr>
@@ -6846,7 +6849,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        CU-15</td>
+        IR-02, UC-15</td>
     </tr>
 </table>
 
@@ -6896,7 +6899,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19</td>
+        IR-02, IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19</td>
     </tr>
 </table>
 
@@ -6945,7 +6948,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-05, IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19, IR-21</td>
+        IR-02, IR-05, IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19, IR-21</td>
     </tr>
 </table>
 
@@ -6994,7 +6997,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19</td>
+        IR-02, IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19</td>
     </tr>
 </table>
 
@@ -7044,7 +7047,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19</td>
+        IR-02, IR-07, IR-09, IR-11, IR-13, IR-15, IR-17, IR-19</td>
     </tr>
 </table>
 
@@ -7094,7 +7097,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-03, IR-20, IR-21</td>
+        IR-02, IR-03, IR-20, IR-21</td>
     </tr>
 </table>
 
@@ -7144,7 +7147,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        IR-06, IR-07, IR-08, IR-09, IR-10, IR-11, IR-12, IR-13, IR-14, IR-15, IR-16, IR-17, IR-18, IR-19</td>
+        IR-02, IR-06, IR-07, IR-08, IR-09, IR-10, IR-11, IR-12, IR-13, IR-14, IR-15, IR-16, IR-17, IR-18, IR-19</td>
     </tr>
 </table>
 
@@ -7177,7 +7180,7 @@
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        ACT-05</td>
+        ACT-04, ACT-05</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -7195,12 +7198,11 @@
         4.A.- El gestor visualiza una foto y una película en tiempo real del estado del operador en cuestión </td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-05, IR-15, IR-21, UC-02, UC-03</td>
     </tr>
 </table>
 
@@ -7229,7 +7231,7 @@
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        ACT-05</td>
+        ACT-04, ACT-05</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -7243,16 +7245,14 @@
         4.- El gestor visualiza una foto del estado del operador en cuestión</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-05, IR-15, UC-01</td>
     </tr>
 </table>
 
@@ -7281,7 +7281,7 @@
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        ACT-05</td>
+        ACT-04, ACT-05</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -7295,16 +7295,14 @@
         4.- El gestor visualiza una foto y una película en tiempo real del estado del operador en cuestión</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-05, IR-15, UC-01</td>
     </tr>
 </table>
 
@@ -7333,7 +7331,7 @@
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        ACT-05</td>
+        ACT-04, ACT-05</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -7347,8 +7345,7 @@
         4.- El gestor gestiona el elemento escogido</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
@@ -7356,7 +7353,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-05</td>
     </tr>
 </table>
 
@@ -7385,7 +7382,7 @@
     </tr>
     <tr>
         <td><b>Actores:</b><br>
-        ACT-05</td>
+        ACT-04, ACT-05</td>
     </tr>
     <tr>
         <td><b>Precondiciones:</b><br>
@@ -7399,8 +7396,7 @@
         4.- El gestor gestiona la línea escogida</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
@@ -7408,7 +7404,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-05</td>
     </tr>
 </table>
 
@@ -7451,8 +7447,7 @@
         4.- El gestor gestiona el servicio escogido</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
@@ -7460,7 +7455,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-05, IR-27, IR-28</td>
     </tr>
 </table>
 
@@ -7503,8 +7498,7 @@
         4.- El gestor gestiona el elemento escogido</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
@@ -7512,7 +7506,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-05, IR-11</td>
     </tr>
 </table>
 
@@ -7555,8 +7549,7 @@
         4.- El gestor realiza las interacciones estimadas con el usuario en cuestión</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
@@ -7564,7 +7557,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-05, IR-29</td>
     </tr>
 </table>
 
@@ -7607,8 +7600,7 @@
         4.- El gestor define una variable determinada</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
@@ -7616,7 +7608,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-05, IR-06</td>
     </tr>
 </table>
 
@@ -7659,8 +7651,7 @@
         4.- El gestor define una condición determinada</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
@@ -7668,7 +7659,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-03, IR-05</td>
     </tr>
 </table>
 
@@ -7710,8 +7701,7 @@
         3.- El gestor escribirá el aviso y eligirá el tipo de voz que leerá el aviso</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
@@ -7719,7 +7709,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-01, IR-05</td>
     </tr>
 </table>
 
@@ -7761,16 +7751,14 @@
         3.- El gestor diseñará el aviso</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-01, IR-05</td>
     </tr>
 </table>
 
@@ -7812,16 +7800,14 @@
         3.- El gestor creará el aviso para el móvil</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-01, IR-05</td>
     </tr>
 </table>
 
@@ -7863,16 +7849,14 @@
         3.- El gestor escribirá el aviso en formato correo</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-01, IR-05</td>
     </tr>
 </table>
 
@@ -7916,8 +7900,7 @@
         5.- El sistema confirmará la compra del bono</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
@@ -7925,7 +7908,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-27, IR-29</td>
     </tr>
 </table>
 
@@ -7969,8 +7952,7 @@
         5.- El sistema confirmará la renovación del título</td></td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
@@ -7978,7 +7960,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-28, IR-29</td>
     </tr>
 </table>
 
@@ -8020,16 +8002,14 @@
         </td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-26, IR-29</td>
     </tr>
 </table>
 
@@ -8073,8 +8053,7 @@
         5.- El sistema confirmará la recarga</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
@@ -8082,7 +8061,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-28, IR-29</td>
     </tr>
 </table>
 
@@ -8126,8 +8105,7 @@
         5.- El sistema confirmará la compra</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
@@ -8135,7 +8113,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-28, IR-29</td>
     </tr>
 </table>
 
@@ -8178,16 +8156,14 @@
         4.- El sistema confirmará el inicio de sesión </td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-29</td>
     </tr>
 </table>
 
@@ -8231,8 +8207,7 @@
         5.- El sistema confirmará el registro.</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
@@ -8240,7 +8215,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-29</td>
     </tr>
 </table>
 
@@ -8281,16 +8256,14 @@
         2.- El sistema mostrará la información.</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-09, IR-12, IR-19, IR-20, IR-29</td>
     </tr>
 </table>
 
@@ -8332,16 +8305,14 @@
         3.- El usuario eligirá uno para reservar</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-26, IR-29, UC-24</td>
     </tr>
 </table>
 
@@ -8389,8 +8360,7 @@
         4.2.3.- El sistema confirmará la reserva</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Poscondiciones:</b><br>
@@ -8398,7 +8368,7 @@
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-29, UC-23, UC-25</td>
     </tr>
 </table>
 
@@ -8453,12 +8423,11 @@
         4.2.3.A.1.- El sistema mostrará el pdf con el recibo</td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-29, UC-24</td>
     </tr>
 </table>
 
@@ -8499,16 +8468,14 @@
         2.- El sistema mostrará en pantalla completa el mapa con los recorridos de las líneas.</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-29</td>
     </tr>
 </table>
 
@@ -8551,16 +8518,14 @@
         4.- El usuario pulsará elegir un criterio de búsqueda.</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-14, IR-29, UC-28, UC-29, UC-30, UC-31, UC-32</td>
     </tr>
 </table>
 
@@ -8604,16 +8569,14 @@
         5.- El usuario elegirá la opción de elegir un lugar.<br>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-14, IR-29, UC-27, UC-29, UC-30, UC-31</td>
     </tr>
 </table>
 
@@ -8659,16 +8622,14 @@
         7.- El sistema mostrará las paradas que pertenezcan a ese lugar.</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-14, IR-29, UC-27, UC-28</td>
     </tr>
 </table>
 
@@ -8715,16 +8676,14 @@
         8.- El sistema mostrará las paradas que pertenezcan a esa línea.</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-14, IR-29, UC-27, UC-28</td>
     </tr>
 </table>
 
@@ -8770,12 +8729,10 @@
         7.- El sistema mostrará las paradas que pertenezcan a ese lugar.</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
@@ -8830,16 +8787,14 @@
     </tr></td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-14, IR-29, UC-27</td>
     </tr>
 </table>
 
@@ -8880,16 +8835,14 @@
         2.- El sistema mostrará los itinerarios</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-25, IR-29, UC-34, UC-35, UC-36, UC-37, UC-38, UC-39, UC-40</td>
     </tr>
 </table>
 
@@ -8933,16 +8886,14 @@
         5.- El sistema mostrará los itinerarios con esos criterios</td>
     </tr>
     <tr>
-        <td><b>Flujo Alternativo:</b><br>
-        </td>
+        <td><b>Flujo Alternativo:</b><br><br></td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-25, IR-29, UC-33</td>
     </tr>
 </table>
 
@@ -8986,14 +8937,12 @@
     <tr>
         <td><b>Flujo Alternativo:</b><br>
         3.A- El usuario pulsará en elegir criterio</td>
-    </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-25, IR-29, UC-33, UC-36, UC-37, UC-38</td>
     </tr>
 </table>
 
@@ -9043,12 +8992,11 @@
         </td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-25, IR-29, UC-33, UC-35</td>
     </tr>
 </table>
 
@@ -9097,12 +9045,11 @@
         3.A.3.- El sistema mostrará los itinerarios que cumplan ese criterio</td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-25, IR-29, UC-33, UC-35</td>
     </tr>
 </table>
 
@@ -9151,12 +9098,11 @@
         3.A.3.- El sistema mostrará los itinerarios que cumplan ese criterio</td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-25, IR-29, UC-33, UC-35</td>
     </tr>
 </table>
 
@@ -9204,12 +9150,11 @@
         3.A.4.- El sistema mostrará los itinerarios que cumplan ese criterio</td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-25, IR-29, UC-33</td>
     </tr>
 </table>
 
@@ -9256,12 +9201,11 @@
         3.A.3.- El sistema mostrará un pdf (que se podrá descargar) con la ruta de ese itinerario</td>
     </tr>
     <tr>
-        <td><b>Poscondiciones:</b><br>
-        </td>
+        <td><b>Poscondiciones:</b><br><br></td>
     </tr>
     <tr>
         <td><b>Referencias:</b><br>
-        Hola</td>
+        IR-29, UC-33</td>
     </tr>
 </table>
 
