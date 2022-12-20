@@ -7185,9 +7185,9 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El gestor pulsa sobre el botón que lo redirige a la gestión de la actividad de los operadores
-        2.- El sistema ofrece una vista donde es posible la gestión de la actividad de los operadores
-        3.- El gestor selecciona un operador 
+        1.- El gestor pulsa sobre el botón que lo redirige a la gestión de la actividad de los operadores<br>
+        2.- El sistema ofrece una vista donde es posible la gestión de la actividad de los operadores<br>
+        3.- El gestor selecciona un operador <br>
         4.- El gestor visualiza una foto del estado del operador en cuestión </td>
     </tr>
     <tr>
@@ -7237,9 +7237,9 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El actor pulsa sobre el botón que lo redirige a la gestión de la actividad de los operadores 
-        2.- El sistema ofrece una vista donde es posible la gestión de la actividad de los operadores
-        3.- El actor selecciona un operador 
+        1.- El actor pulsa sobre el botón que lo redirige a la gestión de la actividad de los operadores <br>
+        2.- El sistema ofrece una vista donde es posible la gestión de la actividad de los operadores<br>
+        3.- El actor selecciona un operador <br>
         4.- El gestor visualiza una foto del estado del operador en cuestión</td>
     </tr>
     <tr>
@@ -7289,9 +7289,9 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El gestor pulsa sobre el botón que lo redirige a la gestión de la actividad de los operadores
-        2.- El sistema ofrece una vista donde es posible la gestión de la actividad de los operadores
-        3.- El gestor selecciona un operador 
+        1.- El gestor pulsa sobre el botón que lo redirige a la gestión de la actividad de los operadores<br>
+        2.- El sistema ofrece una vista donde es posible la gestión de la actividad de los operadores<br>
+        3.- El gestor selecciona un operador <br>
         4.- El gestor visualiza una foto y una película en tiempo real del estado del operador en cuestión</td>
     </tr>
     <tr>
@@ -7341,9 +7341,9 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El gestor pulsa sobre el botón que lo redirige a la gestión de los elementos del mapa interactivo
-        2.- El sistema ofrece una vista donde es posible la gestión de los elementos del mapa
-        3.- El gestor selecciona un elemento para gestionarlo
+        1.- El gestor pulsa sobre el botón que lo redirige a la gestión de los elementos del mapa interactivo<br>
+        2.- El sistema ofrece una vista donde es posible la gestión de los elementos del mapa<br>
+        3.- El gestor selecciona un elemento para gestionarlo<br>
         4.- El gestor gestiona el elemento escogido</td>
     </tr>
     <tr>
@@ -7393,9 +7393,9 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El gestor pulsa sobre el botón que lo redirige a la gestión de las líneas del mapa interactivo
-        2.- El sistema ofrece una vista donde es posible la gestión de las líneas del mapa
-        3.- El gestor selecciona una línea para gestionarla
+        1.- El gestor pulsa sobre el botón que lo redirige a la gestión de las líneas del mapa interactivo<br>
+        2.- El sistema ofrece una vista donde es posible la gestión de las líneas del mapa<br>
+        3.- El gestor selecciona una línea para gestionarla<br>
         4.- El gestor gestiona la línea escogida</td>
     </tr>
     <tr>
@@ -7445,9 +7445,9 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El gestor pulsa sobre el botón que lo redirige a la gestión de ventas y del título único del transporte
-        2.- El sistema ofrece una vista donde es posible la gestión de las ventas y del título 
-        3.- El gestor selecciona entre gestionar las ventas o el título
+        1.- El gestor pulsa sobre el botón que lo redirige a la gestión de ventas y del título único del transporte<br>
+        2.- El sistema ofrece una vista donde es posible la gestión de las ventas y del título <br>
+        3.- El gestor selecciona entre gestionar las ventas o el título<br>
         4.- El gestor gestiona el servicio escogido</td>
     </tr>
     <tr>
@@ -7497,9 +7497,9 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El gestor pulsa sobre el botón que lo redirige a la definición de eventos/incidencias
-        2.- El sistema ofrece una vista donde es posible la definición de eventos o incidencias 
-        3.- El gestor selecciona entre definir un evento o una incidencia
+        1.- El gestor pulsa sobre el botón que lo redirige a la definición de eventos/incidencias<br>
+        2.- El sistema ofrece una vista donde es posible la definición de eventos o incidencias <br>
+        3.- El gestor selecciona entre definir un evento o una incidencia<br>
         4.- El gestor gestiona el elemento escogido</td>
     </tr>
     <tr>
@@ -7549,9 +7549,9 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El gestor pulsa sobre el botón que lo redirige a la gestión de los usuarios registrados en el sistema
-        2.- El sistema ofrece una vista donde es posible la gestión de los usuarios 
-        3.- El gestor selecciona el usuario a gestionar
+        1.- El gestor pulsa sobre el botón que lo redirige a la gestión de los usuarios registrados en el sistema<br>
+        2.- El sistema ofrece una vista donde es posible la gestión de los usuarios <br>
+        3.- El gestor selecciona el usuario a gestionar<br>
         4.- El gestor realiza las interacciones estimadas con el usuario en cuestión</td>
     </tr>
     <tr>
@@ -7601,9 +7601,9 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El gestor pulsa sobre el botón que lo redirige a la definición de variables
-        2.- El sistema ofrece una vista donde es posible la definición variables 
-        3.- El gestor selecciona la definición de una variable
+        1.- El gestor pulsa sobre el botón que lo redirige a la definición de variables<br>
+        2.- El sistema ofrece una vista donde es posible la definición variables <br>
+        3.- El gestor selecciona la definición de una variable<br>
         4.- El gestor define una variable determinada</td>
     </tr>
     <tr>
@@ -7653,9 +7653,9 @@
     </tr>
     <tr>
         <td><b>Flujo Normal:</b><br>
-        1.- El gestor pulsa sobre el botón que lo redirige a la definición de condiciones
-        2.- El sistema ofrece una vista donde es posible la definición condiciones 
-        3.- El gestor selecciona la definición de una condición
+        1.- El gestor pulsa sobre el botón que lo redirige a la definición de condiciones<br>
+        2.- El sistema ofrece una vista donde es posible la definición condiciones <br>
+        3.- El gestor selecciona la definición de una condición<br>
         4.- El gestor define una condición determinada</td>
     </tr>
     <tr>
